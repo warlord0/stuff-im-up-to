@@ -3,9 +3,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://astro-paper.pages.dev/",
-    title: "AstroPaper",
+    title: "Stuff I'm Up To",
     description: "A minimal, responsive and SEO-friendly Astro blog theme.",
-    author: "Sat Naing",
+    author: "warlord",
     profile: "https://satna.ing",
     ogImage: "default-og.jpg",
     lang: "en",
@@ -13,8 +13,8 @@ export default defineAstroPaperConfig({
     dir: "ltr",
   },
   posts: {
-    perPage: 4,
-    perIndex: 4,
+    perPage: 10,
+    perIndex: 10,
     scheduledPostMargin: 15 * 60 * 1000,
   },
   features: {

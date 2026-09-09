@@ -1,0 +1,31 @@
+---
+pubDatetime: 2016-09-22T10:00:00Z
+modDatetime: 2016-09-22T18:57:23Z
+title: "Usenet"
+tags:
+  - "Networking"
+  - "Privateer"
+  - "usenet"
+description: "Usenet has been around since God was a lad. It's been part of the internet for so very long it predates all the graphical stuff we see today."
+---
+## So what's Usenet?
+
+Usenet has been around since God was a lad. It's been part of the internet for so very long it pre-dates all the graphical stuff we see today. Put simply it's a text based system of sharing news messages , hence it's correct protocol name being Network News Transfer Protocol (nntp), and operates in a similar way to a forum. Text posts would be made into news groups containing newsworthy information and could be responded to by people all around the internet. The news servers replicate and spread this news between each other so any piece of news may exist on many servers throughout the world. Back when everything started becoming more than just text the cleverest propeller heads started to figure out you could convert binary files into a text format and back again. So binary files could be attached to email and sent as text and converted back from text at the other end. Well the same was true for Usenet messages. So it didn't take long before the text based system became host to binary files converted to text. This meant the underlying Usenet system itself needed no changes. It would still replicate these converted text messages across the globe. But now they could be converted back to binary files and the global sharing of anything from pictures, movies and music became an ingrained part of Usenet.
+
+### Finding Stuff on Usenet
+
+![ibldig00251556](/blog-media/2016/09/search1.jpg) Now there are thousands of news groups, still some about news, but many now carrying binary traffic. Finding stuff isn't easy as the size limits of a news article mean that a binary file is often split into hundreds of news articles. So to find all of the articles relating to a particular binary file needs a helper, much like a torrent needs a torrent search engine, Usenet needs a news indexer. Something that monitors all the articles and makes a list of which ones make up a complete binary. These index servers are the gateway to finding anything on Usenet. Without one, trawling through thousands of articles to make a binary yourself would be a huge challenge. So we submit a query to an indexer asking it to find something for us and it gives us back all the article numbers we need to get to make a whole binary. To get a good indexing service you need to subscribe to one. Typically they operate on a monthly/annual fee that will give you so many queries you can submit. There are some free ones around, but usually they will include some spam in their indexes and may actually index virus posting made by malicious posters. Paid ones generally do better house keeping. You can Google for Usenet indexers to find reviews and list of them. Also known as NZB providers as they return the list of article results you require packaged in the form of an NZB file. Your download program then uses this NZB file to go fetch the articles listed within. Many of these indexers have a commonly software indexing program called [Newznab](http://www.newznab.com/). So you see a lot of similarities between many of them. Making a good choice is about finding one that indexes groups you're interested in. For instance, most cater for TV and Movies, but not all will index books. If you'd like to see what an NZB indexer looks like, and maybe download an NZB or two, there's a free indexer you can do some searches with called NZBClub at [https://www.nzbclub.com/](https://www.nzbclub.com/)
+
+### Getting Stuff from Usenet
+
+![cloud-download-1](/blog-media/2016/09/cloud-download-1.png)Finding stuff on an indexer is one thing, but going and getting it is totally another. The indexer tells you what articles you need, but now you need to connect to a news server to actually get the articles. These days Usenet server are chargeable, long gone are the free news servers, at least those that carry binary traffic. These also operate on a monthly/annual fee and will likely have constraints about how much you can download from them or how fast. But paying for a good indexer and Usenet feed isn't really that expensive. It's well worth it for a good service with known bandwidth and a direct connection to your trusted news provider, usually over a secure encrypted connection if done right. It differs from torrents as with Usenet you're connected to a single server, not scattered around hundreds of peers sharing parts of the puzzle and who all see you and your traffic. Again a quick Google will return many results for Usenet Servers. There are a core of servers that many others then resell bandwidth from or act as gateways to. A good European service is provided by [Eweka](https://www.eweka.nl/) and is very cost effective.
+
+## In Practice
+
+If you're using Usenet with a smart set of tools you don't even have to worry about what any of it looks like, how you fetch articles, what groups they are in etc. Most of the clever interfaces do all of that for you. So you don't even have to visit the website of your chosen new provider beyond placing the order and getting the connection details along with the user name and password you need. As a minimum you'll need:
+
+1.  A Usenet News Server account
+2.  An Indexer account (although you could use NZBClub for free)
+3.  An NZB downloader
+
+Smart tools to look at that help you make full use of Usenet include downloaders [NZBGet](http://nzbget.net/) and [SABNzbd](https://sabnzbd.org/) to read your NZB file and actually go download it from your news server. [Sonarr](https://sonarr.tv/), [Couchpotato](https://couchpota.to/) and [Headphones](https://github.com/rembo10/headphones) are programs that use your indexer to search for TV series, Movies and Music. A standalone NZB downloader for Windows: [Unzbin](https://sourceforge.net/projects/unzbin/files/?source=navbar) - no longer maintained, but simple and easy to use on a Windows PC. Further reading: [https://en.wikipedia.org/wiki/Usenet](https://en.wikipedia.org/wiki/Usenet)

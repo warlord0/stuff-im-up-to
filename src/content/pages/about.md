@@ -3,35 +3,14 @@ title: "About"
 description: "A bit about me and this blog."
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+Safe to say that getting older means forgetting stuff you should remember. This site's just a place for my ramblings in regard to those technical discoveries I make. Then, in an effort for the discovery not to disappear into the void, I thought I'd give them a home, so I could rediscover them without too much effort.
 
-![Astro Paper](@/assets/images/astropaper-og.jpg)
+[![Debian logo](/blog-media/2016/09/debian-logo-1.png)](https://www.debian.org/)
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+The posts on this blog are created and time stamped. This is important to me, as so many times I search for answers and find myself reading someone else's answer to the problem, only to find that the page I just read is not dated, but turns out to be from 10+ years ago. It only confuses me because my current problem is of a newer version. Old articles are still very useful, but only if they are still relevant.
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+From the posts, you'll probably see I'm a Debian fan. Over many years, I've tried many flavours of \*nix and eventually seemed to settle on Debian. Rarely do I install a GUI front end, though. Almost all of my systems are simple text based servers. I just love the fact you can get a highly capable server that meets or exceeds some commercial GUI systems in a tiny footprint.
 
-## Features
+I actually started out with (Santa Cruz Operation) SCO Xenix! But have gone through Red Hat/Fedora/CentOS and even [Arch Linux](https://www.archlinux.org/). But when it comes to day to day operations, Debian is my first choice. That said, Arch is a wonderful product. So great for tiny systems, but requiring more brain power than I usually want to invest – but that's exactly why I choose a [Manjaro](https://manjaro.org) distro for my desktop environment.
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
-
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+The great thing about Linux is that it's Open Source. There's so many other great Open Source products out there. To me, Open Source just means a collaboration of minds making some of the most awesome solutions out there. Time and again I've proven there are big savings to be made by choosing Open Source solutions, not just because they're free, but because most often they're simply the best solution.
