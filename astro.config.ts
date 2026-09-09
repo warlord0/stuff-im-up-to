@@ -1,4 +1,9 @@
-import { defineConfig, envField, svgoOptimizer } from "astro/config";
+import {
+  defineConfig,
+  envField,
+  fontProviders,
+  svgoOptimizer,
+} from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
@@ -60,6 +65,21 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  // Only used for dynamic OG image generation (Satori needs raw font file
+  // bytes, not a CSS @font-face) -- the site itself loads fonts via plain
+  // <link> tags in Layout.astro, see src/pages/og.png.ts and
+  // src/pages/posts/[...slug]/index.png.ts.
+  fonts: [
+    {
+      name: "Google Sans Code",
+      cssVariable: "--font-google-sans-code",
+      provider: fontProviders.google(),
+      fallbacks: ["monospace"],
+      weights: [300, 400, 500, 600, 700],
+      styles: ["normal", "italic"],
+      formats: ["woff", "ttf"],
+    },
+  ],
   env: {
     schema: {
       PUBLIC_GOOGLE_SITE_VERIFICATION: envField.string({
