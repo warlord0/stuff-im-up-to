@@ -2,14 +2,13 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    url: "https://astro-paper.pages.dev/",
+    url: "https://stuff-im-up-to.whalesanctuary.co.uk/",
     title: "Stuff I'm Up To",
-    description: "A minimal, responsive and SEO-friendly Astro blog theme.",
+    description: "Technical Ramblings",
     author: "warlord",
-    profile: "https://satna.ing",
     ogImage: "default-og.jpg",
     lang: "en",
-    timezone: "Asia/Bangkok",
+    timezone: "Europe/London",
     dir: "ltr",
   },
   posts: {
