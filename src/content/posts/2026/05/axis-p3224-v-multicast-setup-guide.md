@@ -18,9 +18,8 @@ This guide documents the steps required to successfully receive and record RTP m
 
 ## Network Setup in This Example
 
-|                   |                    |
-|-------------------|--------------------|
 | Component         | Value              |
+|-------------------|--------------------|
 | Camera IP         | 10.0.133.12        |
 | Client IP         | 10.0.133.83        |
 | Network Interface | enp86s0            |
@@ -44,9 +43,9 @@ Configure the camera for **Always Multicast** mode:
 
 2.  Configure:
 
-|                         |                 |
-|-------------------------|-----------------|
+
 | Setting                 | Value           |
+|-------------------------|-----------------|
 | Multicast Video Address | 239.220.219.168 |
 | Video Port              | 50000           |
 | Always Multicast Video  | Enabled         |
@@ -223,9 +222,8 @@ Retrieve it with Digest authentication:
 
 ### Important SDP Fields
 
-|                          |                                     |
-|--------------------------|-------------------------------------|
 | Field                    | Meaning                             |
+|--------------------------|-------------------------------------|
 | m=video 50000 RTP/AVP 96 | RTP video stream on UDP port 50000  |
 | a=rtpmap:96 H264/90000   | Payload type 96 = H.264             |
 | packetization-mode=1     | FU-A fragmentation enabled          |

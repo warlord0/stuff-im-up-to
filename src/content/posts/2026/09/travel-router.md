@@ -55,7 +55,24 @@ One small, very real lesson from that swap: a fold-out antenna genuinely needs r
 
 ## The architecture
 
-` Accommodation Wi-Fi | | Wi-Fi client v Upstream radio (WAN) | v +--------------------+ | Travel router | | (OpenWrt) | +---------+----------+ | Local AP radio | Private network / | \ Chromecast phone laptop`
+```
+    Accommodation Wi-Fi 
+            |
+            | Wi-Fi client 
+            v 
+    Upstream radio (WAN) 
+            | 
+            v 
++-----------------------+ 
+|     Travel router     | 
+|       (OpenWrt)       | 
++-----------+-----------+ 
+            | Local AP radio 
+            | 
+      Private network 
+     /      |        \ 
+Chromecast phone    laptop`
+```
 
 Two additional pieces widen that WAN side: a USB phone-tether path as a backup connection, and a WireGuard tunnel back to a home server for reaching specific devices remotely. More on both below.
 

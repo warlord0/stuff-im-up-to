@@ -3,16 +3,28 @@ import { BLOG_PATH } from "@/content.config";
 import { slugifyStr } from "./slugify";
 import config from "@/config";
 
+// A bare YYYY/MM prefix is used purely to keep src/content/posts/ tidy on
+// disk (grouped by publish date) -- it isn't meaningful URL structure like a
+// deliberately named subdirectory (e.g. `examples/`) is, so strip it here
+// rather than have it leak into every post's URL.
+const isYearSegment = (s: string) => /^\d{4}$/.test(s);
+const isMonthSegment = (s: string) => /^\d{2}$/.test(s);
+
 function getPostPathSegments(filePath: string | undefined): string[] {
-  return (
+  const segments =
     filePath
       ?.replace(BLOG_PATH, "")
       .split("/")
       .filter(path => path !== "")
       .filter(path => !path.startsWith("_"))
-      .slice(0, -1)
-      .map(segment => slugifyStr(segment)) ?? []
-  );
+      .slice(0, -1) ?? [];
+
+  const withoutDatePrefix =
+    segments.length >= 2 && isYearSegment(segments[0]) && isMonthSegment(segments[1])
+      ? segments.slice(2)
+      : segments;
+
+  return withoutDatePrefix.map(segment => slugifyStr(segment));
 }
 
 function getIdSlug(id: string): string {
