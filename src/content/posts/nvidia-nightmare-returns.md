@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "nvidia"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "After an upgrade on Manjaro, I got no graphical environment. Looking in the logs it tells me something is going on with nvidia: $ sudo journalctl -b ... Ja"
 ---
 After an upgrade on Manjaro, I got no graphical environment. Looking in the logs it tells me something is going on with nvidia:

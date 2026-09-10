@@ -6,6 +6,7 @@ tags:
   - "JavaScript"
   - "vmware"
   - "Web"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "Got to love having a vendor carrying out half a job... again. Having installed a new VMWare Horizon environment for Windows 10, I thought we'd at least hav"
 ---
 Got to love having a vendor carrying out half a job... again.

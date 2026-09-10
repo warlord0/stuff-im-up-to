@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "owncloud"
   - "Web"
+heroImage: "/blog-media/2016/09/2000px-owncloud2-logo-svg.png"
 description: "When checking out the setup for our OwnCloud system it came up with a few cautionary problems that needed to be resolved. The problems related to environme"
 ---
 When checking out the setup for our OwnCloud system it came up with a few cautionary problems that needed to be resolved. The problems related to environment variables and file locking.

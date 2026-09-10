@@ -8,6 +8,7 @@ tags:
   - "Security"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "I don't trust you just because we can encrypt data together. I need to trust you based on a 3rd party we both trust telling me that you are who you say you are."
 ---
 I'm not an encryption expert by any means. I've no great understanding of the mathematics involved in the encryption process and the ciphers used. What I do understand is what that means from the point of view of a server admin. One thing to state right now is that SSL/TLS are the same thing. SSL was simply renamed TLS, but the underlying principles are the same, the mechanisms and ciphers change, but the concept is the same - and despite the change it's still mostly referred to as SSL. The basic process of SSL is that in order to engage in a secure conversation between systems both systems must share a level of trust with a common 3rd party.

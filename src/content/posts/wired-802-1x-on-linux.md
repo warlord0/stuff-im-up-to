@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "radius"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "For a while I've been meaning to fix my workstation. When it comes to remote accessing it from home I find I can't because I've followed the green guidance"
 ---
 For a while I've been meaning to fix my workstation. When it comes to remote accessing it from home I find I can't because I've followed the green guidance and turned it off when I went home. Even if I get someone to turn it on for me I still can't get to it.

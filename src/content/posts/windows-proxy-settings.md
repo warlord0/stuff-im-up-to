@@ -5,6 +5,7 @@ title: "Windows Proxy Settings"
 tags:
   - "proxy"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Set the Server to use the proxy at the command line using: C:\\> netsh winhttp set proxy \"http://myproxy:3128\" \"<local>\" Where the <local> parameter means s"
 ---
 Set the Server to use the proxy at the command line using:

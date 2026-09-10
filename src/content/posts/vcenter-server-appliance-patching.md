@@ -5,6 +5,7 @@ title: "vCenter Server Appliance Patching"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "The online manual suggests that all you need do is mount (attach) the ISO onto the VCSA and then from the command line stage and install the patches: # sof"
 ---
 The online manual suggests that all you need do is mount (attach) the ISO onto the VCSA and then from the command line stage and install the patches:

@@ -7,6 +7,7 @@ tags:
   - "JavaScript"
   - "vue.js"
   - "Web"
+heroImage: "/blog-media/2018/07/vue1.png"
 description: "Previously I've used Datatables.net to build my tables on the Laravel blade templates for user interface. Now I've been migrating over to Vue.js I thought"
 ---
 Previously I've used Datatables.net to build my tables on the Laravel blade templates for user interface. Now I've been migrating over to Vue.js I thought I'd look at another option - more Vue.js centric. This is where [vuetable-2](https://www.npmjs.com/package/vuetable-2) (*not to be confused with other vue components of a similar name!*) came in. I tried a lot of other vue tables and most of them had a dependency for jQuery. I really wanted one that didn't use jQuery - I know Bootstrap has it as a dependency, but if I ever decide to remodel the UX using something like Material Design, I'd have no need to include jQuery. As a component I needed to do a lot of work to configure it to work with my setup. But only really because I wanted it to work with Bootstrap 4 and fontawesome. So I had to build vue component templates that presented me with the correct structure and classes for the pagination and search.

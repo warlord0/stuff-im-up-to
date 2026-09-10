@@ -5,6 +5,7 @@ tags:
   - "electronics"
   - "esp8266"
   - "Linux"
+heroImage: "/blog-media/2021/10/esp8266_d1mini.png"
 description: "I just soldered some headers onto my Wemos Lolin ESP8266, and my soldering skills aren't what they should be. Then I hooked it up to my Linux PC and tried"
 ---
 I just soldered some headers onto my Wemos Lolin ESP8266, and my soldering skills aren't what they should be. Then I hooked it up to my Linux PC and tried to see if it worked as it should... nope.

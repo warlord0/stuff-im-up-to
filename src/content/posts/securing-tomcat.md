@@ -5,6 +5,7 @@ title: "Securing Tomcat"
 tags:
   - "java"
   - "Web"
+heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.png"
 description: "NEVER trust a vendor installation to be secure. Carry out a vulnerability scan whilst they're still onsite and don't sign off any installation until all security concerns have been resolved."
 ---
 Following a penetration test a large security weakness was exploited that allowed an attacker to gain local admin rights on a server running Tomcat. This in turn allowed the capture of session passwords from memory which in turn resulted in domain admin level access. All because of a 3rd party application installed by a vendor who left the underlying Tomcat installation as a vanilla box product with all the softwares default settings.

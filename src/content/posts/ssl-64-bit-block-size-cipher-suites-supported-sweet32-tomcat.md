@@ -7,6 +7,7 @@ tags:
   - "ssl"
   - "tomcat"
   - "Web"
+heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.png"
 description: "Following on from the Windows vulnerability for SWEET32, Here's how to resolve the same issue with Tomcat 8. This use the OpenSSL format string for ciphers"
 ---
 Following on from the Windows vulnerability for SWEET32, Here's how to resolve the same issue with Tomcat 8. This use the OpenSSL format string for ciphers, so can also be applied to anything using the same cipher list.

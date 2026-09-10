@@ -10,6 +10,7 @@ tags:
   - "Security"
   - "single-sign-on"
   - "Web"
+heroImage: "/blog-media/2020/07/keycloak.png"
 description: "Single Sign On from a simple docker container set. The container might be simple but the complexities of OAuth2, SAML and identity services are far from st"
 ---
 Single Sign On from a simple docker container set.

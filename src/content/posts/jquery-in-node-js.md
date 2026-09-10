@@ -6,6 +6,7 @@ tags:
   - "JavaScript"
   - "jquery"
   - "node.js"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
 description: "Using jQuery in Node.js gave me something to think about. Especially as there seems to be so many ways to do it. If you're using it in a renderer you can p"
 ---
 Using jQuery in Node.js gave me something to think about. Especially as there seems to be so many ways to do it. If you're using it in a renderer you can pretty much use it like you would in a plain old html page and use a script src. A couple of things I tried cause bootstrap to start complaining about jQuery not being defined. I eventually decided on this approach to get things working together. In your html head you'll need to include the css. You could get creative with Gulp and sass if you really want, but I'm just going for out of the box.

@@ -8,6 +8,7 @@ tags:
   - "vue.js"
   - "Web"
   - "webpack"
+heroImage: "/blog-media/2018/07/vue2.png"
 description: "Using vue.js 3 with Hot Module Reload from a different server than the development environment runs on."
 ---
 What a nightmare I've had. Trying to figure out how to run a dev server with HMR (Hot Module Reload) on a virtual host that has two interfaces - one NAT and one Host Only adapter! Why the two interfaces? Well I have to NAT one out from the guest OS so traffic looks like it comes from my business PC that uses network authentication. But NAT means I have no access back to the dev server as it uses an ip of 10.0.2.15 (typical virtual box behaviour). So to gain access to the dev server from my host I then use another NIC in the virtual guest that uses the "Host Only Adapter". So this ends up using a static IP address of 192.168.56.2 - again typical virtual box behaviour. So I can access the virtual guest as http://192.168.56.2:8080 to connect to the webpack dev server, but then I see errors in the client browser console:

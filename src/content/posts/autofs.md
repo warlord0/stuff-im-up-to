@@ -4,6 +4,7 @@ modDatetime: 2021-04-12T20:31:41Z
 title: "AutoFS"
 tags:
   - "Linux"
+heroImage: "/blog-media/2020/02/tux-1.png"
 description: "Using AutoFS you can automatically mount network shares onto your system. Installing it from your repository is easy enough, but some distros have slightly"
 ---
 Using AutoFS you can automatically mount network shares onto your system. Installing it from your repository is easy enough, but some distros have slightly different locations for config files.

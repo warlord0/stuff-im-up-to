@@ -8,6 +8,7 @@ tags:
   - "dnsmasq"
   - "Linux"
   - "Networking"
+heroImage: "/blog-media/2020/01/dnsmasq.png"
 description: "Today a chunk of the network CNAME resolutions failed. We looked at the config file /etc/dsmasq.d/dns-cname.conf and everything looked in order. A test of"
 ---
 Today a chunk of the network CNAME resolutions failed. We looked at the config file `/etc/dsmasq.d/dns-cname.conf` and everything looked in order. A test of the config using `dnsmasq --test` passed ok too. So what's going on?

@@ -6,6 +6,7 @@ tags:
   - "electronics"
   - "esp32"
   - "tasmota"
+heroImage: "/blog-media/2022/01/lilygo_t-internet-poe_v1.2.jpg"
 description: "Having a new LilyGO TTGO ESP32 arrive, I got to work on flashing it with Tasmota straight away. A bit fiddly as you need to connect the download board, whi"
 ---
 Having a new [LilyGO TTGO ESP32](http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3) arrive, I got to work on flashing it with Tasmota straight away. A bit fiddly as you need to connect the download board, which gives us the CH340 USB to Serial we need.

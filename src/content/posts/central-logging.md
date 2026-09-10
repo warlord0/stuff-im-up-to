@@ -5,6 +5,7 @@ title: "Central Logging"
 tags:
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "System logging should not remain a local activity. If you find your system has been compromised often the first thing in the attackers mind is to stop it f"
 ---
 System logging should not remain a local activity. If you find your system has been compromised often the first thing in the attackers mind is to stop it from logging what they have done, what they are doing, or are about to do. If you're going to be security minded you must send your logs to another system and monitor the activity there.

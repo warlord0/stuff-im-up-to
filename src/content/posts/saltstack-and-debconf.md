@@ -5,6 +5,7 @@ title: "Saltstack and Debconf"
 tags:
   - "Linux"
   - "saltstack"
+heroImage: "/blog-media/2020/01/saltstack.png"
 description: "You can get Saltstack to manipulate package deployments using debconf. What you'll need is to know the questions that debconf has about a package so you ca"
 ---
 You can get Saltstack to manipulate package deployments using debconf. What you'll need is to know the questions that debconf has about a package so you can provide the answers.

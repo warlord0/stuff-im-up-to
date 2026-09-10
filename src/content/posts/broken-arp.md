@@ -5,6 +5,7 @@ title: "Broken ARP"
 tags:
   - "Networking"
   - "Security"
+heroImage: "/blog-media/2016/09/juniper.png"
 description: "Not a fun morning. We spent an hour or two trying to figure out why our GUEST networks was unable to route any packets to the Internet. For many a GUEST ne"
 ---
 Not a fun morning. We spent an hour or two trying to figure out why our GUEST networks was unable to route any packets to the Internet. For many a GUEST network may be a trivial network, but for us we also us GUEST for unauthenticated devices to access our Virtual Desktop System - primarily including devices that are re-purposed laptops/desktops that no longer require a full Windows PC for domain access and just provide a VMware Horizon Client. So we had a large number of users unable to connect to the back office systems. The strange thing here was that all other network traffic from the trusted networks worked as expected. So maybe we borked the installation of the new UTM and didn't wire it correctly or handle Martians correctly? But why would that only affect GUEST? Taking a look at the arp tables on the internal Juniper firewall showed some strange results.

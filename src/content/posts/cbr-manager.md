@@ -8,6 +8,7 @@ tags:
   - "node.js"
   - "Privateer"
   - "Web"
+heroImage: "/blog-media/2016/11/screenshot-from-2016-11-29-083649.png"
 description: "So far I'm really impressed with how the development is going with Electron. I've been able to sort out some frustrating situations to the extent where I'm"
 ---
 So far I'm really impressed with how the development is going with Electron. I've been able to sort out some frustrating situations to the extent where I'm now uploading the code to [GitHub](https://github.com/)

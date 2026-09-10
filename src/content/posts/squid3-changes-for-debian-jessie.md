@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "proxy"
+heroImage: "/blog-media/2016/11/squid_logo.png"
 description: "I upgraded our Squid3 proxy server to Debian Jessie today. The process as usual was pretty painless until the Squid3 service tried to restart. Then I saw w"
 ---
 I upgraded our Squid3 proxy server to Debian Jessie today. The process as usual was pretty painless until the Squid3 service tried to restart. Then I saw what looked like a world of hurt from the syslog output.

@@ -7,6 +7,7 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
+heroImage: "/blog-media/2019/08/laravel-2019-logo-1.png"
 description: "Our app currently uses LDAP authentication but as our environment is rapidly moving onto the cloud and Microsoft Office 365 it's time to investigate authen"
 ---
 Our app currently uses LDAP authentication but as our environment is rapidly moving onto the cloud and Microsoft Office 365 it's time to investigate authentication using O365, more specifically Azure Active Directory.

@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "nginx"
   - "ssl"
+heroImage: "/blog-media/2016/10/android.png"
 description: "After buying a cheap SSL certificate I found I'd missed something important during the install. Usually it's just a case of copy the certificate and key fi"
 ---
 After buying a cheap SSL certificate I found I'd missed something important during the install. Usually it's just a case of copy the certificate and key files to /etc/ssl/certs and /etc/ssl/private, respectively and then pointing the Nginx config at them to get it working. Well all was well in the GUI world of Linux and Windows browsers. But My Android said the certificate wasn't trusted. Looks like there's some CA intermediates that need sorting. When I got the certificate from Cheap SSL Security it came with a bunch of other certificates in the zip file that I pretty much ignored. Well all I needed to do was bundle them into a single file that I'd already configured Nginx to use and restart Nginx.

@@ -6,6 +6,7 @@ tags:
   - "azure"
   - "office 365"
   - "Windows"
+heroImage: "/blog-media/2018/01/office-365-logo-01.jpg"
 description: "We've been using Azure for a few months now so it's about time our certificates would expire right? Well according to the email notification we've just rec"
 ---
 We've been using Azure for a few months now so it's about time our certificates would expire right? Well according to the email notification we've just received a certificate needs updating or we'll lose access!

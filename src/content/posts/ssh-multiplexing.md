@@ -5,6 +5,7 @@ title: "SSH Multiplexing"
 tags:
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Typically SSH creates a new tcp session for every time you connect to a remote host. But there is a feature of ssh that allows connections to reuse an exis"
 ---
 Typically SSH creates a new tcp session for every time you connect to a remote host. But there is a feature of ssh that allows connections to reuse an existing connection using a socket - which is called multiplexing.

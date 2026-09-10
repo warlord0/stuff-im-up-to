@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "openvpn"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
 description: "If you're looking for the answer to how to get Gnome to connect to your OpenVPN using OTP, then you're going to come to a dead end. There's been an outstan"
 ---
 If you're looking for the answer to how to get Gnome to connect to your OpenVPN using OTP, then you're going to come to a dead end.

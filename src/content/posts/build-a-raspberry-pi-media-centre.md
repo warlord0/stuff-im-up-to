@@ -9,6 +9,7 @@ tags:
   - "osmc"
   - "Privateer"
   - "raspberry pi"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "Following on from the previous post about setting up a Home Media Client/Server setup I thought I'd put together a \"how to\" for building your own Raspberry Pi Media Centre with Kodi and a list of ingredients."
 ---
 Following on from the previous post about setting up a Home Media Client/Server setup I thought I'd put together a "how to" for building your own Raspberry Pi Media Centre with Kodi and a list of ingredients.

@@ -4,6 +4,7 @@ title: "Installing Ansible Public Key Not Available"
 tags:
   - "ansible"
   - "Linux"
+heroImage: "/blog-media/2020/02/ansible800.png"
 description: "When trying to install Ansible on Debian following the install guide here: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht"
 ---
 When trying to install Ansible on Debian following the install guide here:

@@ -6,6 +6,7 @@ tags:
   - "Networking"
   - "Security"
   - "ssh"
+heroImage: "/blog-media/2016/09/juniper.png"
 description: "When doing a Nessus scan for the first time on the new SRX320 cluster it highlighted some weaknesses in the SSH protocol. This was due to arcfour, cbc and hmac being enabled by default."
 ---
 When doing a Nessus scan for the first time on the new SRX320 cluster it highlighted some weaknesses in the SSH protocol. This was due to arcfour, cbc and hmac being enabled by default. So to remedy this we need to set the acceptable levels of ciphers etc. Using the CLI a simple change to the config for the SSH service is required, under `system services ssh`.

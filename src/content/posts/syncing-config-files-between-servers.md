@@ -5,6 +5,7 @@ title: "Syncing Config Files Between Servers"
 tags:
   - "Linux"
   - "nginx"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Having setup a pair of load balancers I wanted to ensure the Nginx configuration from one system was replicated to the secondary where changes were made on"
 ---
 Having setup a pair of load balancers I wanted to ensure the Nginx configuration from one system was replicated to the secondary where changes were made on the primary.

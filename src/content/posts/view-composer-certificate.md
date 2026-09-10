@@ -6,6 +6,7 @@ tags:
   - "horizon"
   - "vmware"
   - "Windows"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "c:\\> cd \"c:\\Program Files\\VMware\\VMware View Composer\" c:\\> sviconfig.exe -operation=replacecertificate -delete=false Restart the View Composer service \"VM"
 ---
 c:\> cd "c:\Program Files\VMware\VMware View Composer"

@@ -5,6 +5,7 @@ title: "polkit-agent-helper-1[6160]"
 tags:
   - "gnome"
   - "Linux"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
 description: "After setting up LDAP authentication on my machine, things went as expected, and I was able to authenticate at the GDM login and sudo from the command line"
 ---
 After setting up LDAP authentication on my machine, things went as expected, and I was able to authenticate at the GDM login and sudo from the command line etc. But when I called up a program that required elevated privileges in Gnome the authentication always failed, regardless of the password I used, and the dialog looked strange because it didn't list the username it wanted the credentials for.

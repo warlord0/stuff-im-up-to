@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "Security"
   - "xmpp"
+heroImage: "/blog-media/2021/01/ejabberd1.png"
 description: "Putting together a container set with movim and ejabberd I ran into CORS (Cross Origin Resource Sharing). I'm using the default upload url https://@HOST@/u"
 ---
 Putting together a container set with [movim](https://movim.eu) and ejabberd I ran into CORS (Cross Origin Resource Sharing).

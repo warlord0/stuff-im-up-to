@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "nginx"
   - "php"
+heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.png"
 description: "This new version of NGINX is tending to be a bit of a pain in terms of installation. Gone are the sites-available and sites-enabled folders and it does a c"
 ---
 This new version of NGINX is tending to be a bit of a pain in terms of installation. Gone are the sites-available and sites-enabled folders and it does a couple of things during installation that really grips my goat. Getting php5-fpm working with it needs some manipulation of the config. The site configs are now located under /etc/nginx/conf.d/ and they now have a .conf extension. The default being default.conf. By default this config sticks the 'root' directive under the location /. Which when it comes to running php5-fpm and using fastcgi parameters causes a headache. It's a simple fix, but put simply the previous use of \$document_root will not work because the directive needs to be within the server context NOT location. This will cause "File not found" messages and in the /var/log/nginx/error.log you find stuff that looks like this:

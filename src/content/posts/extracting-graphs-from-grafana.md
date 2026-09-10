@@ -4,6 +4,7 @@ modDatetime: 2023-02-15T10:11:57Z
 title: "Extracting Graphs from Grafana"
 tags:
   - "Uncategorized"
+heroImage: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71.png"
 description: "The Grafana dashboards are a really nice interactive display of metrics. What we want to do is take those graphs from a dashboard and share them on a stati"
 ---
 The Grafana dashboards are a really nice interactive display of metrics. What we want to do is take those graphs from a dashboard and share them on a static monthly report.

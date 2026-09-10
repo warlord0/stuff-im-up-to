@@ -7,6 +7,7 @@ tags:
   - "ssh"
   - "sudo"
   - "updates"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "When I setup a Debian server there's a few basic things I do to get it online. First steps boot from the netinst CD and follow the installer. First logon u"
 ---
 When I setup a Debian server there's a few basic things I do to get it online. First steps boot from the netinst CD and follow the installer. First logon using SSH as your regular user account as root can't access the system remotely. So you'll have to logon unprivileged and then su to root.

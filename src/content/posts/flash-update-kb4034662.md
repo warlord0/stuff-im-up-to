@@ -4,6 +4,7 @@ title: "Flash Update KB4034662"
 tags:
   - "updates"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Two of our Windows 2012R2 servers constantly failed to apply Windows Updates. They'd start deploying the updates but every time a reboot was required the u"
 ---
 Two of our Windows 2012R2 servers constantly failed to apply Windows Updates. They'd start deploying the updates but every time a reboot was required the updates would all roll back. After several weeks of various members of the IT team banging their heads on their desks and the walls, I stepped up and took a look at the problem. It was a real doozy. Took me ages trying to figure out what was going on. It all turned out to be down to one update for Flash player! We don't even use flash player on any of the servers. We went through the repairs using DISM and SFC

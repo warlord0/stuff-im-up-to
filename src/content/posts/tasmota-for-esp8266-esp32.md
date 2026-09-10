@@ -9,6 +9,7 @@ tags:
   - "esp8266"
   - "Linux"
   - "Privateer"
+heroImage: "/blog-media/2021/10/espressif.png"
 description: "Wow, what an incredible find this was! I'd been writing Arduino code for the esp8226/32 to match an electronics exercise I have been set. I was grabbing li"
 ---
 Wow, what an incredible find this was!

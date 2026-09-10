@@ -5,6 +5,7 @@ title: "Apache Directory Studio - No More JNDI"
 tags:
   - "ldap"
   - "Linux"
+heroImage: "/blog-media/2021/01/apachedirectorystudio.png"
 description: "In a previous article Apache Directory Studio – JNDI I explained how to keep the JNDI connection to use LDAP over a socks proxy. It looks like this has gon"
 ---
 In a previous article [Apache Directory Studio – JNDI](https://warlord0blog.wordpress.com/2020/07/28/apache-directory-studio-jndi/) I explained how to keep the JNDI connection to use LDAP over a socks proxy. It looks like this has gone for good this time. The new version of Apache Directory Studio (Version: 2.0.0.v20200411-M15} does't even have the drop down in the connection settings to choose the provider.

@@ -65,6 +65,7 @@ const {
   title,
   description,
   ogImage: initOgImage,
+  heroImage,
   canonicalURL,
   pubDatetime,
   modDatetime,
@@ -113,6 +114,16 @@ const ogImage = ogImageUrl
     class:list={["app-layout", { "mt-8": !config.features.showBackButton }]}
     data-pagefind-body
   >
+    {
+      heroImage && (
+        <img
+          src={heroImage}
+          alt=""
+          class="border-border mb-4 max-h-96 w-full rounded border object-cover"
+        />
+      )
+    }
+
     <h1
       style={{ viewTransitionName: toTransitionName(post.id) }}
       class="text-accent inline-block text-2xl font-bold sm:text-3xl"

@@ -7,6 +7,7 @@ tags:
   - "Security"
   - "squid"
   - "Web"
+heroImage: "/blog-media/2014/02/caching-proxy-squid-3-4-2-now-available-for-download-413893-2.png"
 description: "We have a few special requirements in our network. For internet based traffic we use an appliance based proxy server that users must authenticate with to g"
 ---
 We have a few special requirements in our network. For internet based traffic we use an appliance based proxy server that users must authenticate with to get out to the internet. But we also use an internal proxy server to access a secure network. In order to do this rather than buying another appliance we setup a Squid proxy on a Linux server. In order to achieve the results required we need to tell the clients how to request pages and from where. This is done using WPAD which is dished out using DHCP, DNS and GPO. So within the client browser if a page meeting the specified criteria is selected it goes to the relevant proxy.

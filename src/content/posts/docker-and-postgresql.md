@@ -5,6 +5,7 @@ title: "Docker and PostgreSQL"
 tags:
   - "Docker"
   - "Uncategorized"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "New job, new challenges. I've come across docker in the past, but have pretty much been on the follow these commands to fire up a docker and then use it. N"
 ---
 New job, new challenges.

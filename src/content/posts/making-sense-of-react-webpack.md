@@ -7,6 +7,7 @@ tags:
   - "ReactJS"
   - "Web"
   - "webpack"
+heroImage: "/blog-media/2016/12/what-is-webpack.png"
 description: "So I came across React and thought it looked pretty cool. But it made my head hurt trying to figure it out. Everything seems so difficult to start with. I"
 ---
 So I came across React and thought it looked pretty cool. But it made my head hurt trying to figure it out. Everything seems so difficult to start with. I just couldn't understand how you'd write a JSX file and still somehow the browser would be able to execute it. I had to eventually think back about how CoffeeScript works. The browser doesn't execute a JSX file. It needs to be "transpiled" into JavaScript in much the same way as CoffeeScript is "transpiled" into JavaScript. It's just the tools to do it are all freakishly new to me and that's what I had to get my head around. [**Webpack**](https://webpack.github.io/) - think of Gulp plus. It's a task automation tool that bundles together JavaScript and CSS files and adds cache busting to it. So a bit like Laravel's Elixir too then. So many tools! [**Babel**](https://babeljs.io/) - a JavaScript compiler. It has a number of presets (plugins) that enables the compiling of React JSX or ES2015 to JavaScript. React is pretty useless without webpack and Babel. You can write React in raw `.js` files, but the power is really in writing React as `.jsx` This is because JSX has a number of formatting differences that enable you mix JavaScript and html into the same file. Then when the JSX is compiled it becomes browser compatible JavaScript.

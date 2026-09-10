@@ -5,6 +5,7 @@ title: "Gnome Keyring and ssh-agent"
 tags:
   - "gnome"
   - "Linux"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
 description: "Every time I fire up a zsh shell terminal in gnome-shell I can't add my ssh key to an existing ssh-agent instance. $ ssh-add Could not open a connection to"
 ---
 Every time I fire up a zsh shell terminal in gnome-shell I can't add my ssh key to an existing ssh-agent instance.

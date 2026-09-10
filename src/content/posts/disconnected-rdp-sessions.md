@@ -5,6 +5,7 @@ title: "Disconnected RDP Sessions"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Who has left their account logged onto a server using RDP and has diconnected it leaving it open to session hijacking?"
 ---
 Who has left their account logged onto a server using RDP and has diconnected it leaving it open to session hijacking? PowerShell Script rdp_who.ps1

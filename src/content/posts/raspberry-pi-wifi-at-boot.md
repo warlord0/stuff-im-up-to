@@ -7,6 +7,7 @@ tags:
   - "Networking"
   - "Privateer"
   - "raspberry pi"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "You can configure the Raspberry Pi raspbian image to have the details of your Wifi network at boot time - so no more hunting for keyboards and HDMI cables"
 ---
 You can configure the Raspberry Pi raspbian image to have the details of your Wifi network at boot time - so no more hunting for keyboards and HDMI cables to fire it up onto your WLAN.

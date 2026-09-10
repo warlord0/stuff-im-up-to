@@ -5,6 +5,7 @@ title: "VMWare Horizon Client for Linux"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "That was an interesting challenge. A colleague was trying to install the VMWare Horizon Client into Linux without any real Linux experience. I know that in"
 ---
 That was an interesting challenge. A colleague was trying to install the VMWare Horizon Client into Linux without any real Linux experience. I know that installing things into Linux isn't as cut and dried as running a setup program in Windows, but VMWare really don't help themselves by making this easy for Linux noobs. The actual install runs a .bundle file script which does carry out the install fairly seamlessly, but when it finishes it turns out that it looks for some older dependencies than are available on the flavour of Linux being used. How's a Linux noob supposed to understand that? Run the installation bundle as an administrator:

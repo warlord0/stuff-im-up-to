@@ -8,6 +8,7 @@ tags:
   - "Security"
   - "vpn"
   - "Windows"
+heroImage: "/blog-media/2016/09/juniper.png"
 description: "We're getting on the Microsoft Office 366 and band wagon. I'm not a Microsoft fan, and think it's overpriced for the functionality we'll actually use. This means we need to setup an IPSec VPN between the Juniper SRX and Azure."
 ---
 We're getting on the Microsoft Office 366 and band wagon. I'm not a Microsoft fan, and think it's overpriced for the functionality we'll actually use. This means we need to setup an IPSec VPN between the Juniper SRX and Azure. Microsoft have a Github page with not just guidance, but specific configuration examples to help do this. Not just with Juniper, but a range of firewalls. [https://github.com/Azure/Azure-vpn-config-samples](https://github.com/Azure/Azure-vpn-config-samples) We've got some consultants in setting up the Azure side of the VPN and once I got into the portal I laughed at how much they were charging for turning on the VPN feature and setting a private key - that's it! There's very little control to be able to do anything else and if you want logs to see why things aren't going to plan, you'd better rely on your own device for that. After a couple of hours they'd written some PowerShell to gather some information that was stale because we'd already moved on past that particular error.

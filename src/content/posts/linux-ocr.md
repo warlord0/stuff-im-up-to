@@ -3,6 +3,7 @@ pubDatetime: 2021-08-11T15:06:17Z
 title: "Linux OCR"
 tags:
   - "Linux"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "I needed to pull a lot of text from some images, and that called for OCR - Optical Character Recognition. It looks like the goto package for this is tesser"
 ---
 I needed to pull a lot of text from some images, and that called for OCR - Optical Character Recognition.

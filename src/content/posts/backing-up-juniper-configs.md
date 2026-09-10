@@ -7,6 +7,7 @@ tags:
   - "juniper"
   - "Networking"
   - "Security"
+heroImage: "/blog-media/2016/09/juniper.png"
 description: "Spent ages looking at various options including rconfig and Laravel SSH, but had to surrender. Eventually figured out it couldn't be simpler! Setup an Open"
 ---
 Spent ages looking at various options including rconfig and Laravel SSH, but had to surrender. Eventually figured out it couldn't be simpler! Setup an OpenSSH DSA key and import the public key onto the Juniper for a user account with read-only privileges. Very important the type is DSA NOT RSA - so generate the key using:

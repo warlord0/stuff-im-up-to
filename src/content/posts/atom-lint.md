@@ -6,6 +6,7 @@ tags:
   - "CoffeeScript"
   - "JavaScript"
   - "Web"
+heroImage: "/blog-media/2016/12/coffeescript11.png"
 description: "I've been using Atom for a little while now and have to say I find it a lot quicker than Brackets. It has the occasional moment when loading a large script"
 ---
 I've been using Atom for a little while now and have to say I find it a lot quicker than Brackets. It has the occasional moment when loading a large script file and it tries hard to parse it and colourise it that causes it to hang for an age, but mostly it performs really well for me. One of the excellent features I find useful is the integration with Git. I can easily see what line of a script I've changed, added or deleted. The next feature I added was lint. Lint allows Atom to validate the script you're writing meets guidance for it's structure. There are several lint plug-ins you can use, but the one I'm using mostly is coffee-lint. This lints my CoffeeScript and reports if I'm failing outside of the guide lines for the document structure. eg. a trailing space on a line, a line length longer than 80 characters or an indentation issue. It all helps to keep your code clean and consistent and in theory readable by anyone else. [http://www.coffeelint.org/](http://www.coffeelint.org/)

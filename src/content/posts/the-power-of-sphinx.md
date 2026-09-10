@@ -6,6 +6,7 @@ tags:
   - "database"
   - "Laravel"
   - "Linux"
+heroImage: "/blog-media/2018/02/spninx-600x300.png"
 description: "I've only really used Sphinx as part of a home project with MySQL. But today found that searching for text in 28 million rows in a PostgreSQL table needs s"
 ---
 I've only really used Sphinx as part of a home project with MySQL. But today found that searching for text in 28 million rows in a PostgreSQL table needs something with a bit more performance that the base SQL server. Installing Sphinx on Debian is very straight forward if you want the default repository version and not the leading edge version. I saw no reason why not.

@@ -5,6 +5,7 @@ title: "I Want to Kill the Proxy"
 tags:
   - "Linux"
   - "proxy"
+heroImage: "/blog-media/2014/02/caching-proxy-squid-3-4-2-now-available-for-download-413893-2.png"
 description: "Working behind a non-transparent corporate proxy and firewall is enough to make you psychotic! You'll find enough post on here about setting up environment variables and handling proxies, but there's always room for one more."
 ---
 Working behind a non-transparent corporate proxy and firewall is enough to make you psychotic! You'll find enough posts on here about setting up environment variables and handling proxies, but there's always room for one more.

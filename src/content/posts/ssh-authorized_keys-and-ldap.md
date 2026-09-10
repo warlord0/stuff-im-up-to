@@ -6,6 +6,7 @@ tags:
   - "ldap"
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Traditionally we store public keys in ~/.ssh/authorized_keys , but this means pushing them around all the servers we want to connect to. Instead of doing t"
 ---
 Traditionally we store public keys in `~/.ssh/authorized_keys`, but this means pushing them around all the servers we want to connect to. Instead of doing that let's put them onto our LDAP server and store them once.

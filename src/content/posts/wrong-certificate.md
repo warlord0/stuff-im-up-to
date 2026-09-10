@@ -5,6 +5,7 @@ title: "Wrong Certificate!"
 tags:
   - "Networking"
   - "ssl"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "\"Your connection is not private!\" This was a game over message that was the result of installing the wrong type of certificate onto our new printers. We're"
 ---
 # "Your connection is not private!"

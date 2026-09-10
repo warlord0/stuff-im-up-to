@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "Now that Google chrome has started bitching about certificates not having Subject Alternative Names because the practice of using Common Names in certifica"
 ---
 Now that Google chrome has started bitching about certificates not having Subject Alternative Names because the practice of using Common Names in certificates has changed. So in order to get the SAN into a CSR you need to edit the OpenSSL config file you're using for the request. You can spend time scripting something, but for the few times I do it I'll just copy the base `openssl.cnf` file to one specific to the CSR I need to create. After all you'll already have customised the `req_distinguished_name` section so you don't have to put in the country and company name all the time. eg.

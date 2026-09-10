@@ -8,6 +8,7 @@ tags:
   - "npm"
   - "Web"
   - "yarn"
+heroImage: "/blog-media/2018/07/yarn.png"
 description: "I'm kinda new to this hosting software externally. I've been happy using Gitlab for internal private projects, but recently I've been forking and reworking"
 ---
 I'm kinda new to this hosting software externally. I've been happy using [Gitlab](https://about.gitlab.com/) for internal private projects, but recently I've been forking and reworking the work of others to include into my own. So I thought I'd try publishing them back out to [npmjs.com](https://www.npmjs.com) and [github,com](https://www.github.com). Publishing up to github is pretty straight forward. Using git from the command line to just add, commit and push is all the same, just now with an online repository rather than the internal Gitlab. In fact once the repository is added to the project I'm betting the [Atom.io](https://atom.io/) built in Git will handle the committing and pushing. Recently I decided to have a look at [yarn](https://yarnpkg.com/en/) - it uses the npmjs repository just like npm. So far I'm liking it. It's kinda pretty and I do like the caching. I pretty much use `yarn` where ever I would have used `npm`. So instead of `npm init` I use `yarn init`, `npm install` I now use `yarn add`. Where I used `npm run dev` now it's `yarn run dev`, and `yarn run hot`, etc.

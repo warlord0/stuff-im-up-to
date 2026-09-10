@@ -7,6 +7,7 @@ tags:
   - "Laravel"
   - "Linux"
   - "Web"
+heroImage: "/blog-media/2019/03/redis-1.png"
 description: "The corporate app just got made a bit smarter. In order to alert users that something has happened that they should be aware of we've added real time notif"
 ---
 The corporate app just got made a bit smarter.

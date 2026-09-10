@@ -8,6 +8,7 @@ tags:
   - "Linux"
   - "oauth2"
   - "postgresql"
+heroImage: "/blog-media/2020/07/keycloak.png"
 description: "As resilient as our docker build is I'd like to extend it to a clustered instance of Keycloak. This way, I can load balance a pair of docker containers and"
 ---
 As resilient as our docker build is I'd like to extend it to a clustered instance of Keycloak. This way, I can load balance a pair of docker containers and maintain an even higher uptime. The model I've chosen is the standalone HA method. This gives me two Keylcoak instances and a single back end database.

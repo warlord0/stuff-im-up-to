@@ -12,6 +12,7 @@ tags:
   - "raspberry pi"
   - "sonarr"
   - "synology"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "A couple of years ago I decided to get the TV connected to something other than satellite and cable. It seems that in this environment XMBC was the daddy of all things media and a few generations on it's now called Kodi and is truly an awesome media player."
 ---
 ## Playing Media

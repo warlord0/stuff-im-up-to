@@ -7,6 +7,7 @@ tags:
   - "nginx"
   - "proxy"
   - "Web"
+heroImage: "/blog-media/2018/09/58480948cef1014c0b5e48fd.png"
 description: "With Atlassian Jira Software and Confluence installed onto the same server I thought I'd investigate setting things up so we don't have to use the default"
 ---
 With Atlassian Jira Software and Confluence installed onto the same server I thought I'd investigate setting things up so we don't have to use the default TCP port type of access over HTTP. instead let's setup a reverse proxy using HTTPS over TCP 443 that forwards to the TCP 8080 and 8090 ports. The aim is to get Jira accessible as `https://jira.domain.local` and Confluence as `https://jira.domain.local/confluence`. This is actually a supported and well documented practice ([albeit with Apache](https://confluence.atlassian.com/adminjiraserver073/integrating-jira-with-apache-using-ssl-861253896.html)), but I encountered some issues outside of the documentation. The benefit of using a reverse proxy like this is that we have a single SSL certificate to maintain for Nginx only rather than for each application. Setting up the Nginx side was pretty straight forward. I generated an SSL certificate and installed it into the Linux OS and set Nginx to serve and proxy from port 80 and 443.

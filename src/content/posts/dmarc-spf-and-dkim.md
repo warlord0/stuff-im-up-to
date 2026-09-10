@@ -11,6 +11,7 @@ tags:
   - "smtp"
   - "spf"
   - "Web"
+heroImage: "/blog-media/2016/11/capture.png"
 description: "For several ears now we've run a fairly tight ship on our email server. It consumes an awful lot of resources mainly because of how many businesses out the"
 ---
 For several ears now we've run a fairly tight ship on our email server. It consumes an awful lot of resources mainly because of how many businesses out there fail to properly configure their email server correctly. By far the biggest failing is not using the proper HELO/EHLO name and not having a reverse DNS (RNDS/PTR) record that matches. So please, if you're an email admin, get it sorted. This is an internet standard from way back in the 1980's and beyond! Adding to our anti-spam systems using DKIM and SPF we've brought in DMARC to enforce compliance with these standards. So in future we'll be telling recipients to reject mail claiming to be from our domain that fails to meet the SPF and DKIM checks.

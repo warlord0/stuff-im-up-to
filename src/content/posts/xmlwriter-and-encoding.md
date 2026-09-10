@@ -5,6 +5,7 @@ title: "XmlWriter and Encoding"
 tags:
   - "powershell"
   - "Windows"
+heroImage: "/blog-media/2018/02/powershell-logo-banner.png"
 description: "This could have saved me some time today! http://hoolihan.net/blog-tim/2008/10/02/utf-8-encoding-with-xmlwriter-and-a-stringbuilder/ I'm new to PowerShell"
 ---
 This could have saved me some time today! [http://hoolihan.net/blog-tim/2008/10/02/utf-8-encoding-with-xmlwriter-and-a-stringbuilder/](http://hoolihan.net/blog-tim/2008/10/02/utf-8-encoding-with-xmlwriter-and-a-stringbuilder/) I'm new to PowerShell and this was hard work to find that it's not my problem.

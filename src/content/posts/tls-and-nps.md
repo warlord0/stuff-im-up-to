@@ -6,6 +6,7 @@ tags:
   - "Security"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Looks like NPS only supports TLS1.0 by default. So if you go restricting your ciphers too much you'll find none of your NPS clients able to connect using E"
 ---
 Looks like NPS only supports TLS1.0 by default. So if you go restricting your ciphers too much you'll find none of your NPS clients able to connect using EAP. That's a bit of a problem when you have an 802.1x secure network and every client is expected to authenticate. If a cipher is not available on both client and server then you'll get a client unable to connect or reconnect when their sessions require. So in order to expand the ciphers supported by newer systems you should ensure you can deliver them over a wider number of protocols , including TLS1.1 and 1.2.

@@ -5,6 +5,7 @@ title: "Emmet.io"
 tags:
   - "html5"
   - "Web"
+heroImage: "/blog-media/2018/06/emmet-io.jpg"
 description: "Emmet — the essential toolkit for web-developers"
 ---
 Why is it I only find stuff that would have been really useful, after it would have been really useful? I've written plenty of html using handcrafted text. Started using atom to help with auto-completion and beautify. Then I run into Emmet. Atom has this great plugin, and it's available for many other editors, that makes html coding an absolute breeze. Many times I find myself creating html template sections repetitively repeating lines for navs, closing tags adding classes etc. Emmet can easily handle the repetitive html structure by tying in what would almost be the CSS shortcut of the structure and expanding it. Once the plugin is installed into atom you can interactively enter a shortcut using ctrl+alt+enter which will bring up the interactive editor - probably the easiest starting point. Then type in the short cut in the CSS selector style eg.

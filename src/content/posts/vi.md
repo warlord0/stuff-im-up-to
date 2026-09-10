@@ -4,6 +4,7 @@ modDatetime: 2020-03-20T10:07:06Z
 title: "vi"
 tags:
   - "Linux"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "I've been using vi for ages and about my limit is search and replace. Here's a place for some magic I've been picking up more recently. When you've forgott"
 ---
 I've been using vi for ages and about my limit is search and replace.

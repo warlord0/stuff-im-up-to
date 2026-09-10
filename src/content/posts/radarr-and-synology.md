@@ -9,6 +9,7 @@ tags:
   - "Privateer"
   - "radarr"
   - "synology"
+heroImage: "/blog-media/2022/01/radarr_logo-1.png"
 description: "Well, Couchpotato is no longer being updated, and the project had been archived as read only. That's not good, I've used Couchpotato for years. I did some"
 ---
 Well, Couchpotato is no longer being updated, and the project had been archived as read only. That's not good, I've used Couchpotato for years.

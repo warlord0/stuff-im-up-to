@@ -6,6 +6,7 @@ tags:
   - "atom"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2016/12/octocat.png"
 description: "When working on a project at home I don't necessarily want to host my Git repo online and don't feel the need for installing a Gitlab server on my home network, but I do want to backup my projects to my cloud backup."
 ---
 When working on a project at home I don't necessarily want to host my Git repo online and don't feel the need for installing a Gitlab server on my home network, but I do want to backup my projects to my cloud backup. I also would like to not backup all the vendor resources with my project. So I'd like to exclude the node_module folder and other `.gitignore` content. Whilst googling around I discovered I could just use a folder as a repo. Most people tend to do this onto a network file share, but my needs were simple. All I wanted to do was include my Git repo within the folders that are automatically backed up to the cloud. The current path for the development projects on my Windows machine is `c:\users\myuser\projects` which is outside of the folders I backup. So I need to create a repo within an backed up folder like "My Documents". Then when I push my commits into it the committed changes get backed up. Create a repository to host my commits - act as a remote repository

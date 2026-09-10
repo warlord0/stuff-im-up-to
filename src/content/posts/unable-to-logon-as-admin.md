@@ -5,6 +5,7 @@ title: "Unable to Logon as admin"
 tags:
   - "Networking"
   - "radius"
+heroImage: "/blog-media/2017/03/extreme.jpg"
 description: "I managed to bork one of our test switches today. I was in the process of enabling \"netlogin\" using RADIUS as the authentication method, when I must have i"
 ---
 I managed to bork one of our test switches today. I was in the process of enabling "netlogin" using RADIUS as the authentication method, when I must have inadvertently enabled RADIUS authentication for the management interface instead of just for "netlogin". Using the Extreme documentation as a clue to resolve this kind of issue, but for a forgotten admin password, I was able to modify the instructions slightly to achieve a logon without resorting to a factory reset. [https://gtacknowledge.extremenetworks.com/articles/How_To/How-to-Recover-A-Switch-And-Its-Configuration-Without-The-Password](https://gtacknowledge.extremenetworks.com/articles/How_To/How-to-Recover-A-Switch-And-Its-Configuration-Without-The-Password) Follow the initial steps of rebooting the switch with a default configuration. But modify the line you enter into the `autoexec.xsf` to suit your config requirements. In my case I needed to `disable radius`.

@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "openvpn"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
 description: "As I'd forgotten how to create a new OpenVPN user, it's not something I do every day, I thought I put here a reminder of the process used. To get a private"
 ---
 As I'd forgotten how to create a new OpenVPN user, it's not something I do every day, I thought I put here a reminder of the process used. To get a private key and a signed public key the easiest way is to use the Easy-RSA program that came with openvpn. Change to the directory, set the variables and run the script like this:

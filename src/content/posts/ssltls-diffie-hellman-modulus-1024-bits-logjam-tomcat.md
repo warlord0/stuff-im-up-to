@@ -6,6 +6,7 @@ tags:
   - "Security"
   - "ssl"
   - "Web"
+heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.png"
 description: "Disable the ciphers that use Diffie-Hellman by adding !DHE into your ciphers list ciphers=\"HIGH:!aNULL:!eNULL:!EXPORT:!DES:!RC4:!MD5:!kRSA:!3DES:!DHE\" Now"
 ---
 Disable the ciphers that use Diffie-Hellman by adding `!DHE` into your ciphers list

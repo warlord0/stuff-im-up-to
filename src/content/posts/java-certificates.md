@@ -7,6 +7,7 @@ tags:
   - "java"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2017/01/java-logo-png-e1485773197141.png"
 description: "Certificates are the bane of my existence! After applying some updated certificates to Windows servers some of the systems are now failing to connect to da"
 ---
 Certificates are the bane of my existence! After applying some updated certificates to Windows servers some of the systems are now failing to connect to database servers. This is due to the underlying Java program not knowing about the Windows certificate stores and using their own. Now if life weren't difficult enough the default keystores used by Java reside in their `%JAVA_HOME%\lib\security` folder, but we've got applications that have many flavours of Java installed. ie. java_jre_32bit, java_jre_64bit, java_jdk_32bit and java_jdk_64bit. I know, I didn't install it like this, it's a vendor install and they insist on it being this way and it must remain as a very specific version of Java. So now we have to add the CA certificate into he `cacerts` file, which is where Java keeps its CA certs. So I've had to do this for each flavour of Java by using:

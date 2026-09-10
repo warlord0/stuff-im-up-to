@@ -5,6 +5,7 @@ tags:
   - "Networking"
   - "nginx"
   - "Web"
+heroImage: "/blog-media/2022/04/consul.png"
 description: "Building a resilient set of web services (or microservices) means setting up a proxy that is able to dynamically set up \"upstream\" services when they are a"
 ---
 Building a resilient set of web services (or microservices) means setting up a proxy that is able to dynamically set up "upstream" services when they are available and remove them when they are not. For this, I took a look at [Hashicorp Consul](https://www.hashicorp.com/products/consul) - it does a lot more than I'm doing here, but I'm starting small.

@@ -7,6 +7,7 @@ tags:
   - "Security"
   - "vpn"
   - "wireguard"
+heroImage: "/blog-media/2020/04/wireguard.png"
 description: "Out of the box, WireGuard is a simple tool that solves a simple issue. Securely connect this system to that system. But what if that's not quite enough? If"
 ---
 Out of the box, WireGuard is a simple tool that solves a simple issue. Securely connect this system to that system. But what if that's not quite enough? If a malicious actor obtains your WireGuard config then they are free to connect as you do!

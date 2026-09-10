@@ -5,6 +5,7 @@ title: "Server Message Block (SMB) Protocol Version 1 Unspecified RCE (uncredent
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Start Powershell as an administrator and run the following to disable SMB Version 1. PS C:\\> Get-SmbServerConfiguration | select enablesmb1protocol enables"
 ---
 Start Powershell as an administrator and run the following to disable SMB Version 1.

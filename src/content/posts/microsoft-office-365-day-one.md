@@ -6,6 +6,7 @@ tags:
   - "office 365"
   - "Web"
   - "Windows"
+heroImage: "/blog-media/2018/01/office-365-logo-01.jpg"
 description: "So today's been the first day following the consultants departure. They configured our Exchange 2013 estate to act as a hybrid solution to allow us to migr"
 ---
 So today's been the first day following the consultants departure. They configured our Exchange 2013 estate to act as a hybrid solution to allow us to migrate our mail box users onto Outlook 365. The config and setup certainly seemed more straight forward on the cloud side than the "on premise" parts. We had plenty to do to setup autodiscover DNS records internal and external, reverse proxying and ActiveSync setups with Sophos Mobile Control. But now the consultants have gone we're left picking up the pieces. As it seems no job is left finished.

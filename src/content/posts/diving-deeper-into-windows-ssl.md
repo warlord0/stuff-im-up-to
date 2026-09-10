@@ -6,6 +6,7 @@ tags:
   - "Security"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "This response to a question raised some interest and I found it very interesting. I then went to investigate the keys and values on my own machine. This ca"
 ---
 This response to a question raised some interest and I found it very interesting. I then went to investigate the keys and values on my own machine. This can also be controlled using `gpedit.msc`, but found it interesting to see the current entries for myself.

@@ -6,6 +6,7 @@ tags:
   - "Networking"
   - "vpn"
   - "wireguard"
+heroImage: "/blog-media/2020/04/wireguard.png"
 description: "iptables isn't essential for WireGuard. It really depends on your requirements. In my previous post , I used iptables for a point-to-multi-point set up. Th"
 ---
 iptables isn't essential for WireGuard. It really depends on your requirements. In my [previous post](https://warlord0blog.wordpress.com/2022/09/05/wireguard/), I used iptables for a point-to-multi-point set up. This is because the external user connecting to the office would need to get to all kinds of internal services. Without adding a route to all the internal services to reply to the incoming traffic, there is no way routing alone would handle this. It would become impossible to add routes for each users' endpoint, without them clashing with each other. For this, I had to use NAT.

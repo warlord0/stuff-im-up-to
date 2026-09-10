@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "nginx"
   - "Web"
+heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.png"
 description: "We want a little more control over some of our reverse proxies and wanted to place a little extra burden on the users as possible. To do this we chose to u"
 ---
 We want a little more control over some of our reverse proxies and wanted to place a little extra burden on the users as possible. To do this we chose to use the same passwords for authentication as we do everywhere else - hence LDAP.

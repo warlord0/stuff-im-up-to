@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "Security"
+heroImage: "/blog-media/2016/09/packetfence-e1474622253514.png"
 description: "In order to satisfy a number of security requirements we implemented 802.1X authentication throughout our network - wired and wireless. Initially this was"
 ---
 In order to satisfy a number of security requirements we implemented 802.1X authentication throughout our network - wired and wireless. Initially this was done using Windows NPS (RADIUS) and the built in capabilities of our Extreme network switches. It works very well. No one can plug into the LAN and get connected to the business network without authentication. If you're not authenticated you get dropped onto the Guest VLAN and can access the Internet, but no business systems. Great. We're protected, but there are a few quirks and then this is where I visited the world of Open Source and stumbled over [PacketFence](https://packetfence.org/).

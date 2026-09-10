@@ -8,6 +8,7 @@ tags:
   - "Linux"
   - "radius"
   - "Security"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "Today I built a FreeRADIUS server within a Docker container set using docker-compose. As we only have a small number of users on the WiFi system it was set"
 ---
 Today I built a FreeRADIUS server within a Docker container set using docker-compose. As we only have a small number of users on the WiFi system it was setup only as a simple SSID with WPA-PSK that gradually gets spread to every man and his dog.

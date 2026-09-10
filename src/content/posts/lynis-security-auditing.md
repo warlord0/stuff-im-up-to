@@ -5,6 +5,7 @@ tags:
   - "ansible"
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "In the days of corporate lore I faced system hardening challenges driven by Nessus. Now because Nessus isn't FOSS (Free Open Source Software) it's not some"
 ---
 In the days of corporate lore I faced system hardening challenges driven by Nessus. Now because Nessus isn't FOSS (Free Open Source Software) it's not something I can use in my current role. There is an Open Source fork from Greenbone - but there's some attractive thinking into using Lynis as a build validation tool.

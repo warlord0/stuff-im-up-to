@@ -5,6 +5,7 @@ tags:
   - "certificates"
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2016/10/nessus-logo-e1475580279964.png"
 description: "In order to get your Nessus server to pass a vulnerability scan you'll need to replace the original self-signed cert it uses for its web server. It's easy"
 ---
 In order to get your Nessus server to pass a vulnerability scan you'll need to replace the original self-signed cert it uses for its web server. It's easy enough to do. Generate a CSR and a key for the server:

@@ -6,6 +6,7 @@ tags:
   - "gnome"
   - "Linux"
   - "manjaro"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
 description: "I need my office PC to be permanently available so I can access it remotely. This was working just fine after I disabled all the sleep mode settings when I"
 ---
 I need my office PC to be permanently available so I can access it remotely. This was working just fine after I disabled all the sleep mode settings when I was logged on at work. Then I remotely rebooted and after a period of inactivity the machine went to sleep. This was because no one was logged onto the system and it sat at the gdm greeter waiting for someone to login.

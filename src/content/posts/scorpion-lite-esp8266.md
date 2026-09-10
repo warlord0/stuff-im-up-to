@@ -7,6 +7,7 @@ tags:
   - "iot"
   - "Privateer"
   - "Web"
+heroImage: "/blog-media/2018/07/scorpion400.png"
 description: "Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project Scorpion he moved"
 ---
 Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project [Scorpion](https://warlord0blog.wordpress.com/2018/07/08/project-scorpion-wake-on-wifi/) he moved to using ESP8266.

@@ -8,6 +8,7 @@ tags:
   - "Linux"
   - "php"
   - "Windows"
+heroImage: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg.png"
 description: "I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows."
 ---
 I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows. I thought I'd revisit [VS Code](https://warlord0blog.wordpress.com/2018/03/13/sweet-christmas-vs-code/) and see if I can use it effectively like Atom.

@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "vmware"
   - "Windows"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "Upgrading VMware Horizon is going to be a fun task for the weekend. It means upgrading 3 connection servers, a security server, the vcenter server and the composer server. This is all so we can disable SSLv3 on the ESXi hosts they all run on."
 ---
 Upgrading VMware Horizon is going to be a fun task for the weekend. It means upgrading 3 connection servers, a security server, the vcenter server and the composer server. This is all so we can disable SSLv3 on the ESXi hosts they all run on. Migration was originally planned from 5.3 to 6.2, as this is the earliest version that resolves the SSLv3 problem. But if we're going to have to upgrade, why not go all the way to v7? There's lot's of help and instruction to be had on the net on how to plan and deploy, but the plan we're aiming for gives us an easy backout plan that then resolves all of the version upgrades required by Windows and MSSQL on the current infrastructure. The plan is simply to turn off the old systems, reinstall new ones and migrate data. This way if we need to chicken out we turn off all the new and turn on all the old. So all the new servers will have the same IP addresses and names as the ones they are replacing. This way we have no concerns about the various firewalls and rules that relate to Horizon.

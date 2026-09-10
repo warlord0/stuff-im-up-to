@@ -6,6 +6,7 @@ tags:
   - "certificates"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "I'm beginning to think this is going to be a blog about SSL certificates as most of the articles seem that way inclined just now! When it comes to IIS serv"
 ---
 I'm beginning to think this is going to be a blog about SSL certificates as most of the articles seem that way inclined just now! When it comes to IIS serving a single web site over HTTPS it's pretty straight forward. Select bindings and add a new one for HTTPS. You should notice that at this stage you can't enter in a host name as that field becomes greyed out when you choose HTTPS. This is the crux of our problem. You want to run another HTTPS site on port 443, but can't. Well you may not be able to do this from the GUI, but you can from the command line using an admin script. First you need to know what ID each of the servers are. By that I mean W3SVC1, w3SVC2 etc. I tend to find this by looking in the log files in c:\inetpub\logs. I'm sure there's an easier way. There is one major caveat here. You can only use one SSL certificate that will be common across both HTTPS servers. Which is ok if you're using as an internal system with DNS aliases, but externally your certificate would have to have Subject Alternative Names (SAN's) that present both the names of the web sites. Then from a command line for each server:

@@ -5,6 +5,7 @@ tags:
   - "Linux"
   - "raspberry pi"
   - "wifi"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "STOP READING NOW IF YOU CAN'T HANDLE DISAPPOINTMENT. It's been a while since I originally wrote about the Raspbian & Realtek 8192eu WiFi USB Wifi adapter a"
 ---
 **STOP READING NOW IF YOU CAN'T HANDLE DISAPPOINTMENT.**

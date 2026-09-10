@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "postgresql"
   - "Security"
+heroImage: "/blog-media/2018/02/best-postgresql-hosting.png"
 description: "We don't often have the need to expose PostgreSQL to a network, let alone the internet. Mostly the instances are enclosed within a Docker container set and"
 ---
 We don't often have the need to expose PostgreSQL to a network, let alone the internet. Mostly the instances are enclosed within a Docker container set and don't need to be accessed by anything outside of that. So when we have a need to expose it we need to protect it as much as possible.

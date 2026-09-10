@@ -7,6 +7,7 @@ tags:
   - "Networking"
   - "nginx"
   - "proxy"
+heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.png"
 description: "I have a need to deploy a High Availability Load Balanced reverse proxy solution. We have a back end web service that requires resilience. To achieve this"
 ---
 I have a need to deploy a High Availability Load Balanced reverse proxy solution. We have a back end web service that requires resilience. To achieve this I've been looking at Nginx and Keepalived. The Nginx Plus product appears to contain high availability support - but we're in the realms of zero budget and open source/community supported products.

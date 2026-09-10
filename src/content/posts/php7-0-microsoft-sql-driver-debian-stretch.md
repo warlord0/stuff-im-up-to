@@ -7,6 +7,7 @@ tags:
   - "mssql"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.png"
 description: "To get the MS SQL ODBC driver working even in Jessie appears to be a challenge. I Stretch I almost surrendered. It is working, but I do think it's a bit of a hack as I've had to install an older libssl1.0.0 and enable the locale en_US.UTF-8."
 ---
 What a mission today has been. I think I'll ultimately roll back to using Debian Jessie as Stretch isn't a supported system, yet.

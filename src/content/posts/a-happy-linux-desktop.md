@@ -5,6 +5,7 @@ title: "A Happy Linux Desktop"
 tags:
   - "gnome"
   - "Linux"
+heroImage: "/blog-media/2020/01/gnome_qogir.png"
 description: "We've all been through lots of window managers from Gnome, LXDE, Cinnamon etc. but I think I've finally come up with a pretty desktop environment that I'm"
 ---
 We've all been through lots of window managers from Gnome, LXDE, Cinnamon etc. but I think I've finally come up with a pretty desktop environment that I'm happy with.

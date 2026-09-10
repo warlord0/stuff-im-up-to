@@ -5,6 +5,7 @@ tags:
   - "Linux"
   - "nginx"
   - "Web"
+heroImage: "/blog-media/2021/02/nginx_logo.png"
 description: "The dev team wanted a version of Nginx that included some custom modules. I've previously built custom Nginx on bare metal, but this time it wanted to be i"
 ---
 The dev team wanted a version of Nginx that included some custom modules. I've previously built custom Nginx on bare metal, but this time it wanted to be in docker.

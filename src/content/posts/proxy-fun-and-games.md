@@ -7,6 +7,7 @@ tags:
   - "Networking"
   - "proxy"
   - "Windows"
+heroImage: "/blog-media/2018/10/computer-code.jpg"
 description: "I seem to spend most of may day trying to sort out issues regarding getting different applications through the corporate proxy server. I'm really hoping on"
 ---
 I seem to spend most of may day trying to sort out issues regarding getting different applications through the corporate proxy server. I'm really hoping one day we can setup a transparent proxy if for no other reason than to make our development lives easier. At present we need use a browser proxy script (`http://wpad/wpad.dat`) to determine which of the corporate proxy servers to use. We have an internet proxy and a Gov't gateway proxy. Depending where the user is trying to go determines which proxy they must use. The script works just fine for 99% of our user base. However, when it comes to the other 1% there's need to tell not just the browser what proxy to use, but in the development world we need to inform the various development tools how to use a proxy too. This is where the pain is. We need to setup a proxy in several places eg. for the operating system, for the browser, for Git, for NPM/Yarn, for Composer, for Java...

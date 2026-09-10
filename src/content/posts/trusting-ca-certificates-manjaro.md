@@ -5,6 +5,7 @@ title: "Trusting CA Certificates (manjaro)"
 tags:
   - "certificates"
   - "Linux"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "This uses a completely different scheme than Debian. Let's say I have two .crt files (pem format) for intermediate and root certs use the trust program to"
 ---
 This uses a completely different scheme than Debian.

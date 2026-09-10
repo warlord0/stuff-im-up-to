@@ -4,6 +4,7 @@ title: "OpenLDAP Hashes"
 tags:
   - "ldap"
   - "Linux"
+heroImage: "/blog-media/2020/06/openldap.png"
 description: "Whilst doing some experimentation with OpenLDAP I found that if I hashed my passwords using SSHA-512 in Apache Directory Studio I would not be able to auth"
 ---
 Whilst doing some experimentation with OpenLDAP I found that if I hashed my passwords using `SSHA-512` in Apache Directory Studio I would not be able to authenticate.

@@ -7,6 +7,7 @@ tags:
   - "juniper"
   - "Networking"
   - "Security"
+heroImage: "/blog-media/2016/09/juniper.png"
 description: "Following our IPSec connection setup for Azure and the Juniper SRX we were seeing regular disconnections and a failure to re-establish a tunnel for extende"
 ---
 Following our IPSec connection setup for Azure and the Juniper SRX we were seeing regular disconnections and a failure to re-establish a tunnel for extended period. This was very frustrating as about every 7 hours and 20 minutes we'd lose connection. We'd then have to restart the IPSec service on the SRX and it would come back up. As our SRX is hosted inside another firewall the IPSec traffic is NAT'ed and we began to wonder if that was the problem. So we did some log watching on the external firewall and grabbed some tcpdump information as the tunnel was down and saw nothing to indicate that packets were being dropped on the external firewall.

@@ -4,6 +4,7 @@ modDatetime: 2017-04-05T14:47:04Z
 title: "Extreme Networks - Routing (RIP)"
 tags:
   - "Networking"
+heroImage: "/blog-media/2017/03/extreme.jpg"
 description: "Rather than tagging uplink ports with a load of VLAN's and spanning those VLAN's out to every switch you need them spanned out to. Create a separate VLAN a"
 ---
 Rather than tagging uplink ports with a load of VLAN's and spanning those VLAN's out to every switch you need them spanned out to. Create a separate VLAN and IP Scope on each switch (stack) location. Then use a single VLAN subnet (192.168.254.0/24) for routing between locations.

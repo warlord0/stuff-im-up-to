@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "Make sure you've installed php and the necessary modules before trying to create a new Laravel project."
 ---
 Make sure you've installed php and the necessary modules before trying to create a new Laravel project.

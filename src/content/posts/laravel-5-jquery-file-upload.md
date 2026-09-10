@@ -9,6 +9,7 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/jquery_logo.png"
 description: "I needed a mechanism to upload CSV files to my Laravel instance and then process them into a table. The first part was working out how I wanted to upload t"
 ---
 I needed a mechanism to upload CSV files to my Laravel instance and then process them into a table. The first part was working out how I wanted to upload the files. I came across [`blueimp-file-upload`](https://blueimp.github.io/jQuery-File-Upload/) which seems pretty popular and capable. There was no need to go overly fancy. Just a simple form will do as the file will probably be uploaded as a single file. First I had to figure out how to get blueimp into Laravel. It's a component that only features on one page so no need to install and compile it into my `app.js`. So I opted to let `composer` handle the repository and webpack mix to handle delivery to the project.

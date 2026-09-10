@@ -8,6 +8,7 @@ tags:
   - "nginx"
   - "swarm"
   - "traefik"
+heroImage: "/blog-media/2021/03/traefik_logo.png"
 description: "Traefik is a reverse proxy that is configured directly from your docker configuration."
 ---
 Some time ago I looked at traefik. It looked a really good idea, but for the life of me I couldn't get it working. I gave up and moved on. Now I have another project that this would be suited to, it's time to revisit it. It proved just as tricky as before only this time I wasn't giving up.

@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "vmware"
   - "Windows"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "So far this upgrade seems to frustrating straight out of the box! We already run a VCSA (vCenter Server Appliance) and the process should be to automatical"
 ---
 So far this upgrade seems to frustrating straight out of the box! We already run a VCSA (vCenter Server Appliance) and the process should be to automatically deploy a new VCSA and migrate the data from the old to the new and then power down the old. All from the Windows GUI installer. But it fails to deploy with an unknown error. If you save and view the installer log it becomes abundantly clear what the failure is. The installer is trying to issue a 'date' command at the current VCSA's command line, and fails because it's expecting a BASH shell and instead it is getting the default vCenter shell where the BASH shell is disabled.

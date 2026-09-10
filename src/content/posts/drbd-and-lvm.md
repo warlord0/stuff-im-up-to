@@ -4,6 +4,7 @@ modDatetime: 2020-10-13T20:21:51Z
 title: "DRBD and LVM"
 tags:
   - "Linux"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "To use LVM as a backing store you need to install a locking mechanism and build the volume groups with the --shared option. sudo apt install drbd-utils lvm"
 ---
 To use LVM as a backing store you need to install a locking mechanism and build the volume groups with the `--shared` option.

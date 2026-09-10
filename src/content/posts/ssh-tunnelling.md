@@ -5,6 +5,7 @@ title: "SSH Tunnelling"
 tags:
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Every so often I get caught out by not being able to access a remote server because of my firewall config. Not allowed to remotely access a resource unless"
 ---
 Every so often I get caught out by not being able to access a remote server because of my firewall config. Not allowed to remotely access a resource unless you're from a trusted subnet. So the way round this is use an intermediary that is in a trusted subnet. SSH has a feature that will allow me to pretend a local port on my PC is actually a port on a remote system. It's called tunnelling. As long as I can SSH onto the intermediary and tunnelling is not disabled I can for example pretend that tcp port 2000 on my local machine is actually the tcp port 3389 (remote desktop) on another system.

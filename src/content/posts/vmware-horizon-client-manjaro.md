@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "vmware"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "I've been playing with Manjaro and the package management is way different to Debian. I needed to get some work tools installed and the VMWare Horizon Clie"
 ---
 I've been playing with Manjaro and the package management is way different to Debian. I needed to get some work tools installed and the VMWare Horizon Client is needed for one of our support customers.

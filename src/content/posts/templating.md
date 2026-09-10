@@ -6,6 +6,7 @@ tags:
   - "bash"
   - "Linux"
   - "python"
+heroImage: "/blog-media/2021/01/python.png"
 description: "Quite often I find myself creating files using a template that populates content using the projects .env file. Mostly I find myself using good old bash to"
 ---
 Quite often I find myself creating files using a template that populates content using the projects `.env` file. Mostly I find myself using good old bash to do this for me, but it has some limitations. Today I resorted to [Jinja2](https://jinja2docs.readthedocs.io/en/stable/) which adds a lot more flexibility, but requires python and the Jinja2 module.

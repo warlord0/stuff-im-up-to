@@ -5,6 +5,7 @@ title: "Rant by a Complete Java Noob"
 tags:
   - "java"
   - "Web"
+heroImage: "/blog-media/2017/01/java-logo-png-e1485773197141.png"
 description: "I confess, I'm a complete Java noob. In fact slightly worse than that, I'm a Java hater. In principle it's a great idea, cross platform and all that jazz,"
 ---
 I confess, I'm a complete Java noob. In fact slightly worse than that, I'm a Java hater. In principle it's a great idea, cross platform and all that jazz, but in execution it leaves me frustrated. Seems most vendors I encounter may use Java, but use libraries specific to Windows making it as mobile as Jabba the Hutt. Also vendor installations that require Java seem to only be able to support last years version of Java, not the newest stable, and therefore it has so many vulnerabilities it makes it impossible to pass any kind of security audit. This month I've been trying to buckle down and get stuck in to understand things more. Try to figure out how all of this is strung together and see if anything can be done to satisfy the needs of the application and security.

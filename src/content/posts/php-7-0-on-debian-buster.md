@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.png"
 description: "Actually this is more about any version of php (5.6, 7.0, 7.1, 7.2) on buster. Php source has taken on a bit of a split and the standard repositories only deal with the one supported version for the current release of Debian you are using."
 ---
 Actually this is more about any version of php (5.6, 7.0, 7.1, 7.2) on buster. Php source has taken on a bit of a split and the standard repositories only deal with the one supported version for the current release of Debian you are using.

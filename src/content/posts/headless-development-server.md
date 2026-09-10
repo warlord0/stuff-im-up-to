@@ -5,6 +5,7 @@ title: "Headless Development Server"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2019/07/x-window1.png"
 description: "After building a development environment in Linux as per a previous article - https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-s"
 ---
 After building a development environment in Linux as per a previous article - [https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-server/](https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-server/) I decided I wanted something a bit more portable in terms of development tools.

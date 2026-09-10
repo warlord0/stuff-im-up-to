@@ -4,6 +4,7 @@ title: "Updating ADFS Certificates"
 tags:
   - "certificates"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "This wasn't as easy as I thought it was going to be. I expected just to import the new certificate into the mmc certificate snap in and then set ADFS to use it in the ADFS Management console by choosing \"Set Service Communication Certificate...\". Why would it need to be more difficult than that?"
 ---
 This wasn't as easy as I thought it was going to be. I expected just to import the new certificate into the mmc certificate snap in and then set ADFS to use it in the ADFS Management console by choosing "Set Service Communication Certificate...". Why would it need to be more difficult than that? Turns out it is more difficult than that. I tried a few things to get it going with no success. The service starts up just fine, but the website at https://adfs.domain.tld remains down. I check out event viewer and sure enough we have some pretty useless errors logged when I try to visit it.

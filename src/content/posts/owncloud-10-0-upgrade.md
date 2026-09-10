@@ -8,6 +8,7 @@ tags:
   - "owncloud"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/2000px-owncloud2-logo-svg.png"
 description: "This should have been easier, but I guess I missed a few things I shouldn't have. I took the opportunity to upgrade Owncloud to v10.0 and also upgraded fro"
 ---
 This should have been easier, but I guess I missed a few things I shouldn't have. I took the opportunity to upgrade Owncloud to v10.0 and also upgraded from Debian Jessie to Stretch. As there is no repository for Owncloud stretch I had to manually upgrade. Which is actually quite straight forward. First I removed the repositories that are no longer needed from `/etc/apt/sources.d/` namely `owncloud`, `php7` and `nginx`, as the latter two are now included in Debian stretch. I edited the `mysql` list entry and changed the version from jessie to stretch. Put simply the Owncloud upgrade is download the tar.bz2, rename your current owncloud folder, extract the bz2, copy your old config.php from the old owncloud and run the upgrade process from the owncloud folder as the web user.

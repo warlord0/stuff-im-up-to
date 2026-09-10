@@ -6,6 +6,7 @@ tags:
   - "database"
   - "Linux"
   - "mysql"
+heroImage: "/blog-media/2018/02/mariadb-seal-browntext-svg.png"
 description: "As I've been messing around with Sphinx I discovered that MariaDB actually includes the SphinxSE plugin out of the box. So I figured I'd ditch my MySQL ins"
 ---
 As I've been messing around with Sphinx I discovered that MariaDB actually includes the SphinxSE plugin out of the box. So I figured I'd ditch my MySQL installation on Debian and go back to the default Debian repository version MariaDB.

@@ -4,6 +4,7 @@ title: "Sophos Mobile Control"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2017/01/smc.png"
 description: "When upgrading from v6.1.4 to v7.0.8 I ran aground as it came up with a very bland error message: \"Error! Database update error. Please contact support.\" N"
 ---
 When upgrading from v6.1.4 to v7.0.8 I ran aground as it came up with a very bland error message: "Error! Database update error. Please contact support." Not very helpful. So the next step is to look in the logfiles under the `Sophos Mobile Control\wildfly\standalone\log` called `SMCSVC_install.log` and `install_wizard.log`. These both pointed to an issue connecting to the database because it couldn't find the MySQL driver.

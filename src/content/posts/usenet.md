@@ -6,6 +6,7 @@ tags:
   - "Networking"
   - "Privateer"
   - "usenet"
+heroImage: "/blog-media/2016/09/usenet-logo.jpg"
 description: "Usenet has been around since God was a lad. It's been part of the internet for so very long it predates all the graphical stuff we see today."
 ---
 ## So what's Usenet?

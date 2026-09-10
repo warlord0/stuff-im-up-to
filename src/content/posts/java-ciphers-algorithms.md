@@ -5,6 +5,7 @@ title: "Java Ciphers & Algorithms"
 tags:
   - "Security"
   - "Web"
+heroImage: "/blog-media/2017/01/java-logo-png-e1485773197141.png"
 description: "I've tasked myself with getting one of our most used vendor apps up to compliance with our security audits. It's not as easy as I'd hoped. Especially seein"
 ---
 I've tasked myself with getting one of our most used vendor apps up to compliance with our security audits. It's not as easy as I'd hoped. Especially seeing as I seem to have run beyond the encryption export limitations Java distribute. One of the products uses JDBC to connect to a Microsoft SQL server which is hardened and only supports a limited set of high grade encryption ciphers. This caused me to see connection failures with exception messages such as "failed to generate DH keypair" and "RSA premaster secret error". Then I discovered the Bouncy Castle. As Java security providers seem to have limitations in regard to key sizes I had to add another security provider that is documented here: [https://docs.oracle.com/cd/E29585_01/PlatformServices.61x/security/src/tsec_ssl_bouncy_castle.html](https://docs.oracle.com/cd/E29585_01/PlatformServices.61x/security/src/tsec_ssl_bouncy_castle.html) In order to enable this feature I added the “BouncyCastle” JCE by:

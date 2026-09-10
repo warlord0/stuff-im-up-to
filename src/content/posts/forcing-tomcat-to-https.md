@@ -5,6 +5,7 @@ tags:
   - "apache"
   - "tomcat"
   - "Web"
+heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.png"
 description: "As our environment needs change more and more of our internal services are being forced to change to HTTPS. Tomcat supports the deployment of services usin"
 ---
 As our environment needs change more and more of our internal services are being forced to change to HTTPS. Tomcat supports the deployment of services using HTTPS, but many of our vendors have taken the easy route and just use HTTP on the standard port 8080. This is now going to become a bit of a hurdle as we now need to advise clients of the change to HTTPS and the port change involved. Securing Tomcat with valid certificates is the start of the journey and adding a connector using HTTPS is the first step. Then we need to make calls to the non-secure HTTP site redirect over to the HTTPS version. In the Tomcat `conf/server.xml` file we're specifying that a need for a secure connection requires redirection to another service. On the connector this is in the form:

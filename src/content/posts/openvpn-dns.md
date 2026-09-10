@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Networking"
   - "openvpn"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
 description: "Using OpenDNS on a Linux system that uses resolv.conf requires that the OpenVPN script is able to update the DNS servers sent by the remote dhcp options. T"
 ---
 Using OpenDNS on a Linux system that uses resolv.conf requires that the OpenVPN script is able to update the DNS servers sent by the remote dhcp options. To do this you must amend your OpenVPN config file to include the following lines.

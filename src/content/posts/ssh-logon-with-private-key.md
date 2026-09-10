@@ -5,6 +5,7 @@ title: "SSH Logon with Private Key"
 tags:
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "There are a number of ways to configure authentication in Linux, you can even use Windows credentials. But generally, for SSH, I find it easier to just use"
 ---
 There are a number of ways to configure authentication in Linux, you can even use Windows credentials. But generally, for SSH, I find it easier to just use a private key that is trusted on all my servers. This way I only need to know the password to use the key, and not the password for the account on the server. The process involves owning a private key on your own client system. That can be a Linux system or Windows and putty. Anything that can use the private key can logon to the Linux server without knowing the servers password. You can use puttygen on windows to create a private key, but generally I tend to use a Linux system for this. However you do it, you need to be able to copy the public part of the key and put it into the `~/.ssh/authorized_keys` file.

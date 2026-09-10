@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "pipewire"
   - "Windows"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up with a presentation of three black screens to share, and"
 ---
 The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up with a presentation of three black screens to share, and no one gets to see the full screen. I also noticed some missing applications for sharing a window.

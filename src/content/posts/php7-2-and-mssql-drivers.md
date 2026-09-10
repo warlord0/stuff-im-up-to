@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "mssql"
   - "php"
+heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.png"
 description: "I upgraded to PHP v7.2 on my Debian Buster/Sid today. Not a problem until I realised I'd broken my Microsoft SQL Drivers."
 ---
 I upgraded to PHP v7.2 on my Debian Buster/Sid today. Not a problem until I realised I'd broken my Microsoft SQL Drivers. The real reason for my update from v7.0 to v7.2 was down to a problem I suffered with some Laravel console commands I was working on. When I ran a CLI based command `php artisan group:command`, which is a command I'm writing that uses a model from an MSSQL server. It would come up with an error message:

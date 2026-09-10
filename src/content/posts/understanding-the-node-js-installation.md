@@ -5,6 +5,7 @@ title: "Understanding the Node.js Installation"
 tags:
   - "JavaScript"
   - "node.js"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
 description: "I'm still a little new to this Node.js stuff and it took me a which for how it is installed to come together in my head. After carrying out the install I w"
 ---
 I'm still a little new to this Node.js stuff and it took me a which for how it is installed to come together in my head. After carrying out the install I was confused with reading the install routines needed for various modules I wanted to make use of. I'd come across:

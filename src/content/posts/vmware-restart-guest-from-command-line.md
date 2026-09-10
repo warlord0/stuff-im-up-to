@@ -5,6 +5,7 @@ title: "VMWare Restart Guest from Command Line"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "We don't have to do this so often. So when we do I always forget the syntax. Login as root on the host of the guest OS. Find the numeric VMID of the guest"
 ---
 We don't have to do this so often. So when we do I always forget the syntax. Login as root on the host of the guest OS. Find the numeric VMID of the guest and issue a power off/on command.

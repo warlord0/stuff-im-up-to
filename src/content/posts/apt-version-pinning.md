@@ -6,6 +6,7 @@ tags:
   - "JavaScript"
   - "Linux"
   - "node.js"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
 description: "Today after running some apt upgrades my Laravel development environment failed to compile because of a newer version of nodejs than I currently require. M"
 ---
 Today after running some apt upgrades my Laravel development environment failed to compile because of a newer version of nodejs than I currently require.

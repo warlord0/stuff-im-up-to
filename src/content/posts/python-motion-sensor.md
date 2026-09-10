@@ -5,6 +5,7 @@ title: "Python Motion Sensor"
 tags:
   - "electronics"
   - "python"
+heroImage: "/blog-media/2021/01/python.png"
 description: "I wanted to add a motion sensor into a Python project that would activate a display to show the temperature only when someone was nearby. The AM312/HC-SR31"
 ---
 I wanted to add a motion sensor into a Python project that would activate a display to show the temperature only when someone was nearby.

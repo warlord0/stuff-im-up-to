@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "openvpn"
   - "vpn"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "I'm using a vpn based on OpenVPN and when I try to fire up a docker-compose set of containers it fails with: ERROR: could not find an available, non-overla"
 ---
 I'm using a vpn based on OpenVPN and when I try to fire up a docker-compose set of containers it fails with:

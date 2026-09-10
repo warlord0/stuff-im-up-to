@@ -7,6 +7,7 @@ tags:
   - "exim4"
   - "Linux"
   - "smtp"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Where possible I try to get mail systems setup so that they can be verified as true senders by the recipient by using SPF and DKIM. Seems a shame that few"
 ---
 Where possible I try to get mail systems setup so that they can be verified as true senders by the recipient by using SPF and DKIM. Seems a shame that few mail systems actually seem to do this as it would trim a lot of spam from the net. Having moved to another server I needed to move the mail sender with it. This particular system only needs to send email out as there is another system that receives mail for this domain. So All I need do is install an SMTP service and make sure it signs it's messages with the same private key as I previously used, so it matches the public key that is published in DNS. Previously the system used Postfix and OpenDKIM, but as this needs to be a barebones simple system I figured I'd stick with Debian's default mailer Exim4. Turns out this was a good choice as it has DKIM built in. After building the server I was surprised to find out that it actually had no mail service installed at all! I've almost always encountered Exim on a new install and replaced it with Postfix and Dovecot. So first thing I need to do is install Exim4.

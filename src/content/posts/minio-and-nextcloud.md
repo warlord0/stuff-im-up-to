@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "nextcloud"
   - "s3"
+heroImage: "/blog-media/2021/05/minio_logo.png"
 description: "As a follower of Open Source it's time to look at a storage platform that offers an S3 service like Amazon. Minio offers us a storage platform that we can"
 ---
 As a follower of Open Source it's time to look at a storage platform that offers an S3 service like Amazon. [Minio](https://min.io) offers us a storage platform that we can use in house and reduce our exposure to relying on the cloud giants for storing our data.

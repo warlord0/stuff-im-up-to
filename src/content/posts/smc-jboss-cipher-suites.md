@@ -4,6 +4,7 @@ title: "SMC & JBoss Cipher Suites"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2017/01/smc.png"
 description: "Disabling weak cipher suites in Sophos Mobile Control"
 ---
 Disabling weak cipher suites in Sophos Mobile Control Edit `Sophos Mobile Control\proxy\config.xml` Remove any 128bit cipher from the list that ends with SHA eg.

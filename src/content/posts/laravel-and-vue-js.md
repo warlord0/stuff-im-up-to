@@ -5,6 +5,7 @@ title: "Laravel and Vue.js"
 tags:
   - "Laravel"
   - "Web"
+heroImage: "/blog-media/2022/05/inertia.png"
 description: "I tried to pick up where I left off with my Laravel skills. I began with some vuejs pages and wrote the api to feed the data to them using axios. It took m"
 ---
 I tried to pick up where I left off with my Laravel skills. I began with some vuejs pages and wrote the api to feed the data to them using axios. It took me a while to get an authenticated version of the api's working. I added in bearer authentication using tokens, as I used to - then realised my single page experience wasn't so great.

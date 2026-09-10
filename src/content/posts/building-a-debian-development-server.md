@@ -9,6 +9,7 @@ tags:
   - "node.js"
   - "php"
   - "Web"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "When I setup a development system there are a few steps I follow to get everything working together. The aim is to get everything installed to provide php"
 ---
 When I setup a development system there are a few steps I follow to get everything working together.

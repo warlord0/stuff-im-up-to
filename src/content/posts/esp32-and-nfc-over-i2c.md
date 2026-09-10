@@ -6,6 +6,7 @@ tags:
   - "arduino"
   - "electronics"
   - "Uncategorized"
+heroImage: "/blog-media/2021/10/arduino.png"
 description: "I've been tasked with an electronics project to scan NFC/RFID devices. Electronics is very new to me. I can handle the bit where I know what I want to buil"
 ---
 I've been tasked with an electronics project to scan NFC/RFID devices. Electronics is very new to me. I can handle the bit where I know what I want to build, and the probably coding to program things, but knowing what resistors, capacitors sizes or LED's is all new to me.

@@ -5,6 +5,7 @@ tags:
   - "Docker"
   - "ldap"
   - "Linux"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "The LDAP instance in our environment is pretty ancient and has served well for many, many years. But there's one key feature we'd like to see added to our"
 ---
 The LDAP instance in our environment is pretty ancient and has served well for many, many years. But there's one key feature we'd like to see added to our schema - memberOf.

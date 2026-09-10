@@ -7,6 +7,7 @@ tags:
   - "Web"
   - "webpack"
   - "Windows"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "Using HMR in Chrome on Linux is faultless, but on Windows HMR fails to start in the browser. Looking at the entries in the bowsers script tags they seem a"
 ---
 Using [HMR](https://warlord0blog.wordpress.com/2018/07/20/laravel-5-5-and-hot-module-reload/) in Chrome on Linux is faultless, but on Windows HMR fails to start in the browser.

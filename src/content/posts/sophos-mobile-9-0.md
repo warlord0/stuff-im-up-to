@@ -3,6 +3,7 @@ pubDatetime: 2019-02-28T16:03:37Z
 title: "Sophos Mobile 9.0"
 tags:
   - "Windows"
+heroImage: "/blog-media/2017/04/sophos_logo-svg.png"
 description: "Today saw me upgrading our Sophos Mobile Control v8 server. Mandatory Upgrade Notice: Sophos Mobile 9.0 Dear Customer, Please be advised that, effective Ap"
 ---
 Today saw me upgrading our Sophos Mobile Control v8 server.

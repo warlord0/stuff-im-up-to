@@ -5,6 +5,7 @@ title: "Firefox Certificates"
 tags:
   - "certificates"
   - "Linux"
+heroImage: "/blog-media/2020/02/firefox_top.png"
 description: "Now with added Chromium! Fun and games with Nginx and client authentication certificates means we need to deploy certificates to the user for them to trust"
 ---
 > Now with added Chromium!

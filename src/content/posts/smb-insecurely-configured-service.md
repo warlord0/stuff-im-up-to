@@ -5,6 +5,7 @@ title: "SMB Insecurely Configured Service"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/10/nessus-logo-e1475580279964.png"
 description: "For the first time today I ran into Nessus plugin ID 44676. It highlighted an \"insecurely configured Windows service\". This related to a Service Discretion"
 ---
 For the first time today I ran into Nessus plugin ID 44676. It highlighted an "insecurely configured Windows service". This related to a Service Discretionary Access Control List (DACL), which is a whole bag of new to me. The guidance shows how you can use the command line to show the DACL for the service it reported the issue with.

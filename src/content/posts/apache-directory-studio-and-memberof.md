@@ -5,6 +5,7 @@ tags:
   - "ldap"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2020/06/openldap.png"
 description: "Life got easier after I found this in Apache Directory Studio - edit your connection go to the \"Browser Options\" tab and tick the Features option at the bo"
 ---
 Life got easier after I found this in Apache Directory Studio - edit your connection go to the "Browser Options" tab and tick the Features option at the bottom for "Fetch operational attributes whilst browsing".

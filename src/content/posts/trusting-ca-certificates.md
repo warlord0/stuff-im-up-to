@@ -6,6 +6,7 @@ tags:
   - "certificates"
   - "Linux"
   - "ssl"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "This is something that catches me out regularly. Adding our CA certificate onto a Linux server. Just so it can trust the interactions of LDAP over a secure channel. It's pretty straightforward to do but bites me almost every time. The secret seems to be make sure you CA certificate is in PEM format and named with a .crt extension. A .pem or .cer extensions just doesn't cut it."
 ---
 This is something that catches me out regularly. Adding our CA certificate onto a Linux server. Just so it can trust the interactions of the LDAP over a secure channel. It's pretty straightforward to do but bites me almost every time. The secret seems to be make sure your CA certificate is in PEM format and named with a .crt extension. A .pem or .cer extension just doesn't cut it. Copy your certificate into the /usr/share/local/ca-certificates folder and update the CA certificates:

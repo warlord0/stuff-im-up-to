@@ -7,6 +7,7 @@ tags:
   - "nessus"
   - "Security"
   - "Web"
+heroImage: "/blog-media/2016/10/nessus-logo-e1475580279964.png"
 description: "If you're using Apache 2.4 then there is a config TraceEnable directive that you should use to simply turn off the TRACE method."
 ---
 Googling for how to close the vulnerability for the TRACE method on Apache 2.4 results in lots of responses that just use a rewrite rule to respond with a permission denied message.  Even the Nessus plugin output lists the rewrite fix. Nessus doesn't use this for it's scans, it carries out a HTTP call for OPTIONS and relies on the server telling it what methods are available.

@@ -5,6 +5,7 @@ title: "Ansible and Linux Mint"
 tags:
   - "ansible"
   - "Linux"
+heroImage: "/blog-media/2020/02/ansible800.png"
 description: "When running an Ansible playbook on a Linux Mint host I found that the variable distribution_release returned the Mint code name of ulyssa . This isn't ver"
 ---
 When running an Ansible playbook on a Linux Mint host I found that the variable `distribution_release` returned the Mint code name of `ulyssa`. This isn't very helpful with adding things like hte docker repository as that needs the underlying Ubuntu codename.

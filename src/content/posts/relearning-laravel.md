@@ -7,6 +7,7 @@ tags:
   - "vue.js"
   - "Web"
   - "webpack"
+heroImage: "/blog-media/2019/08/laravel-2019-logo-1.png"
 description: "I feel like the past few days have been quite a battle. Mostly in terms of my memory and trying to remember what I did with Laravel and how I can re-establ"
 ---
 I feel like the past few days have been quite a battle. Mostly in terms of my memory and trying to remember what I did with Laravel and how I can re-establish a functional development system for it.

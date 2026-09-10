@@ -5,6 +5,7 @@ title: "acme.sh"
 tags:
   - "certificates"
   - "Linux"
+heroImage: "/blog-media/2021/01/ssl.png"
 description: "We've been using certbot and Let's Encrypt for years. But we have some legacy systems hidden in the bowels and darkest corners or our data centre that are"
 ---
 We've been using certbot and Let's Encrypt for years. But we have some legacy systems hidden in the bowels and darkest corners or our data centre that are no longer supported by certbot. Certbot uses python, on some creaky old systems we just can't upgrade them to continue using certbot. This is where [acme.sh](https://github.com/acmesh-official/acme.sh) comes in.

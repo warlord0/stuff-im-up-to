@@ -5,6 +5,7 @@ tags:
   - "Linux"
   - "Security"
   - "ssh"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "I fall over this every so often. I have the private key file but would either have to trawl servers for authorized_keys files to get the public password or"
 ---
 I fall over this every so often. I have the private key file but would either have to trawl servers for authorized_keys files to get the public password or remember how to obtain the public key from the private key.

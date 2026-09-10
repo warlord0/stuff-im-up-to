@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Privateer"
   - "raspberry pi"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "Probably the best way to get Raspbian up and running over Wifi is to use an out of the box supported Wifi adapter. But as things move on faster Wifi become"
 ---
 Probably the best way to get Raspbian up and running over Wifi is to use an out of the box supported Wifi adapter. But as things move on faster Wifi becomes available and not all of the USB adapters are ready to play. One that I bought recently was one with a **Realtek 8192eu chipset**. This is supposed to deliver 300Mbps Wifi, but comes at the price of not being natively supported by Raspbian. I could go install the build essentials and try to compile the driver myself. But that seems like a lot of work. So a little digging around and I found it's pretty straight forward to get going and it's not a problem unique to me. Someone else has already created the necessary drivers all I need to do is install them. Finding the answers on the Raspberry Pi forums here: [https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=103989](https://www.raspberrypi.org/forums/viewtopic.php?f=45&t=103989) leads to a bit of reading to figure out how to do this. But it really is very straight forward thanks to MrEngMan. Heres the details of the USB adapter that Raspbian reports:

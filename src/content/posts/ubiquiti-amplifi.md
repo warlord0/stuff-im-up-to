@@ -5,6 +5,7 @@ title: "Ubiquiti Amplifi"
 tags:
   - "Networking"
   - "Privateer"
+heroImage: "/blog-media/2019/03/20190313_162853_hdr-1.jpg"
 description: "Bye, bye Asus RT66U you served me well. Until all of a sudden the connection speeds on my 802.11ac would fluctuate wildly between 3Mbps and 150Mbps when pr"
 ---
 Bye, bye [Asus RT66U](https://www.asus.com/uk/Networking/RTAC66U/) you served me well. Until all of a sudden the connection speeds on my 802.11ac would fluctuate wildly between 3Mbps and 150Mbps when previously I was seeing rock solid 877Mbps. If I switched to 802.11n I'd be stable at 216Mbps, but who wants that when I previously had more than three times that?

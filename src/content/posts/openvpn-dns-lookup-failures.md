@@ -6,6 +6,7 @@ tags:
   - "Networking"
   - "openvpn"
   - "Windows"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
 description: "I've noticed that occasionally my OpenVPN connection fails to resolve host names for systems at the other end of the tunnel. If I check the DHCP settings I can see I am being pushed the DNS servers for the remote end, but nslookup fails to use them."
 ---
 I've noticed that occasionally my OpenVPN connection fails to resolve host names for systems at the other end of the tunnel. If I check the DHCP settings I can see I am being pushed the DNS servers for the remote end, but nslookup fails to use them. This is to do with the binding order. In previous version of Windows you could adjust the binding order, but on Windows 10 this option has been removed. To ensure your OpenVPN Interface appears before your other adapters you need to use some PowerShell to change the InterfaceMetric. The lower the number the higher the priority. View the current interface metrics:

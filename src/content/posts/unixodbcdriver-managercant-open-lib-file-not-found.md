@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "mssql"
   - "php"
+heroImage: "/blog-media/2016/10/mssql_logo.png"
 description: "I have no idea how we came up against this issue on one of the development images. I'd prepared it all up to the point of delivering php. After following m"
 ---
 I have no idea how we came up against this issue on one of the development images. I'd prepared it all up to the point of delivering php. After following my instructions to install the MS SQL drivers everything looked to go well, but when serving up our Laravel project in artisan PHP came up with this error message.

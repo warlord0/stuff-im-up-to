@@ -8,6 +8,7 @@ tags:
   - "Linux"
   - "smtp"
   - "Windows"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "This was a cause for smashing my head against the wall today. I configured Exim4 with LDAP auth and tested it with Thunderbird and a couple of Mac clients"
 ---
 This was a cause for smashing my head against the wall today.

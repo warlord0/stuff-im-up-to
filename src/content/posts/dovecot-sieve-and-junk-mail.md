@@ -6,6 +6,7 @@ tags:
   - "dovecot"
   - "imap"
   - "Linux"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "This is a useful addition to Dovecot and will pass messages marked as spam directly into a Junk mail folder. Trouble is when you're working with the Outloo"
 ---
 This is a useful addition to Dovecot and will pass messages marked as spam directly into a Junk mail folder. Trouble is when you're working with the Outlook IMAP client it structures folders a little differently. So in order to put it into the correct folder a few changes to the Dovecot namespace is required. Specifically MS uses a dot in the folder name eg. ".Junk E-mail" and ".Trash" So to cater for this here's the changes made to activate dovecot-sieve and the mailbox folder names. Changes in **/etc/dovecot/conf.d/15-mailbox.conf**

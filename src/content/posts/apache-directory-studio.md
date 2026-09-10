@@ -5,6 +5,7 @@ title: "Apache Directory Studio"
 tags:
   - "ldap"
   - "Linux"
+heroImage: "/blog-media/2021/01/apachedirectorystudio.png"
 description: "After upgrading Directory Studio - which is a simple case of extracting the tar.gz file into the location you want the executable eg. $ cd /usr/bin $ sudo"
 ---
 After upgrading Directory Studio - which is a simple case of extracting the tar.gz file into the location you want the executable eg.

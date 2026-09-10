@@ -5,6 +5,7 @@ title: "Thunderbird Appearance"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2021/05/thunderbird.png"
 description: "I've seen a few user complain that Thunderbird isn't exactly pretty as a mail client, especially those coming from Outlook. There's a few addons you can us"
 ---
 I've seen a few user complain that Thunderbird isn't exactly pretty as a mail client, especially those coming from Outlook. There's a few addons you can use to really change that.

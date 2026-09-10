@@ -7,6 +7,7 @@ tags:
   - "ssl"
   - "Web"
   - "Windows"
+heroImage: "/blog-media/2017/09/asf_logo.png"
 description: "In order to make Apache 2.4.27 compliant it needs the later version of OpenSSL v1.1.0. To get this you need to install the VC15 version. The VC11 etc. do not include the later OpenSSL and fail because they are compiled with v1.0.2"
 ---
 In order to make Apache 2.4.27 compliant it needs the later version of OpenSSL v1.1.0. To get this you need to install the VC15 version. The VC11 etc. do not include the later OpenSSL and fail because they are compiled with v1.0.2

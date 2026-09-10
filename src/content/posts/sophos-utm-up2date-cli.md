@@ -6,6 +6,7 @@ tags:
   - "firewall"
   - "Linux"
   - "Networking"
+heroImage: "/blog-media/2017/04/sophos_logo-svg.png"
 description: "After buying some replacement UTM430's to replace the UTM525's the new 430's came in with some ancient firmware. As I've not got them plugged into the netw"
 ---
 After buying some replacement UTM430's to replace the UTM525's the new 430's came in with some ancient firmware. As I've not got them plugged into the network right now I want to get them up to the same firmware as the current 525's. In our case the shipped firmware was 9.311 and the current 525's was 9.411. There's quite a few updates between those releases! Download the updates from: [ftp://ftp.astaro.com/pub/UTM/v9/up2date/](ftp://ftp.astaro.com/pub/UTM/v9/up2date/) We had to select to download individual files painstakingly version by version, there are some that can be skipped and these become obvious as you look at the files in the ftp folder. Look for the filename that matches your current version and find the highest version it will upgrade to. The file names are in the format:

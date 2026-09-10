@@ -7,6 +7,7 @@ tags:
   - "ejabberd"
   - "Linux"
   - "xmpp"
+heroImage: "/blog-media/2021/01/ejabberd1.png"
 description: "When running the ejabberd docker image in my container set I ran into a problem where I hit the rate limiter on Let's Encrypt. This meant I could switch to"
 ---
 When running the ejabberd docker image in my container set I ran into a problem where I hit the rate limiter on Let's Encrypt. This meant I could switch to the staging ACME, which would mean untrusted CA certificate errors, or use a previously issued certificate set until my blockage was cleared.

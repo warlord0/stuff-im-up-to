@@ -9,6 +9,7 @@ tags:
   - "jquery"
   - "Laravel"
   - "Security"
+heroImage: "/blog-media/2016/09/jquery_logo.png"
 description: "Laravel has a nice built in feature to prevent Cross Site Request Forgeries. In each form you simply drop in a {{ csrf_field() }} and you end up with an _t"
 ---
 Laravel has a nice built in feature to prevent Cross Site Request Forgeries. In each form you simply drop in a {{ csrf_field() }} and you end up with an \_token field that Laravel sniffs out on each submission. If it doesn't match the sent token the submission fails. I was trying to use JQuery and retrieve data and faced the problem that my token never matches as my \$.ajax() command was not sending it. There's more than one way to skin a cat. You need to get the \_token parameter into the \$.ajax() request. You can either use blade to write it into your JavaScript, fetch it using a JQuery selector or probably the easiest way make it part of the \$.ajax() call by default.

@@ -3,6 +3,7 @@ pubDatetime: 2020-11-09T08:17:36Z
 title: "Bash Script Template"
 tags:
   - "Linux"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "As I find myself writing a few scripts these days I thought I'd sate the template I use to build with. It includes parameter collection. https://gist.githu"
 ---
 As I find myself writing a few scripts these days I thought I'd sate the template I use to build with. It includes parameter collection.

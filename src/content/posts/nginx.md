@@ -5,6 +5,7 @@ title: "NGINX"
 tags:
   - "Linux"
   - "nginx"
+heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.png"
 description: "Absolutely my favourite web server. Small footprint and very fast to get running. First add the repositories to your Debian sources by creating the file /e"
 ---
 Absolutely my favourite web server. Small footprint and very fast to get running. First add the repositories to your Debian sources by creating the file /etc/apt/sources.list.d/nginx.list

@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "postgresql"
   - "Windows"
+heroImage: "/blog-media/2018/02/best-postgresql-hosting.png"
 description: "Our GIS team use a PostgreSQL server with PostGIS. They recently asked if there was any way we could display some data in a simple web form for our users."
 ---
 Our GIS team use a PostgreSQL server with PostGIS. They recently asked if there was any way we could display some data in a simple web form for our users. So a bit of development work was required. I didn't want to code against their live system so thought I'd install a local version of PostGIS and copy the data from their database. The database they wanted to access has 28 million rows - so it's going to take a while. The actual process was pretty straight forward. On my Debian Linux host Installing PostGIS installs PostgreSQL automatically as a dependency.

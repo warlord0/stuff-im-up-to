@@ -6,6 +6,7 @@ tags:
   - "nps"
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Four hours of swearing at servers, kicking switches and rebooting printers and terminals and all because of a Windows Update. Our entire network uses 802.1"
 ---
 Four hours of swearing at servers, kicking switches and rebooting printers and terminals and all because of a Windows Update. Our entire network uses 802.1X authentication with certificates and this morning I arrived in the office to find all the Teradici terminals and network printers were failing to authenticate properly. We hadn't changed anything in the NPS policies so has a certificate expired? The errors in the event logs were constant

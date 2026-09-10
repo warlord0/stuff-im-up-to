@@ -4,6 +4,7 @@ title: "AWS RDS PostgreSQL Passwords"
 tags:
   - "Linux"
   - "postgresql"
+heroImage: "/blog-media/2022/03/aws_logo.png"
 description: "Working on a customer's AWS database instance, I found they didn't have all the passwords. I could get onto administer to AWS RDS database and instance, bu"
 ---
 Working on a customer's AWS database instance, I found they didn't have all the passwords.

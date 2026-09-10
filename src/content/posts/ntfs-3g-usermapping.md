@@ -5,6 +5,7 @@ title: "ntfs-3g UserMapping"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2017/12/2000px-windows_10_logo-svg.png"
 description: "Never done dual boot partitioned a Windows and Linux system before and to be fair never really ever want to again. The idea is good in principle but if you"
 ---
 Never done dual boot partitioned a Windows and Linux system before and to be fair never really ever want to again. The idea is good in principle but if you want to share a common data drive between the two you are going to have to get your hands dirty with sharing permissions between Linux and Windows.

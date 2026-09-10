@@ -4,6 +4,7 @@ modDatetime: 2021-08-17T15:18:28Z
 title: "Icinga2"
 tags:
   - "Linux"
+heroImage: "/blog-media/2020/06/icinga2_logo.png"
 description: "Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Icinga. I've had no ex"
 ---
 Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Icinga. I've had no exposure to it at all - until now.

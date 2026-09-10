@@ -6,6 +6,7 @@ tags:
   - "nginx"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "That's a morning of smashing my face on the desk again. I deployed my dev program onto a production system and then started crying as it stopped working as"
 ---
 That's a morning of smashing my face on the desk again. I deployed my dev program onto a production system and then started crying as it stopped working as it should. It seemed that none of my query string parameters were making it through to the controller. I called up some debugging and dumped out my `$request` and `$request->all()` etc. and discovered that the parameters although shown in the browser dev window went AWOL between server and controller. On my dev environment it all acted as it should. So there must be something different. PHP v7.2 on dev and v7.0 or production maybe? No, much simpler than that. None of the Laracasts and Laravel related Googling pulled up any particular clues. It wasn't until I looked at Nginx and parameters not being passed to PHP that I got a hit.

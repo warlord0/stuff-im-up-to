@@ -6,6 +6,7 @@ tags:
   - "Docker"
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "Following on from Filesystem Synchronisation where a Docker container was setup to handle receiving files over rsync+ssh this handles the sending client si"
 ---
 Following on from [Filesystem Synchronisation](https://warlord0blog.wordpress.com/2020/01/28/filesystem-synchronisation/) where a Docker container was setup to handle receiving files over `rsync+ssh` this handles the sending client side that monitors and sends changed files over to the server using `lsyncd`.

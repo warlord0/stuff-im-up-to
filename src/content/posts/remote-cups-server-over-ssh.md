@@ -7,6 +7,7 @@ tags:
   - "cups"
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Hosting a customer's web service for ERP systems means the hosted system has limited options of sending printable material to the end user. Usually it invo"
 ---
 Hosting a customer's web service for ERP systems means the hosted system has limited options of sending printable material to the end user. Usually it involves printing a web page from the browser, or having the server convert the document to a PDF that the user then downloads and is able to print locally.

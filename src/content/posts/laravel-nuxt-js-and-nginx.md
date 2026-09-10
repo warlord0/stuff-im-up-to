@@ -7,6 +7,7 @@ tags:
   - "nginx"
   - "nuxt.js"
   - "Web"
+heroImage: "/blog-media/2019/10/nuxtjs_logo.png"
 description: "Whilst experimenting with Nuxt.js (A Vue.js framework) as a front end client for Laravel I discovered I was going to face some issues with CORS, certificat"
 ---
 Whilst experimenting with [Nuxt.js](https://nuxtjs.org/) (A Vue.js framework) as a front end client for Laravel I discovered I was going to face some issues with CORS, certificates for HTTPS and the whole serving the client over port 3000 and the API over port 80 thing.

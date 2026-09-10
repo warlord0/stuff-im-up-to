@@ -6,6 +6,7 @@ tags:
   - "java"
   - "ldap"
   - "Networking"
+heroImage: "/blog-media/2021/01/apachedirectorystudio.png"
 description: "I've never had a comfortable relationship with Java. Every time something goes a bit wrong in something that uses Java, I spend hours and even days trying"
 ---
 I've never had a comfortable relationship with Java. Every time something goes a bit wrong in something that uses Java, I spend hours and even days trying to figure out why the wheels have come off.

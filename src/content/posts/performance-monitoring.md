@@ -7,6 +7,7 @@ tags:
   - "grafana"
   - "influxdb"
   - "Linux"
+heroImage: "/blog-media/2020/09/grafana-2.png"
 description: "With glances on Linux we are able to get a good overview of performance, including the dockers that are running. Rather than simply watch this on screen we"
 ---
 With glances on Linux we are able to get a good overview of performance, including the dockers that are running. Rather than simply watch this on screen we can port the data into an InfluxDB (time-series database) and produce nice graphs from current and historic data.

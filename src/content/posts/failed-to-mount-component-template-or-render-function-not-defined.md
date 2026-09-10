@@ -7,6 +7,7 @@ tags:
   - "Laravel"
   - "vue.js"
   - "Web"
+heroImage: "/blog-media/2018/07/vue1.png"
 description: "Today I have been mostly smashing my head on the desk trying to figure out Laravel and Vue.js. I thought I'd try to template an existing Laravel 5.5 projec"
 ---
 Today I have been mostly smashing my head on the desk trying to figure out Laravel and Vue.js. I thought I'd try to template an existing Laravel 5.5 project using Vue.js. Try as I might I could not get the template to work. I even stuck with the default `example-component` trying to get that to work . All I saw was an error reported in the console.

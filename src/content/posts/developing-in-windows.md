@@ -3,6 +3,7 @@ pubDatetime: 2019-09-25T18:39:38Z
 title: "Developing in Windows"
 tags:
   - "Windows"
+heroImage: "/blog-media/2019/09/laragon_logo1.png"
 description: "Surely not! Whoever would want to develop software using Windows? Well over the past week or so I've been taking a look at how things would look if I were"
 ---
 Surely not! Whoever would want to develop software using Windows?

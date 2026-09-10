@@ -6,6 +6,7 @@ tags:
   - "JavaScript"
   - "Laravel"
   - "Web"
+heroImage: "/blog-media/2018/07/feature_thumb_snip20170830_46.png"
 description: "The past few days have been rather eventful trying to get JavaScript Web Tokens (JWT) to authenticate my Laravel, Vue.js environment. As per my previous po"
 ---
 The past few days have been rather eventful trying to get JavaScript Web Tokens (JWT) to authenticate my Laravel, Vue.js environment.

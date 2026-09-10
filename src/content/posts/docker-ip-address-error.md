@@ -5,6 +5,7 @@ title: "Docker IP Address Error"
 tags:
   - "Docker"
   - "Linux"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "ERROR: could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network We have a staging environment that runs a"
 ---
 > ERROR: could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network

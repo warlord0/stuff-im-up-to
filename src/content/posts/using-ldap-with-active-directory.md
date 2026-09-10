@@ -9,6 +9,7 @@ tags:
   - "Networking"
   - "Security"
   - "ssl"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Getting your Linux box to talk with Active Directory is pretty straight forward. But doing it securely will need you to have installed your CA certificate"
 ---
 Getting your Linux box to talk with Active Directory is pretty straight forward. But doing it securely will need you to have installed your CA certificate into your trusted certificates. Mostly I'll only setup anything to do with LDAP/Active Directory is a specific application requires it, otherwise I'll leave out the Windows authentication bit. I generally don't use LDAP/AD for the SSH PAM type logons and will configure LDAP when a web server or the like uses it, eg. php5-ldap is required.

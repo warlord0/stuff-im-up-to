@@ -5,6 +5,7 @@ title: "PHP Frameworks & Dependencies"
 tags:
   - "composer"
   - "php"
+heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.png"
 description: "I'm not new to PHP and have used it quite often, but what I've not really used are frameworks. There are plenty of them out there all capable of different"
 ---
 I'm not new to PHP and have used it quite often, but what I've not really used are frameworks. There are plenty of them out there all capable of different things, but all able to save a whole heap of time when it comes to developing something more than a simple script. The one I've tended to favour is '[Laravel](https://laravel.com/)'. It's pretty fully featured and fairly straight forward, but there is a lot to learn. But what it did do for me was introduce me to [composer.phar](https://getcomposer.org/) and then on to [Packagist](https://packagist.org/). The Getting Started page for composer pretty much explains what it's all about

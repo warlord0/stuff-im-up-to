@@ -6,6 +6,7 @@ tags:
   - "email"
   - "Linux"
   - "spamassassin"
+heroImage: "/blog-media/2022/02/spamassassin_logo-2.png"
 description: "Spam Assassin is the good old go to for filtering emails, but I wanted to upgrade our existing system and add into it the ability for users to send their r"
 ---
 Spam Assassin is the good old go to for filtering emails, but I wanted to upgrade our existing system and add into it the ability for users to send their received spam to add to the learning.

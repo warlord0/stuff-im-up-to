@@ -7,6 +7,7 @@ tags:
   - "JavaScript"
   - "node.js"
   - "Privateer"
+heroImage: "/blog-media/2016/11/screenshot-from-2016-11-29-083649.png"
 description: "Many years ago in a galaxy far, far away I developed an application to manage and read my comic books. I developed it in a Windows environment and used C#"
 ---
 Many years ago in a galaxy far, far away I developed an application to manage and read my comic books. I developed it in a Windows environment and used C# Dot Net to build it. It worked just great and I still use it today. It's actually one of the things I use that prevents me from going full Linux on my home desktop. So I decided I'd see if I could remedy that by replacing it with a cross platform solution using [Electron](http://electron.atom.io). If nothing else it would provide me with an opportunity to learn how to use Electron & Node.js It's an interesting experience learning something new. Something that has so many differences to approaches I've used before. Generally processing power and threading have never really been an issue. With Electron things become quite different when you move into a product that uses a single thread per process. Everything seems to rely on 'callbacks'. You start an asynchronous process and then specify the callback to use, whilst carrying on with the process you're currently in. Then waiting for the callback to be called - before you get any value from the function you called.

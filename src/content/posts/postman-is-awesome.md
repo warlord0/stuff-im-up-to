@@ -5,6 +5,7 @@ title: "Postman is Awesome"
 tags:
   - "api"
   - "Web"
+heroImage: "/blog-media/2018/08/postman.png"
 description: "I'm in the process of testing and documenting my API's and up until yesterday I'd only used postman to test my responses gave me something back. But it's capable of so much more!"
 ---
 I'm in the process of testing and documenting my API's and up until yesterday I'd only used postman to test my responses gave me something back. But it's capable of so much more! I can use it to generate the documentation for each call I make, publish it online and share it with colleagues. But I can also use it to carry out unit tests on my API calls. Which is awesome. Then I find I can use globals and environment variables to migrate my tests and documentation between development and production systems... which is even more awesome.

@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "pam"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "After upgrading the LDAP server so we could make use of some new features like olc and in particular memberOf I ran into a major issue. Where many programs"
 ---
 After upgrading the LDAP server so we could make use of some new features like olc and in particular `memberOf` I ran into a major issue.

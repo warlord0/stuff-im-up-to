@@ -7,6 +7,7 @@ tags:
   - "JavaScript"
   - "node.js"
   - "Web"
+heroImage: "/blog-media/2016/11/capture1.png"
 description: "I'm not sure I've ever felt more out of my depth than getting involved with Electron and Node.js. It's just opened up a can of worms! Just trying to get my"
 ---
 I'm not sure I've ever felt more out of my depth than getting involved with Electron and Node.js. It's just opened up a can of worms! Just trying to get my head around Node.js lead me into the world of [Gulp.js](http://gulpjs.com/). The more I move forward the more I seem to find there's another layer waiting to be exposed. It's actually quite daunting.

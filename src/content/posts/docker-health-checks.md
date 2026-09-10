@@ -5,6 +5,7 @@ title: "Docker Health Checks"
 tags:
   - "Docker"
   - "Linux"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "When wanting to monitor the condition of your containers using Nagios there are some really nice features you can enable to check that your containers are"
 ---
 When wanting to monitor the condition of your containers using Nagios there are some really nice features you can enable to check that your containers are up, not abusing the cpu etc. But wouldn't it be nice to check out what's going on inside the container too?

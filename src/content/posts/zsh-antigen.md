@@ -5,6 +5,7 @@ title: "zsh antigen"
 tags:
   - "bash"
   - "Linux"
+heroImage: "/blog-media/2021/03/zsh_logo-1.png"
 description: "Manage zsh the intelligent way. Install curl -L git.io/antigen > ~/antigen.zsh Configure ~/.zshrc source ~/antigen.zsh # Load the oh-my-zsh's library. anti"
 ---
 Manage zsh the intelligent way.

@@ -8,6 +8,7 @@ tags:
   - "ldap"
   - "Linux"
   - "postfix"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Well turns out that setting this up isn't really as straight forward as simply treating Active Directory like LDAP. The main reason seems to be the way you need to authenticate and the limitations of doing any kind of user lookup whilst using auth_bind = yes, just doesn't seem possible."
 ---
 Well turns out that setting this up isn't really as straight forward as simply treating Active Directory like LDAP. The main reason seems to be the way you need to authenticate and the limitations of doing any kind of user lookup whilst using auth_bind = yes, just doesn't seem possible. In order to resolve this is you have to live with having Dovecot use a static userdb table that returns the gid, uid and home - but then when you try to sort Postfix so that it delivers using Dovecot it fails because it cant use a static userdb to work out if the user account/mailbox exists or not. So a little acceptance of that fact initially seem upsetting, but then when you get down to it anything that uses the smtpd for delivery is going to be checked for a valid mailbox anyhow. So using mailx locally might deliver mail to a mysteriously non-existant mailbox, create the folder etc. but anything using smtp can be controlled so it's only a local issue. Not one I'm going to over concern myself with as all incoming mail will be from trusted sources with strong identification and smtpd will do the lookup required.

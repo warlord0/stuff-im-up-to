@@ -8,6 +8,7 @@ tags:
   - "php"
   - "Web"
   - "Windows"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "Related to my previous post about Laravel. Guzzle and Nginx I ran into an issue with our proxy. The proxy is always a source of fun and games. Because the"
 ---
 Related to my previous post about [Laravel. Guzzle and Nginx](https://warlord0blog.wordpress.com/2019/08/07/laravel-guzzle-and-nginx/) I ran into an issue with our proxy. The proxy is always a source of fun and games.

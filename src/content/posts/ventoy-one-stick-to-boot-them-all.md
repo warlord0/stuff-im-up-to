@@ -5,6 +5,7 @@ title: "Ventoy - One Stick to Boot them All"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2023/01/ventoy.jpg"
 description: "I regularly end up writing a bootable USB to start a different version of Linux or different distro. Then I came across Ventoy . Once a USB stick is instal"
 ---
 I regularly end up writing a bootable USB to start a different version of Linux or different distro. Then I came across [Ventoy](https://www.ventoy.net/en/index.html).

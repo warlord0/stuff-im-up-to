@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "mysql"
   - "Security"
+heroImage: "/blog-media/2016/09/mysql-logo.jpg"
 description: "My local install of mysql-community-server decided to fail today after applying some updates. I'm running Debian buster/sid so these kind of things are to be expected. But this was a totally new one to me."
 ---
 My local install of mysql-community-server decided to fail today after applying some updates. I'm running Debian buster/sid so these kind of things are to be expected. But this was a totally new one to me. Mysql failed to start so the update wouldn't install.

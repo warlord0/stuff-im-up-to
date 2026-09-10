@@ -6,6 +6,7 @@ tags:
   - "horizon"
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "In order to install the client on Debian 9 (stretch) I've had to get libpng12-0 installed from Jessie here: https://packages.debian.org/en/jessie/amd64/lib"
 ---
 In order to install the client on Debian 9 (stretch) I've had to get libpng12-0 installed from Jessie here: [https://packages.debian.org/en/jessie/amd64/libpng12-0/download](https://packages.debian.org/en/jessie/amd64/libpng12-0/download) Then had to create symbolic link for `libffi.so.5` to the newer version that's installed.

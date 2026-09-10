@@ -9,6 +9,7 @@ tags:
   - "Security"
   - "vpn"
   - "wireguard"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "https://engineerworkshop.com/2020/02/20/how-to-set-up-wireguard-on-a-raspberry-pi/"
 ---
 https://engineerworkshop.com/2020/02/20/how-to-set-up-wireguard-on-a-raspberry-pi/

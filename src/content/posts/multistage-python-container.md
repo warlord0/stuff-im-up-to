@@ -5,6 +5,7 @@ title: "Multistage Python Container"
 tags:
   - "Docker"
   - "python"
+heroImage: "/blog-media/2021/01/python.png"
 description: "When building a python container, I ended up with a huge 450MB image just because I needed it to have psycopg2 . Time to chop it down using a multistage bu"
 ---
 When building a python container, I ended up with a huge 450MB image just because I needed it to have [`psycopg2`](https://www.psycopg.org). Time to chop it down using a multistage build. This technique can be applied to any python module that needs building, too.

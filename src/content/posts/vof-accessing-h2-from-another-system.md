@@ -4,6 +4,7 @@ modDatetime: 2018-08-31T13:03:20Z
 title: "VOF - Accessing H2 from Another System"
 tags:
   - "Linux"
+heroImage: "/blog-media/2018/08/lagan_logo.png"
 description: "Following on from Verint Online Forms using H2 seems pretty straight forward locally. It fires up a web server and you can manage the H2 database straight"
 ---
 Following on from [Verint Online Forms](https://warlord0blog.wordpress.com/2018/08/30/verint-online-forms/) using H2 seems pretty straight forward locally. It fires up a web server and you can manage the H2 database straight from there. You need the VOF database details you put into `Config.sh` then you can start connecting to it from within the browser. eg.

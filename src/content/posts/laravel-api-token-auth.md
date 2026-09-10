@@ -8,6 +8,7 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "The newer versions of Laravel support OAuth for token auth, but I wanted to carry on using something simple. Just a token stored in the user table and some"
 ---
 The newer versions of Laravel support OAuth for token auth, but I wanted to carry on using something simple. Just a token stored in the `user` table and something that can be passed when calling an api from within my own application. This article had the workings for me: [https://andrew.cool/blog/64/How-to-use-API-tokens-for-authentication-in-Laravel-5-2](https://andrew.cool/blog/64/How-to-use-API-tokens-for-authentication-in-Laravel-5-2) In simple terms out of the box Laravel is already configured to use token auth for api calls. All we need do is add the column `api_token` to the user table and give users a unique token. Then they can pass that token into an api call either by adding it to the query string, the form values or an authorisation header. eg.

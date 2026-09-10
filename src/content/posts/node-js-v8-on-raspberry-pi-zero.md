@@ -8,6 +8,7 @@ tags:
   - "node.js"
   - "Privateer"
   - "raspberry pi"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
 description: "With Raspbian on my Zero I only get Node v4 in the repository. So How do I get a newer version of Node.js? If I follow the standard Node instruction for in"
 ---
 With Raspbian on my Zero I only get Node v4 in the repository. So How do I get a newer version of Node.js? If I follow the standard Node instruction for installing from a repository I get:

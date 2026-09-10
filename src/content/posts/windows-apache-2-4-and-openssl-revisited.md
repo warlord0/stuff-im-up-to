@@ -5,6 +5,7 @@ tags:
   - "apache"
   - "Web"
   - "Windows"
+heroImage: "/blog-media/2017/09/asf_logo.png"
 description: "Following on from Windows, Apache 2.4 and OpenSSL our vulnerability scanner has picked up that although the version of Apache httpd 2.4.39 has not vulnerab"
 ---
 Following on from [Windows, Apache 2.4 and OpenSSL](https://warlord0blog.wordpress.com/2017/09/22/windows-apache-2-4-and-openssl/) our vulnerability scanner has picked up that although the version of Apache httpd 2.4.39 has not vulnerabilities, the included version of OpenSSL 1.1.1b needs to be upgraded to 1.1.1c.

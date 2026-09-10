@@ -7,6 +7,7 @@ tags:
   - "ldap"
   - "Linux"
   - "sssd"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "All our remote users are using LDAP cached credentials using SSSD. This works really well for users that transition online to offline, with one failing. Wh"
 ---
 All our remote users are using LDAP cached credentials using SSSD. This works really well for users that transition online to offline, with one failing. When they attempt to use `sudo` to elevate permissions to carry out a privileged operation.

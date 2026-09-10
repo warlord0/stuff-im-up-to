@@ -5,6 +5,7 @@ tags:
   - "certificates"
   - "Web"
   - "Windows"
+heroImage: "/blog-media/2017/11/papercut-mf-logo-large.png"
 description: "Time to replace the PaperCut web server certificate. So pleased I ran into Keystore Explorer previously as this made changing the web server certificate a breeze."
 ---
 Time to replace the PaperCut web server certificate. So pleased I ran into Keystore Explorer previously as this made changing the web server certificate a breeze. Put simply you create a new keystore file, in the `Program Files\PaperCut MF\server\custom` folder, and import your certificate that you obtain from your internal CA. We did this using MMC and the Certificate snap-in on the print server. Then export the certificate with private key to a `.pfx` file. Then just import the `.pfx` into the new keystore in Keystore Explorer. Edit the `server.properties` file in `Program Files\PaperCut MF\server` and add the relevant keystore and password details.:

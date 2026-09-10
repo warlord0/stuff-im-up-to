@@ -7,6 +7,7 @@ tags:
   - "otp"
   - "Security"
   - "ssh"
+heroImage: "/blog-media/2020/05/freeotp.png"
 description: "I made a bit of a fool of myself suggesting that we add a free means of securing our external SSH gateway by using Google Authenticator. My boss simply tur"
 ---
 I made a bit of a fool of myself suggesting that we add a free means of securing our external SSH gateway by using Google Authenticator. My boss simply turned around and said

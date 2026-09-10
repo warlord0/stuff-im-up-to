@@ -6,6 +6,7 @@ tags:
   - "horizon"
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "As part of our patching process we applied security patches to one of the vSphere ESXi servers. All seemed to go well until we tried to compose systems ont"
 ---
 As part of our patching process we applied security patches to one of the vSphere ESXi servers. All seemed to go well until we tried to compose systems onto it. We ended up with VDI clients being added to the server, but they'd never start up. Clearly this was something to do with the patches that were applied. Checking the log bundle we produced it was certainly an SSL related issue. Those damned certificates again! Well not quite. Reading through the vmware-vdicomposer.log I picked up on a few of these messages:

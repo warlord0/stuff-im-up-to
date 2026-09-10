@@ -4,6 +4,7 @@ modDatetime: 2021-07-30T16:54:17Z
 title: "Cloning with GParted"
 tags:
   - "Linux"
+heroImage: "/blog-media/2021/07/gparted.png"
 description: "I've not had to do this before, but today I needed to replace my SSD with a bigger SSD and would really like not to have to reinstall from scratch. GParted"
 ---
 I've not had to do this before, but today I needed to replace my SSD with a bigger SSD and would really like not to have to reinstall from scratch. GParted to the rescue.

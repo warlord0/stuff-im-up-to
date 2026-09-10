@@ -9,6 +9,7 @@ tags:
   - "Privateer"
   - "raspberry pi"
   - "Web"
+heroImage: "/blog-media/2018/07/scorpion400.png"
 description: "A friend setup his home systems to turn on his PC using Amazon Alexa and tasker to trigger a Raspberry Pi to operate a relay and effectively activate the p"
 ---
 A friend setup his home systems to turn on his PC using Amazon Alexa and tasker to trigger a Raspberry Pi to operate a relay and effectively activate the power button.

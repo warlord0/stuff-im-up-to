@@ -5,6 +5,7 @@ title: "PacketFence Join Domain"
 tags:
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2016/09/packetfence-e1474622253514.png"
 description: "This has caused me a lot of frustration this morning. The new version of PacketFence doesn't like the externally configured domain configuration that I was forced to use when I first set things up."
 ---
 This has caused me a lot of frustration this morning. The new version of PacketFence (v6.4) doesn't like the externally configured domain configuration that I was forced to use when I first set things up. I couldn't get packetfence to join the domain so I editted the configuration files so it was already joined to the domain. This isn't how 6.4 works and you then have to run a script to migrate the external settings into the packetfence database configuration. The script it tells you to run is `/usr/local/pf/addons/AD/migrate.pl` but try as I might this wouldn't work for me. Firstly it's not set as executeable, so I had to call it using:

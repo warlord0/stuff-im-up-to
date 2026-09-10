@@ -5,6 +5,7 @@ tags:
   - "Laravel"
   - "Web"
   - "xhr"
+heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "When using Laravel it adds in some helpful headers to handle axios requests internally. But when it comes to sending requests externally you end up sending"
 ---
 When using Laravel it adds in some helpful headers to handle axios requests internally. But when it comes to sending requests externally you end up sending them the common headers added by Laravel and any plugins you may have added. This typically includes the `X-CSRF-TOKEN` which your site uses to prevent [Cross Site Request Forgery](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)). But you don't really want to send that out to external axios calls and in fact I've struggled as the sites I was using axios with returned a browser error because of it not being listed in their allowed headers:

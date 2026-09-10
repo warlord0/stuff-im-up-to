@@ -6,6 +6,7 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "That was a frustrating few hours. I added a route into my api.php route and every time I visited it it triggered a redirect. I saw nothing in the browser and it was like my controller function wasn't even being called."
 ---
 That was a frustrating few hours. I added a route into my `api.php` route and every time I visited it it triggered a redirect. I saw nothing in the browser and it was like my controller function wasn't even being called.

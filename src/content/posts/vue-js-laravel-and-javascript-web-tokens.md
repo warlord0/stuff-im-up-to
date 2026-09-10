@@ -7,6 +7,7 @@ tags:
   - "Laravel"
   - "vue.js"
   - "Web"
+heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "When you have a Vue.js powered app authentication using traditional logon pages isn't going to work."
 ---
 When you have a Vue.js powered app authentication using traditional logon pages isn't going to work. This is because primarily the apps interaction with the server is using Ajax calls with axios. So now we need to use JSON Web Tokens (JWT) to handle the authentication and store a client side session authentication token. This article is very useful for this: [https://codeburst.io/api-authentication-in-laravel-vue-spa-using-jwt-auth-d8251b3632e0](https://codeburst.io/api-authentication-in-laravel-vue-spa-using-jwt-auth-d8251b3632e0) It didn't cover all of the aspects in my case as I'm using Laravel 5.5. So some of the changes I needed to make were in regard to that. In particular I had to switch to using the development branch of the `jwt-auth` project as linked in the article taking you here: [https://github.com/tymondesigns/jwt-auth/issues/1298](https://github.com/tymondesigns/jwt-auth/issues/1298) In the header of the AuthController needed to include:

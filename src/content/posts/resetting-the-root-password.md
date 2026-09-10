@@ -5,6 +5,7 @@ title: "Resetting the Root Password"
 tags:
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "I had to go through an exercise of accessing a number of a clients servers and reset the root password. They didn't have it documented anywhere and couldn'"
 ---
 I had to go through an exercise of accessing a number of a clients servers and reset the root password. They didn't have it documented anywhere and couldn't access any of the systems at all.

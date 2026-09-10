@@ -5,6 +5,7 @@ title: "VSCode CRLF vs LF Battle"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg.png"
 description: "I'm a Linux guy. I like my line feeds a simple LF. but when developing cross platform and you hit Windows and face CRLF. It can be a real linting challenge"
 ---
 I'm a Linux guy. I like my line feeds a simple LF. but when developing cross platform and you hit Windows and face CRLF. It can be a real linting challenge.

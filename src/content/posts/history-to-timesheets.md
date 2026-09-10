@@ -4,6 +4,7 @@ modDatetime: 2020-07-29T18:42:04Z
 title: "History to Timesheets"
 tags:
   - "Linux"
+heroImage: "/blog-media/2020/02/tux-1.png"
 description: "I'm not great at remembering what I did so I can include it on my time logger. I found I could trawl through my zsh history file to get an idea of what I'd"
 ---
 I'm not great at remembering what I did so I can include it on my time logger. I found I could trawl through my zsh history file to get an idea of what I'd been up to and use it as a memory jogger to go back in time and update my timesheet.

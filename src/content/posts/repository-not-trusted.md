@@ -4,6 +4,7 @@ title: "Repository Not Trusted"
 tags:
   - "debian"
   - "Linux"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "On a Wheezy box I saw this but was able to continue by answering yes to ignore the authentication warning. WARNING: The following packages cannot be authen"
 ---
 On a Wheezy box I saw this but was able to continue by answering yes to ignore the authentication warning.

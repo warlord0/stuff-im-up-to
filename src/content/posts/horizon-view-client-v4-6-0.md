@@ -6,6 +6,7 @@ tags:
   - "horizon"
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "I decided to upgrade my VMware Horizon View client today. It still has the same kind of issues as detailed here: https://warlord0blog.wordpress.com/2016/10"
 ---
 I decided to upgrade my VMware Horizon View client today. It still has the same kind of issues as detailed here: [https://warlord0blog.wordpress.com/2016/10/21/vmware-horizon-client-for-linux/](https://warlord0blog.wordpress.com/2016/10/21/vmware-horizon-client-for-linux/) This time around my problems were with libgstreamer components. Even though I ensured they were installed the libraries were a different version that required by the client. Specifically required:

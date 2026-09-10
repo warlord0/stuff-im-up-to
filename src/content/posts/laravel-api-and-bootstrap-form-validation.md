@@ -8,6 +8,7 @@ tags:
   - "JavaScript"
   - "Laravel"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "This caused me some grief today. I spent the day adding validation rules into my Laravel resource controller and rather foolishly set HTML5 validation para"
 ---
 This caused me some grief today. I spent the day adding validation rules into my Laravel resource controller and rather foolishly set HTML5 validation parameters on my Vue.js / Bootstrap 4 form component.

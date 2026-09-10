@@ -5,6 +5,7 @@ title: "JQuery Selectors"
 tags:
   - "JavaScript"
   - "jquery"
+heroImage: "/blog-media/2016/09/jquery_logo.png"
 description: "JQuery certainly saves a lot of hassle when it comes to writing JavaScript. On a recent project I've been struggling to get my head around some selectors t"
 ---
 JQuery certainly saves a lot of hassle when it comes to writing JavaScript. On a recent project I've been struggling to get my head around some selectors to try and grab the elements I need. Along the way I found there's a lot of power in the selector and I managed to get just what I needed. I have a lot of form elements all with very common id's I didn't want to put id after id into the selector and found you could use a regular expression type of selector. I wanted to select all text inputs with an id beginning with 'am' or 'pm'. My solution:

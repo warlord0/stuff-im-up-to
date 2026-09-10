@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "raspberry pi"
   - "Web"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "With the temperature the past few weeks I thought I'd setup a means of monitoring it to trigger alerts in Grafana or Incinga2 by using a Raspberry Pi to co"
 ---
 With the temperature the past few weeks I thought I'd setup a means of monitoring it to trigger alerts in Grafana or Incinga2 by using a Raspberry Pi to collect the data.

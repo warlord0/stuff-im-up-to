@@ -6,6 +6,7 @@ tags:
   - "JavaScript"
   - "node.js"
   - "proxy"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
 description: "Whilst trying to deploy a Node.js script to one of our windows servers I realised that NPM wasn't downloading the necessary components because it wasn't ev"
 ---
 Whilst trying to deploy a Node.js script to one of our windows servers I realised that NPM wasn't downloading the necessary components because it wasn't even trying to use the corporate proxy server. It's a Windows server so I checked the proxy settings

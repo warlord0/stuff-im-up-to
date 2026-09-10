@@ -5,6 +5,7 @@ title: "Hardening Windows"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "When it comes to Microsoft Windows straight out of the box it's full of security weaknesses. These are a number of ways to harden it so that your vulnerabi"
 ---
 When it comes to Microsoft Windows straight out of the box it's full of security weaknesses. These are a number of ways to harden it so that your vulnerability scans pass with nothing more than information messages. The list grows with each discovery of a new vulnerability. This list was last updated **2 March 2017**.

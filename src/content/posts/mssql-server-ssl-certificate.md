@@ -7,6 +7,7 @@ tags:
   - "mssql"
   - "ssl"
   - "Windows"
+heroImage: "/blog-media/2016/10/mssql_logo.png"
 description: "Having updated the CA certificate it's time to start rolling out the new SHA-256 algorithm to the other Windows servers. Group Policy (GPO) takes care of t"
 ---
 Having updated the CA certificate it's time to start rolling out the new SHA-256 algorithm to the other Windows servers. Group Policy (GPO) takes care of the new CA certificate distribution and the clients and servers are getting that in their Trusted Root stores automatically. But the servers have a range of certificate expiry dates and won't  expire for some time. So to satisfy the vulnerability scan results we're having to update each server as we get to them. This means visiting each server running MMC, adding in the Certificate Snap-in for the Local Computer and then renewing the certificate(s). Once that's done it's a case of telling the applications to use the new certificate. Typically this means choosing the certificate in the Terminal Services Session Host management console, setting IIS to use the new certificate and updating SQL so that uses the new certificate too. Changing/setting SQL certificates can be a bit of a frustration. The best tip is if you Google look for the instructions that deal with an SQL cluster and making a registry change. Although it's about a cluster it's still the same process. In order to get SQL to use a certificate you need to:

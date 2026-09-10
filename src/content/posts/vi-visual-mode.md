@@ -5,6 +5,7 @@ title: "vi - Visual Mode"
 tags:
   - "debian"
   - "Linux"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "I'm sure when using a mouse in a text terminal the visual mode of vi/vim is useful, but I can never figure it out. In fact it prevents me from copying from"
 ---
 I'm sure when using a mouse in a text terminal the visual mode of vi/vim is useful, but I can never figure it out. In fact it prevents me from copying from a vi terminal in a window. To temporarily disable mouse visual mode in a window, so you can copy your text it's as simple as hold the `SHIFT` key down whilst selecting text with your mouse. Or you can disable it in that vi session by typing `:set mouse-=a` To permanently disable visual mode in your session create or add the following to your `~/.vimrc` file

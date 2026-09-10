@@ -5,6 +5,7 @@ tags:
   - "java"
   - "tomcat"
   - "Web"
+heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.png"
 description: "log4j:WARN The content of element type \"log4j:configuration\" must match \"(renderer*,throwableRenderer?,appender*,plugin*,(category|logger)*,root?,(categoryFactory|loggerFactory)?)\"."
 ---
 As I've been spending a lot of time with Tomcat these days I've tried to clear out the stderr log of error messages. One of the frustrating warnings I had to deal with was this:

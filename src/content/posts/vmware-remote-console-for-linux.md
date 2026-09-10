@@ -5,6 +5,7 @@ title: "VMware Remote Console for Linux"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "This has frustrated me for as long as I can remember. How do I manage our VMware vSphere estate when the tools provided don't work reliably on Linux? First"
 ---
 This has frustrated me for as long as I can remember. How do I manage our VMware vSphere estate when the tools provided don't work reliably on Linux? First there was the vCenter problem using Flash Player. Thank fully they release v6.5 which has a new HTML5 based interface - no more Flash Player!

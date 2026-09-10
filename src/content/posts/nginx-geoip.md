@@ -5,6 +5,7 @@ tags:
   - "Docker"
   - "Linux"
   - "nginx"
+heroImage: "/blog-media/2021/02/nginx_logo.png"
 description: "With the plus version of Nginx you get access to the compiled version of geoip2 plugin. This means you can use it out of the box just add it into the confi"
 ---
 With the plus version of Nginx you get access to the compiled version of [geoip2](https://docs.nginx.com/nginx/admin-guide/dynamic-modules/geoip2/) plugin. This means you can use it out of the box just add it into the config and away you go. For the rest of us mortals we have to build and compile it ourselves.

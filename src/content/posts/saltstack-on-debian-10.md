@@ -5,6 +5,7 @@ title: "Saltstack on Debian 10"
 tags:
   - "Linux"
   - "saltstack"
+heroImage: "/blog-media/2020/01/saltstack.png"
 description: "Following the installation guide caused a few quirks and failures on my Debian 10 install. There are a few missing packages and the bootstrap version of th"
 ---
 Following the [installation guide](https://repo.saltstack.com/#debian) caused a few quirks and failures on my Debian 10 install. There are a few missing packages and the bootstrap version of the install puts in an incorrect repository. I had to follow the specific installation guidance for Debian 10, after I'd added in the missing packages.

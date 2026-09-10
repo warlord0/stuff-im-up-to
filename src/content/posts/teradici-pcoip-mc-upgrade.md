@@ -4,6 +4,7 @@ modDatetime: 2017-03-01T09:00:58Z
 title: "Teradici PCOIP MC Upgrade"
 tags:
   - "Linux"
+heroImage: "/blog-media/2017/02/teradici-pcoip-logo.png"
 description: "Following the upgrade of the Management Console I noticed that none of the terminals were actually connecting to the Management Console."
 ---
 Following the upgrade of the Management Console I noticed that none of the terminals were actually connecting to the Management Console. They connected through our 802.1x onto the production VLAN, but if you look in the console - none of them are reporting back. So I picked one at random that I found that was online (even though the management console says it is, it might not be). I logged into the terminals web GUI and looked at the Management config.

@@ -6,6 +6,7 @@ tags:
   - "debian"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "I've kicked this around a few times and resigned myself to just using the non-DFS path to attach to. But we've recently changed some of the servers around"
 ---
 I've kicked this around a few times and resigned myself to just using the non-DFS path to attach to. But we've recently changed some of the servers around and the paths have changed - obviously the DFS paths haven't. So I thought I'd have a go at fixing the problem. SMB is obviously working as I can connect to the share using the traditional path `//servername/sharename`. But when trying to use the DFS version `//domain.local/shares/sharename` it would fail to find the share. This post provided the answer to my problems: [http://mattslay.com/connecting-ubuntu-to-windows-shares-and-dfs-trees/](http://mattslay.com/connecting-ubuntu-to-windows-shares-and-dfs-trees/) I added `wins` into my `/etc/nsswitch.conf`:

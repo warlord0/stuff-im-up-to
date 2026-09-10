@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "Security"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "I caused myself a few hours of frustration today. I installed a new instance of Manjaro today, and it applied some Lynis security suggestions that I didn't"
 ---
 I caused myself a few hours of frustration today. I installed a new instance of Manjaro today, and it applied some Lynis security suggestions that I didn't fully realise the impact of.

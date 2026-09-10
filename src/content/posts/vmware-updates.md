@@ -5,6 +5,7 @@ title: "VMWare Updates"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "As we're running the VSCA appliance we can't use the GUI Update Manager plug-in as that only works with Windows, despite VMWare being very Linux based. So,"
 ---
 As we're running the VSCA appliance we can't use the GUI Update Manager plug-in as that only works with Windows, despite VMWare being very Linux based. So, for us, keeping the hosts up to date is a manual process from the command line. Download the latest VMWare updates from the support site. [https://my.vmware.com/group/vmware/patch#search](https://my.vmware.com/group/vmware/patch#search) Then stick them onto a volume that all the hosts have access to. For big infrequent storage we use a Synology NAS and an NFS share that is mounted on all servers. Make sure SSH is enabled on the host you want to update, under Manage, Settings, Security Profile in VCSA. Migrate all of your running hosts off to another and put it into maintenance mode. The non-running will get migrated by maintenance mode.

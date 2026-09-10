@@ -7,6 +7,7 @@ tags:
   - "electronics"
   - "esp32"
   - "esp8266"
+heroImage: "/blog-media/2021/10/esp8266-12e-pinout-13.jpg"
 description: "Using either the ESP32 or ESP8266 there are a few things I've learned that I should make note of: GPIO n != D n When looking for the pin numbers to wire to"
 ---
 Using either the ESP32 or ESP8266 there are a few things I've learned that I should make note of:

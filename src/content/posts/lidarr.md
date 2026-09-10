@@ -6,6 +6,7 @@ tags:
   - "Docker"
   - "Linux"
   - "Privateer"
+heroImage: "/blog-media/2018/05/lidarr.png"
 description: "Since trying out Headphones a few years ago I got frustrated with it in the first hour and ditched it and went back to manually downloading music. That was"
 ---
 Since trying out Headphones a few years ago I got frustrated with it in the first hour and ditched it and went back to manually downloading music. That was until I got pointed to Lidarr. Lidarr is either a fork of, or certainly based on the excellent Sonarr project for downloading TV series.  Lidarr applies the same methodology and familiar interface to download music. It's still early days so there's no build for my Synology NAS yet. But it does have a Docker image. I downloaded and installed it. During which time it was a bit of a learning curve as I've never used Docker, so there were a few quirks along the way.

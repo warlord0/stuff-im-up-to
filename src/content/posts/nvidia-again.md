@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "nvidia"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "Yep, whilst applying some updates to Manjaro, my screen goes blank and the system dies. This time the updates are with 5.17, and it forced me to reboot and"
 ---
 Yep, whilst applying some updates to Manjaro, my screen goes blank and the system dies.

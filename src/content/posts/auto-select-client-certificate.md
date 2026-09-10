@@ -5,6 +5,7 @@ title: "Auto Select Client Certificate"
 tags:
   - "certificates"
   - "Web"
+heroImage: "/blog-media/2020/02/chromium.png"
 description: "When you visit a site requiring a client certificate you'll be presented with a dialog to select a certificate to use. This is awkward in a kiosk scenario"
 ---
 When you visit a site requiring a client certificate you'll be presented with a dialog to select a certificate to use. This is awkward in a kiosk scenario where a user may not be present to select the certificate or can't select the certificate because it is on a second screen.

@@ -5,6 +5,7 @@ tags:
   - "certificates"
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2016/10/nessus-logo-e1475580279964.png"
 description: "It's that time again. Scanning for vulnerabilities means keeping certificates up to date. After updating our CA certificate to SHA-256 and KSP we now need"
 ---
 It's that time again. Scanning for vulnerabilities means keeping certificates up to date. After updating our CA certificate to SHA-256 and KSP we now need to tell Nessus to trust the new certificate. So after doing the obvious and adding it to the Linux server trusted CA certificates the scan still failed to trust the new certificate. This is because Nessus uses it's own certificate repository. It's a simple text file /opt/nessus/lib/nessus/plugins/custom_CA.inc To add the new cert just `cat` it into it.

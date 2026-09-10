@@ -5,6 +5,7 @@ tags:
   - "JavaScript"
   - "vue.js"
   - "Web"
+heroImage: "/blog-media/2019/02/arcgis.jpg"
 description: "Over the past few weeks I've entered into the world of spacial systems and mapping. We have a couple of members of staff who look after our GIS (Geographic"
 ---
 Over the past few weeks I've entered into the world of spacial systems and mapping. We have a couple of members of staff who look after our GIS (Geographic Information Systems) that plot all kinds of spacial data onto maps for properties, water courses, streets, etc. The data they produce is used widely through many of our services, but now we're starting to provide more interactive online mapping for the public.

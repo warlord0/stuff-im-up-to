@@ -7,6 +7,7 @@ tags:
   - "horizon"
   - "vmware"
   - "Windows"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "Updating certificates on the Windows hosts for Connection and Security Servers. Import the signed SSL server certificate into the Windows local computer ce"
 ---
 ## Updating certificates on the Windows hosts for Connection and Security Servers.

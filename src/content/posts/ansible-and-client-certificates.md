@@ -5,6 +5,7 @@ tags:
   - "ansible"
   - "certificates"
   - "Linux"
+heroImage: "/blog-media/2020/02/ansible800.png"
 description: "Now we know how to inject client certificates into Firefox and Chrome it's time to automate that process with Ansible. The goal is to take a client and CA"
 ---
 Now we know how to [inject client certificates into Firefox and Chrome](https://warlord0blog.wordpress.com/2020/02/05/firefox-certificates/) it's time to automate that process with Ansible.

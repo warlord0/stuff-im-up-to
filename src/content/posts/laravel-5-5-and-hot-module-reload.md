@@ -8,6 +8,7 @@ tags:
   - "Linux"
   - "node.js"
   - "Web"
+heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "Using Hot Module Reload (HMR) with Laravel"
 ---
 Revisiting a previous post  about [vue-cli 3 and hmr](https://warlord0blog.wordpress.com/2018/07/18/vue-cli-3-and-hmr/) I tried to get HMR going in a similar fashion through Laravel-mix.

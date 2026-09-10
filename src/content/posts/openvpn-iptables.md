@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "Networking"
   - "openvpn"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
 description: "Some time ago I setup an OpenVPN server so we could securely logon to IT systems from outside the network. This worked really well until I rebooted it the"
 ---
 Some time ago I setup an OpenVPN server so we could securely logon to IT systems from outside the network. This worked really well until I rebooted it the other day. Then I discovered I could still successfully connect to the OpenVPN server, but I couldn't route any traffic to internal hosts. Turns out I'd forgotten to make my iptables firewall rules persistent. When the server starts up it starts up with an empty set of firewall rules, so anyone can pretty much get to any open port. This in itself is not a big deal as the local firewall isn't the only firewall in front of our system on the internet. But iptables doesn't just block ports, it also handles the forwarding of packets between the tunnel interface and the internal interface. So no rules, means no forwarding. There are a couple of ways to handle iptables persistence, the way I chose is to use the interface pre-up and post-down scripts. First save your iptables rules:

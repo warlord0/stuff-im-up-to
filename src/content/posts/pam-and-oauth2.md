@@ -7,6 +7,7 @@ tags:
   - "oauth2"
   - "Security"
   - "single-sign-on"
+heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "We're looking for a way to get our remote users authenticating with the office systems whilst they are on the road, or in these troubled times working from"
 ---
 We're looking for a way to get our remote users authenticating with the office systems whilst they are on the road, or in these troubled times working from home.

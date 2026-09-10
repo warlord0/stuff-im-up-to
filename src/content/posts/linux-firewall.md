@@ -7,6 +7,7 @@ tags:
   - "iptables"
   - "Linux"
   - "Security"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Arno is a manager for the iptables firewall. It's pretty easy to setup and configure for the straightforward rules you need. Install it using eth0 as your"
 ---
 Arno is a manager for the iptables firewall. It's pretty easy to setup and configure for the straightforward rules you need. Install it using eth0 as your external interface if you only have one NIC

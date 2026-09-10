@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "qemu"
   - "Virtualisation"
+heroImage: "/blog-media/2020/01/pc-bios_qemu_logo.png"
 description: "Setting up an open source virtualization solution is pretty straight forward. You just need to ensure you include all the components. This should drag in a"
 ---
 Setting up an open source virtualization solution is pretty straight forward. You just need to ensure you include all the components. This should drag in all the dependencies:

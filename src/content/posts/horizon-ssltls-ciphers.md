@@ -7,6 +7,7 @@ tags:
   - "ssl"
   - "vmware"
   - "Windows"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "After running an SSL scan on our external facing Horizon Security Server, using Qualys' SSLTest and receiving an A- rating, I wanted to fix that by getting"
 ---
 After running an SSL scan on our external facing Horizon Security Server, using [Qualys' SSLTest](https://www.ssllabs.com/ssltest/) and receiving an A- rating, I wanted to fix that by getting at least an A. But in order to do that I needed to understand what was required to get it to an A. The problem I faced was that I was being marked down for not supporting Perfect Forward Secrecy (PFS).

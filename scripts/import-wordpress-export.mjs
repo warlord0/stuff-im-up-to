@@ -65,6 +65,16 @@ const cdata = v => {
 
 const asArray = v => (v == null ? [] : Array.isArray(v) ? v : [v]);
 
+// --- Build attachment id -> url map (for featured images) ---
+const attachmentUrlById = new Map();
+for (const it of items) {
+  if (it["wp:post_type"] === "attachment") {
+    const id = it["wp:post_id"];
+    const url = it["wp:attachment_url"];
+    if (id != null && url) attachmentUrlById.set(String(id), String(url));
+  }
+}
+
 const decodeEntities = s =>
   String(s)
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
@@ -235,8 +245,26 @@ for (const it of items) {
   // path (like our localized /blog-media/... URLs) makes Astro's asset
   // pipeline throw ImageNotFound at collection-load time, even though the
   // file is genuinely on disk. AstroPaper's dynamicOgImage feature already
-  // auto-generates a title-card social image per post, so this isn't a loss
-  // of functionality -- Card.astro doesn't render post thumbnails anyway.
+  // auto-generates a title-card social image per post.
+  //
+  // `heroImage` is a separate, plain-string field (not the `image()` schema
+  // helper) used for the post header/listing thumbnail: prefer the WordPress
+  // featured image (_thumbnail_id), falling back to the first inline image
+  // already localized into the post body.
+  let heroImage;
+  const postmetas = asArray(it["wp:postmeta"]);
+  const thumbMeta = postmetas.find(
+    m => (cdata(m["wp:meta_key"]) || m["wp:meta_key"]) === "_thumbnail_id"
+  );
+  if (thumbMeta) {
+    const thumbId = cdata(thumbMeta["wp:meta_value"]) || thumbMeta["wp:meta_value"];
+    const attUrl = attachmentUrlById.get(String(thumbId));
+    if (attUrl) heroImage = localizeMediaUrl(attUrl) ?? undefined;
+  }
+  if (!heroImage) {
+    const firstImageMatch = markdown.match(/!\[[^\]]*\]\((\/blog-media\/[^)\s]+)/);
+    if (firstImageMatch) heroImage = firstImageMatch[1];
+  }
 
   if (!pubDatetime) {
     warnings.push(`no valid pubDatetime for ${slug}, skipping`);
@@ -250,6 +278,7 @@ for (const it of items) {
     title,
     ...(status === "draft" ? { draft: true } : {}),
     ...(tags.length ? { tags } : {}),
+    ...(heroImage ? { heroImage } : {}),
     description,
   };
 

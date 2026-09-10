@@ -5,6 +5,7 @@ tags:
   - "git"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2019/09/git-logo-2color.png"
 description: "Using git to push commits up to the remote is all in a days work. The change happens when you switch to a new remote and use a new account. My first action"
 ---
 Using git to push commits up to the remote is all in a days work. The change happens when you switch to a new remote and use a new account.

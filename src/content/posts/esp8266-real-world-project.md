@@ -6,6 +6,7 @@ tags:
   - "electronics"
   - "esp8266"
   - "Uncategorized"
+heroImage: "/blog-media/2021/10/gate.png"
 description: "Gatekeeper, Part 1 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is"
 ---
 # Gatekeeper, Part 1

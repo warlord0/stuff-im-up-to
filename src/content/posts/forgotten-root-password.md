@@ -3,6 +3,7 @@ pubDatetime: 2021-04-09T16:02:46Z
 title: "Forgotten root Password"
 tags:
   - "Linux"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Maybe not so much forgotten, but an undocumented password. It's an easy process. Boot into grub, press e on your usual boot line and then change the /boot/"
 ---
 Maybe not so much forgotten, but an undocumented password.

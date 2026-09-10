@@ -6,6 +6,7 @@ tags:
   - "certificates"
   - "Linux"
   - "xmpp"
+heroImage: "/blog-media/2021/01/prosody_logo.png"
 description: "After building an ejabberd container set I'm continuing my foray into the world of xmpp by looking at prosody . I've run into a few man traps along the way"
 ---
 After building an ejabberd container set I'm continuing my foray into the world of xmpp by looking at [prosody](https://prosody.im). I've run into a few man traps along the way and thought I'd document some of my failings to act as a catch all for search engines to help others with similar issues.

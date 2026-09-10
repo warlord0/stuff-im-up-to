@@ -6,6 +6,7 @@ tags:
   - "certificates"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "I've been using Remmina to RDP to my Windows servers for some time and it's been just great. But just recently it started popping up with a fairly bland me"
 ---
 I've been using Remmina to RDP to my Windows servers for some time and it's been just great. But just recently it started popping up with a fairly bland message "**Unable to connect to RDP server MYSERVER**" on a number of my servers. Not all of them, but some of them. After a long session of Googling (which may be why you're here) I found out it's related to our recent CA certificate changes and probably a freerdp-lib or ssl change. After running Remmina from the command line I found the problem was self explanatory.

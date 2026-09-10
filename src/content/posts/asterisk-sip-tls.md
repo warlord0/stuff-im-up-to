@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "Security"
   - "tls"
+heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.png"
 description: "Given that the SIP credentials passed by Asterisks real-time backends are stored as either MD5 or plain-text It's best that we think about securing the com"
 ---
 Given that the SIP credentials passed by Asterisks real-time backends are stored as either MD5 or plain-text It's best that we think about securing the communication over TLS.

@@ -7,6 +7,7 @@ tags:
   - "Laravel"
   - "vue.js"
   - "Web"
+heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "You can see a theme here. Lot's of action on the Laravel and Vue.js front as I'm focusing on migrating our blades over to vue's The process ran into a prob"
 ---
 You can see a theme here. Lot's of action on the Laravel and Vue.js front as I'm focusing on migrating our blades over to vue's The process ran into a problem when I wanted to be authenticated from the vue's. I was able to move this on thanks to the very, very, excellent article: [https://codeburst.io/api-authentication-in-laravel-vue-spa-using-jwt-auth-d8251b3632e0](https://codeburst.io/api-authentication-in-laravel-vue-spa-using-jwt-auth-d8251b3632e0) I used the basis of the article to create a controller as `VueAuth\AuthController.php` and and made some changes so that instead of using the Laravel default field of `user` to `username` instead.

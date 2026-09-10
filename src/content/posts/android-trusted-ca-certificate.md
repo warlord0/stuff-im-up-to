@@ -5,6 +5,7 @@ tags:
   - "android"
   - "Linux"
   - "proxy"
+heroImage: "/blog-media/2017/09/android-logo-png.png"
 description: "We have been tested by some of our Android Lollipop tablets. Adding a trusted CA certificate used to be as easy as visiting the proxy portal and clicking t"
 ---
 We have been tested by some of our Android Lollipop tablets. Adding a trusted CA certificate used to be as easy as visiting the proxy portal and clicking the install certificate button. Now these devices come up with an error complaining that there is "no certificate in file". Reading a lot of Android nightmare posts about converting the PEM certificate to pfx/p12 using openssl and then rooting the device and delivering the certificate into the folder for the cacerts using the command line it turned out to be far simpler. The PEM file direct from the proxy portal is a simple text file that includes a lot of certificate header information. eg.

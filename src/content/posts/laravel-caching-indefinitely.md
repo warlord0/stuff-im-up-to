@@ -6,6 +6,7 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "I recently attended the Laravel UK conference and learned a lot of very useful things. One of them related to a caching methodology being used for data tha"
 ---
 I recently attended the Laravel UK conference and learned a lot of very useful things. One of them related to a caching methodology being used for data that rarely changes.

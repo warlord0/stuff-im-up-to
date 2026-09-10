@@ -5,6 +5,7 @@ title: "SSH Tunnelling - autossh"
 tags:
   - "Linux"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Maintaining a secure connection to a remote host using SSH to securely tunnel traffic for underlying services like MSQL, PostgreSQL or just for remote supp"
 ---
 Maintaining a secure connection to a remote host using SSH to securely tunnel traffic for underlying services like MSQL, PostgreSQL or just for remote support is made far easier by using a tool designed to bring up the connection and monitor and maintain it.

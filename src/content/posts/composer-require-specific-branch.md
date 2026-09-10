@@ -5,6 +5,7 @@ title: "Composer Require Specific Branch"
 tags:
   - "Laravel"
   - "php"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "I'm trying to test out a version of a SAML project that doesn't include the now defunct php extension for mcrypt. Using composer require kept on grabbing t"
 ---
 I'm trying to test out a version of a SAML project that doesn't include the now defunct php extension for mcrypt. Using composer require kept on grabbing the master branch, when I actually wanted the "remove_mcrypt" branch. I found that using composer with the branch like this failed:

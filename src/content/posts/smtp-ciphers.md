@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "Security"
   - "ssl"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "What ciphers are used by your smtp server? Well that's a question I got asked today. Take a look at this testssl.sh - it spawned a whole report about my SM"
 ---
 What ciphers are used by your smtp server? Well that's a question I got asked today.

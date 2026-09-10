@@ -6,6 +6,7 @@ tags:
   - "ReactJS"
   - "Web"
   - "webpack"
+heroImage: "/blog-media/2016/12/what-is-webpack.png"
 description: "I've begun looking at building a project using React and followed some online sources to begin with. But then I fell into outdated material that related to"
 ---
 I've begun looking at building a project using React and followed some online sources to begin with. But then I fell into outdated material that related to babel. So I could only take many of the tutorials so far before having to update the construction to suit @babel/core v7. It seems it's very easy to install different versions of babel and it's components and then discover things won't compile. The error message I was getting:

@@ -5,6 +5,7 @@ title: "Icinga2 Downtime Script"
 tags:
   - "icinga2"
   - "Linux"
+heroImage: "/blog-media/2020/06/icinga2_logo.png"
 description: "I wanted to automatically trigger downtime when we ran maintenance tasks on our client systems. For this I wanted to add in a bash script to make the call"
 ---
 I wanted to automatically trigger downtime when we ran maintenance tasks on our client systems. For this I wanted to add in a bash script to make the call to Icinga2 when we start and finish the process.

@@ -5,6 +5,7 @@ title: "Caching LDAP with sssd"
 tags:
   - "ldap"
   - "Linux"
+heroImage: "/blog-media/2020/06/openldap.png"
 description: "Most of the equipment we use is in house wired workstations with a few remote users on a BYOD type setup. What I wanted to try to bring in was a cached aut"
 ---
 Most of the equipment we use is in house wired workstations with a few remote users on a BYOD type setup. What I wanted to try to bring in was a cached authentication method for our LDAP users to enable them to login to a corporate type device. This would have the benefit of using the same setup and authentication in the office as at home. No more local accounts logging in remotely as corp\[orate accounts.

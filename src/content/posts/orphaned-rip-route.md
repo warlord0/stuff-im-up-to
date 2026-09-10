@@ -4,6 +4,7 @@ modDatetime: 2017-05-10T08:15:00Z
 title: "Orphaned RIP Route"
 tags:
   - "Networking"
+heroImage: "/blog-media/2017/03/extreme.jpg"
 description: "After making some changes to the way our network was setup I ran into a problem with RIP. We started out with a VLAN spanning a pair of switches and using"
 ---
 After making some changes to the way our network was setup I ran into a problem with RIP. We started out with a VLAN spanning a pair of switches and using a tagged uplink port to connect and span the two. This worked fine, but with the new design favouring routing I thought we'd take the opportunity to change the configuration. As the edge switch was being replaced it was easy enough to just rebuild the new switch and configure it for [RIP](https://warlord0blog.wordpress.com/2017/03/22/extreme-networks-routing-rip/). But on the core switch it meant I needed to delete the VLAN that would no longer be needed. This is what stopped me in my tracks. Deleting a VLAN is easy. I just used

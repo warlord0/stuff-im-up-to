@@ -5,6 +5,7 @@ title: "YouTube Music PWA"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2021/05/youtube.png"
 description: "YouTube music now has a PWA (progressive web app). In Chrome you may get asked to install this when you visit https://music.youtube.com . As I'm a Vivaldi"
 ---
 YouTube music now has a PWA (progressive web app). In Chrome you may get asked to install this when you visit [https://music.youtube.com](https://music.youtube.com).

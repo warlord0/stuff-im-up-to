@@ -7,6 +7,7 @@ tags:
   - "php"
   - "soap"
   - "Web"
+heroImage: "/blog-media/2018/08/lagan_logo.png"
 description: "SOAP is a dirty word to me. But I have a need to interact with our CRM system to import / extract data. My go to platform for most of my PHP work is Larave"
 ---
 SOAP is a dirty word to me. But I have a need to interact with our CRM system to import / extract data. My go to platform for most of my PHP work is Laravel. So I looked at interacting with Lagan CRM using SOAP calls from PHP. I started off accessing the Lagan WSDL pages to see what the capabilities of the API are.

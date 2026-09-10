@@ -6,6 +6,7 @@ tags:
   - "asterisk"
   - "Docker"
   - "Linux"
+heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.png"
 description: "In light of the possibility of many people needing to work from home the boss wanted to upgrade the phone system to bring in some fixes and new features fo"
 ---
 In light of the possibility of many people needing to work from home the boss wanted to upgrade the phone system to bring in some fixes and new features for home working.

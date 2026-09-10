@@ -7,6 +7,7 @@ tags:
   - "ldap"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2019/10/press-release-post-template-jc.jpg"
 description: "Sometimes I'm surprised at why I've never come across things before. This is a big one for me. For the longest time I was pondering how to resolve some SSO"
 ---
 Sometimes I'm surprised at why I've never come across things before. This is a big one for me. For the longest time I was pondering how to resolve some SSO requirements whilst maintaining a corporate managed directory and not spending a fortune. Traditionally this would be the infrastructure to get the likes of Azure Active Directory, ADFS, RADIUS and multi-factor authentication - and then BOOM! JumpCloud.

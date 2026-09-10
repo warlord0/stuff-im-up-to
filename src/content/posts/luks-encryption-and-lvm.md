@@ -5,6 +5,7 @@ tags:
   - "Linux"
   - "lvm"
   - "Security"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "Setting up an encrypted boot volume is pretty straight forward at the time of installation. But what we wanted to do was add additional encrypted volumes e"
 ---
 Setting up an encrypted boot volume is pretty straight forward at the time of installation. But what we wanted to do was add additional encrypted volumes either as a physical disk of as an LVM partition on the existing hardware.

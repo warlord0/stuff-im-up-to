@@ -5,6 +5,7 @@ tags:
   - "Networking"
   - "python"
   - "Web"
+heroImage: "/blog-media/2021/01/python.png"
 description: "Many times I find myself wanting to spin up a simple test service for a firewall rule. You can bring up a simple web server in Python3 from the command lin"
 ---
 Many times I find myself wanting to spin up a simple test service for a firewall rule. You can bring up a simple web server in Python3 from the command line.

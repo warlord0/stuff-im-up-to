@@ -6,6 +6,7 @@ tags:
   - "rdp"
   - "remote-desktop"
   - "Windows"
+heroImage: "/blog-media/2022/11/desktop.png"
 description: "Apache Guacamole - not the answer I was looking for, but impressive. I wanted to get a remote desktop session to a client machine to support them in the se"
 ---
 Apache Guacamole - not the answer I was looking for, but impressive.

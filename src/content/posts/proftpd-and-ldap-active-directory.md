@@ -9,6 +9,7 @@ tags:
   - "ldap"
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2018/05/proftpd.png"
 description: "We've had a vsftpd server for a while and it's performed very well for us. But it would appear that it's not actively maintained. This may not be a problem"
 ---
 We've had a vsftpd server for a while and it's performed very well for us. But it would appear that it's not actively maintained. This may not be a problem as it still currently works just fine and we don't have any obvious vulnerabilities with it, but as the OS it's running on is Wheezy we need to move on at least up to Stretch. So I figured I'd try deploying a new server but configured with proftpd. As I'm planning on using LDAP / Active Directory for the user authentication I need to install the proftpd module `mod_ldap`. On my bare system I installed the module and it drags the dependencies down to include with the install the server program itself (`proftpd-basic`) too.

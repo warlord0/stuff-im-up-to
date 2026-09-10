@@ -5,6 +5,7 @@ title: "Debian Stretch NTP Time Sync"
 tags:
   - "debian"
   - "Linux"
+heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "No more messing about with installing ntp. Just a simple edit of what ntp servers to use. Internally my ntp fails and reports regularly in syslog: May 16 1"
 ---
 No more messing about with installing ntp. Just a simple edit of what ntp servers to use. Internally my ntp fails and reports regularly in syslog:

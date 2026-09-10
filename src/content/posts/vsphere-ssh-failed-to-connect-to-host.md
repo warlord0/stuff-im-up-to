@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "updates"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "When trying to apply patches to one of our ESXi 6.0 hosts I found I couldn't connect to it using ssh. Stopping and starting SSH from vCenter didn't work. Neither did disabling/enabling from the DCUI."
 ---
 When trying to apply patches to one of our ESXi 6.0 hosts I found I couldn't connect to it using ssh. Stopping and starting SSH from vCenter didn't work. Neither did disabling/enabling from the DCUI. From my client I'd see:

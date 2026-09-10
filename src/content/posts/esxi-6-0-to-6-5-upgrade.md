@@ -5,6 +5,7 @@ title: "ESXi 6.0 to 6.5 Upgrade"
 tags:
   - "Linux"
   - "vmware"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
 description: "This weekend has turned out to be a challenge. Upgrading our VMware Horizon 7 estate to the latest release involved upgrading all the components from conne"
 ---
 This weekend has turned out to be a challenge. Upgrading our VMware Horizon 7 estate to the latest release involved upgrading all the components from connection servers, security server, composer, vCenter and vSphere hosts. Last weekend was upgrading the connection servers, security server and composer. This weekend is vCenter and the vSphere hosts.

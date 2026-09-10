@@ -6,6 +6,7 @@ tags:
   - "Laravel"
   - "Linux"
   - "nginx"
+heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "NGINX needs a little special setup to handle Laravel as Laravel only really serves one page. All others are served through index.php as a route."
 ---
 NGINX needs a little special setup to handle Laravel as Laravel only really serves one page. All others are served through index.php as a route.

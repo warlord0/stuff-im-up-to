@@ -5,6 +5,7 @@ title: "Upgrading MySQL in a Container"
 tags:
   - "Linux"
   - "mysql"
+heroImage: "/blog-media/2016/09/mysql-logo.jpg"
 description: "Upgrading MySQL 5.5 to 5.7 in a docker container set caused me some trouble. Setting the tag to 5.7.30 was all well and good but when I fired up the contai"
 ---
 Upgrading MySQL 5.5 to 5.7 in a docker container set caused me some trouble. Setting the tag to 5.7.30 was all well and good but when I fired up the container MySQL would stop immediately.

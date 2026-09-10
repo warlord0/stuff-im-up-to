@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "proxy"
   - "ssh"
+heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Here's my handy script for bringing a socks proxy up and down. Saves the hassle of finding the PID of the ssh proxy process to kill it when you're done. so"
 ---
 Here's my handy script for bringing a socks proxy up and down. Saves the hassle of finding the PID of the ssh proxy process to kill it when you're done.

@@ -5,6 +5,7 @@ title: "CoffeeScript"
 tags:
   - "CoffeeScript"
   - "JavaScript"
+heroImage: "/blog-media/2016/12/coffeescript11.png"
 description: "It's like JavaScript, but less of a grind... well maybe. I've been on a mission of discovery and uncovered all kinds of new stuff recently. From Electron,"
 ---
 ### It's like JavaScript, but less of a grind... well maybe.

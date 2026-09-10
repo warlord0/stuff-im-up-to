@@ -7,6 +7,7 @@ tags:
   - "Docker"
   - "Linux"
   - "postgresql"
+heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.png"
 description: "I started out wanting a real-time database connection to our existing LDAP server. This went well, but involved importing a schema into the LDAP cn=config"
 ---
 I started out wanting a real-time database connection to our existing LDAP server. This went well, but involved importing a schema into the LDAP `cn=config` and mapping the data into Asterisk.

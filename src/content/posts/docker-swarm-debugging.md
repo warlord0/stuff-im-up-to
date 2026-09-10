@@ -7,6 +7,7 @@ tags:
   - "Linux"
   - "swarm"
   - "Virtualisation"
+heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "One of the most helpful pointers I found was to spin up an alpine container on the virtual network you're struggling to get connectivity over. Then you can"
 ---
 One of the most helpful pointers I found was to spin up an alpine container on the virtual network you're struggling to get connectivity over. Then you can add some tools to the alpine image to work out what's going on.

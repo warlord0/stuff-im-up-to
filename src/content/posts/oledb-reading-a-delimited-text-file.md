@@ -3,6 +3,7 @@ pubDatetime: 2018-01-31T13:54:04Z
 title: "OLEDB Reading a : Delimited Text File"
 tags:
   - "Windows"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
 description: "Been a long while since I used VBScript - I guess I should get more familiar with PowerShell, but there's a simple project that requires a script change th"
 ---
 Been a long while since I used VBScript - I guess I should get more familiar with PowerShell, but there's a simple project that requires a script change that reads a colon delimited file and converts it to comma separated. The original script read the file as a text file one line at a time and split the line into an array using the colon delimiter. Nothing too wrong with this, but the file is fixed length and loads of dead spaces to trim out, date conversions to be done and some special currency handling. So I thought I'd use an OLEDB method to read the data as a recordset. Should be simple enough right?
