@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-05-15T11:13:09Z
-modDatetime: 2020-05-15T16:13:32Z
+modDatetime: 2023-04-21T17:47:11Z
 title: "Resetting the Root Password"
 tags:
   - "Linux"

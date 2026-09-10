@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2022-09-14T08:22:39Z
-modDatetime: 2022-09-14T12:43:40Z
+modDatetime: 2023-04-21T17:44:12Z
 title: "Fail2ban - PostgreSQL"
 tags:
   - "iptables"

@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-01-16T14:41:00Z
-modDatetime: 2020-05-14T19:25:16Z
+modDatetime: 2023-04-21T17:51:21Z
 title: "Linux LDAP Auth"
 tags:
   - "ldap"

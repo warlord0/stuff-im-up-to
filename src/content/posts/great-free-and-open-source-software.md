@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2023-03-30T07:07:17Z
-modDatetime: 2023-03-30T07:08:04Z
+modDatetime: 2023-10-08T11:14:32Z
 title: "Great Free and Open Source Software"
 tags:
   - "Linux"
@@ -12,3 +12,5 @@ Over time I've encountered some great pieces of Free and Open Source Software. I
 [NHAS/WAG](https://github.com/NHAS/wag) - Adds 2FA/MFA to WireGuard VPN's
 
 [allinurl/goaccess](https://github.com/allinurl/goaccess) - Real Time Nginx log analysis
+
+[https://github.com/louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) - An easy-to-use self-hosted monitoring tool.

@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2021-01-13T21:01:48Z
-modDatetime: 2021-01-13T21:31:59Z
+modDatetime: 2023-04-21T17:50:01Z
 title: "PAM and OAuth2"
 tags:
   - "Linux"

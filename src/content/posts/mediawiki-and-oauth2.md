@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-07-21T16:22:20Z
-modDatetime: 2021-01-13T21:32:45Z
+modDatetime: 2023-04-21T17:49:07Z
 title: "MediaWiki and OAuth2"
 tags:
   - "authentication"

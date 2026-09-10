@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2021-06-23T20:26:29Z
-modDatetime: 2022-02-13T14:25:31Z
+modDatetime: 2023-04-21T17:45:48Z
 title: "OpenWrt Firewall"
 tags:
   - "firewall"

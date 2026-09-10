@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2022-09-01T15:16:52Z
-modDatetime: 2022-09-02T14:30:41Z
+modDatetime: 2023-05-30T20:39:08Z
 title: "OpenVPN MFA and PAM"
 tags:
   - "Linux"
@@ -170,7 +170,85 @@ verify-client-cert require
 plugin /usr/lib/openvpn/openvpn-plugin-auth-pam.so "/etc/pam.d/openvpn login USERNAME password PASSWORD One-time OTP"
 ```
 
-> It’s also worth noting that this is a TOTP (Time Based One Time Password) not HOTP (HMAC based One Time Password). This means that the `user.auth` file is not being used to store HOTP counters.
+### auth-ldap.conf
+
+```
+<LDAP>
+        # LDAP server URL
+        URL             ldap://ldap-01
+
+        # Bind DN (If your LDAP server doesn't support anonymous binds)
+        BindDN          "cn=readonly,dc=domain,dc=tld"
+
+        # Bind Password
+        Password      SecretKey
+
+        # Network timeout (in seconds)
+        Timeout         15
+
+        # Enable Start TLS
+        TLSEnable       yes
+
+        # Follow LDAP Referrals (anonymously)
+        FollowReferrals yes
+</LDAP>
+
+<Authorization>
+        # Base DN
+        BaseDN          "ou=staff,ou=people,dc=domain,dc=tld"
+
+        # User Search Filter
+        SearchFilter    "(&(uid=%u)(memberOf=cn=access-service-openvpn,ou=groups,dc=domain,dc=tld))"
+
+        # Require Group Membership
+        RequireGroup    false
+        <Group>
+                BaseDN "ou=groups,dc=domain,dc=tld"
+                SearchFilter "(memberOf=cn=access-service-openvpn,ou=groups,dc=domain,dc=tld)"
+                MemberAttribute uniqueMember
+        </Group>
+</Authorization>
+```
+
+### user.ovpn
+
+```
+client
+nobind
+dev tun
+remote-cert-tls server
+
+remote 123.123.0.1 1194 udp
+
+<key>
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+SuperSecretKey
+-----END ENCRYPTED PRIVATE KEY-----
+</key>
+<cert>
+-----BEGIN CERTIFICATE-----
+SecretKey
+-----END CERTIFICATE-----
+</cert>
+<ca>
+-----BEGIN CERTIFICATE-----
+SecretKey
+-----END CERTIFICATE-----
+</ca>
+key-direction 1
+<tls-auth>
+#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+SecretKey
+-----END OpenVPN Static key V1-----
+</tls-auth>
+
+redirect-gateway def1
+```
+
+It’s also worth noting that this is a TOTP (Time Based One Time Password) not HOTP (HMAC based One Time Password). This means that the user.auth file is not being used to store HOTP counters.
 
 ## References
 

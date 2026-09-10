@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2022-02-13T14:19:07Z
-modDatetime: 2022-02-13T14:20:33Z
+modDatetime: 2023-04-21T17:45:01Z
 title: "OpenWrt - DNS Hijacking"
 tags:
   - "Networking"

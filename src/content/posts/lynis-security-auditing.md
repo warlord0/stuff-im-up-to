@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2020-05-29T09:12:30Z
+modDatetime: 2023-04-21T17:48:03Z
 title: "Lynis Security Auditing"
 tags:
   - "ansible"

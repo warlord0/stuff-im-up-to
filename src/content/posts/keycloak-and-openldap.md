@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-07-24T17:39:48Z
-modDatetime: 2021-11-30T09:06:54Z
+modDatetime: 2023-04-21T17:49:44Z
 title: "Keycloak and OpenLDAP"
 tags:
   - "authentication"

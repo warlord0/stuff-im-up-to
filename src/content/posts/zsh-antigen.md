@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2021-03-03T15:20:31Z
-modDatetime: 2021-06-12T16:40:13Z
+modDatetime: 2023-06-16T11:01:14Z
 title: "zsh antigen"
 tags:
   - "bash"
@@ -40,7 +40,7 @@ antigen theme ys
 
 # autosuggest
 antigen bundle zsh-users/zsh-autosuggestions
-source .antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.antigen/bundles/zsh-users/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # autocorrect
 setopt correct

@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-07-11T16:26:56Z
-modDatetime: 2022-01-12T22:34:35Z
+modDatetime: 2023-12-31T17:06:11Z
 title: "Nginx and LDAP Authentication"
 tags:
   - "ldap"
@@ -30,7 +30,7 @@ Build the docker service daemon for the python to LDAP middleware.
 
 ```
 cd ./nginx-ldap-auth
-docker build -t nginx-ldap-auth-daemon
+docker build -t nginx-ldap-auth-daemon .
 ```
 
 The example runs the docker image standalone, but you could add it into a docker-compose container set either on it's own or with your Nginx service.

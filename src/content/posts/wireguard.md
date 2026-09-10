@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2022-09-05T08:11:37Z
-modDatetime: 2022-09-05T20:52:39Z
+modDatetime: 2024-03-20T15:17:28Z
 title: "WireGuard"
 tags:
   - "Uncategorized"
@@ -14,6 +14,10 @@ It's very much an up-and-coming development that has been added into the Linux k
 You need to use port forwarding on both ends of the tunnel. This is the part most user or client ends are likely to struggle with. With OpenVPN, we only need to have a system administrator open a firewall rule on the server end of the tunnel. The client doesn't need to do anything other than connect.
 
 ## How do I set up my firewall/router to allow me to use WireGuard?
+
+> You will need to allow ipv4/6 forwarding using `sysctl`, eg.
+>
+> `$ sudo sysctl -w net.ipv4.ip_forward=1`
 
 With WireGuard, there is no real client, server relationship. At both ends of the tunnel, they are both peers. This means to establish a tunnel both sides must be able to talk to each other, and they must be able to exchange a secure key.
 

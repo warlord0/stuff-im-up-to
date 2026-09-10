@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-07-22T19:27:04Z
-modDatetime: 2021-11-30T09:07:46Z
+modDatetime: 2023-04-21T17:49:28Z
 title: "Keycloak Container Set"
 tags:
   - "authentication"

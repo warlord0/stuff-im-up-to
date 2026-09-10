@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-04-09T09:39:26Z
-modDatetime: 2020-04-09T09:40:14Z
+modDatetime: 2023-04-21T17:51:46Z
 title: "Wireguard on a Raspberry Pi"
 tags:
   - "Linux"

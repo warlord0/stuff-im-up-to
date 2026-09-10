@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-05-30T11:17:00Z
-modDatetime: 2020-05-29T11:36:32Z
+modDatetime: 2023-04-21T17:48:19Z
 title: "Central Logging"
 tags:
   - "Linux"

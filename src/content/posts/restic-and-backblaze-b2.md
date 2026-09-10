@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2022-08-24T09:58:04Z
-modDatetime: 2022-08-24T12:01:18Z
+modDatetime: 2023-11-07T11:43:49Z
 title: "Restic and Backblaze B2"
 tags:
   - "backup"
@@ -131,4 +131,30 @@ total 1
 dr-xr-xr-x 2 root root  0 Aug 24 09:44 2022-08-24T09:44:47+01:00
 dr-xr-xr-x 2 root root  0 Aug 24 10:03 2022-08-24T10:03:40+01:00
 lrwxrwxrwx 1 root root 25 Aug 24 10:03 latest -> 2022-08-24T10:03:40+01:00
+```
+
+## Restic Keys (Passwords)
+
+I foolishly managed to create and initialise my restic backups with the literal key '\<restic-encryption-password\>' - yes, I know, not clever. But I didn't realise until I was checking and documenting my setup.
+
+Fortunately, changing a key isn't difficult, even if the instructions were a little hard to find. You don't actually change a key, you add a new one, and remove the wrong one.
+
+```
+source /etc/restic-env
+```
+
+Then proceed to run your restic commands to list keys, add and remove as required.
+
+```
+restic key help
+restic key add
+restic key list
+repository 69bf7dec opened (version 2, compression level auto)
+ ID        User  Host        Created
+------------------------------------------------
+*3c66466c  root  myhost      2023-11-07 11:34:34
+ 7533b055  root  myhost      2023-11-07 11:11:47
+------------------------------------------------
+
+restic key remove 7533b055
 ```

@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2021-07-23T12:41:31Z
+modDatetime: 2023-04-21T17:45:31Z
 title: "LUKS Encryption and LVM"
 tags:
   - "Linux"

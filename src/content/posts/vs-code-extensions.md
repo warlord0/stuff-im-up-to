@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2019-05-31T10:59:20Z
-modDatetime: 2019-07-18T07:33:47Z
+modDatetime: 2023-05-09T19:19:25Z
 title: "VS Code Extensions"
 tags:
   - "ESLint"
@@ -25,14 +25,18 @@ ESLint - [https://github.com/Microsoft/vscode-eslint](https://github.com/Microso
 
 Toggle Excluded Files - [https://marketplace.visualstudio.com/items?itemName=eamodio.toggle-excluded-files](https://marketplace.visualstudio.com/items?itemName=eamodio.toggle-excluded-files)
 
-Bracket Pair Colorizer - [https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+~~Bracket Pair Colorizer - [https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)~~
 
 phpcs - [https://github.com/ikappas/vscode-phpcs](https://github.com/ikappas/vscode-phpcs) requires [PHP CodeSniffer](https://pear.php.net/package/PHP_CodeSniffer/)
+
+phpstan [https://marketplace.visualstudio.com/items?itemName=SanderRonde.phpstan-vscode](https://marketplace.visualstudio.com/items?itemName=SanderRonde.phpstan-vscode) requires [PHPStan](https://phpstan.org)
 
 PHP DocBlocker - [https://github.com/neild3r/vscode-php-docblocker](https://github.com/neild3r/vscode-php-docblocker)
 
 FiraCode font [https://github.com/tonsky/FiraCode](https://github.com/tonsky/FiraCode)
 
-rest-client <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>
+~~rest-client <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>~~
 
-Settings Sync <https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync>
+Thunder Client [https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
+
+~~Settings Sync <https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync>~~

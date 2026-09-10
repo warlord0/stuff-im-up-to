@@ -1,14 +1,16 @@
 ---
 pubDatetime: 2023-01-27T13:45:08Z
-modDatetime: 2023-01-27T13:47:19Z
+modDatetime: 2023-06-21T10:52:40Z
 title: "Video Conferencing Screen Sharing"
 tags:
   - "Linux"
   - "pipewire"
   - "Windows"
 heroImage: "/blog-media/2021/01/manjaro_logo.png"
-description: "The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up with a presentation of three black screens to share, and"
+description: "Try installing manjaro-pipwire if you don't have it. The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up wit"
 ---
+> Try installing `manjaro-pipwire` if you don't have it.
+
 The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up with a presentation of three black screens to share, and no one gets to see the full screen. I also noticed some missing applications for sharing a window.
 
 Searching the net, I found a Google Chrome option that enables sharing using pipewire. As I'm using Manjaro Gnome under Wayland this probably needs enabling.

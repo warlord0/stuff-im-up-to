@@ -1,37 +1,40 @@
 ---
 pubDatetime: 2020-02-06T20:27:07Z
-modDatetime: 2021-02-01T15:29:10Z
+modDatetime: 2023-06-09T10:14:06Z
 title: "DRBD and Linux HA"
 draft: true
 tags:
   - "Uncategorized"
-description: "Following on from setting up a Linux HA Cluster it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our"
+description: "Following on from setting up a Linux HA Cluster, it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our"
 ---
-Following on from setting up a Linux HA Cluster it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our pacemaker cluster using [Linbit's DRBD](https://www.linbit.com/en/) (Distributed Redundant Block Device).
+Following on from setting up a Linux HA Cluster, it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our pacemaker cluster using [Linbit's DRBD](https://www.linbit.com/en/) (Distributed Redundant Block Device).
 
-Previously I created a pair of virtual machines each setup with two network adapters. Now I just need to add a hard drive to each as `/dev/sdb`. Then I used a simple partitioning scheme and it ended up looking like this:
+Previously, I created a pair of virtual machines, each setup with two network adapters. Now I just need to add a hard drive to each as `/dev/sdb`. Then I used a simple partitioning scheme and it ended up looking like this:
 
 ```
-# fdisk -l 
- Disk /dev/sdb: 8 GiB, 8589934592 bytes, 16777216 sectors
- Disk model: VBOX HARDDISK   
- Units: sectors of 1 * 512 = 512 bytes
- Sector size (logical/physical): 512 bytes / 512 bytes
- I/O size (minimum/optimal): 512 bytes / 512 bytes
- Disklabel type: dos
- Disk identifier: 0x9c27ee77
+$ sudo fdisk -l
+Disk /dev/vda: 12 GiB, 12884901888 bytes, 25165824 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x59c828b8
 
- Disk /dev/sda: 8 GiB, 8589934592 bytes, 16777216 sectors
- Disk model: VBOX HARDDISK   
- Units: sectors of 1 * 512 = 512 bytes
- Sector size (logical/physical): 512 bytes / 512 bytes
- I/O size (minimum/optimal): 512 bytes / 512 bytes
- Disklabel type: dos
- Disk identifier: 0x8cb7870b
- Device     Boot    Start      End  Sectors Size Id Type
- /dev/sda1  *        2048 12582911 12580864   6G 83 Linux
- /dev/sda2       12584958 16775167  4190210   2G  5 Extended
- /dev/sda5       12584960 16775167  4190208   2G 82 Linux swap / Solaris
+Device     Boot    Start      End  Sectors  Size Id Type
+/dev/vda1  *        2048 23164927 23162880   11G 83 Linux
+/dev/vda2       23166974 25163775  1996802  975M  5 Extended
+/dev/vda5       23166976 25163775  1996800  975M 82 Linux swap / Solaris
+
+
+Disk /dev/vdb: 10 GiB, 10737418240 bytes, 20971520 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x350474c1
+
+Device     Boot Start      End  Sectors Size Id Type
+/dev/vdb1        2048 20971519 20969472  10G 83 Linux
 ```
 
 > **DO NOT** create a filesystem on `/dev/sdb`. This will result in a failure to create the DRBD resource later in this post.
@@ -49,26 +52,26 @@ resource r0 {
          protocol C;
          meta-disk internal;
          device /dev/drbd1;
-         on node1 {
-                 disk /dev/sdb1;
-                 address 10.0.0.221:7789;
+         on drbd1 {
+                 disk /dev/vdb1;
+                 address 10.0.0.1:7789;
          }
-         on node2 {
-                 disk /dev/sdb1;
-                 address 10.0.0.222:7789;
+         on drbd2 {
+                 disk /dev/vdb1;
+                 address 10.0.0.2:7789;
          }
- }
+}
 ```
 
-Create the `r0` resource and device `/dev/drbr1` and acivate it using:
+Create the `r0` resource and device `/dev/drbr1` and activate it using:
 
 ```
-$ sudo drbdadm create-md r0
 $ sudo modprobe drbd
+$ sudo drbdadm create-md r0
 $ sudo drbdadm up r0
 ```
 
-Then you can veiw the status of drdb using cat:
+Then you can view the status of drdb using cat:
 
 ```
 $ cat /proc/drbd 

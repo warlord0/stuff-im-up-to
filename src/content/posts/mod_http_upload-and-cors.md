@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2021-01-22T20:38:38Z
-modDatetime: 2021-01-22T20:40:02Z
+modDatetime: 2023-04-21T17:46:38Z
 title: "mod_http_upload and CORS"
 tags:
   - "ejabberd"

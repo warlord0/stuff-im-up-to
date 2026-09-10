@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-04-13T13:59:32Z
-modDatetime: 2020-04-13T14:04:19Z
+modDatetime: 2023-04-21T17:52:01Z
 title: "Asterisk - SIP + TLS"
 tags:
   - "asterisk"

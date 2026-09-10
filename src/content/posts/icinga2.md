@@ -1,12 +1,14 @@
 ---
 pubDatetime: 2020-06-03T18:06:45Z
-modDatetime: 2021-08-17T15:18:28Z
+modDatetime: 2024-04-27T17:31:16Z
 title: "Icinga2"
 tags:
   - "Linux"
 heroImage: "/blog-media/2020/06/icinga2_logo.png"
-description: "Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Icinga. I've had no ex"
+description: "Updated April 2024 Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Ici"
 ---
+***Updated April 2024***
+
 Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Icinga. I've had no exposure to it at all - until now.
 
 Icinga2 uses Nagios as the monitoring engine, but where Nagios is a bit rough around the edges - Icinga2 smooths that all out. Icinga2 layers over it a nice web interface and a whole bunch of add-ons to add value to your monitoring and reporting.
@@ -24,11 +26,25 @@ sudo apt-get -y install apt-transport-https wget curl gnupg
 curl https://packages.icinga.com/icinga.key | sudo apt-key add -
 ```
 
+I tried to use the installation directions for Debian on the website and got tied up with missing GPG keys.
+
+```
+W: GPG error: https://packages.icinga.com/debian icinga-bookworm InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY C6E319C334410682
+```
+
+I removed the GPG keys it downloaded into `/usr/share/keyrings` and deleted reference to them from the apt list file. Then downloaded the missing key `C6E319C334410682` and dropped it into `/etc/apt/trusted.gpg.d/icinga.asc`
+
+```
+sudo wget https://keyserver.ubuntu.com/pks/lookup\?op=get\&search=0xc6e319c334410682 -O /etc/apt/trusted.gpg.d/icinga.asc
+
+sudo chmod ugo+r /etc/apt/trusted.gpg.d/icinga.asc
+```
+
 #### /etc/apt/sources.d/icinga.list
 
 ```
-deb http://packages.icinga.com/debian icinga-buster main
-deb-src http://packages.icinga.com/debian icinga-buster main
+deb https://packages.icinga.com/debian icinga-bookworm main
+deb-src https://packages.icinga.com/debian icinga-bookworm main
 ```
 
 ```
@@ -41,8 +57,7 @@ Install icinga2 and the plug-ins for monitoring things and start the service.
 
 ```
 sudo apt -y install icinga2 icingacli monitoring-plugins
-sudo systemctl enable icinga2
-sudo systemctl start icinga2
+sudo systemctl enable --now icinga2
 ```
 
 ## Install icingaweb2
@@ -77,7 +92,7 @@ sudo systemctl restart icinga2
 ## Install a Web Server (Nginx)
 
 ```
-sudo apt -y install php-fpm nginx icingaweb2 php-gd
+sudo apt -y install php-fpm nginx icingaweb2 php-gd php-imagick
 sudo addgroup --system icingaweb2
 sudo usermod -a -G icingaweb2 www-data
 ```
@@ -105,7 +120,7 @@ server {
     server_name _;
 
     location ~ ^/icingaweb2/index\.php(.*)$ {
-        fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+        fastcgi_pass unix:/run/php/php-fpm.sock;
         #fastcgi_pass 127.0.0.1:9000;
         fastcgi_index index.php;
         include fastcgi_params;
@@ -131,9 +146,9 @@ server {
 
 At this stage I'm not using SSL, so plain HTTP will do - until I'm happy with the build and then will add in HTTPS support. Also, this server isn't serving anything other than icinga.
 
-**NOTE:** Pay attention to the `root` and the `fastcgi_pass`. Make allowances for you version of PHP.
+**NOTE:** Pay attention to the `root` and the `fastcgi_pass`. Make allowances for you version of PHP. Unless there is a symlink to `/run/php/php-fpm.sock` to make it version agnostic.
 
-Edit your `/etc/php/7.3/fpm/php.ini` and set the `date.timezone` variable, eg.
+Edit your `/etc/php/8.2/fpm/php.ini` and set the `date.timezone` variable, eg.
 
 ```
 date.timezone = Europe/London
@@ -142,25 +157,11 @@ date.timezone = Europe/London
 Restart php-fpm and Nginx
 
 ```
-sudo systemctl restart php7.3-fpm.service
+sudo systemctl restart php8.2-fpm.service
 sudo systemctl restart nginx.service
 ```
 
 ## Web Setup
-
-We need to setup the web interface by creating a token we can copy from the command line and paste into the web setup.
-
-```
-sudo icingacli setup token create
-
-The newly generated setup token is: 9222148252dc4aab
-```
-
-In case you missed it:
-
-```
-sudo icingacli setup token show
-```
 
 Create the icingaweb2 database:
 
@@ -214,6 +215,20 @@ sudo systemctl restart icinga2.service
 ```
 
 We will need the ApiUser and password later in the web setup for "Command Transport".
+
+We need to setup the web interface by creating a token we can copy from the command line and paste into the web setup.
+
+```
+sudo icingacli setup token create
+
+The newly generated setup token is: 9222148252dc4aab
+```
+
+In case you missed it:
+
+```
+sudo icingacli setup token show
+```
 
 That should be it as far as getting things running. You should be able to visit the URL `http://server/icingaweb2/setup` to begin configuration of the UI.
 

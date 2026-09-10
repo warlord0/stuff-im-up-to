@@ -104,7 +104,12 @@ const copiedFiles = new Set();
 const missingFiles = new Set();
 
 function localizeMediaUrl(url) {
-  const m = url.match(/files\.wordpress\.com\/(\d{4})\/(\d{2})\/([^?]+)/);
+  // WordPress.com has used at least two URL shapes across exports:
+  //   https://<blog>.files.wordpress.com/YYYY/MM/name.ext
+  //   https://<blog>.wordpress.com/wp-content/uploads/YYYY/MM/name.ext
+  const m = url.match(
+    /(?:files\.wordpress\.com|\/wp-content\/uploads)\/(\d{4})\/(\d{2})\/([^?]+)/
+  );
   if (!m) return null;
   const [, yyyy, mm, rawName] = m;
   const decodedName = decodeURIComponent(rawName);
@@ -174,7 +179,8 @@ function htmlToMarkdown(html) {
 // Rewrite markdown image/link refs pointing at WP media into local /blog-media paths.
 function localizeMarkdownMedia(md) {
   return md.replace(/(!?\[[^\]]*\]\()([^)\s]+)(\s*(?:"[^"]*")?\))/g, (whole, pre, url, post) => {
-    if (!url.includes("files.wordpress.com")) return whole;
+    if (!url.includes("files.wordpress.com") && !url.includes("/wp-content/uploads/"))
+      return whole;
     const local = localizeMediaUrl(url);
     return local ? `${pre}${local}${post}` : whole;
   });

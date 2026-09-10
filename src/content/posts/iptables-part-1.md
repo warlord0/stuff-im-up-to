@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2020-04-07T16:20:15Z
-modDatetime: 2023-02-23T09:27:09Z
+modDatetime: 2023-10-24T20:16:53Z
 title: "iptables - Part 1"
 tags:
   - "firewall"
@@ -98,7 +98,7 @@ Chain OUTPUT (policy ACCEPT)
 target     prot opt source               destination 
 ```
 
-One rule, two ports. If you have an application that uses a range of ports, we can use a colon `:` and specify the range as `FROM:TO`, eg for ports from 8080 to 8089:
+One rule, two ports. If you have an application that uses a range of ports, we can use a colon `:` and specify the range as `FROM:TO`, eg. for ports from 8080 to 8089:
 
 ```
 # iptables -A INPUT -j ACCEPT -p tcp --match multiport --dports 8080:8089
@@ -120,6 +120,13 @@ $ sudo bash -c "iptables-save > /etc/iptables/rules.v4"
 $ sudo bash -c "ip6tables-save > /etc/iptables/rules.v6"
 ```
 
+Or
+
+```
+$ sudo iptables-save | sudo tee /etc/iptables/rules.v4
+$ sudo ip6tables-save | sudo tee /etc/iptables/rules.v6
+```
+
 More details: [https://wiki.debian.org/iptables](https://wiki.debian.org/iptables)
 
 ## Outgoing Rules
@@ -130,7 +137,7 @@ There's no difference in the process for handling OUTPUT rules. But if you're wo
 
 You'll have seen we used append above using the -A switch. They are self-explanatory, `-I` = insert, `-A` = append and `-D` = delete.
 
-On it's own `-I` will insert a rule at the beginning of the specified chain, `-A` will add to the end.
+On its own `-I` will insert a rule at the beginning of the specified chain, `-A` will add to the end.
 
 ### Line Numbers
 
@@ -165,7 +172,7 @@ Whilst the default policy is drop, this isn't helpful for auditing or debugging.
 # iptables -A INPUT -j DROP
 ```
 
-As soon as I added this I could see output in syslog using:
+As soon as I added this, I could see output in syslog using:
 
 ```
 # tail -f /var/log/syslog
@@ -178,7 +185,7 @@ Apr  7 16:20:07 node2 kernel: [ 2725.665884] INPUT:DROP:IN=enp1s0 OUT= MAC=ff:ff
 
 ## Something to Think About
 
-Write you basic rule set and save them to the files as stated above. But consider saving them to a file you can work on with a text editor and reorder things and add rules in a more manageable way, eg.
+Write your basic rule set and save them to the files as stated above. But consider saving them to a file you can work on with a text editor and reorder things and add rules in a more manageable way, eg.
 
 ```
 # iptables-save > ~/my.rules
