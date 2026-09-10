@@ -3,6 +3,7 @@ pubDatetime: 2019-02-27T14:57:55Z
 title: "Chocolatey Package Manager"
 tags:
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Using package managers is second nature in Linux, but in Windows you get free reign to go download and install anything you like from anywhere. Not a bad t"
 ---
 Using package managers is second nature in Linux, but in Windows you get free reign to go download and install anything you like from anywhere. Not a bad thing, but when you have a host of packages installed, keeping them all up to date can be frustrating. That's where "[chocolatey](https://chocolatey.org/)" comes in.

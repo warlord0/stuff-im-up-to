@@ -5,6 +5,7 @@ title: "Old School FTP"
 tags:
   - "ftp"
   - "Networking"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Calculating the FTP data port from the passive response."
 ---
 Having recently replaced the firewall we found one of the external sites used for FTP file transfers was failing periodically. Turns out this was a simple problem. We just weren't allowing enough of a range for the FTP data ports needed. We'd allocated a range of 1,000 ports, but looks like they use more. So how did we find this out? I could have trawled the firewall logs, but was just easier to see what the FTP log file was telling me. The log file generated the error "425 Unable to open the data connection". After looking at the previous passive mode response I decoded the port that it required.

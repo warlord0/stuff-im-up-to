@@ -6,6 +6,7 @@ tags:
   - "Link"
   - "Web"
   - "xml"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "http://xsd2xml.com/ When you have an XSD but need to see how the XML is expected to be structured. Also generate a graphical representation of your XSD htt"
 ---
 http://xsd2xml.com/ When you have an XSD but need to see how the XML is expected to be structured. Also generate a graphical representation of your XSD http://visualxsd.com/ Validate your XML data against the XSD http://www.xmlvalidation.com

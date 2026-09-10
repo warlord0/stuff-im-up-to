@@ -4,6 +4,7 @@ title: "Mozilla JavaScript"
 tags:
   - "JavaScript"
   - "Link"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "https://developer.mozilla.org/en-US/docs/Web/JavaScript JavaScript ( JS ) is a lightweight, interpreted, programming language with first-class functions ."
 ---
 [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

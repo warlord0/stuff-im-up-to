@@ -5,6 +5,7 @@ title: "Windows Proxy Fun & Games"
 tags:
   - "proxy"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "We replaced one of our old 2008 domain controllers with 2012 a few weeks ago. Today we found some odd behaviour in trying to access the internet from the n"
 ---
 We replaced one of our old 2008 domain controllers with 2012 a few weeks ago. Today we found some odd behaviour in trying to access the internet from the new DC. It seemed that sometimes it worked, sometimes it didn't. For one user (logged on locally) it worked for another it wouldn't. After some head scratching it turned out we'd fallen over the "**GlobalQueryBlockList**" We use WPAD for our proxy settings almost exclusively on the network. All clients and many servers simply download the http://wpad/wpad.dat script and that tells the browser which one of our proxies to use for the request that's made. By default the global query blocklist denies DNS queries for wpad. So when I pinged wpad from the command line:

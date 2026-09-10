@@ -4,6 +4,7 @@ title: "Vagrant and Amazon Linux"
 draft: true
 tags:
   - "Uncategorized"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Following on from Running Amazon Linux 2023 Locally, I needed to progress to having a cloud-init that would allow vagrant to start the image properly, create the vagrant user, give it the insecure key, etc."
 ---
 Following on from [Running Amazon Linux 2023 Locally](https://warlord0blog.wordpress.com/2024/11/27/running-amazon-linux-2023-locally/), I needed to progress to having a `cloud-init` that would allow vagrant to start the image properly, create the vagrant user, give it the insecure key, etc.

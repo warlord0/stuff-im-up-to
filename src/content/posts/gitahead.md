@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Link"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "The elegant git gui for dev teams http://gitahead.scitools.com/"
 ---
 The elegant git gui for dev teams

@@ -5,6 +5,7 @@ title: "Ignore Comments in Files"
 tags:
   - "Linux"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "A very handy grep that you can use to cat your files without the hash (#) comments: $ grep '^[^#]' /etc/systemd/timesyncd.conf Produces only the lines that"
 ---
 A very handy grep that you can use to cat your files without the hash (#) comments:

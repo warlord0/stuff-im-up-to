@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "ssh"
   - "vscode"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "This cost me a few hours today. I thought my ssh config was messed up as nothing i did would allow me to get onto my remote workstation, but it worked fine"
 ---
 This cost me a few hours today. I thought my ssh config was messed up as nothing i did would allow me to get onto my remote workstation, but it worked fine on some other systems.

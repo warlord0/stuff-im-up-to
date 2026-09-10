@@ -6,6 +6,7 @@ tags:
   - "material"
   - "mkdocs"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Anything I do gets documentation, for no other reason that if I ever return to it later, I'll understand what I did. You can be sure that I will have forgo"
 ---
 Anything I do gets documentation, for no other reason that if I ever return to it later, I'll understand what I did. You can be sure that I will have forgotten how or why I did something, so I religiously document stuff, like this site for example.

@@ -6,6 +6,7 @@ tags:
   - "dkim"
   - "Linux"
   - "smtp"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "After setting up a DKIM DNS entry and then sending email we were seeing one of authorised 3rd parties failing to pass the DKIM checks. The DNS record looked OK but the mail systems like Google and Yahoo were saying it was failing. So how do I go about testing a message I received so I can see for myself what's going on?"
 ---
 After setting up a DKIM DNS entry and then sending email we were seeing one of authorised 3rd parties failing to pass the DKIM checks. The DNS record looked OK but the mail systems like Google and Yahoo were saying it was failing. So how do I go about testing a message I received so I can see for myself what's going on? Looks like the answer is to use a Perl module "Mail::DKIM::Verifier" Oh no, Perl. I have no real Perl experience so how am I going to figure all this out? Things were a little bumpy trying to get this working, but once I'd figured the recipe it's pretty straight forward. First you'll need to make sure you have perl installed. Pretty much will be as it's used by so many things in Linux. A simple check from the shell:

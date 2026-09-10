@@ -5,6 +5,7 @@ title: "Barcode Scanner"
 tags:
   - "Link"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I found this very useful. Not just scanning QR codes, but I can use Vivaldi to scan any barcode and copy the output to the clipboard. Keep an eye on the ad"
 ---
 I found this very useful. Not just scanning QR codes, but I can use Vivaldi to scan any barcode and copy the output to the clipboard.

@@ -3,6 +3,7 @@ pubDatetime: 2022-12-03T19:12:45Z
 title: "journalctrl"
 tags:
   - "Linux"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Shortcuts to getting meaningful data from journalctrl Specific time frame journalctrl --since \"18:00\" --until \"18:03\" More descriptive times journalctrl --"
 ---
 Shortcuts to getting meaningful data from `journalctrl`

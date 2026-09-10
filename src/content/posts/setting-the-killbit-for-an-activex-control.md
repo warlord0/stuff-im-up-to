@@ -5,6 +5,7 @@ title: "Setting the Killbit for an ActiveX Control"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Adding a killbit for a control that Nessus says requires one. https://support.microsoft.com/en-gb/help/240797/how-to-stop-an-activex-control-from-running-i"
 ---
 Adding a killbit for a control that Nessus says requires one. [https://support.microsoft.com/en-gb/help/240797/how-to-stop-an-activex-control-from-running-in-internet-explorer](https://support.microsoft.com/en-gb/help/240797/how-to-stop-an-activex-control-from-running-in-internet-explorer) In brief you need to find or create the classid in:

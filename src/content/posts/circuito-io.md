@@ -6,6 +6,7 @@ tags:
   - "electronics"
   - "Link"
   - "Uncategorized"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "https://www.circuito.io/app I was looking for something to draw circuit diagrams and this is a step further! Pick your components, and it will even show yo"
 ---
 https://www.circuito.io/app

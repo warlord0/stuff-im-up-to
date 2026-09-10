@@ -4,6 +4,7 @@ title: "Mozilla Thunderbird Logging"
 tags:
   - "Networking"
   - "smtp"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I had the need to view the actual SMTP server conversation to confirm TLS and authentication were being used. I could have done this from server logs, but as we transmit thousands of SMTP messages a day it was easier to look to the client for logs, rather than for the needle in a stack of other needles."
 ---
 I had the need to view the actual SMTP server conversation to confirm TLS and authentication were being used. I could have done this from server logs, but as we transmit thousands of SMTP messages a day it was easier to look to the client for logs, rather than for the needle in a stack of other needles. Turns out getting logs from Thunderbird is easy. I was only interested in the SMTP log, but you can capture POP and IMAP too. All you need do is set two environment variables. What to log:

@@ -9,6 +9,7 @@ tags:
   - "smtp"
   - "spf"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "https://www.gov.uk/guidance/set-up-government-email-services-securely"
 ---
 [https://www.gov.uk/guidance/set-up-government-email-services-securely](https://www.gov.uk/guidance/set-up-government-email-services-securely)

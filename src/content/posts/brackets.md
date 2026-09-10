@@ -5,6 +5,7 @@ title: "Brackets"
 tags:
   - "php"
   - "Link"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Brackets is a lightweight, yet powerful, modern text editor. We blend visual tools into the editor so you get the right amount of help when you want it without getting in the way of your creative process. You'll enjoy writing code in Brackets."
 ---
 [http://brackets.io/](http://brackets.io/) A modern, open source text editor that understands web design.

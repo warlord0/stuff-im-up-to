@@ -6,6 +6,7 @@ tags:
   - "Link"
   - "ssl"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Server Name Indication. How to present multiple certificates over the same port based on what the client is asking for. References: https://en.wikipedia.or"
 ---
 Server Name Indication. How to present multiple certificates over the same port based on what the client is asking for. References: [https://en.wikipedia.org/wiki/Server_Name_Indication](https://en.wikipedia.org/wiki/Server_Name_Indication)

@@ -4,6 +4,7 @@ modDatetime: 2023-02-21T16:04:41Z
 title: "ldapsearch and base64 decoding"
 tags:
   - "Linux"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I recently had to do an ldapsearch / ldbsearch that returned some base64 encoded results. $ sudo ldbsearch -H /var/lib/sss/db/cache_LDAP.ldb '(&(objectClas"
 ---
 I recently had to do an `ldapsearch`/`ldbsearch` that returned some base64 encoded results.

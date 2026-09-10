@@ -8,6 +8,7 @@ tags:
   - "Link"
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "We're not talking Top Gear. STIG = System Technical Implementation Guide References http://iase.disa.mil/stigs/Pages/index.aspx https://www.stigviewer.com/"
 ---
 We're not talking Top Gear. STIG = System Technical Implementation Guide

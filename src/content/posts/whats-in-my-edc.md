@@ -4,6 +4,7 @@ modDatetime: 2019-02-16T13:09:54Z
 title: "What's in My EDC"
 tags:
   - "Privateer"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "EDC All Packed Every Day Carry is an up and coming buzz, but we've all probably been doing it for years. I've always had a few essentials in the car that i"
 ---
 ![](https://lh3.googleusercontent.com/_pzYPgsBAKH1wOgu-IwTfWfFgPvEPyQFsxQiQds_y98AU7lLkwRymWkUgQ3BuKCqTFYPNFzcPsEyayjdV1gKDYxDVFs2Qd5BM0ZgFFPUZT3PD-I643kOOgKIPgz3cI_6aMgS-0eHgDhK-dtSCDpY4VJpWddwZRQAKXZRf3yq4QYb2nytN_roUcvfdFmFbJ9x4V1bN6zsu6OEIS66JqGJqBWQ-nEvp1pRn9E24lJpoQgJdEexcfBUfViSR6u8au7T9ZbKXTRcAnA7c6u75LTZgb_iKdXhjOXAKhuTdw7sq1CYsmFEA7LLyCbgJhbUTuyeuZ2on5z1zxCSDaOv7GU1cl0f32eQQNQeGmnY3k9REKcFzIOis6xjrgo71RGHZMzy-pp_IUqanscfRYPV1GTD18C7XAPKkuvybKaXDgCtsZ8eAij67Yp6-bbtIbcvxHlhQBcOlyChJTFjafxhWi-p1vQ4oIhV5QztV_vVMACn7sLoXk3URLGY6sA8x__9_uXY6w34P99RR8dHyQZsEOVHGhQSgA0hXQVJcnJ5DZwMYMI-QxiQfF_sjvqtSHZg0CzLbAgYhvBOPjMuSfEeBLY3tuE2JvoYIpKbrkfLjnwvEUKr3A8XsU5m9lJVwOyKa8fcgoxqvoJ06B2pHI7E7esGWFVthi0pAH5FjLSUeRYVU_RetIraoBOr-abbdWu3d1fXOetFqHpg6sV0jE6i2JeTBYtRHg=w761-h970-no)

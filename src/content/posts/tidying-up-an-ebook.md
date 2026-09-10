@@ -11,6 +11,7 @@ tags:
   - "Linux"
   - "reading"
   - "writing"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I use LibreWriter to write eBooks with, then save them as .epub."
 ---
 ## Using LibreOffice and Sigil

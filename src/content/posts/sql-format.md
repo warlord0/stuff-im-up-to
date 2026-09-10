@@ -8,6 +8,7 @@ tags:
   - "Link"
   - "postgresql"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "We've all got SQL that needs tidying up. https://poorsql.com/ or https://sqlformat.org/ or http://sqlformat.darold.net/ It wont fix your syntax but it will"
 ---
 We've all got SQL that needs tidying up.

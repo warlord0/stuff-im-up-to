@@ -6,6 +6,7 @@ tags:
   - "Link"
   - "smtp"
   - "spf"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "http://vamsoft.com/support/tools/spf-policy-tester"
 ---
 [http://vamsoft.com/support/tools/spf-policy-tester](http://vamsoft.com/support/tools/spf-policy-tester)

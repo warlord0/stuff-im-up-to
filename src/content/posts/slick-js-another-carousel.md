@@ -6,6 +6,7 @@ tags:
   - "jquery"
   - "Link"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Seems like a fully featured carousel. https://kenwheeler.github.io/slick/"
 ---
 Seems like a fully featured carousel. [https://kenwheeler.github.io/slick/](https://kenwheeler.github.io/slick/)

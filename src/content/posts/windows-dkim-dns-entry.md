@@ -7,6 +7,7 @@ tags:
   - "dns"
   - "Networking"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Windows always gives me a bit of grief when trying anything a little out of the ordinary. I always find doing the same thing on Linux way simpler. This time it was relating to a DNS TXT entry for DKIM that is longer than 255 characters."
 ---
 Windows always gives me a bit of grief when trying anything a little out of the ordinary. I always find doing the same thing on Linux way simpler. This time it was relating to a DNS TXT entry for DKIM that is longer than 255 characters. As we have a split DNS system out external DNS entries need to be manually mirrored internally. This is because often the DNS reply is different if you're from an internal network to that of an external one. The 255 character limit was no problem for the external system. It parsed the string and split it into the required elements automatically. Internally you MUST split it yourself and enter it into the Windows DNS server as separate lines, delimited with a carriage return. Using DIG I could see the response from outside being returned correctly. But from inside it took me a few attempts to get Windows to leave it alone and make the entry the same. Using the Google DNS server 8.8.8.8

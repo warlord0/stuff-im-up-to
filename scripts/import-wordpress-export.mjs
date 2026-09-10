@@ -271,6 +271,9 @@ for (const it of items) {
     const firstImageMatch = markdown.match(/!\[[^\]]*\]\((\/blog-media\/[^)\s]+)/);
     if (firstImageMatch) heroImage = firstImageMatch[1];
   }
+  // The site's own logo -- also WordPress.com's og:image fallback for posts
+  // without a featured image -- used as the hero image when a post has none.
+  if (!heroImage) heroImage = "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png";
 
   if (!pubDatetime) {
     warnings.push(`no valid pubDatetime for ${slug}, skipping`);

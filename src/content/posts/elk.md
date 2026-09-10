@@ -4,6 +4,7 @@ title: "ELK"
 draft: true
 tags:
   - "Uncategorized"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Elastic Search, Logstash and Kibana - and filebeats. We have a relatively old build and it's not something I've ever looked at until today. I put together"
 ---
 Elastic Search, Logstash and Kibana - and filebeats.

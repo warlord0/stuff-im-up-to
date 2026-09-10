@@ -3,6 +3,7 @@ pubDatetime: 2019-08-12T08:50:09Z
 title: "Chocolatey Proxy"
 tags:
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I was tidying up another PC today and came across an annoying issue that I couldn't resolve. It took me a while, reinstalling, uninstalling choco etc. and"
 ---
 I was tidying up another PC today and came across an annoying issue that I couldn't resolve. It took me a while, reinstalling, uninstalling choco etc. and still not getting to the bottom of it.

@@ -4,6 +4,7 @@ title: "Keycloak and Nginx"
 draft: true
 tags:
   - "Uncategorized"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "When trying to setup a test system for keycloak on my Ubuntu box I had a few issues getting Nginx installed. Mainly because I already had the Ubuntu versio"
 ---
 When trying to setup a test system for keycloak on my Ubuntu box I had a few issues getting Nginx installed. Mainly because I already had the Ubuntu version installed and that doesn't come with the `ngx_http_js_module` that is needed. For that I have to add the Nginx repository.

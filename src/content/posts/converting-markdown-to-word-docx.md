@@ -4,6 +4,7 @@ modDatetime: 2023-08-24T09:23:21Z
 title: "Converting Markdown to Word (.docx)"
 tags:
   - "Linux"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "The easiest way to do this is using pandoc. But there is no need to install it, you can use it as a docker image. This does mean you need to have docker in"
 ---
 The easiest way to do this is using pandoc. But there is no need to install it, you can use it as a docker image. This does mean you need to have docker installed, and configured, so you can run it.

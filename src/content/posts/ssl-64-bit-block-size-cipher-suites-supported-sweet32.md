@@ -5,6 +5,7 @@ title: "SSL 64-bit Block Size Cipher Suites Supported (SWEET32)"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Nessus reports a vulnerability because of 64-bit cipher suites and SSL Medium Strength Cipher Suites Supported (even though it shows up as strong ). Window"
 ---
 Nessus reports a vulnerability because of 64-bit cipher suites and SSL Medium Strength Cipher Suites Supported (even though it shows up as **strong**). Windows requires the cipher TLS_RSA_WITH_3DES_EDE_CBC_SHA being disabled. I found that adding the cipher suite to the registry didn't work as expected. Then I found a reference that says it's a different key based on the version of Windows. So I added both to our registry file to handle disabling it regardless. Registry file:

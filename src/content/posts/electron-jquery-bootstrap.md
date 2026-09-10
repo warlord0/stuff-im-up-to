@@ -8,6 +8,7 @@ tags:
   - "JavaScript"
   - "node.js"
   - "Web"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Well this was fun. Trying to get a project started up using Electron that includes jQuery & Bootstrap. Mashing things together so they all work required a"
 ---
 Well this was fun. Trying to get a project started up using Electron that includes jQuery & Bootstrap. Mashing things together so they all work required a bit of jiggery-pokery using NPM, Bower and Gulp. As I wanted to get all of the components together to run a self contained desktop experience I needed local copies of Bootstrap and JQuery. Seems you can do this just by using `npm install jquery bootstrap-sass@3 jquery@1 --save-dev` and it all gets installed under the `node_modules` path. Now I'm using the bootstrap-sass package because by using Gulp I can compile the sass to css. So when I get around to making my own css I can use sass and relate it to styles/style variable already defined for Bootstrap. Taking the cue from the previous Gulp article I created a `gulpfile.js` that I could use to compile the Bootstrap sass and minify the JQuery JavaScript and add it to my HTML as a single line rather than many separate css and script files.

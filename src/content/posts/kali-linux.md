@@ -5,6 +5,7 @@ tags:
   - "Linux"
   - "Link"
   - "Security"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "For penetration testing https://www.kali.org/"
 ---
 For penetration testing [https://www.kali.org/](https://www.kali.org/)

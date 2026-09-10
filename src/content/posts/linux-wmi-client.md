@@ -6,6 +6,7 @@ tags:
   - "Linux"
   - "Windows"
   - "wmi"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "I'm trying to gather some inventory data from our Windows Servers and thought I'd try to do this from a Linux environment. There is a wmi client for Linux"
 ---
 I'm trying to gather some inventory data from our Windows Servers and thought I'd try to do this from a Linux environment. There is a wmi client for Linux but doesn't seem in active development. Looks like you have to compile it yourself. So I downloaded it and tried to compile it on my Debian system and it failed with an error:

@@ -5,6 +5,7 @@ title: "Oracle Database Patches"
 tags:
   - "Security"
   - "Windows"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Having had to get an Oracle DB expert in to update our Oracle database server a rescan with Nessus still shows some vulnerabilities. c:\\> cd \\Oracle\\produc"
 ---
 Having had to get an Oracle DB expert in to update our Oracle database server a rescan with Nessus still shows some vulnerabilities.
