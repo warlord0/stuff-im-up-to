@@ -188,6 +188,6 @@ Considering the answer was such a simple process it took me a long while to get 
 
 ## References
 
-[Installing Ansible AWX](https://warlord0blog.wordpress.com/2020/09/14/installing-ansible-awx/)
+[Installing Ansible AWX](/posts/installing-ansible-awx/)
 
 [https://github.com/ansible/awx](https://github.com/ansible/awx)

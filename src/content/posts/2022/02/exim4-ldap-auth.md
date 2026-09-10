@@ -11,7 +11,7 @@ tags:
 heroImage: "/blog-media/2018/11/debian_logo.png"
 description: "Having setup postfix and LDAP auth , setting up an Exim server should be within our capabilities. The trouble is I find the exim config a bit scruffy and c"
 ---
-Having setup [postfix and LDAP auth](https://warlord0blog.wordpress.com/2015/09/03/dovecot-postfix-virtual-mailboxes-and-active-directory/), setting up an Exim server should be within our capabilities.
+Having setup [postfix and LDAP auth](/posts/dovecot-postfix-virtual-mailboxes-and-active-directory/), setting up an Exim server should be within our capabilities.
 
 The trouble is I find the exim config a bit scruffy and confusing. It all depends on whether you are using split config or not as to what your use of macros and the output of the config will be. Often I find myself adding to a config file only to find it doesn't get used in the final output.
 

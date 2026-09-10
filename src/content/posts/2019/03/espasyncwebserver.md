@@ -55,4 +55,4 @@ Hopefully there'll be an upgrade to ESPAsyncWebServer that moves it to ArduinoJs
 
 ### References
 
-[Scorpion Lite](https://warlord0blog.wordpress.com/2019/03/27/scorpion-lite-esp8266/)
+[Scorpion Lite](/posts/scorpion-lite-esp8266/)

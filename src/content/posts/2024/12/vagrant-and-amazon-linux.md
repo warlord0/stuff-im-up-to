@@ -7,7 +7,7 @@ tags:
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
 description: "Following on from Running Amazon Linux 2023 Locally, I needed to progress to having a cloud-init that would allow vagrant to start the image properly, create the vagrant user, give it the insecure key, etc."
 ---
-Following on from [Running Amazon Linux 2023 Locally](https://warlord0blog.wordpress.com/2024/11/27/running-amazon-linux-2023-locally/), I needed to progress to having a `cloud-init` that would allow vagrant to start the image properly, create the vagrant user, give it the insecure key, etc.
+Following on from [Running Amazon Linux 2023 Locally](/posts/running-amazon-linux-2023-locally/), I needed to progress to having a `cloud-init` that would allow vagrant to start the image properly, create the vagrant user, give it the insecure key, etc.
 
 This is the bare-bones of the `cloud-init.yml` that is required to be able to have vagrant complete the set-up. Using this method does not require any modification of the Amazon Linux image.
 

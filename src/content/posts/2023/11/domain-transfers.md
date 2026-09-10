@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2023/11/cloudflare.png"
 description: "I wrote about moving my domains to Cloudflare - Certbot and Cloudflare , and thought I'd post a little about the experience as a reminder and a lesson to o"
 ---
-I wrote about moving my domains to Cloudflare - [Certbot and Cloudflare](https://warlord0blog.wordpress.com/2023/11/06/certbot-and-cloudflare/), and thought I'd post a little about the experience as a reminder and a lesson to others, who may also wish to move.
+I wrote about moving my domains to Cloudflare - [Certbot and Cloudflare](/posts/certbot-and-cloudflare/), and thought I'd post a little about the experience as a reminder and a lesson to others, who may also wish to move.
 
 The main reason for my move was to allow me to do Dynamic DNS updates. This allows me to get certificates from Let's Encrypt for internal services that don't have an external DNS address. However, on moving the DNS management to Cloudflare, I also discovered that domain registration is actually much cheaper with Cloudflare than my existing registrar (namesco).
 

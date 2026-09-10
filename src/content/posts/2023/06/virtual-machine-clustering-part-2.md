@@ -16,7 +16,7 @@ tags:
 heroImage: "/blog-media/2023/06/proxmox.png"
 description: "Following on from Virtual Machine Clustering , it's taken a while to get things working as I want them. The least difficult part has been Proxmox. When it"
 ---
-Following on from [Virtual Machine Clustering](https://warlord0blog.wordpress.com/2023/06/19/virtual-machine-clustering/), it's taken a while to get things working as I want them. The least difficult part has been Proxmox. When it comes to creating VM's on a cluster when all Proxmox is providing is the compute node is an absolute breeze.
+Following on from [Virtual Machine Clustering](/posts/virtual-machine-clustering/), it's taken a while to get things working as I want them. The least difficult part has been Proxmox. When it comes to creating VM's on a cluster when all Proxmox is providing is the compute node is an absolute breeze.
 
 As Proxmox version 8 was released last week, I decided to replace/upgrade compute nodes from v7.4 to v8. As nothing is stored on the nodes (in my environment), it was simple enough to, migrate all VM's to another host, remove the node from the cluster, reinstall it with v8, add in the same network config and rejoin the cluster. Rinse and repeat until they are all v8.
 

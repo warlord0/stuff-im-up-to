@@ -92,4 +92,4 @@ In a virtual environment the only question I got asked was about where to instal
 
 ## References
 
-<https://warlord0blog.wordpress.com/2020/02/20/debian-preseeding/>
+</posts/debian-preseeding/>

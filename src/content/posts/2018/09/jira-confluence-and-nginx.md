@@ -63,7 +63,7 @@ With Atlassian Jira Software and Confluence installed onto the same server I tho
 
     }
 
-The point of interest here is the use of an internal CA to generate the certificate. So in order to satisfy OSCP I had to also install my CA certificate (see [Trusting CA Certificates](https://warlord0blog.wordpress.com/2016/09/22/trusting-ca-certificates/)). This becomes relevant later as we must also do the same thing for Java. With Nginx configured the proxying works but Jira/Confluence will complain about the URL not matching the config as it's still expecting the 8080, 8090 etc. So by following the guidance and editing the two `server.xml` files to change the context path and connection parameters this issue is resolved. Put simply I added a line inside the connector tag:
+The point of interest here is the use of an internal CA to generate the certificate. So in order to satisfy OSCP I had to also install my CA certificate (see [Trusting CA Certificates](/posts/trusting-ca-certificates/)). This becomes relevant later as we must also do the same thing for Java. With Nginx configured the proxying works but Jira/Confluence will complain about the URL not matching the config as it's still expecting the 8080, 8090 etc. So by following the guidance and editing the two `server.xml` files to change the context path and connection parameters this issue is resolved. Put simply I added a line inside the connector tag:
 
     proxyName="jira.domain.local" proxyPort="443" scheme="https" secure="true"
 
@@ -71,7 +71,7 @@ When restarted a visit to the Jira pages will expect you to go and change the Ba
 
 ## Self Signed or Untrusted Certificate
 
-Now when you visit Jira or Confluence it will complain about a failed Application Link. In our case this is because the Nginx certificate whilst trusted by Linux is not known to be issued from a trusted CA. So we must tell both Java/JRE instances for Jira and Confluence that they need to trust the issuing CA certificate. To add the trusted certificate to Java is the same process as [Java Certificates](https://warlord0blog.wordpress.com/2017/01/30/java-certificates/). The difference being that they each have their own instance of Java and each has their own `cacerts` file. So we need to add my CA cert into both files using the Java keytool and then restart Jira and Confluence.
+Now when you visit Jira or Confluence it will complain about a failed Application Link. In our case this is because the Nginx certificate whilst trusted by Linux is not known to be issued from a trusted CA. So we must tell both Java/JRE instances for Jira and Confluence that they need to trust the issuing CA certificate. To add the trusted certificate to Java is the same process as [Java Certificates](/posts/java-certificates/). The difference being that they each have their own instance of Java and each has their own `cacerts` file. So we need to add my CA cert into both files using the Java keytool and then restart Jira and Confluence.
 
     $ cd /opt/atlassian/jira/jre
     $ sudo bin/keytool -v -import -alias MyCA -file /etc/ssl/certs/myca.pem -keystore lib/security/cacerts

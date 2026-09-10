@@ -13,7 +13,7 @@ Got to love having a vendor carrying out half a job... again.
 
 Having installed a new VMWare Horizon environment for Windows 10, I thought we'd at least have Blast available via HTML  - which we don't currently have in our Windows 7 Horizon setup.
 
-During the install I setup a [load balancer](https://warlord0blog.wordpress.com/2018/11/21/vmware-horizon-load-balancing/) which only really handles the authentication process. This worked fine using IE or Edge, at which point I guess the vendor decided that's enough testing and it's considered functional. After they left I fired up my Chrome browser and found it didn't work. So I tried Firefox with the same non-functional result.
+During the install I setup a [load balancer](/posts/vmware-horizon-load-balancing/) which only really handles the authentication process. This worked fine using IE or Edge, at which point I guess the vendor decided that's enough testing and it's considered functional. After they left I fired up my Chrome browser and found it didn't work. So I tried Firefox with the same non-functional result.
 
 Checking the console log in Firefox I see:
 

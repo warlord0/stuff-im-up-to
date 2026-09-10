@@ -23,7 +23,7 @@ Grab the result of a shell command and place the results at the cursor, eg.
 :r !date
 ```
 
-Disable the annoyance that is [visual mode](https://warlord0blog.wordpress.com/2018/02/15/vi-visual-mode/) by adding this into `~/.vimrc`
+Disable the annoyance that is [visual mode](/posts/vi-visual-mode/) by adding this into `~/.vimrc`
 
 ```
 set mouse-=a

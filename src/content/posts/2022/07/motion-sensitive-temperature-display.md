@@ -8,7 +8,7 @@ tags:
 heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
 description: "Following on from Python Motion Sensor I put together a 2004 LCD display, DHT11 humidity and temperature sensor and the AM312 PIR and came up with a displa"
 ---
-Following on from [Python Motion Sensor](https://warlord0blog.wordpress.com/2022/07/21/python-motion-sensor/) I put together a 2004 LCD display, DHT11 humidity and temperature sensor and the AM312 PIR and came up with a display that is triggered when motion is detected.
+Following on from [Python Motion Sensor](/posts/python-motion-sensor/) I put together a 2004 LCD display, DHT11 humidity and temperature sensor and the AM312 PIR and came up with a display that is triggered when motion is detected.
 
 To get things going, I needed to install the `RPiI2C_Driver` and `Adafruit_DHT` library and this is the result.
 

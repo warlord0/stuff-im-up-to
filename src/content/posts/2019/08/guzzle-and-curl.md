@@ -11,7 +11,7 @@ tags:
 heroImage: "/blog-media/2016/09/laravel.jpg"
 description: "Related to my previous post about Laravel. Guzzle and Nginx I ran into an issue with our proxy. The proxy is always a source of fun and games. Because the"
 ---
-Related to my previous post about [Laravel. Guzzle and Nginx](https://warlord0blog.wordpress.com/2019/08/07/laravel-guzzle-and-nginx/) I ran into an issue with our proxy. The proxy is always a source of fun and games.
+Related to my previous post about [Laravel. Guzzle and Nginx](/posts/laravel-guzzle-and-nginx/) I ran into an issue with our proxy. The proxy is always a source of fun and games.
 
 Because the proxy breaks open SSL traffic to scan the content the clients are required to have an SSL certificate installed that tells them to trust our proxy server certificate. In Windows and Linux you can insert the CA cert into the OS using group policy or writing it into the certificate store.
 

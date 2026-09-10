@@ -49,4 +49,4 @@ COMMIT
 
 ## References
 
-[knockd](https://warlord0blog.wordpress.com/2024/02/04/knockd/)
+[knockd](/posts/knockd/)

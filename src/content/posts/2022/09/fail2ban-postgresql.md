@@ -53,7 +53,7 @@ sudo systemctl restart fail2ban
 
 [https://serverfault.com/a/1060136](https://serverfault.com/a/1060136)
 
-[Fail2ban – Quick Reference](https://warlord0blog.wordpress.com/2017/07/20/fail2ban-quick-reference/)
+[Fail2ban – Quick Reference](/posts/fail2ban-quick-reference/)
 
 ## Using PostgreSQL in Docker
 

@@ -182,7 +182,7 @@ Received Access-Accept Id 36 from 192.168.0.126:1812 to 0.0.0.0:0 length 32
 
 With a successful `Accept-Accept` response.
 
-Then I wanted to test as if I were a wireless client connecting as my access points were in the office and I'd setup the RADIUS server remotely from home - so how do I emulate a wireless client? I wrote about this previously, using `radclient` - [RADIUS Testing](https://warlord0blog.wordpress.com/2018/11/05/radius-testing/) which enabled me to try out an EAP authentication session and establish that my next step on a configure access point should be successful.
+Then I wanted to test as if I were a wireless client connecting as my access points were in the office and I'd setup the RADIUS server remotely from home - so how do I emulate a wireless client? I wrote about this previously, using `radclient` - [RADIUS Testing](/posts/radius-testing/) which enabled me to try out an EAP authentication session and establish that my next step on a configure access point should be successful.
 
 ```
 $ cat << EOF | radclient -x 192.168.0.126 auth testing123
@@ -206,7 +206,7 @@ Good news it's too was successful. Now I just have to configure my access points
 
 ## Further Development
 
-It would probably be best to modify the `ldap` config to include checking for group membership, or attribute values rather than accepting any user with a valid password. In our environment that may more than we need, but we might want to consider using machine authentication rather than by user - see [Wired 802.1X on Linux](https://warlord0blog.wordpress.com/2019/07/10/wired-802-1x-on-linux/).
+It would probably be best to modify the `ldap` config to include checking for group membership, or attribute values rather than accepting any user with a valid password. In our environment that may more than we need, but we might want to consider using machine authentication rather than by user - see [Wired 802.1X on Linux](/posts/wired-802-1x-on-linux/).
 
 ## References
 

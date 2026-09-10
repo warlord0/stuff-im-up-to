@@ -143,7 +143,7 @@ If you do have a service that can be run as multiple instances, then you can spr
 
 With multiple instances you now need to think about how users are going to access and use them. In my case I now have the three swarm servers listening on port 12480 and serving my concurrent service application.
 
-I can give the user any of the URL's [http://swarm1:12480](#), [http://swarm2:12480](https://warlord0blog.wordpress.com/wp-admin/post.php?post=8898&action=edit#), [http://swarm3:12480](https://warlord0blog.wordpress.com/wp-admin/post.php?post=8898&action=edit#), even if I only have it scaled out to ONE service. This is because the swarm uses it's own load balancer and will figure out how to service your users request on any of the URL's.
+I can give the user any of the URL's http://swarm1:12480, http://swarm2:12480, http://swarm3:12480, even if I only have it scaled out to ONE service. This is because the swarm uses it's own load balancer and will figure out how to service your users request on any of the URL's.
 
 It's still a good idea to put a reverse proxy in front of them, not just for terminating the SSL endpoint. This will let me use one name and make a simpler URL for my users, eg. [http://myservice.domain.tld](#). It also provides resilience to ensure I get directed to another of the working nodes if one goes offline. For this I use Nginx and subtly change my upstream server config to include all three servers:
 

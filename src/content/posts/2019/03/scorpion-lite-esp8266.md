@@ -10,7 +10,7 @@ tags:
 heroImage: "/blog-media/2018/07/scorpion400.png"
 description: "Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project Scorpion he moved"
 ---
-Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project [Scorpion](https://warlord0blog.wordpress.com/2018/07/08/project-scorpion-wake-on-wifi/) he moved to using ESP8266.
+Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project [Scorpion](/posts/project-scorpion-wake-on-wifi/) he moved to using ESP8266.
 
 At the time I started looking into using a Raspberry Pi for the project I did also look at some very lightweight alternatives using the [ESP8266](https://en.wikipedia.org/wiki/ESP8266) chip set. These are small devices perfect for use in a plethora of [IoT](https://en.wikipedia.org/wiki/Internet_of_things) projects. Their size is their strength and, for me, their weakness.
 

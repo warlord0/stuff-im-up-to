@@ -46,4 +46,4 @@ You can get a look at you running config using:
 
     $ sudo exim -bP
 
-and you can pipe it through grep it' you're looking for something specific. Further reading: [https://debian-administration.org/article/718/DKIM-signing_outgoing_mail_with_exim4](https://debian-administration.org/article/718/DKIM-signing_outgoing_mail_with_exim4) [Exim4, DKIM & Smarthost](https://warlord0blog.wordpress.com/2016/10/13/exim4-dkim-smarthost/)
+and you can pipe it through grep it' you're looking for something specific. Further reading: [https://debian-administration.org/article/718/DKIM-signing_outgoing_mail_with_exim4](https://debian-administration.org/article/718/DKIM-signing_outgoing_mail_with_exim4) [Exim4, DKIM & Smarthost](/posts/exim4-dkim-smarthost/)

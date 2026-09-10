@@ -368,7 +368,7 @@ For this I used the Keycloak web GUI and went into the user federation menu, cho
 
 ## Next Steps
 
-Now I can use the API to deploy the configuration I need to convert my VSCode REST Client calls to something I can make programatically. For this I need to borrow from a previous article for [Templating](https://warlord0blog.wordpress.com/2021/01/25/templating/). The end users aren't going to want to use VSCode to deploy Keycloak - I'll convert this to a bash script and Jinja2 templates.
+Now I can use the API to deploy the configuration I need to convert my VSCode REST Client calls to something I can make programatically. For this I need to borrow from a previous article for [Templating](/posts/templating/). The end users aren't going to want to use VSCode to deploy Keycloak - I'll convert this to a bash script and Jinja2 templates.
 
 First convert the call to get_token into a curl call - right click, Copy Request as cURL.
 

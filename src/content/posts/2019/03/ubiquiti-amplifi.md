@@ -22,7 +22,7 @@ Installation couldn't be easier. In fact as an IT professional it's a little dau
 
 That said it has a wealth of features only accessible from the mobile phone config, that make it a highly capable Wi-Fi router.
 
-In my chosen configuration I am using the Amplifi in bridge mode, so I lose the firewall and some of the features for managing clients. But it was important I leave my DHCP and internal network bridged to maintain the functionality of my [Lifx lighting](https://www.lifx.com/), [Google Home](https://store.google.com/product/google_home) and more importantly my [scoRPIon](https://warlord0blog.wordpress.com/2018/07/08/project-scorpion-wake-on-wifi/) device.
+In my chosen configuration I am using the Amplifi in bridge mode, so I lose the firewall and some of the features for managing clients. But it was important I leave my DHCP and internal network bridged to maintain the functionality of my [Lifx lighting](https://www.lifx.com/), [Google Home](https://store.google.com/product/google_home) and more importantly my [scoRPIon](/posts/project-scorpion-wake-on-wifi/) device.
 
 Once connected to my LAN (using the WAN port) I still have four Gigabit ports available for my wired network devices. The Amplifi sits under my TV and feeds my Tivo, XBox One X and Kodi with ease.
 

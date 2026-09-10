@@ -276,14 +276,14 @@ Now you can access it from any client pointing your browser at `http://192.168.5
 
 Of course serving a version of your project like this isn't the only way to go. You should continue into dynamically building your assets using `npm run watch` and maybe even using tools like `browserify` to make changes happen at the browser end so you're not building and refreshing all the time.
 
-I also like to move away from a development web server and setup [Nginx](https://warlord0blog.wordpress.com/2016/09/20/nginx-and-laravel/) to handle serving my Laravel Project.
+I also like to move away from a development web server and setup [Nginx](/posts/nginx-and-laravel/) to handle serving my Laravel Project.
 
 # Further Reading
 
-https://warlord0blog.wordpress.com/2017/03/01/ssh-logon-with-private-key/
+/posts/ssh-logon-with-private-key/
 
-https://warlord0blog.wordpress.com/2018/05/16/debian-stretch-ntp-time-sync/
+/posts/debian-stretch-ntp-time-sync/
 
-https://warlord0blog.wordpress.com/2017/12/12/php7-0-microsoft-sql-driver-debian-stretch/
+/posts/php7-0-microsoft-sql-driver-debian-stretch/
 
-https://warlord0blog.wordpress.com/2017/03/01/installing-updating-webmin/
+/posts/installing-updating-webmin/

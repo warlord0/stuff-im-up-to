@@ -19,7 +19,7 @@ This didn't go to plan. Firstly it failed to run the apt configure scripts for `
 
     Feb 21 15:52:29 mypc kernel: [ 323.603758] audit: type=1400 audit(1519228349.780:26): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/etc/mysql/mariadb.conf.d/" pid=5175 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
 
-It goes back to a previous post I made about [apparmor and MySQL](https://warlord0blog.wordpress.com/2018/01/18/mysql-broken-after-apt-upgrade/). This time the problem was because the config file paths/names are different.
+It goes back to a previous post I made about [apparmor and MySQL](/posts/mysql-broken-after-apt-upgrade/). This time the problem was because the config file paths/names are different.
 
     name="/etc/mysql/mariadb.conf.d/
 

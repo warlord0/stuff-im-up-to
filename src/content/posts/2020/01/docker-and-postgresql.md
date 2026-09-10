@@ -97,7 +97,7 @@ This will begin initializing the containers, firstly by pulling down the images 
 
 I can test the both containers and connect to the postres instance by visiting `http://localhost:8080` in a browser. Change the System type to `PostgreSQL`, server to `db`, username to `postgres` and the password specified in the environment above. Click Login and you should find yourself able to manage the database.
 
-You can also skip adminer and use whatever DB tools you like such as [DBeaver](https://warlord0blog.wordpress.com/2018/11/06/dbeaver-sql-gui/), or just go connect your application to it like you would any regular instance of postgres.
+You can also skip adminer and use whatever DB tools you like such as [DBeaver](/posts/dbeaver-sql-gui/), or just go connect your application to it like you would any regular instance of postgres.
 
 To stop the container services from within the folder holding your `docker-composer.yml`:
 

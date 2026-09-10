@@ -11,7 +11,7 @@ description: "The past few days have been rather eventful trying to get JavaScri
 ---
 The past few days have been rather eventful trying to get JavaScript Web Tokens (JWT) to authenticate my Laravel, Vue.js environment.
 
-As per my previous post: [Laravel and Vue.js Authentication](https://warlord0blog.wordpress.com/2018/07/25/laravel-and-vue-js-authentication/) where I followed the very useful post this did in fact work for getting me around inside the vue router. But once I started making my own Axios calls or using api calls withing my vue's I ran into a lot of problems with every time I called an api I got unauthenticated.
+As per my previous post: [Laravel and Vue.js Authentication](/posts/laravel-and-vue-js-authentication/) where I followed the very useful post this did in fact work for getting me around inside the vue router. But once I started making my own Axios calls or using api calls withing my vue's I ran into a lot of problems with every time I called an api I got unauthenticated.
 
 The solution for me was to move to the tyson/jwt-auth development branch for 1.0 and then configure things from there.
 

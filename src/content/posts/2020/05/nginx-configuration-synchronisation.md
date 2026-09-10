@@ -11,7 +11,7 @@ tags:
 heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.png"
 description: "Back when I built the Nginx failovers using Nginx and Keepalived I also required that should the config change on the master then the config would automati"
 ---
-Back when I built the Nginx failovers using [Nginx and Keepalived](https://warlord0blog.wordpress.com/2018/05/15/nginx-and-keepalived/) I also required that should the config change on the master then the config would automatically be copied to the backup.
+Back when I built the Nginx failovers using [Nginx and Keepalived](/posts/nginx-and-keepalived/) I also required that should the config change on the master then the config would automatically be copied to the backup.
 
 There are some important things you need to do for this to work correctly and not put your failover at risk of failing. The last thing you want to do is bork you master servers config and automatically copy a filed config to the backup server and screw that one up too.
 

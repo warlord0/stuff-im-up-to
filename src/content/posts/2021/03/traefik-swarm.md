@@ -17,7 +17,7 @@ Traefik is a reverse proxy that is configured directly from your docker configur
 
 I started with the basic whoami example and had to make some changes to the way it's documented and the way I understood it to work.
 
-Firstly I [built my swarm](https://warlord0blog.wordpress.com/2021/03/14/docker-swarm/).
+Firstly I [built my swarm](/posts/docker-swarm/).
 
 Because all the services I'm building are isolated from each other in terms of networking I need to create a network in my swarm. You can do this in portainer or by command line. But I need to do this before I can deploy traefik as I'm using this network in my traefik compose below.
 

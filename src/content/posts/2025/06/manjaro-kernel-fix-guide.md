@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2021/01/manjaro_logo.png"
 description: "I managed to break my Manjaro installation on my home server. The updates failed on me part way through and the terminal died. I had to resort to a repair from a live USB sick. When Manjaro breaks during updates and shows \"need to load kernel first\" error. 1. Boot from Live USB/ISO Create a…"
 ---
-I managed to break my Manjaro installation on my home server. The updates failed on me part way through and the terminal died. I had to resort to a repair from a [live USB sick](https://warlord0blog.wordpress.com/2023/01/31/ventoy-one-stick-to-boot-them-all/).
+I managed to break my Manjaro installation on my home server. The updates failed on me part way through and the terminal died. I had to resort to a repair from a [live USB sick](/posts/ventoy-one-stick-to-boot-them-all/).
 
 When Manjaro breaks during updates and shows “need to load kernel first” error.
 

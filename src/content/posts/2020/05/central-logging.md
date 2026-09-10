@@ -10,7 +10,7 @@ description: "System logging should not remain a local activity. If you find you
 ---
 System logging should not remain a local activity. If you find your system has been compromised often the first thing in the attackers mind is to stop it from logging what they have done, what they are doing, or are about to do. If you're going to be security minded you must send your logs to another system and monitor the activity there.
 
-This is very easy to do with rsyslog. I've built this in an Ansible task within the [Lynis Security Auditing](https://warlord0blog.wordpress.com/2020/05/29/lynis-security-auditing/). All you need to do is add a simple file in `/etc/rsyslog.d` and restart rsyslog. Sure it won't stop you getting hacked, but you'll at least have a record of what happened up until the point the attacker disables logging.
+This is very easy to do with rsyslog. I've built this in an Ansible task within the [Lynis Security Auditing](/posts/lynis-security-auditing/). All you need to do is add a simple file in `/etc/rsyslog.d` and restart rsyslog. Sure it won't stop you getting hacked, but you'll at least have a record of what happened up until the point the attacker disables logging.
 
 #### /etc/rsyslogd/01-remotelog.conf
 
@@ -53,4 +53,4 @@ One step you will need to take on the central server is to open a firewall port 
 iptables -A INPUT -p udp --dport 514 -j ACCEPT
 ```
 
-This will allow any sender, you may want to be more restrictive using a subnet or even a host with something like `-s 192.168.0.0/24`. (see also [iptables – Part 1](https://warlord0blog.wordpress.com/2020/04/07/iptables-part-1/)).
+This will allow any sender, you may want to be more restrictive using a subnet or even a host with something like `-s 192.168.0.0/24`. (see also [iptables – Part 1](/posts/iptables-part-1/)).

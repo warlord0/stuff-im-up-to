@@ -55,7 +55,7 @@ A Raspberry Pi - this is what does the authentication of all the gates using our
 
 ## The Software
 
-On the gates, I'm using a custom build of [Tasmota](https://warlord0blog.wordpress.com/2021/10/17/tasmota-for-esp8266-esp32/). I've added in Wiegand support and TLS to secure the MQTT traffic.
+On the gates, I'm using a custom build of [Tasmota](/posts/tasmota-for-esp8266-esp32/). I've added in Wiegand support and TLS to secure the MQTT traffic.
 
 First time out, Tasmota can seem daunting, but it actually does much of the heavy lifting, meaning I don't have to write a lot of Arduino code to get it to work the way I want.
 

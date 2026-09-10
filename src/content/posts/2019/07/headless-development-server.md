@@ -8,7 +8,7 @@ tags:
 heroImage: "/blog-media/2019/07/x-window1.png"
 description: "After building a development environment in Linux as per a previous article - https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-s"
 ---
-After building a development environment in Linux as per a previous article - [https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-server/](https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-server/) I decided I wanted something a bit more portable in terms of development tools.
+After building a development environment in Linux as per a previous article - [/posts/building-a-debian-development-server/](/posts/building-a-debian-development-server/) I decided I wanted something a bit more portable in terms of development tools.
 
 I could go install VSCode/Atom etc. onto the local OS and point at a shared folder on the dev machine to edit files. But the problem with that is running terminals from VSCode/Atom and trying to have the IDE handle filesystem changes on the remote host without breaking my Git commits and causing mayhem.
 

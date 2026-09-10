@@ -18,7 +18,7 @@ My go to web server, proxy, load balancer is Nginx and as we already have a HA p
 
 As the plan is to use a load balancer in front of the connection servers and the only tunnelling that will take place will be for external systems, our requirement will be to LB the https traffic (TCP 443) for the authentication. The PCoIP/Blast traffic will be directed straight to the ESX Host/client.
 
-The [previous document on load balancing with Nginx](https://warlord0blog.wordpress.com/2018/05/15/nginx-and-keepalived/) means I only need to add in the config needed for horizon. By using the same [syncing of config](https://warlord0blog.wordpress.com/2018/11/21/syncing-config-files-between-servers/) it immediately becomes available on the secondary load balancer.
+The [previous document on load balancing with Nginx](/posts/nginx-and-keepalived/) means I only need to add in the config needed for horizon. By using the same [syncing of config](/posts/syncing-config-files-between-servers/) it immediately becomes available on the secondary load balancer.
 
 I created a new config file `/etc/nginx/sites-available/horizon` and then as standard, symbolic link it to `sites-enabled` to make it live.
 
@@ -102,7 +102,7 @@ add_header X-XSS-Protection "1; mode=block";
 proxy_cookie_path / "/; HTTPOnly; Secure";
 ```
 
-**Note**: Depending on your requirements for other system you may need to include content security policy settings to satisfy [CORS (Cross Origin Resource Sharing)](https://warlord0blog.wordpress.com/2018/12/04/cross-origin-resource-sharing-and-content-security-policy/). *In fact you MUST do this to allow Chrome and Firefox to work with Blast over HTML*.
+**Note**: Depending on your requirements for other system you may need to include content security policy settings to satisfy [CORS (Cross Origin Resource Sharing)](/posts/cross-origin-resource-sharing-and-content-security-policy/). *In fact you MUST do this to allow Chrome and Firefox to work with Blast over HTML*.
 
 In our PCoIP client we add the new server as `horizon.domain.tld` and we get through the authentication and on to the selection of the available pools. So clearly the load balancing is doing the job. You can check the `/var/log/nginx/access.log` to confirm.
 

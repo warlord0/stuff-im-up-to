@@ -38,4 +38,4 @@ Then create or update the `sqlsrv.ini` file in `/etc/php/7.2/mods-available` and
 
 ### References
 
-[https://warlord0blog.wordpress.com/2017/12/12/php7-0-microsoft-sql-driver-debian-stretch/](https://warlord0blog.wordpress.com/2017/12/12/php7-0-microsoft-sql-driver-debian-stretch/)
+[/posts/php7-0-microsoft-sql-driver-debian-stretch/](/posts/php7-0-microsoft-sql-driver-debian-stretch/)

@@ -11,7 +11,7 @@ description: "Having a new LilyGO TTGO ESP32 arrive, I got to work on flashing i
 ---
 Having a new [LilyGO TTGO ESP32](http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1307&FId=t3:50033:3) arrive, I got to work on flashing it with Tasmota straight away. A bit fiddly as you need to connect the download board, which gives us the CH340 USB to Serial we need.
 
-This wasn't as straight forward, and I had to play with it some more. I'm not using PoE right now, just powering it with 5v from USB C and using a regular Ethernet switch port. Tooks some reading to find that the settings I needed to make in `user_config_override.h` contradicted what I was using for the [WT32-ET01](https://warlord0blog.wordpress.com/2022/01/06/wt32-eth01-v1-2/), even though it's supposed to be the same Ethernet adapter.
+This wasn't as straight forward, and I had to play with it some more. I'm not using PoE right now, just powering it with 5v from USB C and using a regular Ethernet switch port. Tooks some reading to find that the settings I needed to make in `user_config_override.h` contradicted what I was using for the [WT32-ET01](/posts/wt32-eth01-v1-2/), even though it's supposed to be the same Ethernet adapter.
 
 I found the clue here: [https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE/blob/master/example/eth/eth.ino](https://github.com/Xinyuan-LilyGO/LilyGO-T-ETH-POE/blob/master/example/eth/eth.ino)
 
@@ -41,7 +41,7 @@ EthAddress 0
 EthClockMode 3
 ```
 
-I had a eureka moment as I got it fired up though - more of a negative realisation than eureka. If I am to use this on the [Gatekeeper project](https://warlord0blog.wordpress.com/2021/10/28/esp8266-real-world-project/), I need 12v DC to power the keypad and fire the latch on the door striker. **Using PoE - how am I going to do that?**
+I had a eureka moment as I got it fired up though - more of a negative realisation than eureka. If I am to use this on the [Gatekeeper project](/posts/esp8266-real-world-project/), I need 12v DC to power the keypad and fire the latch on the door striker. **Using PoE - how am I going to do that?**
 
 If I use a PoE injector I can separate 12v DC, pipe it through a buck convertor and get it to provide both 12v for the striker and 5v to power the ESP. I can't do that with a full PoE implementation.
 

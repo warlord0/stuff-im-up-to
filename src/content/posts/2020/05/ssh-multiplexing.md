@@ -18,7 +18,7 @@ If I already have a socks connection open to my office gateway I don't need to o
 
 > With a multiplexed connection I authenticate ONCE and my subsequent connections go through that already authenticated session.
 
-If you look at my `socks.sh` script in [SSH and SOCKS](https://warlord0blog.wordpress.com/2020/05/18/ssh-and-socks/), you'll see it already creates a socket `~/.ssh/jump.socket`. All I need to do to use that socket is amend my `~/.ssh/config` slightly to tell all of my connections to use it if it exists, or create it automatically if it doesn't.
+If you look at my `socks.sh` script in [SSH and SOCKS](/posts/ssh-and-socks/), you'll see it already creates a socket `~/.ssh/jump.socket`. All I need to do to use that socket is amend my `~/.ssh/config` slightly to tell all of my connections to use it if it exists, or create it automatically if it doesn't.
 
 This is where we use `ControlMaster`, `ControlPath` and `ControlPersist`.
 

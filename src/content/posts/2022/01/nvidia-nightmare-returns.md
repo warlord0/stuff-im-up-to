@@ -38,4 +38,4 @@ sudo mhwd -f -i pci video-nvidia
 
 In actual fact, I got graphics back after the reboot, but I figured I best tidy up.
 
-Related to: [Manjaro Gnome Failure After Update](https://warlord0blog.wordpress.com/2021/05/19/manjaro-gnome-failure-after-update/)
+Related to: [Manjaro Gnome Failure After Update](/posts/manjaro-gnome-failure-after-update/)

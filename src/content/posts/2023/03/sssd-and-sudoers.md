@@ -36,6 +36,6 @@ sudoOption: insults
 
 The bit I was missing is that whilst it decoded a string, the thing I could not see on the end was NULL characters! These did not affect `sudo-ldap`, but appears to cause mayhem with `sss`.
 
-To fix this, I exported the LDAP SUDOers branch to an LDIF file. I used a bit of magic from [ldapsearch and base64 decoding](https://warlord0blog.wordpress.com/2023/02/21/ldapsearch-and-base64-decoding/) to help get the correct decoding, and then replaced all the base64 encoded strings with plain text strings in the LDIF file. Import the LDIF back into my LDAP to overwrite all the settings, and now I see clean plain text entries returned by my `ldapsearch`. A little while later, change my `nsswitch.conf` entries from `ldap` to `sss`, a reboot and cache update. Now I can use `sudo` and it works.
+To fix this, I exported the LDAP SUDOers branch to an LDIF file. I used a bit of magic from [ldapsearch and base64 decoding](/posts/ldapsearch-and-base64-decoding/) to help get the correct decoding, and then replaced all the base64 encoded strings with plain text strings in the LDIF file. Import the LDIF back into my LDAP to overwrite all the settings, and now I see clean plain text entries returned by my `ldapsearch`. A little while later, change my `nsswitch.conf` entries from `ldap` to `sss`, a reboot and cache update. Now I can use `sudo` and it works.
 
 I have no clue how null characters got into our LDAP. But it has gone through a number of iterations in its lifetime.

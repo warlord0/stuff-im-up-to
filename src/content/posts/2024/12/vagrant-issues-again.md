@@ -33,7 +33,7 @@ rbenv global 3.2.6
 set PATH $PATH:/home/paulb/.rbenv/shims/
 ```
 
-When I tried `vagrant plugin install vagrant-libvirt` for the plugin , I'm back at the issue with a `bigdecimal` conflict (see [Vagrant Error after Updates](https://warlord0blog.wordpress.com/2024/08/21/vagrant-error-after-updates/))
+When I tried `vagrant plugin install vagrant-libvirt` for the plugin , I'm back at the issue with a `bigdecimal` conflict (see [Vagrant Error after Updates](/posts/vagrant-error-after-updates/))
 
 ```
 VAGRANT_DISABLE_STRICT_DEPENDENCY_ENFORCEMENT=1 vagrant plugin install vagrant-libvirt

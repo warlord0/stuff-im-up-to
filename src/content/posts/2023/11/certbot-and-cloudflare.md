@@ -58,4 +58,4 @@ preferred-chain = ISRG Root X1
 
 I discovered the API issue when I was using Nginx Proxy Manager. By default, it enters the wrong variable name in the parameters when you choose to get it to get a certificate using DNS, and Cloudflare. It automatically put in `dns_cloudflare_api_token=` when what is actually required is `dns_cloudflare_api_key=` as above (with email address).
 
-See also [Nginx Proxy Manager and GoAccess](https://warlord0blog.wordpress.com/2023/10/10/nginx-proxy-manager-and-goaccess/)
+See also [Nginx Proxy Manager and GoAccess](/posts/nginx-proxy-manager-and-goaccess/)

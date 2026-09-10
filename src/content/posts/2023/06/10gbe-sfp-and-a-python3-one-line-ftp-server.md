@@ -21,7 +21,7 @@ Using `rsync` to send a 5 GB file between systems seems kinda slow, this makes 
 
 [My Adventure with 10 Gigabit Ethernet and Linux](https://delightlylinux.wordpress.com/2021/01/13/my-adventure-with-10-gigabit-ethernet-and-linux/)
 
-I went out and did some digging around and found using FTP much faster, but more importantly how to temporarily run a simple ftp service, in the same way as the [Python3 One Line Web Server](https://warlord0blog.wordpress.com/2022/09/06/python3-one-line-web-server/).
+I went out and did some digging around and found using FTP much faster, but more importantly how to temporarily run a simple ftp service, in the same way as the [Python3 One Line Web Server](/posts/python3-one-line-web-server/).
 
 Install the `pyftpdlib` module using `pip` and run it:
 

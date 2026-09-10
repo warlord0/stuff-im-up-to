@@ -26,4 +26,4 @@ choco config set proxyPassword  # optional
 
 The the GUI fires up and I can update and install apps.
 
-References: <https://warlord0blog.wordpress.com/2019/02/27/chocolatey-package-manager/>
+References: </posts/chocolatey-package-manager/>

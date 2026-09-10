@@ -36,7 +36,7 @@ Then edited the included `ldap.conf` file to provide my server address, binding
     LDAPAttr uid sAMAccountName
     LDAPAttr homeDirectory unixHomeDirectory
 
-> If you're using `LDAPUseTLS on` make sure you have imported your the CA certificate used to sign your LDAP/AD server into your [trusted CA list](https://warlord0blog.wordpress.com/2016/09/22/trusting-ca-certificates/).
+> If you're using `LDAPUseTLS on` make sure you have imported your the CA certificate used to sign your LDAP/AD server into your [trusted CA list](/posts/trusting-ca-certificates/).
 
 I don't want all our domain users to be able to use this so we have an separate OU that contains only the parties we want to use the FTP site. But using LDAP/AD like this means that our support staff need no knowledge of Linux to handle calls from FTP users about password resets etc. Thinking this was all I needed to do to activate LDAP I tried to connect with a known AD user and password without success. Doing some debugging by running proftpd as a non-daemon process showed no activity relating to LDAP.
 

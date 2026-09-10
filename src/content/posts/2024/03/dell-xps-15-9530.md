@@ -12,7 +12,7 @@ The first day I arrived at my new job, sat on a desk waiting for me was a posh b
 
 Previously, I've had no real use for a laptop, I've always had a desktop PC - mainly because I've had a desk dedicated for me. The new job is tight on desk space, far more people than desks. This means hot desking and working from home. Which means I have a works' laptop.
 
-First thing I did was to boot it from my [Ventoy](https://warlord0blog.wordpress.com/2023/01/31/ventoy-one-stick-to-boot-them-all/) USB stick and install the latest Manjaro Linux. I was expecting a few driver issues, I hadn't even investigated how suited to Linux this machine would be. When the installation completed, I began testing it out and have to say I'm thoroughly impressed. I haven't found anything that doesn't work as it should! Nvidia driver, Wi-fi, Bluetooth, fingerprint reader, touchpad, backlit keyboard, automatic screen lighting... it all just works.
+First thing I did was to boot it from my [Ventoy](/posts/ventoy-one-stick-to-boot-them-all/) USB stick and install the latest Manjaro Linux. I was expecting a few driver issues, I hadn't even investigated how suited to Linux this machine would be. When the installation completed, I began testing it out and have to say I'm thoroughly impressed. I haven't found anything that doesn't work as it should! Nvidia driver, Wi-fi, Bluetooth, fingerprint reader, touchpad, backlit keyboard, automatic screen lighting... it all just works.
 
 ```
 CPU:

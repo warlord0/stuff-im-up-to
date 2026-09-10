@@ -51,4 +51,4 @@ set -U fish_greeting
 
 ## References
 
-[zsh antigen](https://warlord0blog.wordpress.com/2021/03/03/zsh-antigen/)
+[zsh antigen](/posts/zsh-antigen/)

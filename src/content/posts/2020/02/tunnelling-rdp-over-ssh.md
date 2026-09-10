@@ -13,7 +13,7 @@ After a day of battling with a very laggy and Windows bound Logmein we decided i
 
 It's a case of connecting to the remote server over ssh and then using port forwarding to direct traffic to the Windows RDP server. We can then run [Remmina](https://remmina.org/) to access Windows using a much smoother performing method.
 
-I started with port forwarding manually using the shell - [SSH Tunnelling](https://warlord0blog.wordpress.com/2016/09/27/ssh-tunnelling/). Which works just fine, but as Remmina now supports a pre and post command we can have it start and stop our tunnel for us.
+I started with port forwarding manually using the shell - [SSH Tunnelling](/posts/ssh-tunnelling/). Which works just fine, but as Remmina now supports a pre and post command we can have it start and stop our tunnel for us.
 
 Initially I started with [kgibran's script](https://kgibran.wordpress.com/2019/03/13/remmina-rdp-ssh-tunnel-with-pre-and-post-scripts/). Which sorted things for me, but has a limitation that it will only support one tunnelled RDP session at a time. This is because of the way it uses localhost on port 3389 to tunnel the connection from. We can't have two tunnels using the same local port.
 

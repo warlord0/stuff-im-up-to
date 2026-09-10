@@ -61,4 +61,4 @@ mint-installer
     └── vmlinuz
 ```
 
-Even after this I still have the problems with Keyboard selection and `openssh-server` as previously documented here: <https://warlord0blog.wordpress.com/2020/02/21/linux-mint-preseeding/>
+Even after this I still have the problems with Keyboard selection and `openssh-server` as previously documented here: </posts/linux-mint-preseeding/>

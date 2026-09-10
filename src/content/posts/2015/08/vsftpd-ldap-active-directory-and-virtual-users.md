@@ -245,7 +245,7 @@ This does to authentication AND creates the users home directory using /etc/skel
 
 ## Using LDAPS
 
-This was pretty straightforward. A few changes in the nslcd.conf file (as below) were needed. Also imported the ca certificate into the /etc/ssl/certs/ca-certificates.crt file and put the ldap server certificates and linked there hashes as below in [SSL CA Certificates](https://warlord0blog.wordpress.com/2015/07/21/ssl-ca-certificates/)
+This was pretty straightforward. A few changes in the nslcd.conf file (as below) were needed. Also imported the ca certificate into the /etc/ssl/certs/ca-certificates.crt file and put the ldap server certificates and linked there hashes as below in [SSL CA Certificates](/posts/ssl-ca-certificates/)
 
 ### /etc/nslcd.conf
 

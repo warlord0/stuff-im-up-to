@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2020/09/grafana-2.png"
 description: "Previously, we used InfluxDB v1 - now we're rolling out InfluxDB v2.1. Building the Container Set We're going to use glances, influxdb and grafana. version"
 ---
-Previously, we used [InfluxDB v1](https://warlord0blog.wordpress.com/2020/09/02/performance-monitoring/) - now we're rolling out InfluxDB v2.1.
+Previously, we used [InfluxDB v1](/posts/performance-monitoring/) - now we're rolling out InfluxDB v2.1.
 
 ## Building the Container Set
 

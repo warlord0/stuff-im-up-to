@@ -210,6 +210,6 @@ Using LWT like this means I just have to flash a gate with Tasmota and as soon a
 
 ## References
 
-[ESP8266 Real-World Project](https://warlord0blog.wordpress.com/2021/10/28/esp8266-real-world-project/) - Project Gatekeeper, Part 1
+[ESP8266 Real-World Project](/posts/esp8266-real-world-project/) - Project Gatekeeper, Part 1
 
-[Project Gatekeeper, Part 2](https://warlord0blog.wordpress.com/2021/10/29/project-gatekeeper-part-2/)
+[Project Gatekeeper, Part 2](/posts/project-gatekeeper-part-2/)

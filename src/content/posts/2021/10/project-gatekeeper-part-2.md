@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2021/10/mosquitto.png"
 description: "Following on from ESP8266 Real-World Project where I explained the electronics side of the project, this article continues to cover the other aspects of th"
 ---
-Following on from [ESP8266 Real-World Project](https://warlord0blog.wordpress.com/2021/10/28/esp8266-real-world-project/) where I explained the electronics side of the project, this article continues to cover the other aspects of the setup, this focusses on MQTT on the Raspberry Pi.
+Following on from [ESP8266 Real-World Project](/posts/esp8266-real-world-project/) where I explained the electronics side of the project, this article continues to cover the other aspects of the setup, this focusses on MQTT on the Raspberry Pi.
 
 I happened to have a few Raspberry Pi's lying around and repurposed one to handle the authentication side of the Gatekeeper. It's not going to be overly stressed by operating a few doors and should be well up to the task.
 
@@ -182,6 +182,6 @@ If you can't resolve the name from your other systems, it's probably because you
 
 ## References
 
-[ESP8266 Real-World Project](https://warlord0blog.wordpress.com/2021/10/28/esp8266-real-world-project/)
+[ESP8266 Real-World Project](/posts/esp8266-real-world-project/)
 
-[Project Gatekeeper, Part 3](https://warlord0blog.wordpress.com/2021/10/30/project-gatekeeper-part-3/)
+[Project Gatekeeper, Part 3](/posts/project-gatekeeper-part-3/)

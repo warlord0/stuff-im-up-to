@@ -15,7 +15,7 @@ Typically this could be used for a mobile application or forms product to access
 
 For this I looked at synchronising a table with Google Firebase cloud service.
 
-I went back to the methods used in [Laravel Caching Indefinitely](https://warlord0blog.wordpress.com/2019/06/28/laravel-caching-indefinitely/) and capture the created, updated and deleted events using an observer.
+I went back to the methods used in [Laravel Caching Indefinitely](/posts/laravel-caching-indefinitely/) and capture the created, updated and deleted events using an observer.
 
 This time instead of invalidating the cache I created, updated or deleted a matching record in Firebase. As manipulating Firebase is a simple case of using Json, Laravel is pretty well matched to make this process pretty simple.
 

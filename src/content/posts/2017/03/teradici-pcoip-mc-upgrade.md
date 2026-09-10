@@ -26,4 +26,4 @@ Now that's more like it. I recognised the `B7:62...` thumbprint. So what's chang
 
 > **Management Status**: Connected to Endpoint Manager: 192.168.0.95:5172
 
-and the terminal is now connected to the Management Console.   References: <https://warlord0blog.wordpress.com/2017/02/23/teradici-pcoip-management-console/>
+and the terminal is now connected to the Management Console.   References: </posts/teradici-pcoip-management-console/>

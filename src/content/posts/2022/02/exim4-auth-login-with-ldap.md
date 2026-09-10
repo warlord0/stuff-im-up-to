@@ -13,7 +13,7 @@ description: "This was a cause for smashing my head against the wall today. I co
 ---
 This was a cause for smashing my head against the wall today.
 
-I configured [Exim4 with LDAP](https://warlord0blog.wordpress.com/2022/02/19/exim4-ldap-auth/) auth and tested it with Thunderbird and a couple of Mac clients - I didn't expect Windows/Office to be the problem child. One of our users, trying to use Outlook, was getting refusals to login. This made no sense as all the other users are logging in just fine. Looking at the logs, the issue wasn't obvious.
+I configured [Exim4 with LDAP](/posts/exim4-ldap-auth/) auth and tested it with Thunderbird and a couple of Mac clients - I didn't expect Windows/Office to be the problem child. One of our users, trying to use Outlook, was getting refusals to login. This made no sense as all the other users are logging in just fine. Looking at the logs, the issue wasn't obvious.
 
 I got the user to install Thunderbird, and it logged in just fine.
 

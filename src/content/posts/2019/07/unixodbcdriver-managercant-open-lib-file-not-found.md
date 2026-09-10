@@ -14,7 +14,7 @@ I have no idea how we came up against this issue on one of the development image
 
 > \[unixODBC\]\[Driver Manager\]Can’t open lib ‘/opt/microsoft/msodbcsql17/lib64/libmsodbcsql-17.3.so.1.1’ : file not found
 
-Now we have seen this before and it related to [locale's](https://warlord0blog.wordpress.com/2017/12/12/php7-0-microsoft-sql-driver-debian-stretch/) so we tried that fix and still didn't get it to work.
+Now we have seen this before and it related to [locale's](/posts/php7-0-microsoft-sql-driver-debian-stretch/) so we tried that fix and still didn't get it to work.
 
 Trawling the internet I came across something pointed us to use `ldd` to look at the `.so` file and check out it's dependencies.
 

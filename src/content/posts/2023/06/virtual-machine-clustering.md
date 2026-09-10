@@ -17,7 +17,7 @@ We've put together a number of mid-spec servers to carry out some testing on clu
 
 Many years ago I built a single Proxmox server and hosted a few virtual machines, a mixture of Windows, and Linux guests. This time it's a much newer version of Proxmox, and we have a bunch of servers that I want to bring together in a cluster.
 
-Following the [installation guide](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_installation) results in a very straight forward installation, booting from the downloaded ISO (using [Ventoy – One Stick to Boot them All](https://warlord0blog.wordpress.com/2023/01/31/ventoy-one-stick-to-boot-them-all/)).
+Following the [installation guide](https://pve.proxmox.com/pve-docs/pve-admin-guide.html#chapter_installation) results in a very straight forward installation, booting from the downloaded ISO (using [Ventoy – One Stick to Boot them All](/posts/ventoy-one-stick-to-boot-them-all/)).
 
 The servers are [HPe Proliant DL360 (Gen9)](https://www.hp.com/hpinfo/newsroom/press_kits/2014/ComputeEra/HP_ProLiantDL360Gen9Server_DataSheet.pdf) - 48 cores - Intel(R) Xeon(R) CPU E5-2680 v3 @ 2.50GHz (2 Sockets) with 256 GB RAM, and 2 x SAS 300 GB Drives on a SmartArray Controller.
 
@@ -35,4 +35,4 @@ Once clustered, migrating VM guests from one host to another is as seamless as I
 
 The aim is to build a bulletproof virtualisation platform, where we can fail virtual machines across to other hosts, whilst maintaining a resilient connection to the backend storage, which in itself is HA cluster. Then on those VM guests build a clustered application virtualisation system that too can migrate between application hosts.
 
-See also [Virtual Machine Clustering, part 2](https://warlord0blog.wordpress.com/2023/06/26/virtual-machine-clustering-part-2/)
+See also [Virtual Machine Clustering, part 2](/posts/virtual-machine-clustering-part-2/)

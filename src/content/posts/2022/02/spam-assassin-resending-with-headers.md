@@ -10,7 +10,7 @@ tags:
 heroImage: "/blog-media/2022/02/spamassassin_logo-2.png"
 description: "Following on from Spam Assassin and Bayesian Learning To give our users the ability to forward mail to the spam learning feature, we need to ensure the for"
 ---
-Following on from [Spam Assassin and Bayesian Learning](https://warlord0blog.wordpress.com/2022/02/25/spam-assassin-and-bayesian-learning/)
+Following on from [Spam Assassin and Bayesian Learning](/posts/spam-assassin-and-bayesian-learning/)
 
 To give our users the ability to forward mail to the spam learning feature, we need to ensure the forwarded mail gets to `sa-learn` unmolested. That means with the original envelope and headers as it arrived. Normal email forwards remove all the header information that helps spamassassin figure out if it's spam or not.
 

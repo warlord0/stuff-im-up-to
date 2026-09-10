@@ -14,4 +14,4 @@ With Cloudflare, I wanted to host my Icinga2 instance behind a tunnel. This pose
 
 I figured it's something to do with the Cloudflare TLS getting in the way, and I was right. Between Cloudflare and Icinga2, I need to get Cloudflare to ignore the self-signed certificate of the Icinga2 service. There is a very simple option in the tunnel under TLS that turns off the verification of certificates. With this disabled, I now get correct submissions of passive results.
 
-See also: [Icinga2](https://warlord0blog.wordpress.com/2020/06/03/icinga2/)
+See also: [Icinga2](/posts/icinga2/)

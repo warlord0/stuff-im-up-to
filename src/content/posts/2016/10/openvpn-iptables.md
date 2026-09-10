@@ -88,4 +88,4 @@ The NAT initially got created from the command line by:
     $ sudo iptables -A FORWARD -i tun+ -o eth0 -m state --state RELATED,ESTABLISHED -j ACCEPT
     $ sudo iptables -A FORWARD -i eth0 -o tun+ -m state --state RELATED,ESTABLISHED -j ACCEPT
 
-Which basically allows OpenVPN to listen on port 443, adds NAT, allows forwarding from any tun device and forwards in both directions. Further reading: [https://help.ubuntu.com/community/IptablesHowTo](https://help.ubuntu.com/community/IptablesHowTo) [OpenVPN](https://warlord0blog.wordpress.com/2016/09/19/openvpn/)
+Which basically allows OpenVPN to listen on port 443, adds NAT, allows forwarding from any tun device and forwards in both directions. Further reading: [https://help.ubuntu.com/community/IptablesHowTo](https://help.ubuntu.com/community/IptablesHowTo) [OpenVPN](/posts/openvpn/)

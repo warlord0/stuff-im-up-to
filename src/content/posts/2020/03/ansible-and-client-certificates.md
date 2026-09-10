@@ -8,7 +8,7 @@ tags:
 heroImage: "/blog-media/2020/02/ansible800.png"
 description: "Now we know how to inject client certificates into Firefox and Chrome it's time to automate that process with Ansible. The goal is to take a client and CA"
 ---
-Now we know how to [inject client certificates into Firefox and Chrome](https://warlord0blog.wordpress.com/2020/02/05/firefox-certificates/) it's time to automate that process with Ansible.
+Now we know how to [inject client certificates into Firefox and Chrome](/posts/firefox-certificates/) it's time to automate that process with Ansible.
 
 The goal is to take a client and CA certificate and deliver it to the .pki keystore on the client. The actual generation of the certificate happens using `easyrsa` and is not part of this process. Let's assume you already have generated a series of certificates, and converted them to a `.pfx` (pkcs12) for each client and just need to deliver them - although I may write up that process later.
 

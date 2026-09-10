@@ -11,9 +11,9 @@ tags:
 heroImage: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg.png"
 description: "I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows."
 ---
-I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows. I thought I'd revisit [VS Code](https://warlord0blog.wordpress.com/2018/03/13/sweet-christmas-vs-code/) and see if I can use it effectively like Atom.
+I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows. I thought I'd revisit [VS Code](/posts/sweet-christmas-vs-code/) and see if I can use it effectively like Atom.
 
-First thing I needed to make sure of was that some of the Atom features I use are available in VS Code. Standard stuff like dark colour theme, [ESLint](https://warlord0blog.wordpress.com/2018/08/06/linting/), syntax highlighting, auto-completions and [Emmet](https://warlord0blog.wordpress.com/2018/06/07/emmet-io/).
+First thing I needed to make sure of was that some of the Atom features I use are available in VS Code. Standard stuff like dark colour theme, [ESLint](/posts/linting/), syntax highlighting, auto-completions and [Emmet](/posts/emmet-io/).
 
 One pleasant surprise was that VS Code has [Emmet built right in](https://code.visualstudio.com/docs/editor/emmet)! The usage is a little different, keyboard shortcuts etc. but it's native to VS Code so that's pretty good.
 

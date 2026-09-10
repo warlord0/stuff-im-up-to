@@ -10,7 +10,7 @@ description: "STOP READING NOW IF YOU CAN'T HANDLE DISAPPOINTMENT. It's been a w
 ---
 **STOP READING NOW IF YOU CAN'T HANDLE DISAPPOINTMENT.**
 
-It's been a while since I originally wrote about the [Raspbian & Realtek 8192eu WiFi](https://warlord0blog.wordpress.com/2017/02/19/raspbian-realtek-8192eu-wifi/) USB Wifi adapter and just recently I wanted to build something from some old Pi's I had knocking around. I needed Wifi so went to install the adapter I have using my notes. They no longer apply. Seems the creator of the previous builds has retired them and a new method is needed.
+It's been a while since I originally wrote about the [Raspbian & Realtek 8192eu WiFi](/posts/raspbian-realtek-8192eu-wifi/) USB Wifi adapter and just recently I wanted to build something from some old Pi's I had knocking around. I needed Wifi so went to install the adapter I have using my notes. They no longer apply. Seems the creator of the previous builds has retired them and a new method is needed.
 
 This lead me here: [https://github.com/Mange/rtl8192eu-linux-driver](https://github.com/Mange/rtl8192eu-linux-driver)
 

@@ -15,6 +15,6 @@ This time the updates are with 5.17, and it forced me to reboot and install 5.18
 
 ## References
 
-[Nvidia Nightmare Returns](https://warlord0blog.wordpress.com/2022/01/25/nvidia-nightmare-returns/)
+[Nvidia Nightmare Returns](/posts/nvidia-nightmare-returns/)
 
-[Manjaro Gnome Failure After Update](https://warlord0blog.wordpress.com/2021/05/19/manjaro-gnome-failure-after-update/)
+[Manjaro Gnome Failure After Update](/posts/manjaro-gnome-failure-after-update/)

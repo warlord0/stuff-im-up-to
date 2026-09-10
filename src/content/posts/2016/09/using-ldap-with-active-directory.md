@@ -44,4 +44,4 @@ It's a simple fix and one you'll need to carry through to your web app config. W
 
 > You could always reconfigure your CA server so that it issues certificates with "Subject Alternative Names" (SANs) that have all variations of FQDN, short name and IP address, but that's beyond the scope of this article.
 
-See also: [CA Certificates](https://warlord0blog.wordpress.com/2016/09/22/ca-certificates/)
+See also: [CA Certificates](/posts/trusting-ca-certificates/)

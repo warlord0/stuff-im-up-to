@@ -45,4 +45,4 @@ You may also want to add in your other php modules like php7.0-mysql, php7.0-lda
 
     fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;
 
-Don't forget, you may still have to work out the root entry and fastcgi_params as per [NGINX and php5-fpm](https://warlord0blog.wordpress.com/2016/09/20/nginx-and-php5-fpm/) You may also notice that this hasn't impacted on your php 5 setup at all. Seems you can run both, which may be useful if you have different virtual web servers with specific requirements.
+Don't forget, you may still have to work out the root entry and fastcgi_params as per [NGINX and php5-fpm](/posts/nginx-and-php5-fpm/) You may also notice that this hasn't impacted on your php 5 setup at all. Seems you can run both, which may be useful if you have different virtual web servers with specific requirements.

@@ -10,7 +10,7 @@ tags:
 heroImage: "/blog-media/2016/09/debian-logo-1.png"
 description: "Following on from the previous post Exim4 & DKIM I ran into a problem with no DKIM signature being added to outgoing mail. As I had this working when sendi"
 ---
-Following on from the previous post [Exim4 & DKIM](https://warlord0blog.wordpress.com/2016/10/08/exim4-dkim/) I ran into a problem with no DKIM signature being added to outgoing mail. As I had this working when sending emails directly I figure it has to do with the smarthost config in Exim4. Turns out the problem is that there is no DKIM config in the smarthosts config section. The section we're looking for is `remote_smtp_smarthost:` which if you search for in the exim4.conf.template file shows as being within transport/30_exim4-config_remote_smtp_smarthost, so the corresponding separate config file would be under conf.d/transport. I then set about coying the DKIM related parts from the `smtp_remote:` section into the `remote_smtp_smarthost:` section:
+Following on from the previous post [Exim4 & DKIM](/posts/exim4-dkim/) I ran into a problem with no DKIM signature being added to outgoing mail. As I had this working when sending emails directly I figure it has to do with the smarthost config in Exim4. Turns out the problem is that there is no DKIM config in the smarthosts config section. The section we're looking for is `remote_smtp_smarthost:` which if you search for in the exim4.conf.template file shows as being within transport/30_exim4-config_remote_smtp_smarthost, so the corresponding separate config file would be under conf.d/transport. I then set about coying the DKIM related parts from the `smtp_remote:` section into the `remote_smtp_smarthost:` section:
 
     .ifdef DKIM_DOMAIN
     dkim_domain = DKIM_DOMAIN

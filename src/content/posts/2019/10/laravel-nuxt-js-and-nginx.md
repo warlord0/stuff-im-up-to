@@ -28,4 +28,4 @@ https://gist.github.com/warlord0/97e86149102557f219a4073d240fd2e3
 
 Now I can manage any CORS requirements using the Nginx config.
 
-What's more the basis of this config can also be used with [Laragon](https://warlord0blog.wordpress.com/2019/09/25/developing-in-windows/) to serve from Windows.
+What's more the basis of this config can also be used with [Laragon](/posts/developing-in-windows/) to serve from Windows.

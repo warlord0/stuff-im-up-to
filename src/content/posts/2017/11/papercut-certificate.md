@@ -26,4 +26,4 @@ Now every printer that has an embedded PaperCut app will need to be updated to a
 
 ## References
 
-[https://warlord0blog.wordpress.com/2017/11/14/java-keystore-management/](https://warlord0blog.wordpress.com/2017/11/14/java-keystore-management/) [https://www.papercut.com/products/ng/manual/common/topics/tools-ssl-key-generation-certificate-authority-import-new.html](https://www.papercut.com/products/ng/manual/common/topics/tools-ssl-key-generation-certificate-authority-import-new.html)
+[/posts/java-keystore-management/](/posts/java-keystore-management/) [https://www.papercut.com/products/ng/manual/common/topics/tools-ssl-key-generation-certificate-authority-import-new.html](https://www.papercut.com/products/ng/manual/common/topics/tools-ssl-key-generation-certificate-authority-import-new.html)

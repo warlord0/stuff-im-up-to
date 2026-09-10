@@ -14,7 +14,7 @@ This gave me cause for tears today. The VCSA (vCenter Server Appliance) manageme
 
 It's a very good job that at some point in the past I put my public key onto the system so I could use my plain old no password required private key to logon to the system using ssh!
 
-[SSH Logon with Private Key](https://warlord0blog.wordpress.com/2017/03/01/ssh-logon-with-private-key/)
+[SSH Logon with Private Key](/posts/ssh-logon-with-private-key/)
 
 Now I'm logged onto the console how do I go about getting access back to the Web UI? I discovered that the VCSA system uses `pam_tally2` to lockout sessions. What I needed to do was reset the root account:
 

@@ -103,4 +103,4 @@ You should find the structure fairly easy to understand. We have 3 groups with m
 
 You start off with only being allowed access to the DNS server and the Web Server (which is the entry point for the OTP). Once you enter a one time password, the IP addresses that make up the policies that apply to your user open firewall rules to allow you to traverse the network.
 
-This really was a great find. The developer is friendly and responsive. He's taken care of a few issues and listened to suggestions. It's very new, and we're beginning to roll this out to our users. For me, the solves the frustration of the [OpenVPN GUI missing OTP.](https://warlord0blog.wordpress.com/2022/09/03/openvpn-gnome-network-manager-and-otp/) I look forward to making our remote connections easier to bear.
+This really was a great find. The developer is friendly and responsive. He's taken care of a few issues and listened to suggestions. It's very new, and we're beginning to roll this out to our users. For me, the solves the frustration of the [OpenVPN GUI missing OTP.](/posts/openvpn-gnome-network-manager-and-otp/) I look forward to making our remote connections easier to bear.

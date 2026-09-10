@@ -10,7 +10,7 @@ description: "I had some of my bash code commented on publicly and the one comme
 ---
 I had some of my bash code commented on publicly and the one comment was "You should run your scripts through [shellcheck](https://www.shellcheck.net)." This was probably the most useful bit of advice I've had to do with bash scripting.
 
-You'll maybe note that previously I've used [linting](https://warlord0blog.wordpress.com/2018/08/06/linting/) for php and JavaScript and that's been immensely helpful for keeping my code tidy and correct. Well shellcheck helps do the same thing but for shell scripts.
+You'll maybe note that previously I've used [linting](/posts/linting/) for php and JavaScript and that's been immensely helpful for keeping my code tidy and correct. Well shellcheck helps do the same thing but for shell scripts.
 
 The thing I found most useful was not the fact it picked up errors, but that it makes coding suggestions. The suggestions lead you to instructive pages that actually teaches you how to code better.
 

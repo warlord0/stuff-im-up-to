@@ -11,7 +11,7 @@ tags:
 heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "Using Hot Module Reload (HMR) with Laravel"
 ---
-Revisiting a previous post  about [vue-cli 3 and hmr](https://warlord0blog.wordpress.com/2018/07/18/vue-cli-3-and-hmr/) I tried to get HMR going in a similar fashion through Laravel-mix.
+Revisiting a previous post  about [vue-cli 3 and hmr](/posts/vue-cli-3-and-hmr/) I tried to get HMR going in a similar fashion through Laravel-mix.
 
 First mistake to make is that laravel-mix does not need BrowserSync for HMR. So don't install it or configure it in the `webpack.mix.js` file.
 

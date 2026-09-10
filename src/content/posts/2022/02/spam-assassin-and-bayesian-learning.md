@@ -207,4 +207,4 @@ shortcircuit BAYES_99                spam
 shortcircuit BAYES_00                ham
 ```
 
-Next we'll look at allowing users to submit spam to teach spamassassin about things it missed - See [Spam Assassin Resending With Headers](https://warlord0blog.wordpress.com/2022/02/26/spam-assassin-resending-with-headers/).
+Next we'll look at allowing users to submit spam to teach spamassassin about things it missed - See [Spam Assassin Resending With Headers](/posts/spam-assassin-resending-with-headers/).

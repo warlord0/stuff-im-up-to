@@ -12,11 +12,11 @@ description: "So far I've seen 2FA/MFA with OpenVPN using a 3rd Party plugin ope
 ---
 So far I've seen 2FA/MFA with OpenVPN using a 3rd Party plugin `openvpn-otp.so` from [evgeny-gridasov/openvpn-otp](https://github.com/evgeny-gridasov/openvpn-otp), but after I got it working I didn't like the way it implemented HOTP counter storage and the use of `otp-secrets`. There has to be another way.
 
-I see that there is a native `openvpn-plugin-auth-pam.so`, and also know that on another system we're using the [OATH toolkit](https://www.nongnu.org/oath-toolkit/index.html) for providing OTP for [sshd](https://warlord0blog.wordpress.com/2020/05/01/one-time-password-and-sshd/). The OATH toolkit includes `pam_oath.so`. This means there is a common link for me to make use of PAM to give me MFA for OpenVPN.
+I see that there is a native `openvpn-plugin-auth-pam.so`, and also know that on another system we're using the [OATH toolkit](https://www.nongnu.org/oath-toolkit/index.html) for providing OTP for [sshd](/posts/one-time-password-and-sshd/). The OATH toolkit includes `pam_oath.so`. This means there is a common link for me to make use of PAM to give me MFA for OpenVPN.
 
 ## Server Configuration
 
-As I already have a configured [OpenVPN](https://warlord0blog.wordpress.com/tag/openvpn/) server, configured with LDAP auth, all I need to install `oathtool`, `qrencode` and `libpam-oath`.
+As I already have a configured [OpenVPN](/tags/openvpn/) server, configured with LDAP auth, all I need to install `oathtool`, `qrencode` and `libpam-oath`.
 
 ```
 sudo apt install oathtool qrencode libpam-oath

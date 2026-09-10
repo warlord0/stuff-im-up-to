@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2020/01/moby-logo.png"
 description: "Following on from Filesystem Synchronisation where a Docker container was setup to handle receiving files over rsync+ssh this handles the sending client si"
 ---
-Following on from [Filesystem Synchronisation](https://warlord0blog.wordpress.com/2020/01/28/filesystem-synchronisation/) where a Docker container was setup to handle receiving files over `rsync+ssh` this handles the sending client side that monitors and sends changed files over to the server using `lsyncd`.
+Following on from [Filesystem Synchronisation](/posts/filesystem-synchronisation/) where a Docker container was setup to handle receiving files over `rsync+ssh` this handles the sending client side that monitors and sends changed files over to the server using `lsyncd`.
 
 Lsyncd uses `inotify` to pick up changes in the filesystem and then sends those changes over `rsync` to the remote server. I wanted to create a solution that handled a secure transmission of files over `ssh` to the server.
 

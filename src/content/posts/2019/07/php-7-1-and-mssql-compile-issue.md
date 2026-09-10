@@ -41,7 +41,7 @@ $ sudo pecl install sqlsrv
 ...
 ```
 
-And repeat for `pdo_sqlsrv.ini`, I get the `.so` files created in the `/usr/lib/php/20160303` folder. [Then add the `sqlsrv.ini` file and link it](https://warlord0blog.wordpress.com/2017/12/12/php7-0-microsoft-sql-driver-debian-stretch/), but with 7.1. After running `php -v` I see no errors and `php -m` shows the two sql modules loaded.
+And repeat for `pdo_sqlsrv.ini`, I get the `.so` files created in the `/usr/lib/php/20160303` folder. [Then add the `sqlsrv.ini` file and link it](/posts/php7-0-microsoft-sql-driver-debian-stretch/), but with 7.1. After running `php -v` I see no errors and `php -m` shows the two sql modules loaded.
 
 ```
 $ php -v                                                                                                  

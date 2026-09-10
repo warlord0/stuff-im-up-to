@@ -74,7 +74,7 @@ This is written into the `index.html` file output and allows the static file to 
 
 ## References
 
-See also [Certbot and Cloudflare](https://warlord0blog.wordpress.com/2023/11/06/certbot-and-cloudflare/)
+See also [Certbot and Cloudflare](/posts/certbot-and-cloudflare/)
 
 [https://nginxproxymanager.com](https://nginxproxymanager.com)
 

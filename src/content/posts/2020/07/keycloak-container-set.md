@@ -85,4 +85,4 @@ Now the real learning begins - with a working service you can now browse the set
 
 What makes this exciting for me is the ability to give the users a real easy way of changing their LDAP password with mechanisms to verify email addresses and simple forms. Even control two-factor authentication using One Time Passwords taking the weight off the sysadmins.
 
-**For reverse proxy setup see [Keycloak and OpenLDAP](https://warlord0blog.wordpress.com/2020/07/24/keycloak-and-openldap/)**
+**For reverse proxy setup see [Keycloak and OpenLDAP](/posts/keycloak-and-openldap/)**

@@ -184,7 +184,7 @@ So you can see that the pid 22322 must be the `check_nginx.sh` process returning
 
 Now the fail overs work as expected I can reconfigure Nginx to act as a reverse proxy.
 
-[Nginx as a Reverse Proxy](https://warlord0blog.wordpress.com/2016/10/26/nginx-not-just-a-web-server/)
+[Nginx as a Reverse Proxy](/posts/nginx-not-just-a-web-server/)
 
 ## IPTables / Arno Firewall for VRRP
 

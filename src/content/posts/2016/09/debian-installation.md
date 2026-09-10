@@ -56,4 +56,4 @@ You can then use the id_rsa.ppk file in you settings for putty to use.
 
 ### Firewall
 
-Now I can connect to the server using SSH I'd like to keep things secure. An easily implemented firewall config I use is arno, it does all the heavy lifting with iptables. Instructions for that can be found here: [Linux Firewall](https://warlord0blog.wordpress.com/2016/01/04/linux-firewall/) Then it's over to you what you need to install on it.
+Now I can connect to the server using SSH I'd like to keep things secure. An easily implemented firewall config I use is arno, it does all the heavy lifting with iptables. Instructions for that can be found here: [Linux Firewall](/posts/linux-firewall/) Then it's over to you what you need to install on it.
