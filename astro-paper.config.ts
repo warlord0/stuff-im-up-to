@@ -4,7 +4,8 @@ export default defineAstroPaperConfig({
   site: {
     url: "https://stuff-im-up-to.whalesanctuary.co.uk/",
     title: "Stuff I'm Up To",
-    description: "Technical Ramblings",
+    description:
+      "Technical ramblings on Debian, Linux, self-hosting, and whatever I've had to figure out and didn't want to forget.",
     author: "warlord",
     ogImage: "default-og.jpg",
     lang: "en",
