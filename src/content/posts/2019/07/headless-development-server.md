@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Windows"
 heroImage: "/blog-media/2019/07/x-window1.png"
-description: "After building a development environment in Linux as per a previous article - https://warlord0blog.wordpress.com/2018/07/13/building-a-debian-development-s"
+description: "After building a Linux development environment, I wanted something more portable for remote development, without resorting to VNC or a full desktop."
 ---
 After building a development environment in Linux as per a previous article - [/posts/building-a-debian-development-server/](/posts/building-a-debian-development-server/) I decided I wanted something a bit more portable in terms of development tools.
 

@@ -22,7 +22,7 @@ Restart the PaperCut services, give it a minute and the user and admin portal sh
 
 > https://printserver.domain.local:9192/admin
 
-Now every printer that has an embedded PaperCut app will need to be updated to accept the new certificate. This means you have to visit each PaperCut admin console on every device - yes, that's the painful bit if you have a lot of printers. Then you login to the console and click apply, even though you've made no change. This will then ask you to accept and trust the new certificate. ![Selection_002](https://warlord0blog.wordpress.com/wp-content/uploads/2017/11/selection_002.png)
+Now every printer that has an embedded PaperCut app will need to be updated to accept the new certificate. This means you have to visit each PaperCut admin console on every device - yes, that's the painful bit if you have a lot of printers. Then you login to the console and click apply, even though you've made no change. This will then ask you to accept and trust the new certificate.
 
 ## References
 
