@@ -10,7 +10,7 @@ These aren’t scientific laws, but widely-used mental models and heuristics tha
 
 ------------------------------------------------------------------------
 
-# 1. Parkinson’s Law
+## 1. Parkinson’s Law
 
 **Definition**
 
@@ -43,7 +43,7 @@ If your boss needs it by 3 pm today, you’ll probably finish it by 3 pm.
 
 ------------------------------------------------------------------------
 
-# 2. Hofstadter’s Law
+## 2. Hofstadter’s Law
 
 **Definition**
 
@@ -68,7 +68,7 @@ Everyone acts surprised.
 
 ------------------------------------------------------------------------
 
-# 3. Hanlon’s Razor
+## 3. Hanlon’s Razor
 
 **Definition**
 
@@ -99,7 +99,7 @@ Reduce unnecessary conflict by assuming simple explanations first.
 
 ------------------------------------------------------------------------
 
-# 4. The Pareto Principle (80/20 Rule)
+## 4. The Pareto Principle (80/20 Rule)
 
 **Definition**
 
@@ -117,7 +117,7 @@ Find the critical few rather than optimising everything equally.
 
 ------------------------------------------------------------------------
 
-# 5. The Peter Principle
+## 5. The Peter Principle
 
 **Definition**
 
@@ -145,7 +145,7 @@ Poor people manager
 
 ------------------------------------------------------------------------
 
-# 6. Hick’s Law
+## 6. Hick’s Law
 
 **Definition**
 
@@ -169,7 +169,7 @@ Keep choices manageable.
 
 ------------------------------------------------------------------------
 
-# 7. Goodhart’s Law
+## 7. Goodhart’s Law
 
 **Definition**
 
@@ -204,7 +204,7 @@ Metrics should guide decisions—not become the goal.
 
 ------------------------------------------------------------------------
 
-# 8. The Dunning–Kruger Effect
+## 8. The Dunning–Kruger Effect
 
 **Definition**
 
@@ -228,7 +228,7 @@ Experienced programmer:
 
 ------------------------------------------------------------------------
 
-# 9. Occam’s Razor
+## 9. Occam’s Razor
 
 **Definition**
 
@@ -255,7 +255,7 @@ Occam’s Razor doesn’t say “the simplest answer is true”—it says **star
 
 ------------------------------------------------------------------------
 
-# 10. Chesterton’s Fence
+## 10. Chesterton’s Fence
 
 **Definition**
 
@@ -283,7 +283,7 @@ Understand before changing.
 
 ------------------------------------------------------------------------
 
-# 11. Brooks’s Law
+## 11. Brooks’s Law
 
 **Definition**
 
@@ -316,7 +316,7 @@ Delivery slips even further.
 
 ------------------------------------------------------------------------
 
-# Summary Table
+## Summary Table
 
 | Law                   | Core Idea                                           |
 |-----------------------|-----------------------------------------------------|
@@ -334,7 +334,7 @@ Delivery slips even further.
 
 ------------------------------------------------------------------------
 
-# Final Thought
+## Final Thought
 
 None of these “laws” is universally true. They are heuristics—useful rules of thumb rather than absolute rules. Their value comes from prompting better questions:
 

@@ -8,7 +8,7 @@ tags:
 heroImage: "/blog-media/2026/09/blume.png"
 description: "When MkDocs 2.0 Broke Material, I Took the Opportunity to Try Blume I've been using MkDocs with the Material theme for the documentation for my Novel Codex project for quite a while. It has been a good combination: Markdown files, a simple configuration file, a decent-looking documentation site, and very little to think about. Then…"
 ---
-# When MkDocs 2.0 Broke Material, I Took the Opportunity to Try Blume
+## When MkDocs 2.0 Broke Material, I Took the Opportunity to Try Blume
 
 I’ve been using MkDocs with the Material theme for the documentation for my Novel Codex project for quite a while. It has been a good combination: Markdown files, a simple configuration file, a decent-looking documentation site, and very little to think about.
 

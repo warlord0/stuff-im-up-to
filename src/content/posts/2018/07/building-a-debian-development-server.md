@@ -278,7 +278,7 @@ Of course serving a version of your project like this isn't the only way to go. 
 
 I also like to move away from a development web server and setup [Nginx](/posts/nginx-and-laravel/) to handle serving my Laravel Project.
 
-# Further Reading
+## Further Reading
 
 /posts/ssh-logon-with-private-key/
 

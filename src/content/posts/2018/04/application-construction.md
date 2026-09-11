@@ -12,7 +12,7 @@ tags:
 heroImage: "/blog-media/2018/03/vue-laravel.png"
 description: "Frameworks For rapid application development there's a lot of pre-written code out there that is mature and highly capable. There's no need to build from t"
 ---
-# Frameworks
+## Frameworks
 
 For rapid application development there's a lot of pre-written code out there that is mature and highly capable. There's no need to build from the ground up when you can use a framework or scaffolding to build your application.
 
@@ -48,7 +48,7 @@ Bootstrap is a HTML presentation framework. it provides the visual construction 
 
 As an alternate presentation framework to Bootstrap/Bootstrap-vue on one project I've used Vuetify. Vuetify again is a very distinctive style. It uses the Google Material Design styles to present your application.
 
-# Application Delivery
+## Application Delivery
 
 After writing and testing the application locally I need to deploy it to a web server. As part of my development process I use the Git version control system. This allows me to commit changes of my code in a controlled manner and enables me to rollback to previous versions, compare changes I've made and easily deploy the code to other systems. For this I installed a Gitlab server so we have our own internal Git version control server. Using Github is only for publicly accessible code unless you take out a commercial package. Having our own Gitlab server provides the same functionality, but enables me to keep private projects internally. To deploy the code to a server is as simple as compiling my assets for production and cloning the project to the server or pulling the changes. Compile my production assets and upload/push them to the Gitlab server:
 

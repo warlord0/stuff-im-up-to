@@ -8,7 +8,7 @@ tags:
 heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
 description: "\"Your connection is not private!\" This was a game over message that was the result of installing the wrong type of certificate onto our new printers. We're"
 ---
-# "Your connection is not private!"
+## "Your connection is not private!"
 
 This was a game over message that was the result of installing the wrong type of certificate onto our new printers. We're still working on getting the template right, but put simply we enabled a User certificate as the HTTPS management certificate. This caused any browser to throw up a serious security alert, serious enough that it doesn't give you the option to continue to the management interface. Even trying a factory reset on the printer didn't take us back to factory settings for the management interface - that's another bridge we have to cross. Thankfully, within Google Chrome there is a secret instruction that allows us to continue even though we really shouldn't.
 

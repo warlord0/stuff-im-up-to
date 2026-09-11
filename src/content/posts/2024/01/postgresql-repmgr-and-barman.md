@@ -391,7 +391,7 @@ barman recover --target-time "2024-01-17 00:00:00.000" --remote-ssh-command="ssh
 
 The ssh user must also have permission to the location to restore to.
 
-# References
+## References
 
 [https://postgreshelp.com/postgresql-timelines/](https://postgreshelp.com/postgresql-timelines/)
 

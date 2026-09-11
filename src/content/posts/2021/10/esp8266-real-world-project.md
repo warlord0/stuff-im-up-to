@@ -9,7 +9,7 @@ tags:
 heroImage: "/blog-media/2021/10/gate.png"
 description: "Gatekeeper, Part 1 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is"
 ---
-# Gatekeeper, Part 1
+## Gatekeeper, Part 1
 
 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is sub-par, and it seems easy to release the genie in the form of blue smoke.
 
