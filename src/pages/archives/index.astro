@@ -6,7 +6,8 @@ import Header from "@/components/Header.astro";
 import Breadcrumb from "@/components/Breadcrumb.astro";
 import Main from "@/components/Main.astro";
 import Footer from "@/components/Footer.astro";
-import Card from "@/components/Card.astro";
+import Datetime from "@/components/Datetime.astro";
+import { getPostUrl } from "@/utils/getPostPaths";
 import { postFilter } from "@/utils/postFilter";
 import { getPostsByGroupCondition } from "./_utils/getPostsByGroupCondition";
 import { useTranslations } from "@/i18n";
@@ -74,8 +75,24 @@ const monthFormatter = new Intl.DateTimeFormat(locale, { month: "long" });
                             new Date(a.data.pubDatetime).getTime() / 1000
                           )
                       )
-                      .map(data => (
-                        <Card {...data} />
+                      .map(entry => (
+                        <li class="my-2">
+                          <a
+                            href={getPostUrl(entry.id, entry.filePath, locale)}
+                            class:list={[
+                              "text-accent inline-block font-medium",
+                              "underline-offset-4 hover:underline",
+                              "focus-visible:no-underline focus-visible:underline-offset-0",
+                            ]}
+                          >
+                            {entry.data.title}
+                          </a>
+                          <Datetime
+                            pubDatetime={entry.data.pubDatetime}
+                            modDatetime={entry.data.modDatetime}
+                            timezone={entry.data.timezone}
+                          />
+                        </li>
                       ))}
                   </ul>
                 </div>
