@@ -5,8 +5,8 @@ tags:
   - "Linux"
   - "SSH"
   - "Terminal"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
-heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
+heroImage: "/blog-media/2026/09/kitty.webp"
+heroThumb: "/blog-media/2026/09/kitty-thumb.webp"
 description: "If you've started using Kitty as your terminal emulator, you may eventually hit a particularly annoying problem when working over SSH: everything works fine as your normal user, but as soon as you sudo into another account, terminal applications start behaving strangely…"
 ---
 
