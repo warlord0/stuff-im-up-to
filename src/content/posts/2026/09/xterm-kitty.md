@@ -381,3 +381,10 @@ infocmp $TERM
 
 If `infocmp` can't find the terminal definition, you've probably found your problem.
 
+## TL;DR
+
+```bash
+infocmp xterm-kitty > /tmp/xterm-kitty.info
+sudo tic -x -o /usr/share/terminfo /tmp/xterm-kitty.info
+```
+
