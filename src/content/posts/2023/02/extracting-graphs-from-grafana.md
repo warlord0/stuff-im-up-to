@@ -4,7 +4,8 @@ modDatetime: 2023-02-15T10:11:57Z
 title: "Extracting Graphs from Grafana"
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71.png"
+heroImage: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71.webp"
+heroThumb: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71-thumb.webp"
 description: "The Grafana dashboards are a really nice interactive display of metrics. What we want to do is take those graphs from a dashboard and share them on a stati"
 ---
 The Grafana dashboards are a really nice interactive display of metrics. What we want to do is take those graphs from a dashboard and share them on a static monthly report.
@@ -17,7 +18,7 @@ We have our PostgreSQL dashboard, but let's say I want to grab the "Average CPU 
 
 Grafana has a plugin called [`grafana-image-renderer`](https://grafana.com/grafana/plugins/grafana-image-renderer/?tab=installation). This is pretty much an instance of a Chrome browser that gets fired when you ask for a "Direct link rendered page".
 
-![](/blog-media/2023/02/image.png)
+![](/blog-media/2023/02/image.webp)
 
 As we are using a Docker image for Grafana there were many things I had to do to make this work. There are quite a few prerequisites that meant it didn't work until I satisfied them all. To do that, I used a custom `Dockerfile`.
 

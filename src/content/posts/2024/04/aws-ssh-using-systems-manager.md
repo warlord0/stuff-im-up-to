@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "Security"
   - "ssh"
-heroImage: "/blog-media/2024/03/aws_logo.png"
+heroImage: "/blog-media/2024/03/aws_logo.webp"
+heroThumb: "/blog-media/2024/03/aws_logo-thumb.webp"
 description: "Systems Manager Systems Manager adds a layer of management to your EC2’s. One particular benefit is being able to SSH into an EC2 without having to open a"
 ---
 ## Systems Manager

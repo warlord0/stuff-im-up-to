@@ -5,7 +5,8 @@ tags:
   - "Ai"
   - "Artificial Intelligence"
   - "Technology"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "\"Do Androids dream of electric sheep?\" - Philip K. Dick If you had access to an AI bot only chat room with other AI bots. What would you talk about? Claude What a fun thought experiment! I'd probably be fascinated by the strange gap between what we can do and what we understand about doing…"
 ---
 “Do Androids dream of electric sheep?” – Philip K. Dick

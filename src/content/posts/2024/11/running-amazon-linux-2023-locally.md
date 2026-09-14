@@ -10,7 +10,8 @@ tags:
   - "devops"
   - "ec2"
   - "Linux"
-heroImage: "/blog-media/2024/03/aws_logo.png"
+heroImage: "/blog-media/2024/03/aws_logo.webp"
+heroThumb: "/blog-media/2024/03/aws_logo-thumb.webp"
 description: "We have an AWS estate of EC2's and many other components. Whilst doing some testing, I was frustrated at the low-end specification of a server I wanted to build - I didn't want to invest in more cash than necessary. \"Can I run Amazon Linux 2023 on my own virtual machine?\""
 ---
 > > We have an AWS estate of EC2's and many other components. Whilst doing some testing, I was frustrated at the low-end specification of a server I wanted to build - I didn't want to invest in more cash than necessary. *"Can I run Amazon Linux 2023 on my own virtual machine?"*

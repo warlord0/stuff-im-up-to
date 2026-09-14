@@ -4,7 +4,8 @@ modDatetime: 2024-04-27T17:31:16Z
 title: "Icinga2"
 tags:
   - "Linux"
-heroImage: "/blog-media/2020/06/icinga2_logo.png"
+heroImage: "/blog-media/2020/06/icinga2_logo.webp"
+heroThumb: "/blog-media/2020/06/icinga2_logo-thumb.webp"
 description: "Updated April 2024 Having had some experience with Nagios and writing Nagios plug-ins and using nagiosql3 to manage the configuration, the new job uses Ici"
 ---
 ***Updated April 2024***

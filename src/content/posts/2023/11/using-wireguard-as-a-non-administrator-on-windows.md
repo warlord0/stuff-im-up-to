@@ -4,7 +4,8 @@ title: "Using WireGuard as a non-Administrator on Windows"
 tags:
   - "Windows"
   - "wireguard"
-heroImage: "/blog-media/2020/04/wireguard.png"
+heroImage: "/blog-media/2020/04/wireguard.webp"
+heroThumb: "/blog-media/2020/04/wireguard-thumb.webp"
 description: "WireGuard does not work on Windows unless you are an administrator. However, you can enable a regular user to control the service after an admin has instal"
 ---
 WireGuard does not work on Windows unless you are an administrator. However, you can enable a regular user to control the service after an admin has installed and configured it. You cannot use the standard WireGuard GUI at all, and should follow these steps to give a non-admin user the ability to start and stop the WireGuard connection service.

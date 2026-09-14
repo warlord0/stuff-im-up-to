@@ -4,7 +4,8 @@ modDatetime: 2023-10-09T19:43:55Z
 title: "Neovim = Vi to the max!"
 tags:
   - "Linux"
-heroImage: "/blog-media/2023/10/neovim.png"
+heroImage: "/blog-media/2023/10/neovim.webp"
+heroThumb: "/blog-media/2023/10/neovim-thumb.webp"
 description: "I recently came across Neovim, and to say I'm impressed is an understatement. For years, I have used vi to edit files on Linux. Nano and pico should be bur"
 ---
 I recently came across [Neovim,](https://neovim.io) and to say I'm impressed is an understatement.

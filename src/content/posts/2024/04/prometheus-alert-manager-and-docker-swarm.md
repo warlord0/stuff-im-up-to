@@ -8,7 +8,8 @@ tags:
   - "Linux"
   - "prometheus"
   - "Virtualisation"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "This is not a complete plug and go HOW-TO for using Prometheus for scaling a Docker Swarm, but it does contain the building blocks for how to do it. Orches"
 ---
 This is not a complete plug and go HOW-TO for using Prometheus for scaling a Docker Swarm, but it does contain the building blocks for how to do it.

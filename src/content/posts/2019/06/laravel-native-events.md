@@ -4,7 +4,8 @@ title: "Laravel Native Events"
 tags:
   - "Laravel"
   - "Link"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "https://stackoverflow.com/questions/13059744/where-can-i-get-a-complete-list-of-laravel-events-fired-by-the-core-libraries"
 ---
 https://stackoverflow.com/questions/13059744/where-can-i-get-a-complete-list-of-laravel-events-fired-by-the-core-libraries

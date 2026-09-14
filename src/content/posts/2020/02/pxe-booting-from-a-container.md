@@ -7,7 +7,8 @@ tags:
   - "dnsmasq"
   - "Linux"
   - "pxe"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "I wanted to build on the automated deployments for Debian and Mint, etc. and the next logical step is to use a PXE boot server and DHCP. Thankfully someone"
 ---
 I wanted to build on the automated deployments for Debian and Mint, etc. and the next logical step is to use a PXE boot server and DHCP. Thankfully someone has already built a container to do just that - [ferrarimarco/pxe](https://hub.docker.com/r/ferrarimarco/pxe)

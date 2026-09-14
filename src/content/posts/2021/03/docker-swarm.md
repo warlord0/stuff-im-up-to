@@ -6,7 +6,8 @@ tags:
   - "Docker"
   - "Linux"
   - "swarm"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "It's time to look at building replicated services using Docker swarm. Mostly I build lots of docker compose configs, but not had the need to create an auto"
 ---
 It's time to look at building replicated services using Docker swarm. Mostly I build lots of docker compose configs, but not had the need to create an automated resilient solution until now.

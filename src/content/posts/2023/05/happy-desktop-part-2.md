@@ -5,7 +5,8 @@ title: "Happy Desktop, Part 2"
 tags:
   - "gnome"
   - "Linux"
-heroImage: "/blog-media/2023/05/screenshot-from-2023-05-22-08-28-28.png"
+heroImage: "/blog-media/2023/05/screenshot-from-2023-05-22-08-28-28.webp"
+heroThumb: "/blog-media/2023/05/screenshot-from-2023-05-22-08-28-28-thumb.webp"
 description: "Gnome extensions Burn My Windows Blur my Shell Caffeine Clipboard indicator Just Perfection Pano - Clipboard Manager Unite Vitals Dash to Dock Theme Fluent"
 ---
 ![](/blog-media/2023/05/screenshot-from-2023-05-22-08-28-28.png)

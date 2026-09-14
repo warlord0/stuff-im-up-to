@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "Security"
   - "ssh"
-heroImage: "/blog-media/2020/02/tux-1.png"
+heroImage: "/blog-media/2020/02/tux-1.webp"
+heroThumb: "/blog-media/2020/02/tux-1-thumb.webp"
 description: "I'm working on a project that requires a machine to be contactable on a client's remote network even when its DHCP fails. We've seen an issue where our dev"
 ---
 I'm working on a project that requires a machine to be contactable on a client's remote network even when its DHCP fails. We've seen an issue where our devices disappear periodically. After investigation, we discovered that when the device's DHCP lease expires, it fails to renew its address from the client's DHCP/BOOTP server.

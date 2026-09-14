@@ -6,7 +6,8 @@ tags:
   - "cloudflare"
   - "dns"
   - "Web"
-heroImage: "/blog-media/2023/11/cloudflare.png"
+heroImage: "/blog-media/2023/11/cloudflare.webp"
+heroThumb: "/blog-media/2023/11/cloudflare-thumb.webp"
 description: "I wrote about moving my domains to Cloudflare - Certbot and Cloudflare , and thought I'd post a little about the experience as a reminder and a lesson to o"
 ---
 I wrote about moving my domains to Cloudflare - [Certbot and Cloudflare](/posts/certbot-and-cloudflare/), and thought I'd post a little about the experience as a reminder and a lesson to others, who may also wish to move.

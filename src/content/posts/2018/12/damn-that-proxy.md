@@ -5,7 +5,8 @@ title: "Damn that Proxy!"
 tags:
   - "proxy"
   - "Web"
-heroImage: "/blog-media/2014/02/caching-proxy-squid-3-4-2-now-available-for-download-413893-2.png"
+heroImage: "/blog-media/2014/02/caching-proxy-squid-3-4-2-now-available-for-download-413893-2.webp"
+heroThumb: "/blog-media/2014/02/caching-proxy-squid-3-4-2-now-available-for-download-413893-2-thumb.webp"
 description: "In Windows when you run into an application that doesn't use proxy settings and doesn't look at the environmental variable, IE or netsh settings, then you'"
 ---
 In Windows when you run into an application that doesn't use proxy settings and doesn't look at the environmental variable,  IE or netsh settings, then you're kind of stuck when you must send web traffic through a proxy.

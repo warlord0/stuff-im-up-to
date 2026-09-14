@@ -6,7 +6,8 @@ tags:
   - "Grub"
   - "Kernel"
   - "Manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.png"
+heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
 description: "I managed to break my Manjaro installation on my home server. The updates failed on me part way through and the terminal died. I had to resort to a repair from a live USB sick. When Manjaro breaks during updates and shows \"need to load kernel first\" error. 1. Boot from Live USB/ISO Create a…"
 ---
 I managed to break my Manjaro installation on my home server. The updates failed on me part way through and the terminal died. I had to resort to a repair from a [live USB sick](/posts/ventoy-one-stick-to-boot-them-all/).

@@ -6,7 +6,8 @@ tags:
   - "office 365"
   - "Web"
   - "Windows"
-heroImage: "/blog-media/2018/01/office-365-logo-01.jpg"
+heroImage: "/blog-media/2018/01/office-365-logo-01.webp"
+heroThumb: "/blog-media/2018/01/office-365-logo-01-thumb.webp"
 description: "So today's been the first day following the consultants departure. They configured our Exchange 2013 estate to act as a hybrid solution to allow us to migr"
 ---
 So today's been the first day following the consultants departure. They configured our Exchange 2013 estate to act as a hybrid solution to allow us to migrate our mail box users onto Outlook 365. The config and setup certainly seemed more straight forward on the cloud side than the "on premise" parts. We had plenty to do to setup autodiscover DNS records internal and external, reverse proxying and ActiveSync setups with Sophos Mobile Control. But now the consultants have gone we're left picking up the pieces. As it seems no job is left finished.
@@ -21,7 +22,7 @@ With my mail box on the cloud my LG G3 (Android 6.0 - yes, old, but serviceable)
 
 ## Outlook 365 ActiveSync Debug Logging
 
-***"To boldly go where no man has been before"*** This article answered the how, but failed miserably at being helpful. [https://support.microsoft.com/en-us/help/2461792/how-to-collect-activesync-device-logs-to-troubleshoot-sync-issues-betw](https://support.microsoft.com/en-us/help/2461792/how-to-collect-activesync-device-logs-to-troubleshoot-sync-issues-betw) I tried method 1 with the portal approach and when I clicked the icon to retrieve the log it came up with a not very helpful error message "*There was a problem saving your changes. If the problem continues, contact support.*" ![Capture](/blog-media/2018/01/capture.png) So I carried on to method 2. Which is a lot more helpful, if you have any PowerShell experience, unlike me. But I persevered and got connected.
+***"To boldly go where no man has been before"*** This article answered the how, but failed miserably at being helpful. [https://support.microsoft.com/en-us/help/2461792/how-to-collect-activesync-device-logs-to-troubleshoot-sync-issues-betw](https://support.microsoft.com/en-us/help/2461792/how-to-collect-activesync-device-logs-to-troubleshoot-sync-issues-betw) I tried method 1 with the portal approach and when I clicked the icon to retrieve the log it came up with a not very helpful error message "*There was a problem saving your changes. If the problem continues, contact support.*" ![Capture](/blog-media/2018/01/capture.webp) So I carried on to method 2. Which is a lot more helpful, if you have any PowerShell experience, unlike me. But I persevered and got connected.
 
     PS C:\> Set-ExecutionPolicy RemoteSigned
 

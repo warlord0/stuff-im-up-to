@@ -4,7 +4,8 @@ modDatetime: 2020-10-13T16:58:24Z
 title: "iSCSI and Multipath"
 tags:
   - "Linux"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "If you've installed the open-iscsi and multipath-tools you might still find that you multipaths aren't working. sudo apt install open-iscsi multipath-tools"
 ---
 If you've installed the `open-iscsi` and `multipath-tools` you might still find that you multipaths aren't working.

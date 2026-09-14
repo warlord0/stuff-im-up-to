@@ -5,7 +5,8 @@ title: "Remotely Mounting a Fileshare"
 tags:
   - "Linux"
   - "ssh"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "Working from home means making use of different technologies to connect to systems in the office. Not all of our file system are available over webdav, and"
 ---
 Working from home means making use of different technologies to connect to systems in the office. Not all of our file system are available over webdav, and I need to connect to the fileshare on a server in the office.

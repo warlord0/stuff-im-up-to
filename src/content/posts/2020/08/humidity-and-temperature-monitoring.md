@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "raspberry pi"
   - "Web"
-heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.webp"
+heroThumb: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2-thumb.webp"
 description: "With the temperature the past few weeks I thought I'd setup a means of monitoring it to trigger alerts in Grafana or Incinga2 by using a Raspberry Pi to co"
 ---
 With the temperature the past few weeks I thought I'd setup a means of monitoring it to trigger alerts in Grafana or Incinga2 by using a Raspberry Pi to collect the data.
@@ -17,7 +18,7 @@ The original work records data to a CSV file which we can't use for Grafana. We 
 
 I bought a DHT22 sensor from eBay and the one I chose was pre-wired to include the resistor. This meant all I had to do was plug it onto the RPi board for pin 1 to `+`. pin 6 to `-` and pin 7 to `out`.
 
-![](/blog-media/2020/08/img_20200816_155733-1.jpg)
+![](/blog-media/2020/08/img_20200816_155733-1.webp)
 
 RPi with DHT22 Connected
 
@@ -100,6 +101,6 @@ grant select on environment to grafana;
 
 Then I can add my PostgreSQL database to Grafana as a data source, point my panels at the `environment` table and have some nice graphs showing the temperature and environment.
 
-![](/blog-media/2020/08/screenshot_20200816_160820.png)
+![](/blog-media/2020/08/screenshot_20200816_160820.webp)
 
 Grafana Panels

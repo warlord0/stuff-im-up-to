@@ -4,7 +4,8 @@ title: "MSSQL ACCEPT_EULA"
 tags:
   - "Linux"
   - "mssql"
-heroImage: "/blog-media/2016/10/mssql_logo.png"
+heroImage: "/blog-media/2016/10/mssql_logo.webp"
+heroThumb: "/blog-media/2016/10/mssql_logo-thumb.webp"
 description: "My automated apt updates failed to update the Microsoft SQL components because they don't accept the terms and condition in the EULA. To resolve this I add"
 ---
 My automated apt updates failed to update the Microsoft SQL components because they don't accept the terms and condition in the EULA.

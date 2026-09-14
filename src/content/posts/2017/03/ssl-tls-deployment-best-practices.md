@@ -6,7 +6,8 @@ tags:
   - "Networking"
   - "Link"
   - "ssl"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "https://www.feistyduck.com/library/openssl-cookbook/online/apA-ssl-tls-deployment-best-practices.html From ssllabs.com"
 ---
 [https://www.feistyduck.com/library/openssl-cookbook/online/apA-ssl-tls-deployment-best-practices.html](https://www.feistyduck.com/library/openssl-cookbook/online/apA-ssl-tls-deployment-best-practices.html) From ssllabs.com

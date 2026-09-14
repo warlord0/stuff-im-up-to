@@ -6,7 +6,8 @@ tags:
   - "Docker"
   - "Linux"
   - "ssh"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "I need a repeatable process for handling synchronising files between systems. Something modular and stable. A couple of Docker containers using lsyncd and"
 ---
 I need a repeatable process for handling synchronising files between systems. Something modular and stable. A couple of Docker containers using `lsyncd` and `sshd` should do the job.

@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "vmware"
   - "Windows"
-heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.webp"
+heroThumb: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563-thumb.webp"
 description: "For the past few week I've had a really frustrating time dealing with a customer system. Initially I put it down to me moving to Manjaro and the VMWare Hor"
 ---
 For the past few week I've had a really frustrating time dealing with a customer system. Initially I put it down to me moving to Manjaro and the VMWare Horizon client having some issue. So I installed on my Debian laptop and still the same issue.

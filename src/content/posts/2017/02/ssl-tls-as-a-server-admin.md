@@ -8,7 +8,8 @@ tags:
   - "Security"
   - "ssl"
   - "Windows"
-heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.webp"
+heroThumb: "/blog-media/2017/02/download-10-e1488295217214-thumb.webp"
 description: "I don't trust you just because we can encrypt data together. I need to trust you based on a 3rd party we both trust telling me that you are who you say you are."
 ---
 I'm not an encryption expert by any means. I've no great understanding of the mathematics involved in the encryption process and the ciphers used. What I do understand is what that means from the point of view of a server admin. One thing to state right now is that SSL/TLS are the same thing. SSL was simply renamed TLS, but the underlying principles are the same, the mechanisms and ciphers change, but the concept is the same - and despite the change it's still mostly referred to as SSL. The basic process of SSL is that in order to engage in a secure conversation between systems both systems must share a level of trust with a common 3rd party.
@@ -35,7 +36,7 @@ As a more specific look at the client/server process it becomes:
 - **Client**: d04b98f48e8f8bcc15c6ae5ac050801cd6dcfd428fb5f9e65c4e16e7807340fa
 - ...
 
-![ssl_handshake](/blog-media/2017/02/ssl_handshake.png) If at any point of the conversation the other party isn't able to use the same version of SSL or algorithm or doesn't trust the certificate, then the conversation ends.
+![ssl_handshake](/blog-media/2017/02/ssl_handshake.webp) If at any point of the conversation the other party isn't able to use the same version of SSL or algorithm or doesn't trust the certificate, then the conversation ends.
 
 ## Algorithms, ciphers and key exchanges
 

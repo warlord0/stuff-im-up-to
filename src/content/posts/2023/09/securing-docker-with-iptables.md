@@ -6,7 +6,8 @@ tags:
   - "Docker"
   - "iptables"
   - "Linux"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "This is a large, and mostly unknown, issue with using Docker on an internet connected server. If the system is NOT protected by an upstream firewall then a"
 ---
 This is a large, and mostly unknown, issue with using Docker on an internet connected server.

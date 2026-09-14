@@ -4,7 +4,8 @@ modDatetime: 2024-01-30T21:21:21Z
 title: "Audio Transcribing"
 tags:
   - "Linux"
-heroImage: "/blog-media/2024/01/transcription.png"
+heroImage: "/blog-media/2024/01/transcription.webp"
+heroThumb: "/blog-media/2024/01/transcription-thumb.webp"
 description: "I found myself in a position of recording an audio conference and then wanting to get a transcription of the discussion. On my Android phone, there seems to be a plethora of apps in the store you can use, but my content was an hour and a half long. The best I could get was 5 minutes of transcript for free, or buy minutes."
 ---
 ## AKA Spoken audio to text.

@@ -4,7 +4,8 @@ title: "Github and Deploy Keys"
 tags:
   - "git"
   - "Uncategorized"
-heroImage: "/blog-media/2016/12/octocat.png"
+heroImage: "/blog-media/2016/12/octocat.webp"
+heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "When it comes to pulling code from some of our private repositories we've configured a couple of systems with deploy keys. This allows them to pull the cod"
 ---
 When it comes to pulling code from some of our private repositories we've configured a couple of systems with deploy keys. This allows them to pull the code, but not push. All we have to do is generate an ssh key and we add it to the Github repository and then we can happily clone and pull.

@@ -5,7 +5,8 @@ title: "Fail2ban with Gitea"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "I noticed a bot had decided to target our Gitea service, so thought of putting it into fail2ban to lock it down. Turned out this wasn't as straight forward"
 ---
 I noticed a bot had decided to target our Gitea service, so thought of putting it into fail2ban to lock it down. Turned out this wasn't as straight forward as I'd hoped.

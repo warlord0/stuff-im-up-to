@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "postgresql"
   - "Security"
-heroImage: "/blog-media/2018/02/best-postgresql-hosting.png"
+heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
+heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
 description: "When setting up a server using v10.1 and trying to connect using psql client v14, I got an error: PGPASSWORD=SecretKey PGSSLMODE=require psql --host 172.16"
 ---
 When setting up a server using v10.1 and trying to connect using `psql` client v14, I got an error:

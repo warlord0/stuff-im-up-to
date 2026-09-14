@@ -4,7 +4,8 @@ title: "Exchange 2013 Error: \"The Microsoft Exchange Diagnostics service termin
 tags:
   - "exchange"
   - "Windows"
-heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.png"
+heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.webp"
+heroThumb: "/blog-media/2016/09/windows-server-2012-1024x196-thumb.webp"
 description: "Had this showing up regularly in the event log of one of our Exchange servers. A quick delete of the following keys and a reboot all sorted: HKLM\\SOFTWARE\\"
 ---
 Had this showing up regularly in the event log of one of our Exchange servers. A quick delete of the following keys and a reboot all sorted: `HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\TaskCache\Tree\Microsoft\Windows\PLA` `ExchangeDiagnosticsDailyPerformanceLog` and `ExchangeDiagnosticsPerformanceLog` References: [http://exchangeitup.blogspot.co.uk/2016/01/exchange-2013-error-microsoft-exchange.html](http://exchangeitup.blogspot.co.uk/2016/01/exchange-2013-error-microsoft-exchange.html)

@@ -7,7 +7,8 @@ tags:
   - "aws"
   - "Linux"
   - "ssh"
-heroImage: "/blog-media/2024/03/aws_logo.png"
+heroImage: "/blog-media/2024/03/aws_logo.webp"
+heroThumb: "/blog-media/2024/03/aws_logo-thumb.webp"
 description: "You can access a closed off AWS EC2 instance using SSH by using SSM as a proxy. This means no ports need be exposed from your EC2 at all. Configure the AWS"
 ---
 You can access a closed off AWS EC2 instance using SSH by using SSM as a proxy. This means no ports need be exposed from your EC2 at all.

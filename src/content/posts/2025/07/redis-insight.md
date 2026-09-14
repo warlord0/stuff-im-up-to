@@ -1,7 +1,8 @@
 ---
 pubDatetime: 2025-07-15T13:56:57+00:00
 title: "Redis Insight"
-heroImage: "/blog-media/2025/07/redis-insight.png"
+heroImage: "/blog-media/2025/07/redis-insight.webp"
+heroThumb: "/blog-media/2025/07/redis-insight-thumb.webp"
 description: "I always seem to forget about Redis Insight. Just lately I've been back at work developing applications that require integration and communication and for that purpose I choose Redis - well, more specifically Dragonfly and Valkey in AWS. But I keep finding myself wondering what data is going into my pub/sub channels, or what keys…"
 ---
 I always seem to forget about [Redis Insight](https://redis.io/insight/).

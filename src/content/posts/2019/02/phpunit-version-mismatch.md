@@ -5,7 +5,8 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "As our codebase matures we return to develop unit tests to ensure our QA process captures any code changes that may have altered the functionality of the p"
 ---
 As our codebase matures we return to develop unit tests to ensure our QA process captures any code changes that may have altered the functionality of the product.

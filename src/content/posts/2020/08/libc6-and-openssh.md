@@ -4,7 +4,8 @@ modDatetime: 2020-08-15T12:51:13Z
 title: "Libc6 and OpenSSH"
 tags:
   - "Linux"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "This morning was pretty much written off by some nasty occurrence I didn't pay attention to yesterday. Whilst trying to fix gimp with lots of apt manipulat"
 ---
 This morning was pretty much written off by some nasty occurrence I didn't pay attention to yesterday.

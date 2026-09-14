@@ -4,7 +4,8 @@ modDatetime: 2017-03-01T10:01:22Z
 title: "Installing / Updating Webmin"
 tags:
   - "Linux"
-heroImage: "/blog-media/2017/03/webmin_logo.png"
+heroImage: "/blog-media/2017/03/webmin_logo.webp"
+heroThumb: "/blog-media/2017/03/webmin_logo-thumb.webp"
 description: "We've got webmin installed on a number of our Debian Linux boxes. In our environment many of these servers don't have full and open access to the internet"
 ---
 We've got webmin installed on a number of our Debian Linux boxes. In our environment many of these servers don't have full and open access to the internet so aren't capable of going out and updating from the webmin site. To get our updates we must download the .deb file using a client system from the [webmin download page](http://www.webmin.com/download.html) and then copy it to the server using scp.

@@ -4,7 +4,8 @@ title: "WebAuthn and Yubikey"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2018/10/computer-code.jpg"
+heroImage: "/blog-media/2018/10/computer-code.webp"
+heroThumb: "/blog-media/2018/10/computer-code-thumb.webp"
 description: "I've had a Yubikey 5 NFC for a while, and it's pretty much sat doing nothing. Today I dusted it off and got it setup. Seems the FIDO U2F is interchangeable"
 ---
 I've had a Yubikey 5 NFC for a while, and it's pretty much sat doing nothing. Today I dusted it off and got it setup.

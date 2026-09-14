@@ -6,7 +6,8 @@ tags:
   - "electronics"
   - "python"
   - "Uncategorized"
-heroImage: "/blog-media/2021/01/python.png"
+heroImage: "/blog-media/2021/01/python.webp"
+heroThumb: "/blog-media/2021/01/python-thumb.webp"
 description: "This article covers the python programming used to control the gates. At this stage I'll post some snippets and ideas on why and how I do things this way,"
 ---
 This article covers the python programming used to control the gates. At this stage I'll post some snippets and ideas on why and how I do things this way, eventually I'll probably post the whole code to a public github repository, so you can access it all.

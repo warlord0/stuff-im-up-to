@@ -8,7 +8,8 @@ tags:
   - "mysq"
   - "ngin"
   - "php"
-heroImage: "/blog-media/2020/02/lamp.jpeg"
+heroImage: "/blog-media/2020/02/lamp.webp"
+heroThumb: "/blog-media/2020/02/lamp-thumb.webp"
 description: "Not sure if a 'LAMP container set' is the right name, but I have a docker-compose container set that includes Nginx, PHP and MySQL. I seem to build them re"
 ---
 Not sure if a 'LAMP container set' is the right name, but I have a docker-compose container set that includes Nginx, PHP and MySQL. I seem to build them regularly so thought I'd create a template to start from.

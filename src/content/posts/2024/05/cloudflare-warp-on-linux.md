@@ -5,7 +5,8 @@ tags:
   - "cloudflare"
   - "Linux"
   - "Networking"
-heroImage: "/blog-media/2023/11/cloudflare.png"
+heroImage: "/blog-media/2023/11/cloudflare.webp"
+heroThumb: "/blog-media/2023/11/cloudflare-thumb.webp"
 description: "After installing the Cloudflare Warp client on my Manjaro system, I could not get it to connect. Watching the journal, I found this: INFO main_loop: warp::"
 ---
 After installing the Cloudflare Warp client on my Manjaro system, I could not get it to connect.

@@ -6,7 +6,8 @@ tags:
   - "html5"
   - "Link"
   - "Web"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "http://html5doctor.com/ Helping you implement HTML5 today."
 ---
 [http://html5doctor.com/](http://html5doctor.com/) Helping you implement HTML5 today.

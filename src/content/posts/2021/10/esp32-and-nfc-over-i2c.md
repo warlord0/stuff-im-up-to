@@ -6,7 +6,8 @@ tags:
   - "arduino"
   - "electronics"
   - "Uncategorized"
-heroImage: "/blog-media/2021/10/arduino.png"
+heroImage: "/blog-media/2021/10/arduino.webp"
+heroThumb: "/blog-media/2021/10/arduino-thumb.webp"
 description: "I've been tasked with an electronics project to scan NFC/RFID devices. Electronics is very new to me. I can handle the bit where I know what I want to buil"
 ---
 I've been tasked with an electronics project to scan NFC/RFID devices. Electronics is very new to me. I can handle the bit where I know what I want to build, and the probably coding to program things, but knowing what resistors, capacitors sizes or LED's is all new to me.
@@ -25,13 +26,13 @@ Now it looks like there's a few ESP32-WROOM-32 Devkit boards so finding one with
 
 **ESP32-WROOM-32 DevKit v1**
 
-![](/blog-media/2021/10/esp32-30pin-devboard.png)
+![](/blog-media/2021/10/esp32-30pin-devboard.webp)
 
 The NFC scanner I have is the PN532 and can be configured to communicate using SPI, I2C or High Speed UART. I want to look at I2C to reduce the number of pins I use. This means I have to set the dip switches o nthe board to 1: ON, 2: OFF. It's printed on the board if you have a magnifying glass.
 
 **PN532**
 
-![](/blog-media/2021/10/pn532.png)
+![](/blog-media/2021/10/pn532.webp)
 
 I also need to solder on some header pins and for I2C to connect the pins GND, VCC, SDA and SCL.
 

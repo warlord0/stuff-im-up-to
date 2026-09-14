@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "Networking"
   - "Security"
-heroImage: "/blog-media/2023/11/cloudflare.png"
+heroImage: "/blog-media/2023/11/cloudflare.webp"
+heroThumb: "/blog-media/2023/11/cloudflare-thumb.webp"
 description: "With Cloudflare, I wanted to host my Icinga2 instance behind a tunnel. This posed a bit of an issue as whenever I tried to submit a passive result the logs"
 ---
 With Cloudflare, I wanted to host my Icinga2 instance behind a tunnel. This posed a bit of an issue as whenever I tried to submit a passive result the logs showed `sslv3 alert bad certificate`.

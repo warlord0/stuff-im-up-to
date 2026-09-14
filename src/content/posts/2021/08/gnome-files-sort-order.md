@@ -4,7 +4,8 @@ modDatetime: 2021-08-10T12:55:18Z
 title: "Gnome Files Sort Order"
 tags:
   - "Linux"
-heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
+heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
 description: "When I browse to open a file, I'm always frustrated about the order in which things appear. I don't like the whole lowercase before uppercase, and having t"
 ---
 When I browse to open a file, I'm always frustrated about the order in which things appear. I don't like the whole lowercase before uppercase, and having the scroll right down to 'D' because it's not 'd' seems pointless.

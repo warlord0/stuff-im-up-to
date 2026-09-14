@@ -6,7 +6,8 @@ tags:
   - "Networking"
   - "openwrt"
   - "Security"
-heroImage: "/blog-media/2021/06/openwrt.png"
+heroImage: "/blog-media/2021/06/openwrt.webp"
+heroThumb: "/blog-media/2021/06/openwrt-thumb.webp"
 description: "For users of our LAN and Guest networks, I want to grab all their DNS calls and service them using our own resolver. This means that any call to an externa"
 ---
 For users of our LAN and Guest networks, I want to grab all their DNS calls and service them using our own resolver. This means that any call to an external DNS server would be intercepted, and the query sent to our own systems. This is a useful security technique that means should something nasty get hold of a client and change its resolver to point at one of its malicious DNS servers, we will still capture the query and redirect it back to our known good DNS resolver.

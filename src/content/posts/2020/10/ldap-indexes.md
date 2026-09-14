@@ -4,7 +4,8 @@ title: "LDAP Indexes"
 tags:
   - "ldap"
   - "Linux"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "On the OpenLDAP server I see a lot of entries in the log file about uidNumber not being indexed. If this is the case I should add an index to try to help w"
 ---
 On the OpenLDAP server I see a lot of entries in the log file about `uidNumber` not being indexed. If this is the case I should add an index to try to help with that.

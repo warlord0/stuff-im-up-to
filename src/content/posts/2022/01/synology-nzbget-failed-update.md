@@ -7,7 +7,8 @@ tags:
   - "nzbget"
   - "Privateer"
   - "synology"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Package manager said I needed some updates, including nzbget. Usually this is pretty straight forward, but this time it just fails and goes into a state wh"
 ---
 Package manager said I needed some updates, including nzbget. Usually this is pretty straight forward, but this time it just fails and goes into a state where your only option is to "Repair". The repair also fails so what now?

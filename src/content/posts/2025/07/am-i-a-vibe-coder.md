@@ -10,7 +10,8 @@ tags:
   - "Javascript"
   - "Python"
   - "Technology"
-heroImage: "/blog-media/2025/06/vscodium_logo.png"
+heroImage: "/blog-media/2025/06/vscodium_logo.webp"
+heroThumb: "/blog-media/2025/06/vscodium_logo-thumb.webp"
 description: "Over the past few months, I’ve transitioned from mostly infrastructure work to building a major web application for my employer. The idea originated from our CEO and was backed by my manager. I developed a proof of concept that got them genuinely excited, and they asked me to take it further—turn it into a full…"
 ---
 Over the past few months, I’ve transitioned from mostly infrastructure work to building a major web application for my employer. The idea originated from our CEO and was backed by my manager. I developed a proof of concept that got them genuinely excited, and they asked me to take it further—turn it into a full production system we could present to customers.

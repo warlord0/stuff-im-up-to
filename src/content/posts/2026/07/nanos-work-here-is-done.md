@@ -3,7 +3,8 @@ pubDatetime: 2026-07-28T18:50:51+00:00
 title: "Nano’s Work Here is Done"
 tags:
   - "Linux"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "You've crossed the final threshold: the moment when opening Nano feels more alien than opening Vim. And :set ff=unix removes one of those occasional reasons for reaching for something else. Add these to the mental toolkit: :set ff? \" What line endings have I got? :set ff=unix \" LF :set ff=dos \" CRLF :set list…"
 ---
 You’ve crossed the final threshold: the moment when opening Nano feels more alien than opening Vim.

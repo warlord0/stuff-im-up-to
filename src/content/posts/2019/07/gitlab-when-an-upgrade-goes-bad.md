@@ -5,7 +5,8 @@ title: "Gitlab: When an Upgrade Goes Bad!"
 tags:
   - "git"
   - "Linux"
-heroImage: "/blog-media/2019/07/gitlab-1.png"
+heroImage: "/blog-media/2019/07/gitlab-1.webp"
+heroThumb: "/blog-media/2019/07/gitlab-1-thumb.webp"
 description: "Today is not a lot of fun. I've been seeing some issues with apt not being able to upgrade Gitlab due to a proxy error. This morning I fixed it and the upg"
 ---
 Today is not a lot of fun.

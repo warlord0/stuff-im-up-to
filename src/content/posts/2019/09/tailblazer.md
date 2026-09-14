@@ -4,7 +4,8 @@ title: "TailBlazer"
 tags:
   - "Link"
   - "Windows"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "An open source log file viewer for Windows https://github.com/RolandPheasant/TailBlazer"
 ---
 An open source log file viewer for Windows

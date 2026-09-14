@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "nginx"
   - "Web"
-heroImage: "/blog-media/2021/01/ssl.png"
+heroImage: "/blog-media/2021/01/ssl.webp"
+heroThumb: "/blog-media/2021/01/ssl-thumb.webp"
 description: "We have a couple of hundred certs with Let's Encrypt and it is a great service. Right now though we need to issue certs to internal systems and thought it"
 ---
 We have a couple of hundred certs with Let's Encrypt and it is a great service. Right now though we need to issue certs to internal systems and thought it would be great to use the same ACME method to do so.

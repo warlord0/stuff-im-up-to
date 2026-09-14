@@ -8,7 +8,8 @@ tags:
   - "Linux"
   - "Networking"
   - "s3"
-heroImage: "/blog-media/2024/03/aws_logo.png"
+heroImage: "/blog-media/2024/03/aws_logo.webp"
+heroThumb: "/blog-media/2024/03/aws_logo-thumb.webp"
 description: "Previously I have used s3fs as this supported mounting in fstab using and access key and secret. This S3 Mountpoint by Amazon can use IAM for a more integr"
 ---
 Previously I have used `s3fs` as this supported mounting in `fstab` using and access key and secret. This S3 Mountpoint by Amazon can use IAM for a more integrated authentication approach.

@@ -6,7 +6,8 @@ tags:
   - "horizon"
   - "vmware"
   - "Windows"
-heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.webp"
+heroThumb: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563-thumb.webp"
 description: "Create file c:\\Program Files\\VMware\\VMware View\\Server\\sslgateway\\conf\\locked.properties with the content: checkOrigin=false References: https://kb.vmware."
 ---
 Create file `c:\Program Files\VMware\VMware View\Server\sslgateway\conf\locked.properties` with the content:

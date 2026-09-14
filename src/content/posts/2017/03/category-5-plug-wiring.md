@@ -4,7 +4,8 @@ title: "Category 5 Plug Wiring"
 tags:
   - "Networking"
   - "Image"
-heroImage: "/blog-media/2017/03/cat5-e1489336714190.png"
+heroImage: "/blog-media/2017/03/cat5-e1489336714190.webp"
+heroThumb: "/blog-media/2017/03/cat5-e1489336714190-thumb.webp"
 description: "Category 5 Plug Wiring"
 ---
 ![Category 5 Plug](/blog-media/2017/03/cat5-e1489336714190.png)

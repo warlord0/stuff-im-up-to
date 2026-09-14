@@ -4,7 +4,8 @@ title: "JIRA Software and Confluence"
 tags:
   - "Linux"
   - "postgresql"
-heroImage: "/blog-media/2018/09/58480948cef1014c0b5e48fd.png"
+heroImage: "/blog-media/2018/09/58480948cef1014c0b5e48fd.webp"
+heroThumb: "/blog-media/2018/09/58480948cef1014c0b5e48fd-thumb.webp"
 description: "Installing Atlassian Jira Software onto an in-house or self-hosted server is as simple as following the Jira installation guide . The only thing missing is"
 ---
 Installing Atlassian Jira Software onto an in-house or self-hosted server is as simple as following the [Jira installation guide](https://confluence.atlassian.com/adminjiraserver/installing-jira-applications-on-linux-938846841.html). The only thing missing is the setup of the database. Jira suggest that whilst other databases are available, MySQL, MSSQL etc. their preferred DB is postgresql. Primarily because it's common in their user space and support environment, meaning that their support and documentation is likely to be more readily available for postgresql instances than other DB's. Let's follow the advice and install postgresql.
@@ -69,4 +70,4 @@ When you install Jira and confluence you can then use the database settings you'
     Password:      mysupersecretpassword
     Schema:        public
 
-![Selection_076](/blog-media/2018/09/selection_076.png)
+![Selection_076](/blog-media/2018/09/selection_076.webp)

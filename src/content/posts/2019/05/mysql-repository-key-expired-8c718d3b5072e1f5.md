@@ -4,7 +4,8 @@ title: "MySQL Repository Key Expired - 8C718D3B5072E1F5"
 tags:
   - "Linux"
   - "mysql"
-heroImage: "/blog-media/2016/09/mysql-logo.jpg"
+heroImage: "/blog-media/2016/09/mysql-logo.webp"
+heroThumb: "/blog-media/2016/09/mysql-logo-thumb.webp"
 description: "Updates on my Stretch servers were failing due to an expired key. I tried the usual retrievals for keys using: $ sudo apt-key adv --keyserver keys.gnupg.ne"
 ---
 Updates on my Stretch servers were failing due to an expired key. I tried the usual retrievals for keys using:

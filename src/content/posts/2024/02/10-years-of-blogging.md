@@ -4,9 +4,10 @@ modDatetime: 2024-01-15T21:51:37Z
 title: "10 Years of Blogging"
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2024/01/sandsoftime1.png"
+heroImage: "/blog-media/2024/01/sandsoftime1.webp"
+heroThumb: "/blog-media/2024/01/sandsoftime1-thumb.webp"
 description: "I've managed to ramble on for 10 years!"
 ---
 I've managed to ramble on for 10 years!
 
-![](/blog-media/2024/01/10years3.jpg)
+![](/blog-media/2024/01/10years3.webp)

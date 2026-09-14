@@ -6,7 +6,8 @@ tags:
   - "Docker"
   - "Linux"
   - "Privateer"
-heroImage: "/blog-media/2023/10/servarr.png"
+heroImage: "/blog-media/2023/10/servarr.webp"
+heroThumb: "/blog-media/2023/10/servarr-thumb.webp"
 description: "When it comes to grabbing media from Usenet, the Servarr apps are second to none. I've been using Sonarr and Radarr for quite some time to grab TV programs"
 ---
 When it comes to grabbing media from Usenet, the [Servarr](https://wiki.servarr.com) apps are second to none.
@@ -113,12 +114,12 @@ Bundled in there is [SabNZBD](https://sabnzbd.org) to do the downloading for me.
 
 Altogether it's a very tidy setup. To add more features to this setup, I found [Homarr](https://homarr.dev), it's a dashboard that integrates with the Servarr apps and presents me with a single simple view to launch, and monitor the apps from a convenient home page.
 
-![](/blog-media/2023/10/homarr.png)
+![](/blog-media/2023/10/homarr.webp)
 
 I have it connected up to my [AdGuard](https://adguard.com/en/welcome.html), and [Nginx Proxy Manager](https://nginxproxymanager.com) too.
 
 On my Android mobile phone, and tablet, I found an app that manages all my servarr and sabnzbd processes - [nzb360](https://www.nzb360.com). It's brilliant interface. I found the radarr and sonarr web pages a bit glitchy on the small screen of my phone, so switching to using nzb360 is just brilliant.
 
-![](/blog-media/2023/10/nzb360.jpg)
+![](/blog-media/2023/10/nzb360.webp)
 
 If you don't want to pay for an app, you could look at [LunaSea](https://www.lunasea.app), it's available for Linux, Windows, Fruits and Android. I haven't looked at the mobile version, but the Linux version is very good.

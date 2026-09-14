@@ -5,7 +5,7 @@ description: "A bit about me and this blog."
 
 Safe to say that getting older means forgetting stuff you should remember. This site's just a place for my ramblings in regard to those technical discoveries I make. Then, in an effort for the discovery not to disappear into the void, I thought I'd give them a home, so I could rediscover them without too much effort.
 
-[![Debian logo](/blog-media/2016/09/debian-logo-1.png)](https://www.debian.org/)
+[![Debian logo](/blog-media/2016/09/debian-logo-1.webp)](https://www.debian.org/)
 
 The posts on this blog are created and time stamped. This is important to me, as so many times I search for answers and find myself reading someone else's answer to the problem, only to find that the page I just read is not dated, but turns out to be from 10+ years ago. It only confuses me because my current problem is of a newer version. Old articles are still very useful, but only if they are still relevant.
 

@@ -4,7 +4,8 @@ title: "Removing ANSI Colours from Log Output"
 tags:
   - "Docker"
   - "Linux"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "Despite using the --no-color switch for docker logs, I still get colour output. This is frustrating as I just want to throw the output into a file for anal"
 ---
 Despite using the `--no-color` switch for docker logs, I still get colour output. This is frustrating as I just want to throw the output into a file for analysis and the colour codes just add interference, eg.

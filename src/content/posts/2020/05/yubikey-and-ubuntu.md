@@ -4,7 +4,8 @@ title: "Yubikey and Ubuntu"
 draft: true
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "I've ordered a Yubikey to setup MFA on some of my remote services. IT's going to need some things setting up on my client for it to work. I want it to be u"
 ---
 I've ordered a Yubikey to setup MFA on some of my remote services. IT's going to need some things setting up on my client for it to work.

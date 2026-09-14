@@ -6,7 +6,8 @@ tags:
   - "iptables"
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2020/02/tux-1.png"
+heroImage: "/blog-media/2020/02/tux-1.webp"
+heroThumb: "/blog-media/2020/02/tux-1-thumb.webp"
 description: "Close your ssh service until you really need it, using knockd to manipulate your iptables firewall."
 ---
 Close your `sshd` service until you really need it, using `knockd` to manipulate your `iptables` firewall.

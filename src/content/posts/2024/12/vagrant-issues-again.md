@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "vagrant"
   - "Virtualisation"
-heroImage: "/blog-media/2023/12/vagrant.png"
+heroImage: "/blog-media/2023/12/vagrant.webp"
+heroThumb: "/blog-media/2023/12/vagrant-thumb.webp"
 description: "Following some more system updates, it looks like updates to ruby continue to break vagrant. I thought I'd try a different approach. Can vagrant work with"
 ---
 Following some more system updates, it looks like updates to ruby continue to break vagrant. I thought I'd try a different approach. Can vagrant work with rbenv, which I suspect is like venv in the world of python.

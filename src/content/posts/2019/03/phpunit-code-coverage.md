@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "php"
   - "Windows"
-heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.png"
+heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.webp"
+heroThumb: "/blog-media/2016/09/elephpant_-_mascot_php-thumb.webp"
 description: "The more development time we spend on the corporate Laravel app the more mature the code becomes and the more our development practices evolve. One of the"
 ---
 The more development time we spend on the corporate Laravel app the more mature the code becomes and the more our development practices evolve.
@@ -44,7 +45,7 @@ Currently our output isn't great. We have much of our code uncovered by PHPUnit 
 
 Typical output clearly shows what parts of the code are not touched by our tests. Whilst we may have coding to handle certain scenarios, we haven't written any tests that ensure that all parts of our code are tested eg.
 
-![](/blog-media/2019/03/image.png)
+![](/blog-media/2019/03/image.webp)
 
 What we're seeing is that we have a test that runs through when we don't pass in an array, but we don't have a test that runs though when we do pass an array. What we need to do is write a test that would pass through that part of our code, by passing it all parameters to ensure it does run through all parts of the `if` statement.
 

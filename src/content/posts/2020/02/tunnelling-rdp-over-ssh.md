@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "ssh"
   - "Windows"
-heroImage: "/blog-media/2020/02/remmina.png"
+heroImage: "/blog-media/2020/02/remmina.webp"
+heroThumb: "/blog-media/2020/02/remmina-thumb.webp"
 description: "After a day of battling with a very laggy and Windows bound Logmein we decided it was time to get to the customers Windows machines via a conveniently plac"
 ---
 After a day of battling with a very laggy and Windows bound Logmein we decided it was time to get to the customers Windows machines via a conveniently placed Linux server.

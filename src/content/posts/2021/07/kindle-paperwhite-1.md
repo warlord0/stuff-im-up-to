@@ -3,7 +3,8 @@ pubDatetime: 2021-07-07T21:22:17Z
 title: "Kindle PaperWhite 1"
 tags:
   - "Privateer"
-heroImage: "/blog-media/2021/07/kindle-logo.png"
+heroImage: "/blog-media/2021/07/kindle-logo.webp"
+heroThumb: "/blog-media/2021/07/kindle-logo-thumb.webp"
 description: "I've got a few Kindles that the wife an I use. The one I use primarily is a PaperWhite 1 - it's been used almost every day for many years. The one thing I"
 ---
 I've got a few Kindles that the wife an I use. The one I use primarily is a PaperWhite 1 - it's been used almost every day for many years. The one thing I did to it was to jailbreak it so I could use a custom screen saver. I like it to be easily identified as mine.

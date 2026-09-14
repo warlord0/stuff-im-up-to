@@ -9,7 +9,8 @@ tags:
   - "php"
   - "tailwindcss"
   - "Web"
-heroImage: "/blog-media/2019/08/laravel-2019-logo-1.png"
+heroImage: "/blog-media/2019/08/laravel-2019-logo-1.webp"
+heroThumb: "/blog-media/2019/08/laravel-2019-logo-1-thumb.webp"
 description: "It's been a very long time since I did anything with Laravel. I found another job around the time of Laravel 6, and today they are up to Laravel 9 - much h"
 ---
 It's been a very long time since I did anything with Laravel. I found another job around the time of Laravel 6, and today they are up to Laravel 9 - much has changed.

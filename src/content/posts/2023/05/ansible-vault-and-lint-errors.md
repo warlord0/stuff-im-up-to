@@ -6,7 +6,8 @@ tags:
   - "ansible"
   - "Security"
   - "vscode"
-heroImage: "/blog-media/2020/02/ansible800.png"
+heroImage: "/blog-media/2020/02/ansible800.webp"
+heroThumb: "/blog-media/2020/02/ansible800-thumb.webp"
 description: "Using the VS Code plugin for Ansible, I'm getting an internal error when it lints a YAML file. I know the syntax is OK, as I can run an ansible-playbook wi"
 ---
 Using the VS Code plugin for Ansible, I'm getting an internal error when it lints a YAML file. I know the syntax is OK, as I can run an `ansible-playbook` with `--syntax-check` and it works.

@@ -5,7 +5,8 @@ title: "Synology DSM 6.1.5-15254 Upgrade"
 tags:
   - "Linux"
   - "synology"
-heroImage: "/blog-media/2016/09/logo-synology.jpg"
+heroImage: "/blog-media/2016/09/logo-synology.webp"
+heroThumb: "/blog-media/2016/09/logo-synology-thumb.webp"
 description: "Following this upgrade I accepted to install I spent the evening cursing. The system started up and services were accessible as usual, but I couldn't login"
 ---
 Following this upgrade I accepted to install I spent the evening cursing. The system started up and services were accessible as usual, but I couldn't login to the admin Web UI. It just came up with a red box message:

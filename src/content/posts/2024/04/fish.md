@@ -5,7 +5,8 @@ title: "fish"
 tags:
   - "fish"
   - "Linux"
-heroImage: "/blog-media/2024/04/fish.png"
+heroImage: "/blog-media/2024/04/fish.webp"
+heroThumb: "/blog-media/2024/04/fish-thumb.webp"
 description: "I've been using the excellent zsh and antigen for a while, but one thing really annoyed me. The autocomplete often showed duplicate characters or mangled t"
 ---
 I've been using the excellent zsh and antigen for a while, but one thing really annoyed me. The autocomplete often showed duplicate characters or mangled the line somehow. I thought I'd have a look at fish shell.

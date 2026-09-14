@@ -6,7 +6,8 @@ tags:
   - "cloudflare"
   - "Networking"
   - "Web"
-heroImage: "/blog-media/2023/11/cloudflare.png"
+heroImage: "/blog-media/2023/11/cloudflare.webp"
+heroThumb: "/blog-media/2023/11/cloudflare-thumb.webp"
 description: "This wasn't as obvious as I expected. Under Zero Trust, I created an application matching my hostname, but it always wanted to send me a one time password"
 ---
 This wasn't as obvious as I expected. Under Zero Trust, I created an application matching my hostname, but it always wanted to send me a one time password when I accessed the URL.
@@ -19,7 +20,7 @@ Configuring the application, the Authentication section always enabled "One-time
 
 First I went to the "Access Groups" and created a group called `allow-ips`. I put into it the IP address/ranges that I did not want to restrict.
 
-![](/blog-media/2024/02/image-1.png)
+![](/blog-media/2024/02/image-1.webp)
 
 Then in my application I set up a policy with the action "Bypass" and assigned my `allow-ips` group.
 

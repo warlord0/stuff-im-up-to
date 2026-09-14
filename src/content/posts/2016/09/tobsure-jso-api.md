@@ -6,7 +6,8 @@ tags:
   - "JavaScript"
   - "json"
   - "php"
-heroImage: "/blog-media/2016/09/jsonapi.png"
+heroImage: "/blog-media/2016/09/jsonapi.webp"
+heroThumb: "/blog-media/2016/09/jsonapi-thumb.webp"
 description: "Having had the pleasure of handling json data I found that there are a few implementations within PHP libraries that I could make use of rather than rolling my own. The one I settled on 'tobscure/json-api' met my needs and was easy to use."
 ---
 Having had the pleasure of handling json data I found that there are a few implementations within PHP libraries that I could make use of rather than rolling my own. The one I settled on '[tobscure/json-api](https://github.com/tobscure/json-api)' met my needs and was easy to use.

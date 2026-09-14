@@ -6,7 +6,8 @@ tags:
   - "Docker"
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2023/10/uptimekuma-3555405602.png"
+heroImage: "/blog-media/2023/10/uptimekuma-3555405602.webp"
+heroThumb: "/blog-media/2023/10/uptimekuma-3555405602-thumb.webp"
 description: "This is a killer application! A very elegant and simple to use system monitor. Monitor your systems' docker containers, website certificate expiry dates, D"
 ---
 This is a killer application! A very elegant and simple to use system monitor.

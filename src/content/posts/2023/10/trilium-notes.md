@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "Web"
   - "Windows"
-heroImage: "/blog-media/2023/10/image.png"
+heroImage: "/blog-media/2023/10/image.webp"
+heroThumb: "/blog-media/2023/10/image-thumb.webp"
 description: "Excellent note-taking app. Only calling a note-taking app seems to heavily understate what it is. It's like a personal version of a Markdown document repos"
 ---
 Excellent note-taking app. Only calling a note-taking app seems to heavily understate what it is. It's like a personal version of a Markdown document repository, that stores notes in a manageable structure.

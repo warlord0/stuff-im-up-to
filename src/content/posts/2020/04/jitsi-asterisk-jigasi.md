@@ -7,7 +7,8 @@ tags:
   - "Docker"
   - "jitsi"
   - "Linux"
-heroImage: "/blog-media/2020/04/jitsi_logo-1.png"
+heroImage: "/blog-media/2020/04/jitsi_logo-1.webp"
+heroThumb: "/blog-media/2020/04/jitsi_logo-1-thumb.webp"
 description: "As I'm working on Asterisk right now the actual challenge is to get Jitsi configured so we can conference in audio users to our video chats. To do this you"
 ---
 As I'm working on Asterisk right now the actual challenge is to get Jitsi configured so we can conference in audio users to our video chats. To do this you need to use a SIP add-on called 'Jigasi'.

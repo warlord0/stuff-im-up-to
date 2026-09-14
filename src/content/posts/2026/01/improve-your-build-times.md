@@ -3,7 +3,8 @@ pubDatetime: 2026-01-20T11:08:30+00:00
 title: "Improve Your Build Times"
 tags:
   - "Linux"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "When installing a package, even from the package manager, the default compilation flags are to use 2-CPU cores only. This might be fine for your setup, but I recently ran into an issue where qt5-webengine was taking an entire day to build on my laptop. Make the change by setting your MAKEFLAGS to match your…"
 ---
 When installing a package, even from the package manager, the default compilation flags are to use 2-CPU cores only. This might be fine for your setup, but I recently ran into an issue where `qt5-webengine` was taking an entire day to build on my laptop.

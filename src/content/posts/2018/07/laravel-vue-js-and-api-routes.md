@@ -6,7 +6,8 @@ tags:
   - "php"
   - "vue.js"
   - "Web"
-heroImage: "/blog-media/2018/03/vue-laravel.png"
+heroImage: "/blog-media/2018/03/vue-laravel.webp"
+heroThumb: "/blog-media/2018/03/vue-laravel-thumb.webp"
 description: "I ran into a problem where I've started to deploy Vue components using the Vue Router from within Laravel. As soon as I enabled the Vue route for /{any} I"
 ---
 I ran into a problem where I've started to deploy Vue components using the Vue Router from within Laravel. As soon as I enabled the Vue route for `/{any}` I lost access to the api routes.

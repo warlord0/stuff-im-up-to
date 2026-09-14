@@ -6,7 +6,8 @@ tags:
   - "exim4"
   - "Linux"
   - "smtp"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "How difficult can this be? Same server config, just want to enable TLS so it finally has STARTTLS support. Well it looks easy enough as you just need to dr"
 ---
 How difficult can this be? Same server config, just want to enable TLS so it finally has STARTTLS support. Well it looks easy enough as you just need to drop in some certificates under the default location `/etc/exim4/exim.crt` and `exim.key`. Restart the server and see in the `mainlog`:

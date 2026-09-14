@@ -4,7 +4,8 @@ title: "When AI Goes Wrong"
 tags:
   - "Ai"
   - "Cloud"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Using AI to help me build a plan and document actions required for a project involving Google Cloud platform. I worked on this for a good day and a half. I asked it a load of questions, even double-checking its logic. Eventually I had to pull it up on certain aspects that just didn't seem…"
 ---
 Using AI to help me build a plan and document actions required for a project involving Google Cloud platform. I worked on this for a good day and a half. I asked it a load of questions, even double-checking its logic. Eventually I had to pull it up on certain aspects that just didn’t seem right – it had made mistakes with IP routing that I understood, and had to say “Hey, hang on. What you’re suggesting is wrong.” It then came back with this:

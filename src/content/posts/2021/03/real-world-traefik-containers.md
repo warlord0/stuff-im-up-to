@@ -4,7 +4,8 @@ title: "Real World Traefik Containers"
 draft: true
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "After starting out with Traefik Swarm and portainer I started looking to migrate a typical business container set into it. The application service has a fe"
 ---
 After starting out with [Traefik Swarm](/posts/traefik-swarm/) and [portainer](/posts/docker-swarm/) I started looking to migrate a typical business container set into it. The application service has a few challenges that require sticky sessions if you want to operate on a cluster. It also requires multiple services within a container. It must be protected by TLS certificates and sit behind a load balancer to cope with front end and back end failures.

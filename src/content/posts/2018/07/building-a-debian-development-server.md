@@ -9,7 +9,8 @@ tags:
   - "node.js"
   - "php"
   - "Web"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "When I setup a development system there are a few steps I follow to get everything working together. The aim is to get everything installed to provide php"
 ---
 When I setup a development system there are a few steps I follow to get everything working together.
@@ -22,11 +23,11 @@ I take the latest amd64 version using a network installable iso. This way if I u
 
 Mostly making a 50GB disk is more than enough, as it's thin provisioned on a virtual, space isn't really a concern. When it comes to partitioning I've learned to take the easy option and create one partition to mount all filesystems into it.
 
-![Capture1](/blog-media/2018/07/capture11.png)
+![Capture1](/blog-media/2018/07/capture11.webp)
 
 As it's a development platform I never install a desktop environment. I never need to use any GUI programs on the server. The only options I choose to install are the standard system utilities and the ssh server.
 
-![Capture2](/blog-media/2018/07/capture2.png)
+![Capture2](/blog-media/2018/07/capture2.webp)
 
 Out of personal preference, once up and running I install sudo, zsh, curl and git.
 

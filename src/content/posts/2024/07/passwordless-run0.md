@@ -4,7 +4,8 @@ title: "Passwordless run0"
 tags:
   - "Linux"
   - "sudo"
-heroImage: "/blog-media/2021/01/manjaro_logo.png"
+heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
 description: "Using sudo without a password is essential for Ansible, and also helpful for frequent sysadmin tasks. To achieve the same in run0 you need to create a polk"
 ---
 Using `sudo` without a password is essential for Ansible, and also helpful for frequent sysadmin tasks. To achieve the same in `run0` you need to create a `polkit` rule.

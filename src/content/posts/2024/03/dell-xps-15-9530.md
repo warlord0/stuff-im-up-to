@@ -5,7 +5,8 @@ title: "Dell XPS 15 9530"
 tags:
   - "Linux"
   - "manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.png"
+heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
 description: "The first day I arrived at my new job, sat on a desk waiting for me was a posh black box containing a brand new Dell XPS 15. Previously, I've had no real u"
 ---
 The first day I arrived at my new job, sat on a desk waiting for me was a posh black box containing a brand new Dell XPS 15.

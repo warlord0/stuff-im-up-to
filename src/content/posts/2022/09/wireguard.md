@@ -4,7 +4,8 @@ modDatetime: 2024-03-20T15:17:28Z
 title: "WireGuard"
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2020/04/wireguard.png"
+heroImage: "/blog-media/2020/04/wireguard.webp"
+heroThumb: "/blog-media/2020/04/wireguard-thumb.webp"
 description: "WireGuard is a very simple and efficient firewall. It has only one authentication mechanism and that is using public key cryptography, either public/privat"
 ---
 WireGuard is a very simple and efficient firewall. It has only one authentication mechanism and that is using public key cryptography, either public/private keys, or pre-shared key.

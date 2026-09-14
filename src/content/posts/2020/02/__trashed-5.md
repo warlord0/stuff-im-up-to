@@ -4,7 +4,8 @@ modDatetime: 2020-02-06T20:37:32Z
 title: "Linux HA Cluster"
 tags:
   - "Linux"
-heroImage: "/blog-media/2020/02/tux-1.png"
+heroImage: "/blog-media/2020/02/tux-1.webp"
+heroThumb: "/blog-media/2020/02/tux-1-thumb.webp"
 description: "Until recently my exposure to Linux HA has sat firmly on the side of deploying systems that sit on top of highly resilient platforms like VMWare that handl"
 ---
 Until recently my exposure to Linux HA has sat firmly on the side of deploying systems that sit on top of highly resilient platforms like VMWare that handle all of the network interface and storage high availability and fail over.

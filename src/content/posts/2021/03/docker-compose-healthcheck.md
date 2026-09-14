@@ -5,7 +5,8 @@ title: "docker-compose healthcheck"
 tags:
   - "Docker"
   - "Linux"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "Here I'm building a library of health checks used for various docker-compose containers. MySQL / MariaDB healthcheck: test: [ 'CMD', 'mysqladmin', 'ping',"
 ---
 Here I'm building a library of health checks used for various docker-compose containers.

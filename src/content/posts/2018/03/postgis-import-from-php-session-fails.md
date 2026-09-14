@@ -8,7 +8,8 @@ tags:
   - "postgis"
   - "postgresql"
   - "Web"
-heroImage: "/blog-media/2018/02/best-postgresql-hosting.png"
+heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
+heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
 description: "Undefined function: 7 ERROR: function st_makepoint(numeric, numeric) does not exist"
 ---
 When importing a CSV file using Laravel I found that I'd get some strange error messages relating to a called function not matching the parameters that I was sending.

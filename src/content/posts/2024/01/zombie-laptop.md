@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "Privateer"
   - "wifi"
-heroImage: "/blog-media/2024/01/image-1.png"
+heroImage: "/blog-media/2024/01/image-1.webp"
+heroThumb: "/blog-media/2024/01/image-1-thumb.webp"
 description: "Some years ago my brother bought an Asus K53E laptop, 4GB RAM, Intel Core i7-2670QM. It came with Windows 7 Home Premium. It was a slow and tedious thing,"
 ---
 Some years ago my brother bought an Asus K53E laptop, 4GB RAM, Intel Core i7-2670QM. It came with Windows 7 Home Premium. It was a slow and tedious thing, and within a year he became fed up with it, and replaced it with an iPad.
@@ -39,7 +40,7 @@ The Gigabit Ethernet is where it spent its life, as the Wi-Fi throughput isn't s
 
 Well, for £17 I thought it's too good to not just try it. Now I know a bit about Wi-Fi adapters and Linux. Realtek chipsets seem to be the in thing. The downside, and the thing I don't understand, is why they are used so widely, given that the manufacturer driver support just sucks. I also have some experience with Asus Wi-Fi PCIe card for my desktop. They performed superbly at 802.11ac, but more recently I ran into issues with driver support in the kernel for the Broadcom chipset they are based on. I ended up swapping out my trusty AC58 for an Intel AX210 based card.
 
-![](/blog-media/2024/01/image.png)
+![](/blog-media/2024/01/image.webp)
 
 > The card I found on Amazon was based on the Intel AX210, so I knew the driver support should be good. It's been stable in my desktop for many kernel updates. I took the plunge, spent the £17 and got the card next day.
 >
@@ -58,7 +59,7 @@ Bluetooth:
     bus-ID: 1-1.1:3
 ```
 
-![](/blog-media/2024/01/image-2.png)
+![](/blog-media/2024/01/image-2.webp)
 
 ## Epilogue
 

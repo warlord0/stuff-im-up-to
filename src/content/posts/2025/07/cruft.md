@@ -7,7 +7,8 @@ tags:
   - "Programming"
   - "Python"
   - "Web Development"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "“Cruft” is informal tech-slang for anything that’s left in a system but no longer serves a clear purpose—old code, redundant files, forgotten configuration settings, stale comments, or even obsolete hardware. Over time these remnants accumulate, making software (or an organization’s processes) harder to understand, maintain, or extend. In short, cruft is digital clutter or technical…"
 ---
 > “Cruft” is informal tech-slang for anything that’s left in a system but no longer serves a clear purpose—old code, redundant files, forgotten configuration settings, stale comments, or even obsolete hardware. Over time these remnants accumulate, making software (or an organization’s processes) harder to understand, maintain, or extend. In short, cruft is digital clutter or technical debt.

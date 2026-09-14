@@ -5,7 +5,8 @@ title: "NFS and iptables"
 tags:
   - "Linux"
   - "nfs"
-heroImage: "/blog-media/2020/02/ubuntu_logo.png"
+heroImage: "/blog-media/2020/02/ubuntu_logo.webp"
+heroThumb: "/blog-media/2020/02/ubuntu_logo-thumb.webp"
 description: "Continuing with the theme of deploying systems automatically this chapter deals with using an NFS share to hold your iso images. The problem I faced was th"
 ---
 Continuing with the theme of deploying systems automatically this chapter deals with using an NFS share to hold your iso images.

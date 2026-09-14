@@ -4,7 +4,8 @@ title: "A Little Fun"
 tags:
   - "Image"
   - "Privateer"
-heroImage: "/blog-media/2022/02/robots.jpg"
+heroImage: "/blog-media/2022/02/robots.webp"
+heroThumb: "/blog-media/2022/02/robots-thumb.webp"
 description: "A Little Fun"
 ---
 ![](/blog-media/2022/02/robots.jpg)

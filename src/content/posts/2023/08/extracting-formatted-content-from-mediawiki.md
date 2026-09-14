@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "python"
   - "Web"
-heroImage: "/blog-media/2020/07/mediawiki_logo.png"
+heroImage: "/blog-media/2020/07/mediawiki_logo.webp"
+heroThumb: "/blog-media/2020/07/mediawiki_logo-thumb.webp"
 description: "When extracting content from MediaWiki to transfer into SharePoint - or other knowledgebase system, extracting the raw `wikitext` isn't that helpful. I tra"
 ---
 When extracting content from MediaWiki to transfer into SharePoint - or other knowledgebase system, extracting the raw \`wikitext\` isn't that helpful. I trawled around looking for tools that parse \`wikitext\` and always came back to using the PHP code that MediaWiki itself uses. For this reason, I chose not to extract and process it outside of MediaWiki, but use calls to MediaWiki to give me HTML code.

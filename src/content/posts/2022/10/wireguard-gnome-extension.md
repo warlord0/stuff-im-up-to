@@ -8,7 +8,8 @@ tags:
   - "Networking"
   - "vpn"
   - "wireguard"
-heroImage: "/blog-media/2020/04/wireguard.png"
+heroImage: "/blog-media/2020/04/wireguard.webp"
+heroThumb: "/blog-media/2020/04/wireguard-thumb.webp"
 description: "This gives the users a very convenient means of enabling and disabling WireGuard tunnels. Install the Extension from: https://extensions.gnome.org/extensio"
 ---
 This gives the users a very convenient means of enabling and disabling WireGuard tunnels.

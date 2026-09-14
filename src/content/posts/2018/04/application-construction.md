@@ -9,7 +9,8 @@ tags:
   - "php"
   - "vue.js"
   - "Web"
-heroImage: "/blog-media/2018/03/vue-laravel.png"
+heroImage: "/blog-media/2018/03/vue-laravel.webp"
+heroThumb: "/blog-media/2018/03/vue-laravel-thumb.webp"
 description: "Frameworks For rapid application development there's a lot of pre-written code out there that is mature and highly capable. There's no need to build from t"
 ---
 ## Frameworks

@@ -6,7 +6,8 @@ tags:
   - "Bootstrap"
   - "Laravel"
   - "Web"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "This should have been easier, but I must have misunderstood how this works. After upgrading to Bootstrap 4, for some reason my node_modules didn't contain"
 ---
 This should have been easier, but I must have misunderstood how this works. After upgrading to Bootstrap 4, for some reason my `node_modules` didn't contain fontawesome anymore. I don't know what I did, but I took it as a sign to upgrade to fontawesome 5. This was a little tricky to follow at first as it works differently to fontawesome 4. Install fontawesome, install the libraries you want to use so they can be used in Bootstrap.

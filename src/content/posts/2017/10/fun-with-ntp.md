@@ -4,7 +4,8 @@ title: "Fun with NTP"
 tags:
   - "debian"
   - "Linux"
-heroImage: "/blog-media/2016/09/debian-logo-1.png"
+heroImage: "/blog-media/2016/09/debian-logo-1.webp"
+heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
 description: "One of our Debian servers had a large time discrepancy. Turned out NTP wasn't installed or working. After I installed ntp I still wasn't seeing a time upda"
 ---
 One of our Debian servers had a large time discrepancy. Turned out NTP wasn't installed or working. After I installed ntp I still wasn't seeing a time update. Probably because I was more than 30 minutes adrift. So I had to force an ntp update. Install ntp and set the servers in the .conf to match your ntp servers.

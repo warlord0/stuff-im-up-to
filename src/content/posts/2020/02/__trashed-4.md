@@ -5,7 +5,8 @@ title: "DRBD and Linux HA"
 draft: true
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Following on from setting up a Linux HA Cluster, it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our"
 ---
 Following on from setting up a Linux HA Cluster, it's time to add a shared disk resource. It should be capable of synchronising data and integrate with our pacemaker cluster using [Linbit's DRBD](https://www.linbit.com/en/) (Distributed Redundant Block Device).

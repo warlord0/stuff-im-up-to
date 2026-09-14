@@ -5,7 +5,8 @@ title: "LUKS Password Problems"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2017/02/download-10-e1488295217214.jpg"
+heroImage: "/blog-media/2017/02/download-10-e1488295217214.webp"
+heroThumb: "/blog-media/2017/02/download-10-e1488295217214-thumb.webp"
 description: "After setting up a new fully encrypted system, I found that I couldn't unlock the disk encryption with the password I know I set correctly. I added a new p"
 ---
 After setting up a new fully encrypted system, I found that I couldn't unlock the disk encryption with the password I know I set correctly.

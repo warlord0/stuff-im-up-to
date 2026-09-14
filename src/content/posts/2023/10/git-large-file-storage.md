@@ -4,7 +4,8 @@ title: "Git Large File Storage"
 tags:
   - "git"
   - "Uncategorized"
-heroImage: "/blog-media/2016/12/octocat.png"
+heroImage: "/blog-media/2016/12/octocat.webp"
+heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "We have a client that needs their legacy system and data giving to them in a useable format. We can't really give them the code to build the system, as the"
 ---
 We have a client that needs their legacy system and data giving to them in a useable format. We can't really give them the code to build the system, as they don't really have the skills or requirement for that. What they do want is the config and the Docker image, so they could spin it up some time and access the old data.

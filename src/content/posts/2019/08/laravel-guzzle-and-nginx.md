@@ -5,7 +5,8 @@ tags:
   - "Laravel"
   - "php"
   - "Web"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "After deploying a working test into our pre-production environment the Guzzle API calls we were making to fetch bank holiday data from the .gov.uk site sta"
 ---
 After deploying a working test into our pre-production environment the Guzzle API calls we were making to fetch bank holiday data from the `.gov.uk` site starting failing.

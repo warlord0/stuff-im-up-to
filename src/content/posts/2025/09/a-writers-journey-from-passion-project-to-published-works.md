@@ -7,7 +7,8 @@ tags:
   - "Horror"
   - "Reading"
   - "Writing"
-heroImage: "/blog-media/2025/09/real-hero-series.png"
+heroImage: "/blog-media/2025/09/real-hero-series.webp"
+heroThumb: "/blog-media/2025/09/real-hero-series-thumb.webp"
 description: "Writing fiction has become one of my most rewarding hobbies—a creative outlet that's taught me as much about myself as it has about the craft of storytelling. While I harbour no illusions about striking it rich in the literary world, the journey itself has been invaluable. Why I Write I've penned several books across genres…"
 ---
 Writing fiction has become one of my most rewarding hobbies—a creative outlet that’s taught me as much about myself as it has about the craft of storytelling. While I harbour no illusions about striking it rich in the literary world, the journey itself has been invaluable.

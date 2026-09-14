@@ -6,7 +6,8 @@ tags:
   - "certificates"
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2016/09/debian-logo-1.png"
+heroImage: "/blog-media/2016/09/debian-logo-1.webp"
+heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
 description: "General OpenSSL Commands These commands allow you to generate CSRs, Certificates, Private Keys and do other miscellaneous tasks. Generate a new private key"
 ---
 ## General OpenSSL Commands

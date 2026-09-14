@@ -4,7 +4,8 @@ title: "Load Testing with Locust"
 tags:
   - "Linux"
   - "python"
-heroImage: "/blog-media/2021/02/locust_logo.png"
+heroImage: "/blog-media/2021/02/locust_logo.webp"
+heroThumb: "/blog-media/2021/02/locust_logo-thumb.webp"
 description: "This has been a very tough few days. I was asked to build some load testing scripts for use with Locust. I was told \"How hard can it be? Just a few scripts"
 ---
 This has been a very tough few days. I was asked to build some load testing scripts for use with Locust. I was told "How hard can it be? Just a few scripts to poke a web site."

@@ -5,7 +5,8 @@ title: "Nginx Caching"
 tags:
   - "nginx"
   - "Web"
-heroImage: "/blog-media/2021/02/nginx_logo.png"
+heroImage: "/blog-media/2021/02/nginx_logo.webp"
+heroThumb: "/blog-media/2021/02/nginx_logo-thumb.webp"
 description: "We have a heavily visited service powered by a content management system that gets a huge jump in page visits when an email gets sent out with a PDF link."
 ---
 We have a heavily visited service powered by a content management system that gets a huge jump in page visits when an email gets sent out with a PDF link. The problem is that the CMS is taking all the strain for some static content. We need to change that so when the email goes out and the PDF gets visited, that we cache that on the front end proxy. Then serve it to the next visitors without talking to the backend CMS at all.

@@ -6,7 +6,8 @@ tags:
   - "Bootstrap"
   - "Laravel"
   - "Web"
-heroImage: "/blog-media/2016/09/logo_bootstrap.jpg"
+heroImage: "/blog-media/2016/09/logo_bootstrap.webp"
+heroThumb: "/blog-media/2016/09/logo_bootstrap-thumb.webp"
 description: "Laravel 5.5 ships with Bootstrap 3. To make it use Bootstrap 4 you need to make a few changes. resources/assets/js/bootstrap.js Change require('bootstrap-s"
 ---
 Laravel 5.5 ships with Bootstrap 3. To make it use Bootstrap 4 you need to make a few changes.

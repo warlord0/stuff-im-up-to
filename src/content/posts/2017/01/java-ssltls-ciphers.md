@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "ssl"
   - "Windows"
-heroImage: "/blog-media/2017/01/java-logo-png-e1485773197141.png"
+heroImage: "/blog-media/2017/01/java-logo-png-e1485773197141.webp"
+heroThumb: "/blog-media/2017/01/java-logo-png-e1485773197141-thumb.webp"
 description: "You can specify what cipher suites Java uses by editing the file: %JAVA_HOME%\\lib\\security\\java.security This file must also be used by the Java applicatio"
 ---
 You can specify what cipher suites Java uses by editing the file:

@@ -5,7 +5,8 @@ title: "Laravel storage/logs Error"
 tags:
   - "Laravel"
   - "Linux"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "A regular issue for me is failing the initial deployment of a git clone Laravel server using Nginx. It's almost always because I forget to create and give"
 ---
 A regular issue for me is failing the initial deployment of a `git clone` Laravel server using Nginx. It's almost always because I forget to create and give permissions to the Nginx user `www-data`.

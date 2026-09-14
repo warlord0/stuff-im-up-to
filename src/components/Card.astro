@@ -10,14 +10,15 @@ type Props = {
 
 const { variant: Heading = "h2", id, data, filePath } = Astro.props;
 
-const { title, description, heroImage, ...props } = data;
+const { title, description, heroImage, heroThumb, ...props } = data;
+const thumbSrc = heroThumb ?? heroImage;
 ---
 
 <li class="my-6 flex gap-4">
   {
-    heroImage && (
+    thumbSrc && (
       <img
-        src={heroImage}
+        src={thumbSrc}
         alt={title}
         width="96"
         height="96"

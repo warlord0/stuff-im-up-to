@@ -6,7 +6,8 @@ tags:
   - "ejabberd"
   - "Linux"
   - "xmpp"
-heroImage: "/blog-media/2021/01/ejabberd1.png"
+heroImage: "/blog-media/2021/01/ejabberd1.webp"
+heroThumb: "/blog-media/2021/01/ejabberd1-thumb.webp"
 description: "Getting this shared roster from LDAP into my ejabberd config has been an absolute nightmare. Everything I find seems to be people asking the same question"
 ---
 Getting this shared roster from LDAP into my ejabberd config has been an absolute nightmare. Everything I find seems to be people asking the same question or the comments made are for old versions. I struggled to find examples of a known good working example that used OpenLDAP and LDAP attributes for `groupOfUniqueNames`.

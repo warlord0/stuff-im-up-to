@@ -4,7 +4,8 @@ modDatetime: 2021-07-25T15:36:26Z
 title: "Setting up Baofeng UV-5R for PMR 446"
 tags:
   - "Privateer"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Yes, it is illegal so don’t press the transmit button 1. Reset the radio to factory defaults Goto Menu 40 (Press Menu followed by 40 or use up down to scro"
 ---
 > Yes, it is illegal so don’t press the transmit button

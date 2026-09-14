@@ -5,7 +5,8 @@ tags:
   - "Networking"
   - "Multicast"
   - "Rtp"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Overview Receiving multicast video streams from AXIS cameras requires proper network configuration at multiple levels: kernel, firewall, multicast group membership, and RTP/H.264 decoding. This guide documents the steps required to successfully receive and record RTP multicast streams from an AXIS P3224-V Mk II camera using GStreamer. Network Setup in This Example ComponentValueCamera IP10.0.133.12Client IP10.0.133.83Network Interfaceenp86s0Multicast…"
 ---
 ## Overview

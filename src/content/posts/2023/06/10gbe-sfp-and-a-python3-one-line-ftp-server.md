@@ -8,7 +8,8 @@ tags:
   - "python"
   - "rsync"
   - "ssh"
-heroImage: "/blog-media/2020/02/tux-1.png"
+heroImage: "/blog-media/2020/02/tux-1.webp"
+heroThumb: "/blog-media/2020/02/tux-1-thumb.webp"
 description: "I've built my cluster and stated doing some network tests using iperf3 . My results were pretty good. But my file transfer speeds pretty bad, by comparison"
 ---
 I've built my cluster and stated doing some network tests using `iperf3`. My results were pretty good. But my file transfer speeds pretty bad, by comparison.

@@ -5,7 +5,8 @@ title: "VMware Horizon logjam"
 tags:
   - "Link"
   - "Windows"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Response to CVE-2015-4000 (a.k.a., Logjam) for Horizon View and Horizon 6 products (2121183) https://kb.vmware.com/selfservice/microsites/search.do?languag"
 ---
 ## Response to CVE-2015-4000 (a.k.a., Logjam) for Horizon View and Horizon 6 products (2121183)

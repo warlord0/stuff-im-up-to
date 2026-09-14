@@ -6,7 +6,8 @@ tags:
   - "keycloak"
   - "ldap"
   - "Linux"
-heroImage: "/blog-media/2020/07/keycloak.png"
+heroImage: "/blog-media/2020/07/keycloak.webp"
+heroThumb: "/blog-media/2020/07/keycloak-thumb.webp"
 description: "Keycloak is a great tool for authentication and I'm bundling it into a package that includes LDAP. What I want to do is automate the deployment of Keycloak"
 ---
 Keycloak is a great tool for authentication and I'm bundling it into a package that includes LDAP. What I want to do is automate the deployment of Keycloak so that it is provisioned to work with the LDAP that is also deployed without the user having to fettle with Keycloak manually- This is where the [Keycloak API](https://www.keycloak.org/docs-api/12.0/rest-api/) comes in.

@@ -7,7 +7,8 @@ tags:
   - "Networking"
   - "nginx"
   - "proxy"
-heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.png"
+heroImage: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563.webp"
+heroThumb: "/blog-media/2016/10/vmware-logo-eps-vector-image-800x533-e1476948729563-thumb.webp"
 description: "We're in the process of installing a new Horizon 7 infrastructure and as part of the process the vendor added load balancers all over the place. I asked wi"
 ---
 We're in the process of installing a new Horizon 7 infrastructure  and as part of the process the vendor added load balancers all over the place. I asked with question of why not use an Open Source solution for that?

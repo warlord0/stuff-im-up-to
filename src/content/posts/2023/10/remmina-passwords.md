@@ -4,7 +4,8 @@ title: "Remmina Passwords"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2020/02/remmina.png"
+heroImage: "/blog-media/2020/02/remmina.webp"
+heroThumb: "/blog-media/2020/02/remmina-thumb.webp"
 description: "When you save the password in the config for a remote connection, where does it go? I was remote to my work station and needed to find the password for a r"
 ---
 When you save the password in the config for a remote connection, where does it go?

@@ -6,7 +6,8 @@ tags:
   - "Link"
   - "Security"
   - "Web"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Simple and secure user authentication, complete with everything you need out-of-the-box to provide a secure experience for your users."
 ---
 https://clerk.com/user-authentication

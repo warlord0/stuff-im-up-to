@@ -5,7 +5,8 @@ tags:
   - "b2"
   - "Linux"
   - "s3"
-heroImage: "/blog-media/2023/12/restic.png"
+heroImage: "/blog-media/2023/12/restic.webp"
+heroThumb: "/blog-media/2023/12/restic-thumb.webp"
 description: "You can always back up the databases to a file and then back up those files to Backblaze B2 or AWS S3 using restic, but how about streaming a backup direct"
 ---
 You can always back up the databases to a file and then back up those files to Backblaze B2 or AWS S3 using restic, but how about streaming a backup directly to object storage with no local copy?

@@ -4,7 +4,8 @@ title: "Lsyncd Maintain Permissions"
 tags:
   - "Linux"
   - "lsyncd"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "When synchronising files and folders with lsyncd I wanted to maintain the original owner and permissions. To do this I added the rsync stanza to my /etc/ls"
 ---
 When synchronising files and folders with lsyncd I wanted to maintain the original owner and permissions.

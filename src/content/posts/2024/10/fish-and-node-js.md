@@ -8,7 +8,8 @@ tags:
   - "programming"
   - "tools"
   - "web-development"
-heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.png"
+heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.webp"
+heroThumb: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433-thumb.webp"
 description: "Today, I was installing a boilerplate project that uses Node.js on an Ubuntu 24.04 LTS box. I didn't want to use the Ubuntu version of Node.js, it's usuall"
 ---
 Today, I was installing a boilerplate project that uses Node.js on an Ubuntu 24.04 LTS box. I didn't want to use the Ubuntu version of Node.js, it's usually better to install these things direct from the source.

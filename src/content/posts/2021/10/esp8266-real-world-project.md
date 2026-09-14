@@ -6,7 +6,8 @@ tags:
   - "electronics"
   - "esp8266"
   - "Uncategorized"
-heroImage: "/blog-media/2021/10/gate.png"
+heroImage: "/blog-media/2021/10/gate.webp"
+heroThumb: "/blog-media/2021/10/gate-thumb.webp"
 description: "Gatekeeper, Part 1 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is"
 ---
 ## Gatekeeper, Part 1
@@ -102,7 +103,7 @@ A bit of juggling is required o nthe usage of GPIO pins. Some pins will cause th
 
 After I transferred all this onto a strip board, it looked like this:
 
-![](/blog-media/2021/10/img_20211028_190837.jpg)
+![](/blog-media/2021/10/img_20211028_190837.webp)
 
 Top left buck convertor converts 12v DC to 5v DC. Bottom right, door strike relay. Bottom left - the ESP8266. Right - the level shifter.
 

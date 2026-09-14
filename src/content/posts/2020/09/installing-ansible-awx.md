@@ -6,7 +6,8 @@ tags:
   - "ansible"
   - "Docker"
   - "Linux"
-heroImage: "/blog-media/2020/02/ansible800.png"
+heroImage: "/blog-media/2020/02/ansible800.webp"
+heroThumb: "/blog-media/2020/02/ansible800-thumb.webp"
 description: "Starting to look at a nice front end for Ansible and found a few quirks with the process that need to be taken care of. The actual installation of AWX need"
 ---
 Starting to look at a nice front end for Ansible and found a few quirks with the process that need to be taken care of.

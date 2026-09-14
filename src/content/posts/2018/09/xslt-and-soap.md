@@ -6,14 +6,15 @@ tags:
   - "Linux"
   - "Windows"
   - "xml"
-heroImage: "/blog-media/2018/09/soap__large.jpg"
+heroImage: "/blog-media/2018/09/soap__large.webp"
+heroThumb: "/blog-media/2018/09/soap__large-thumb.webp"
 description: "All of our SOAP interactions with the Lagan CRM send and return SOAP and by association, XML. The normal practice of handling the sent or returned XML is b"
 ---
 All of our SOAP interactions with the Lagan CRM send and return SOAP and by association, XML. The normal practice of handling the sent or returned XML is by using XSLT to transform the data to and from the required format. The forms product will submit XML through an XSL translation taking data from the POST'ed form data and turning it into the XML format/type required. The returned XML data must also be processed via an XSLT to present the data to the form.
 
 > How do we go about testing translations and stylesheets without constantly publishing forms and requesting data from the CRM server?
 
-For this I used postman to submit and retrieve sample SOAP envelopes with the required XML `soapenv:Body`. Then I can take the returned sample data and save it to an XML file. Now I have a local sample of the XML I can use an XSLT tool to process it via a locally created stylesheet. No more repetitive form submissions or having to work with only the form product to develop the XSLT. ![xlst_working](/blog-media/2018/09/xlst_working.jpg)
+For this I used postman to submit and retrieve sample SOAP envelopes with the required XML `soapenv:Body`. Then I can take the returned sample data and save it to an XML file. Now I have a local sample of the XML I can use an XSLT tool to process it via a locally created stylesheet. No more repetitive form submissions or having to work with only the form product to develop the XSLT. ![xlst_working](/blog-media/2018/09/xlst_working.webp)
 
 ## XSLT Tools
 

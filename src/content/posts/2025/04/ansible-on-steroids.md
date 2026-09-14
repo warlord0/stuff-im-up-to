@@ -6,7 +6,8 @@ tags:
   - "automation"
   - "devops"
   - "Linux"
-heroImage: "/blog-media/2024/03/ansible_logo_2000.png"
+heroImage: "/blog-media/2024/03/ansible_logo_2000.webp"
+heroThumb: "/blog-media/2024/03/ansible_logo_2000-thumb.webp"
 description: "Mitogen Mitogen is a program that miraculously speeds up the remote execution of Python scripts. It also has an Ansible plugin. At first, I thought it look"
 ---
 ## Mitogen

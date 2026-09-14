@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "Vscode"
   - "Vscodium"
-heroImage: "/blog-media/2025/06/vscodium_logo.png"
+heroImage: "/blog-media/2025/06/vscodium_logo.webp"
+heroThumb: "/blog-media/2025/06/vscodium_logo-thumb.webp"
 description: "I switched from VSCode to VSCodium some time ago, but recently when updating VSCodium I was seeing it fail with an error message: vscodium lock file version `4` was found, but this version of Cargo does not understand this lock file, perhaps Cargo needs to be updated? Which is an obvious answer. But I've not…"
 ---
 I switched from VSCode to VSCodium some time ago, but recently when updating VSCodium I was seeing it fail with an error message:

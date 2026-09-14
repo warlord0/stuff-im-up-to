@@ -10,7 +10,8 @@ tags:
   - "Mcp"
   - "Python"
   - "Technology"
-heroImage: "/blog-media/2025/11/image.png"
+heroImage: "/blog-media/2025/11/image.webp"
+heroThumb: "/blog-media/2025/11/image-thumb.webp"
 description: "— and Teaching AI My Lore I’ve been developing an application to help with my novel writing. I wanted something that could track characters and chapters—not just where they appear, but also a full codex of style, tone, and continuity data across my story world. The Stack: Familiar Tools, Simple Foundations I built it using…"
 ---
 ## — and Teaching AI My Lore

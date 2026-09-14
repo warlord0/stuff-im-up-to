@@ -5,7 +5,8 @@ title: "Motion Sensitive Temperature Display"
 tags:
   - "electronics"
   - "python"
-heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.jpg"
+heroImage: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2.webp"
+heroThumb: "/blog-media/2016/09/raspberry_pi_wallpaper_hd_1080p_by_tpbarratt-d4suve2-thumb.webp"
 description: "Following on from Python Motion Sensor I put together a 2004 LCD display, DHT11 humidity and temperature sensor and the AM312 PIR and came up with a displa"
 ---
 Following on from [Python Motion Sensor](/posts/python-motion-sensor/) I put together a 2004 LCD display, DHT11 humidity and temperature sensor and the AM312 PIR and came up with a display that is triggered when motion is detected.
@@ -67,7 +68,7 @@ I bought the 2004 (20 columns x 4 rows) LCD with an I2C already built in. I didn
 
 For the build, I used a Pi Model B+ for this, as I had one lying around.
 
-![](/blog-media/2022/07/motion_sensor-1.png)
+![](/blog-media/2022/07/motion_sensor-1.webp)
 
 |                 |             |
 |-----------------|-------------|

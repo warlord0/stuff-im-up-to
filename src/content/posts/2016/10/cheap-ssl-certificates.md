@@ -7,7 +7,8 @@ tags:
   - "Link"
   - "ssl"
   - "Web"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "https://cheapsslsecurity.co.uk/ I needed a cheap SSL certificate that already had a trusted root authority in Windows, Linux and Fruits. £12 for 3 years un"
 ---
 [https://cheapsslsecurity.co.uk/](https://cheapsslsecurity.co.uk/) I needed a cheap SSL certificate that already had a trusted root authority in Windows, Linux and Fruits. £12 for 3 years under a Comodo CA.

@@ -4,7 +4,8 @@ title: "Debian Preseeding"
 tags:
   - "dhcp"
   - "Linux"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "The boss walked in today with a new desktop PC for a new staff member and handed it off saying: \"I hope we aren't going to be using some antiquated process"
 ---
 The boss walked in today with a new desktop PC for a new staff member and handed it off saying:

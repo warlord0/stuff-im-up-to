@@ -5,7 +5,8 @@ title: "Cockpit - Remote Administration"
 tags:
   - "Link"
   - "Uncategorized"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "As my download station operates headless, Cockpit is a nice way to manage it using a browser. https://www.redhat.com/sysadmin/intro-cockpit"
 ---
 As my download station operates headless, Cockpit is a nice way to manage it using a browser.

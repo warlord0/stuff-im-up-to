@@ -4,7 +4,8 @@ title: "Disable Wi-Fi on Ethernet Up"
 tags:
   - "Linux"
   - "Networking"
-heroImage: "/blog-media/2021/01/manjaro_logo.png"
+heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
 description: "I wanted to turn off/disable my Wi-Fi adapter when I plug in an Ethernet cable. Add this script as /etc/NetworkManager/dispatcher.d/99-disable-wifi-when-et"
 ---
 I wanted to turn off/disable my Wi-Fi adapter when I plug in an Ethernet cable.

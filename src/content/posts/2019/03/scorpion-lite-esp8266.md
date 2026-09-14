@@ -7,7 +7,8 @@ tags:
   - "iot"
   - "Privateer"
   - "Web"
-heroImage: "/blog-media/2018/07/scorpion400.png"
+heroImage: "/blog-media/2018/07/scorpion400.webp"
+heroThumb: "/blog-media/2018/07/scorpion400-thumb.webp"
 description: "Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project Scorpion he moved"
 ---
 Looks like my friend likes to try to go one better. When he saw how I'd taken his original Wake-On-Wi-Fi idea and turned it into project [Scorpion](/posts/project-scorpion-wake-on-wifi/) he moved to using ESP8266.
@@ -16,7 +17,7 @@ At the time I started looking into using a Raspberry Pi for the project I did al
 
 Moving onto a small chip means I have a few issues to solve that the Raspberry solves easily. 1) Power supply 2) File storage 3) My skills.
 
-![](/blog-media/2019/03/20190324_142424_hdr.jpg)
+![](/blog-media/2019/03/20190324_142424_hdr.webp)
 
 Adafruit Huzzah and FTDI Cable
 
@@ -36,7 +37,7 @@ As this was very new to me, and still is. The thing I tripped over was not knowi
 
 On the Huzzah you press and hold the GPIO0 button (the red LED illuminates) and press and release the Reset button (the blue LED illuminates briefly) and then the red LED stays dimly illuminated. Now you can upload your code and the blue LED flickers as Arduino uploads your code.
 
-![](/blog-media/2019/03/20190326_171432_hdr.jpg)
+![](/blog-media/2019/03/20190326_171432_hdr.webp)
 
 Lolin Wemos D1 Mini and Relay
 

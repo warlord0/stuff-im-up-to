@@ -7,7 +7,8 @@ tags:
   - "imap"
   - "Linux"
   - "spamassassin"
-heroImage: "/blog-media/2022/02/spamassassin_logo-2.png"
+heroImage: "/blog-media/2022/02/spamassassin_logo-2.webp"
+heroThumb: "/blog-media/2022/02/spamassassin_logo-2-thumb.webp"
 description: "Following on from Spam Assassin and Bayesian Learning To give our users the ability to forward mail to the spam learning feature, we need to ensure the for"
 ---
 Following on from [Spam Assassin and Bayesian Learning](/posts/spam-assassin-and-bayesian-learning/)

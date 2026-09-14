@@ -5,7 +5,8 @@ title: "Firefox Certificates"
 tags:
   - "certificates"
   - "Linux"
-heroImage: "/blog-media/2020/02/firefox_top.png"
+heroImage: "/blog-media/2020/02/firefox_top.webp"
+heroThumb: "/blog-media/2020/02/firefox_top-thumb.webp"
 description: "Now with added Chromium! Fun and games with Nginx and client authentication certificates means we need to deploy certificates to the user for them to trust"
 ---
 > Now with added Chromium!
@@ -57,7 +58,7 @@ done
 
 You'll want to edit this to include your password or pass it as a parameter and use \$1. It's also possible to use a lowercase option `-w` which will point to a file containing the password - which may be useful for some automation practices.
 
-## ![undefined](/blog-media/2020/02/chromium.png) Chromium Certificates
+## ![undefined](/blog-media/2020/02/chromium.webp) Chromium Certificates
 
 Turns out I inadvertently stepped into a Chromium solution too. Whilst inserting certificates into Firefox I found a `~/.pki` folder that also contained a certificate store.
 

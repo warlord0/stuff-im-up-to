@@ -13,7 +13,8 @@ tags:
   - "qemu"
   - "Virtualisation"
   - "zfs"
-heroImage: "/blog-media/2023/06/proxmox.png"
+heroImage: "/blog-media/2023/06/proxmox.webp"
+heroThumb: "/blog-media/2023/06/proxmox-thumb.webp"
 description: "Following on from Virtual Machine Clustering , it's taken a while to get things working as I want them. The least difficult part has been Proxmox. When it"
 ---
 Following on from [Virtual Machine Clustering](/posts/virtual-machine-clustering/), it's taken a while to get things working as I want them. The least difficult part has been Proxmox. When it comes to creating VM's on a cluster when all Proxmox is providing is the compute node is an absolute breeze.

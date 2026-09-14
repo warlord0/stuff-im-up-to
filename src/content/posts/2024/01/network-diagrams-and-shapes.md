@@ -4,7 +4,8 @@ modDatetime: 2024-01-22T22:28:38Z
 title: "Network Diagrams and Shapes"
 tags:
   - "Uncategorized"
-heroImage: "/blog-media/2024/01/drawing4.png"
+heroImage: "/blog-media/2024/01/drawing4.webp"
+heroThumb: "/blog-media/2024/01/drawing4-thumb.webp"
 description: "In the world of Office 365 I find myself using a crippled version of Visio. Any shapes I want are part of an upgrade package, so that's not going to happen"
 ---
 In the world of Office 365 I find myself using a crippled version of Visio. Any shapes I want are part of an upgrade package, so that's not going to happen. Most of the shapes and Icons I want to use aren't available to me, so Visio is worthless.

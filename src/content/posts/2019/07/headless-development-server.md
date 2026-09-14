@@ -5,7 +5,8 @@ title: "Headless Development Server"
 tags:
   - "Linux"
   - "Windows"
-heroImage: "/blog-media/2019/07/x-window1.png"
+heroImage: "/blog-media/2019/07/x-window1.webp"
+heroThumb: "/blog-media/2019/07/x-window1-thumb.webp"
 description: "After building a Linux development environment, I wanted something more portable for remote development, without resorting to VNC or a full desktop."
 ---
 After building a development environment in Linux as per a previous article - [/posts/building-a-debian-development-server/](/posts/building-a-debian-development-server/) I decided I wanted something a bit more portable in terms of development tools.
@@ -43,6 +44,6 @@ You can verify it's running from your Linux box by trying to open a file. It sho
 
 If you go to Help, About you will see it's the Linux version.
 
-![Visual Studio - Help, About](/blog-media/2019/07/image.png)
+![Visual Studio - Help, About](/blog-media/2019/07/image.webp)
 
 Now I can take my virtual image with me and run it on almost any winodws box with my preferred IDE, plugins and dev environment.

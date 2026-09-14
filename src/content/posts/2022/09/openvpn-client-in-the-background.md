@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "Networking"
   - "openvpn"
-heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.webp"
+heroThumb: "/blog-media/2016/09/openvpntech_logo1-thumb.webp"
 description: "With 2FA/MFA and OpenVPN on Linux you need to use the terminal to start up the session. sudo openvpn user.name.ovpn You then get to see all the prompts for"
 ---
 With 2FA/MFA and OpenVPN on Linux you need to use the terminal to start up the session.

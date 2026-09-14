@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "luks"
   - "Security"
-heroImage: "/blog-media/2018/10/computer-code.jpg"
+heroImage: "/blog-media/2018/10/computer-code.webp"
+heroThumb: "/blog-media/2018/10/computer-code-thumb.webp"
 description: "Linux Unified Key Setup LUKS in an “at rest” encryption method for Linux disk media. Once a drive is encrypted using LUKS you will need the password or key"
 ---
 ## Linux Unified Key Setup

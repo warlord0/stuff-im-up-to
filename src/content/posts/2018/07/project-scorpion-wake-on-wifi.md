@@ -9,7 +9,8 @@ tags:
   - "Privateer"
   - "raspberry pi"
   - "Web"
-heroImage: "/blog-media/2018/07/scorpion400.png"
+heroImage: "/blog-media/2018/07/scorpion400.webp"
+heroThumb: "/blog-media/2018/07/scorpion400-thumb.webp"
 description: "A friend setup his home systems to turn on his PC using Amazon Alexa and tasker to trigger a Raspberry Pi to operate a relay and effectively activate the p"
 ---
 A friend setup his home systems to turn on his PC using Amazon Alexa and tasker to trigger a Raspberry Pi to operate a relay and effectively activate the power button.
@@ -24,11 +25,11 @@ I decided on the Raspberry Pi Zero W. This makes for a very clean small unit tha
 
 ## The Web Service
 
-Using Node.js and Express gave me a simple interface to serve HTTP and handle requests. Add to that the `gpio` program I can then use Node.js to talk to the RPI GPIO. So now when I send a HTTP request to the Express server Node.js can process it and trigger a GPIO port to do something - like activate a relay. Taking it a step further I wanted to make it work with my Google Home. The obvious way was to use "if this then that" (IFTTT.com) and a webhook. So now I can talk to my Google Home, it passes the request to [IFTTT.com](https://ifttt.com) which then sends a web request to my RPI's express server. Of course I built in some simple security. You need a token passed in `json` format to make express process the request. ![ifttt_scorpion](/blog-media/2018/07/ifttt_scorpion.png)
+Using Node.js and Express gave me a simple interface to serve HTTP and handle requests. Add to that the `gpio` program I can then use Node.js to talk to the RPI GPIO. So now when I send a HTTP request to the Express server Node.js can process it and trigger a GPIO port to do something - like activate a relay. Taking it a step further I wanted to make it work with my Google Home. The obvious way was to use "if this then that" (IFTTT.com) and a webhook. So now I can talk to my Google Home, it passes the request to [IFTTT.com](https://ifttt.com) which then sends a web request to my RPI's express server. Of course I built in some simple security. You need a token passed in `json` format to make express process the request. ![ifttt_scorpion](/blog-media/2018/07/ifttt_scorpion.webp)
 
 ## The Web browser
 
-I then extended the idea of just a web service into a human readable web page interface. So now I can just use a browser to access a form style page and power on my PC using a mobile phone browser - as long as I know the token. I've since added `tcp-ping`​ and `socket.io`into the project so now the web GUI gets updated with when the PC is on or not. I use it to check if port 445 is accessible on the PC and if it is then the web interface updates to show the status. ![Capture](/blog-media/2018/07/capture.png)
+I then extended the idea of just a web service into a human readable web page interface. So now I can just use a browser to access a form style page and power on my PC using a mobile phone browser - as long as I know the token. I've since added `tcp-ping`​ and `socket.io`into the project so now the web GUI gets updated with when the PC is on or not. I use it to check if port 445 is accessible on the PC and if it is then the web interface updates to show the status. ![Capture](/blog-media/2018/07/capture.webp)
 
 ## Items of Note
 

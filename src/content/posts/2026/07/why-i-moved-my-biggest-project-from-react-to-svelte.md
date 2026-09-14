@@ -7,7 +7,8 @@ tags:
   - "Daisyui"
   - "Svlete"
   - "Tailwindcss"
-heroImage: "/blog-media/2026/07/sveltekit-seeklogo.png"
+heroImage: "/blog-media/2026/07/sveltekit-seeklogo.webp"
+heroThumb: "/blog-media/2026/07/sveltekit-seeklogo-thumb.webp"
 description: "Over the past week I finally took the plunge and migrated one of my most ambitious projects from React to Svelte. It wasn't a decision I made lightly. The project is substantial, and migrating a codebase of that size isn't something you do on a whim. But after spending time building a few smaller applications…"
 ---
 Over the past week I finally took the plunge and migrated one of my most ambitious projects from React to Svelte.

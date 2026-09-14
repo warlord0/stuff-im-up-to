@@ -5,7 +5,8 @@ title: "Gnome Background Colours"
 tags:
   - "gnome"
   - "Linux"
-heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
+heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
 description: "I rarely use pictures on my background wallpapers and like to use simple colors. There doesn't appear to be an option in gnome-tweaks to allow me to attain"
 ---
 I rarely use pictures on my background wallpapers and like to use simple colors. There doesn't appear to be an option in gnome-tweaks to allow me to attain this. It needs to be done from the command line.

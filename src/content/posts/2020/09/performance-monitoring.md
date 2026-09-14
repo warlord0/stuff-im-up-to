@@ -7,7 +7,8 @@ tags:
   - "grafana"
   - "influxdb"
   - "Linux"
-heroImage: "/blog-media/2020/09/grafana-2.png"
+heroImage: "/blog-media/2020/09/grafana-2.webp"
+heroThumb: "/blog-media/2020/09/grafana-2-thumb.webp"
 description: "With glances on Linux we are able to get a good overview of performance, including the dockers that are running. Rather than simply watch this on screen we"
 ---
 With glances on Linux we are able to get a good overview of performance, including the dockers that are running. Rather than simply watch this on screen we can port the data into an InfluxDB (time-series database) and produce nice graphs from current and historic data.
@@ -134,7 +135,7 @@ Snippet from Gitlab [https://gitlab.com/-/snippets/2010913](https://gitlab.com/-
 
 Download and save the file then in Grafana go to Manage dashboards, import and choose to upload this json file.
 
-![](/blog-media/2020/09/screenshot_20200902_101453.png)
+![](/blog-media/2020/09/screenshot_20200902_101453.webp)
 
 Glances Dashboard
 

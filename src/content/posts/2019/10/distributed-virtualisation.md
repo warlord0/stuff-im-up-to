@@ -10,7 +10,8 @@ tags:
   - "proxmox"
   - "qemu"
   - "Virtualisation"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "A tool box for low-cost virtualisation with replication, management and high availability without the need of expensive SAN's and shared storage devices. h"
 ---
 A tool box for low-cost virtualisation with replication, management and high availability without the need of expensive SAN's and shared storage devices.

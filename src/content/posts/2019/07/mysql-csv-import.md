@@ -5,7 +5,8 @@ title: "MySQL CSV Import"
 tags:
   - "Linux"
   - "mysql"
-heroImage: "/blog-media/2019/07/mariadb-1.png"
+heroImage: "/blog-media/2019/07/mariadb-1.webp"
+heroThumb: "/blog-media/2019/07/mariadb-1-thumb.webp"
 description: "A little while ago I wrote a php routine to import CSV files that contain a lot of data into a MySQL table. It works, but it takes it's time doing so. I wa"
 ---
 A little while ago I wrote a php routine to import CSV files that contain a lot of data into a MySQL table. It works, but it takes it's time doing so.

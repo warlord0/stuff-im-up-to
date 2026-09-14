@@ -6,7 +6,8 @@ tags:
   - "odoo"
   - "python"
   - "Web"
-heroImage: "/blog-media/2023/09/odoo_logo.png"
+heroImage: "/blog-media/2023/09/odoo_logo.webp"
+heroThumb: "/blog-media/2023/09/odoo_logo-thumb.webp"
 description: "Beginning a journey to develop an Odoo application, I came across a hurdle that I found no answer to. Odoo is an ERP product that is Open Source, and is hi"
 ---
 Beginning a journey to develop an Odoo application, I came across a hurdle that I found no answer to.

@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "Link"
   - "Security"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "How do I see a fix or patch already applied to an installed package on a Ubuntu or Debian LTS server? https://www.cyberciti.biz/faq/linux-find-package-incl"
 ---
 How do I see a fix or patch already applied to an installed package on a Ubuntu or Debian LTS server?

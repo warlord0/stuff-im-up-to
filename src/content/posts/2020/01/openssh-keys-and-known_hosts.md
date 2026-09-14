@@ -5,7 +5,8 @@ title: "OpenSSH keys and known_hosts"
 tags:
   - "Linux"
   - "ssh"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "As I've been working on Docker containers I've been having to use local containerised versions of ssh key pairs and known_hosts . I need to be able to carr"
 ---
 As I've been working on Docker containers I've been having to use local containerised versions of ssh key pairs and `known_hosts`. I need to be able to carry out key creation etc. without upsetting my own personal keys under `~/.ssh`.

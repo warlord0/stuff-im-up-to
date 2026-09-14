@@ -6,7 +6,8 @@ tags:
   - "gdm3"
   - "gnome"
   - "Linux"
-heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
+heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
 description: "When setting up a new Debian Gnome it's nice to make things look the way you want. Here's a few changes I make to sort out my desktop. Hide a User from the"
 ---
 When setting up a new Debian Gnome it's nice to make things look the way you want. Here's a few changes I make to sort out my desktop.

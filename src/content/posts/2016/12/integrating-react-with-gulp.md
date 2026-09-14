@@ -5,7 +5,8 @@ tags:
   - "gulp"
   - "JavaScript"
   - "ReactJS"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "https://jonsuh.com/blog/integrating-react-with-gulp/ Nails it. Getting ReactJS and Gulp together with Babel. One thing I like about this is that I'm findin"
 ---
 [https://jonsuh.com/blog/integrating-react-with-gulp/](https://jonsuh.com/blog/integrating-react-with-gulp/) Nails it. Getting ReactJS and Gulp together with Babel. One thing I like about this is that I'm finding webpack a bit of a chore. Gulp seems so much more straightforward. So I'm thinking I'll use Gulp on my ReactJS project.

@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "Fish"
   - "Pyhon"
-heroImage: "/blog-media/2024/04/fish.png"
+heroImage: "/blog-media/2024/04/fish.webp"
+heroThumb: "/blog-media/2024/04/fish-thumb.webp"
 description: "DEPRECATED: See Fish and Python autovenv Zsh has a nice plugin to automate the activation of a Python virtual environment when you change into a directory that has one. I went looking for a fish equivalent. After trying a few, this was the only one that worked for me. Use fisher to install it. https://github.com/aohorodnyk/fish-autovenv fisher…"
 ---
 > **DEPRECATED**: See [Fish and Python autovenv](/posts/fish-and-python-autovenv/)

@@ -6,7 +6,8 @@ tags:
   - "ansible"
   - "git"
   - "Uncategorized"
-heroImage: "/blog-media/2016/12/octocat.png"
+heroImage: "/blog-media/2016/12/octocat.webp"
+heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "I wanted to ensure I wasn't pushing unencrypted data onto our Git repo. It's set as private anyhow, but the repo I'm using is for our Ansible library. It c"
 ---
 I wanted to ensure I wasn't pushing unencrypted data onto our Git repo. It's set as private anyhow, but the repo I'm using is for our Ansible library. It contains all kinds of details about the builds of equipment and software delivery, that would be a risk. How do I ensure that I don't push variables up to the repo that contain sensitive data?

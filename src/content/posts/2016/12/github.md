@@ -6,7 +6,8 @@ tags:
   - "git"
   - "Privateer"
   - "Web"
-heroImage: "/blog-media/2016/12/octocat.png"
+heroImage: "/blog-media/2016/12/octocat.webp"
+heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "I've had a few little dealings with Github in the past as a contributor, but thought as I'm working on a project that borrows from a lot of code that is \"s"
 ---
 I've had a few little dealings with Github in the past as a contributor, but thought as I'm working on a project that borrows from a lot of code that is "sociably" hosted on Github by many Open Source developers, I thought I'd take the opportunity to put something back.

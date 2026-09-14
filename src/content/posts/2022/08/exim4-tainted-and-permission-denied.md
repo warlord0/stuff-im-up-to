@@ -5,7 +5,8 @@ title: "Exim4 Tainted and Permission Denied"
 tags:
   - "exim4"
   - "Linux"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "Talk about driving me crazy. We had error messages in our logs claiming that the vacation transport - or out of office auto replies didn't work because of"
 ---
 Talk about driving me crazy. We had error messages in our logs claiming that the vacation transport - or out of office auto replies didn't work because of permission errors.

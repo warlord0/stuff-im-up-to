@@ -6,7 +6,8 @@ tags:
   - "arduino"
   - "Privateer"
   - "Web"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "This is a great ESP8266 component that greatly simplifies the deployment of a web server. It's very capable and can handle websockets, compressed files and"
 ---
 This is a great ESP8266 component that greatly simplifies the deployment of a web server. It's very capable and can handle websockets, compressed files and compared to other ESP web servers is streets ahead in terms of performance and abilities - *It's not without it's challenges though.*

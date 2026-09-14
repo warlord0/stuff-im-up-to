@@ -5,7 +5,8 @@ title: "Postman is Awesome"
 tags:
   - "api"
   - "Web"
-heroImage: "/blog-media/2018/08/postman.png"
+heroImage: "/blog-media/2018/08/postman.webp"
+heroThumb: "/blog-media/2018/08/postman-thumb.webp"
 description: "I'm in the process of testing and documenting my API's and up until yesterday I'd only used postman to test my responses gave me something back. But it's capable of so much more!"
 ---
 I'm in the process of testing and documenting my API's and up until yesterday I'd only used postman to test my responses gave me something back. But it's capable of so much more! I can use it to generate the documentation for each call I make, publish it online and share it with colleagues. But I can also use it to carry out unit tests on my API calls. Which is awesome. Then I find I can use globals and environment variables to migrate my tests and documentation between development and production systems... which is even more awesome.
@@ -39,7 +40,7 @@ First test determines if my response code is status code 200, which is OK. Secon
 
 ## Documentation
 
-As long as I fill in descriptions in the Postman app my documentation will automatically be created and updated dynamically as I change my Postman project. Using variables like above also ensures my documentation stays free of specific example content - like my usernames and passwords, or other personally identifiable test data that are passed as parameters. In the docs they'll just show up as the parameter eg. `{{password}}`. ![Selection_075](/blog-media/2018/08/selection_075.png) Postman API documentation It'll even show me examples of how to use it from languages like jQuery, Node, PHP etc. If I use the publish button on the web site I can give the generated url to my colleagues who can see how my API works. Even after I've made a request and received a response I can save that response into the documentation as an example of what to expect to be returned from the API.
+As long as I fill in descriptions in the Postman app my documentation will automatically be created and updated dynamically as I change my Postman project. Using variables like above also ensures my documentation stays free of specific example content - like my usernames and passwords, or other personally identifiable test data that are passed as parameters. In the docs they'll just show up as the parameter eg. `{{password}}`. ![Selection_075](/blog-media/2018/08/selection_075.webp) Postman API documentation It'll even show me examples of how to use it from languages like jQuery, Node, PHP etc. If I use the publish button on the web site I can give the generated url to my colleagues who can see how my API works. Even after I've made a request and received a response I can save that response into the documentation as an example of what to expect to be returned from the API.
 
 ## Postman Testing with SOAP XML
 

@@ -3,7 +3,8 @@ pubDatetime: 2026-07-21T11:38:13+00:00
 title: "11 Laws of the Universe"
 tags:
   - "Networking"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "These aren't scientific laws, but widely-used mental models and heuristics that help explain behaviour, decision-making, management and problem solving. 1. Parkinson's Law Definition \"Work expands to fill the time available for its completion.\" Coined by historian C. Northcote Parkinson in 1955. Meaning People naturally consume whatever time they are given. Give someone: 2 hours →…"
 ---
 These aren’t scientific laws, but widely-used mental models and heuristics that help explain behaviour, decision-making, management and problem solving.

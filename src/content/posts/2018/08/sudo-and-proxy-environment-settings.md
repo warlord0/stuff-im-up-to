@@ -4,7 +4,8 @@ title: "Sudo and Proxy / Environment Settings"
 tags:
   - "Linux"
   - "proxy"
-heroImage: "/blog-media/2016/09/debian-logo-1.png"
+heroImage: "/blog-media/2016/09/debian-logo-1.webp"
+heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
 description: "When you run a program using sudo what tends to happen is the sudo/root account fails to do anything useful on the internet. It times out trying to connect"
 ---
 When you run a program using `sudo` what tends to happen is the sudo/root account fails to do anything useful on the internet. It times out trying to connect to systems to download updates that are required by elevated permissions. We discovered using `sudo composer self-update` failed to update the core instance of composer, not because of permissions, but because it could not get to the internet to download it. Set the environment variables that get persisted within your `/etc/sudoers` file by running:

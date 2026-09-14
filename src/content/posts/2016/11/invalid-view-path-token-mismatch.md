@@ -4,7 +4,8 @@ modDatetime: 2016-11-07T12:15:19Z
 title: "Invalid View Path, Token Mismatch"
 tags:
   - "Laravel"
-heroImage: "/blog-media/2016/09/laravel.jpg"
+heroImage: "/blog-media/2016/09/laravel.webp"
+heroThumb: "/blog-media/2016/09/laravel-thumb.webp"
 description: "Somehow I managed to bork my Laravel development app. I'm not entirely sure what I did as I only changed one of my config files, but I was getting a blank"
 ---
 Somehow I managed to bork my Laravel development app. I'm not entirely sure what I did as I only changed one of my config files, but I was getting a blank page when visiting the site. Checking the Laravel log showed nothing. Checking the Nginx logs suggested a permission problem. So I cleared the storage folder and things didn't get any better! So I Tried:

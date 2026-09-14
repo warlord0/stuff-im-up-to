@@ -5,7 +5,8 @@ title: "USBGuard"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2021/06/usbguard.png"
+heroImage: "/blog-media/2021/06/usbguard.webp"
+heroThumb: "/blog-media/2021/06/usbguard-thumb.webp"
 description: "Whilst locking down some workstation with usbguard I wanted to gain more of an insight into what devices I wanted to block or allow. For simple data leakag"
 ---
 Whilst locking down some workstation with usbguard I wanted to gain more of an insight into what devices I wanted to block or allow.

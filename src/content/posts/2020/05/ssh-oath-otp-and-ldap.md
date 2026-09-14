@@ -9,7 +9,8 @@ tags:
   - "otp"
   - "Security"
   - "ssh"
-heroImage: "/blog-media/2018/11/debian_logo.png"
+heroImage: "/blog-media/2018/11/debian_logo.webp"
+heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
 description: "I got myself into a bit of a knot with this one. We wanted multi-factor authentication setup on the main SSH gateway and that meant private key, password A"
 ---
 I got myself into a bit of a knot with this one. We wanted multi-factor authentication setup on the main SSH gateway and that meant private key, password AND OTP. Yes, a real belt and braces security approach.

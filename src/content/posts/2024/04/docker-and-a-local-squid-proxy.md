@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "proxy"
   - "squid"
-heroImage: "/blog-media/2020/01/moby-logo.png"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "I've been repetitively building a Docker multi-stage image and found many of the Python requirements are dragging in some pretty large content. This isn't"
 ---
 I've been repetitively building a Docker multi-stage image and found many of the Python requirements are dragging in some pretty large content. This isn't great when the office network isn't particularly fast, and the Docker build stage repeatedly pulls the same files from online.

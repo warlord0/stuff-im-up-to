@@ -5,7 +5,8 @@ tags:
   - "JavaScript"
   - "Laravel"
   - "vue.js"
-heroImage: "/blog-media/2018/07/vue1.png"
+heroImage: "/blog-media/2018/07/vue1.webp"
+heroThumb: "/blog-media/2018/07/vue1-thumb.webp"
 description: "One of the things that trips me up is writing Vue components and passing in parameters and returning results. It's a one way process in the main. You can p"
 ---
 One of the things that trips me up is writing Vue components and passing in parameters and returning results. It's a one way process in the main. You can pass data into a component, but it doesn't return anything unless you emit and event that returns something.

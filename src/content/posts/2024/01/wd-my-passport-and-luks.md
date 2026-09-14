@@ -5,7 +5,8 @@ tags:
   - "Linux"
   - "luks"
   - "Security"
-heroImage: "/blog-media/2018/10/computer-code.jpg"
+heroImage: "/blog-media/2018/10/computer-code.webp"
+heroThumb: "/blog-media/2018/10/computer-code-thumb.webp"
 description: "I found a 4TB WD My Passport drive, and thought I'd see if I could put it to use on Linux. I'm not going to even try using the built-in AES256 encryption,"
 ---
 I found a 4TB WD My Passport drive, and thought I'd see if I could put it to use on Linux. I'm not going to even try using the built-in AES256 encryption, and will be using LUKS.

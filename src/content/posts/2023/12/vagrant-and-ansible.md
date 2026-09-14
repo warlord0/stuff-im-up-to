@@ -7,7 +7,8 @@ tags:
   - "vagrant"
   - "Virtualisation"
   - "Windows"
-heroImage: "/blog-media/2023/12/vagrant.png"
+heroImage: "/blog-media/2023/12/vagrant.webp"
+heroThumb: "/blog-media/2023/12/vagrant-thumb.webp"
 description: "Using Vagrant you can automatically deploy a Virtual Machine on almost any virtual platform, VMware, Virtual Box, and QEMU/KVM (libvirt). It works similarl"
 ---
 Using Vagrant you can automatically deploy a Virtual Machine on almost any virtual platform, VMware, Virtual Box, and QEMU/KVM (libvirt).

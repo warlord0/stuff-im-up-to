@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "manjaro"
   - "nfs"
-heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.png"
+heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
+heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
 description: "When using Gnome Nautilus I'm not seeing any support for nfs shares. This means I can't use it to browse my NAS. I trawled the net for some time, being lea"
 ---
 When using Gnome Nautilus I'm not seeing any support for nfs shares. This means I can't use it to browse my NAS.

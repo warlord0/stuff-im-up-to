@@ -7,7 +7,8 @@ tags:
   - "Networking"
   - "openvpn"
   - "Security"
-heroImage: "/blog-media/2016/09/openvpntech_logo1.png"
+heroImage: "/blog-media/2016/09/openvpntech_logo1.webp"
+heroThumb: "/blog-media/2016/09/openvpntech_logo1-thumb.webp"
 description: "So far I've seen 2FA/MFA with OpenVPN using a 3rd Party plugin openvpn-otp.so from evgeny-gridasov/openvpn-otp , but after I got it working I didn't like t"
 ---
 So far I've seen 2FA/MFA with OpenVPN using a 3rd Party plugin `openvpn-otp.so` from [evgeny-gridasov/openvpn-otp](https://github.com/evgeny-gridasov/openvpn-otp), but after I got it working I didn't like the way it implemented HOTP counter storage and the use of `otp-secrets`. There has to be another way.

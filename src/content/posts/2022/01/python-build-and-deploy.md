@@ -4,7 +4,8 @@ title: "Python Build and Deploy"
 tags:
   - "python"
   - "Uncategorized"
-heroImage: "/blog-media/2021/01/python.png"
+heroImage: "/blog-media/2021/01/python.webp"
+heroThumb: "/blog-media/2021/01/python-thumb.webp"
 description: "We wanted a way of delivering passive status updates from our dockers to the Icinga2 API. I've used bash scripts for this in the past with curl, but figure"
 ---
 We wanted a way of delivering passive status updates from our dockers to the Icinga2 API. I've used bash scripts for this in the past with curl, but figured python would be a better tool to use as it has access to the docker API using the docker module.

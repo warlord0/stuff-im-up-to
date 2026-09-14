@@ -6,7 +6,8 @@ tags:
   - "Laravel"
   - "php"
   - "Link"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Code quality and code security https://www.sonarqube.org I found this very useful in scanning my code and pointing out some basic quality and security impr"
 ---
 Code quality and code security

@@ -3,7 +3,8 @@ pubDatetime: 2023-10-21T17:55:13Z
 title: "Home Automation"
 tags:
   - "Privateer"
-heroImage: "/blog-media/2023/10/home-automation.jpg"
+heroImage: "/blog-media/2023/10/home-automation.webp"
+heroThumb: "/blog-media/2023/10/home-automation-thumb.webp"
 description: "Over the past many years, I've added bits of home automation around the house. Starting with the Google Assistant. Want I didn't want was lots of hubs, for"
 ---
 Over the past many years, I've added bits of home automation around the house. Starting with the Google Assistant. Want I didn't want was lots of hubs, for lots of different products. But it seems that's the way of things in home automation.

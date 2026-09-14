@@ -3,7 +3,8 @@ pubDatetime: 2026-08-31T16:04:46+00:00
 title: "Rotating the Console"
 tags:
   - "Linux"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "I have a 22\" monitor that it fixed next to my 32\" screen in portrait mode. When using a Linux command line based system it makes reading it a challenge. On a recent build of OpenWRT I was working with I needed to stop cricking my neck to read it properly. For the HDMI console…"
 ---
 I have a 22″ monitor that it fixed next to my 32″ screen in portrait mode. When using a Linux command line based system it makes reading it a challenge. On a recent build of OpenWRT I was working with I needed to stop cricking my neck to read it properly.

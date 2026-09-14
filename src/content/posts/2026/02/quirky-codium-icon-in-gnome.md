@@ -4,7 +4,8 @@ title: "Quirky Codium Icon in Gnome"
 tags:
   - "Linux"
   - "Gnome"
-heroImage: "/blog-media/2025/06/vscodium_logo.png"
+heroImage: "/blog-media/2025/06/vscodium_logo.webp"
+heroThumb: "/blog-media/2025/06/vscodium_logo-thumb.webp"
 description: "After an update Codium started launching strange in my Gnome instance. It would launch and show an app in the panel with no icon. If I clicked the Codium icon it would launch a new app, stacking on the \"no icon\" version. I resorted to grabbing the desktop file from a working system and dropping…"
 ---
 After an update Codium started launching strange in my Gnome instance. It would launch and show an app in the panel with no icon. If I clicked the Codium icon it would launch a new app, stacking on the “no icon” version. I resorted to grabbing the desktop file from a working system and dropping it into `/usr/share/applications`.

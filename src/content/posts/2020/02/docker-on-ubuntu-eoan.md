@@ -5,7 +5,8 @@ title: "Docker on Ubuntu eoan"
 tags:
   - "Docker"
   - "Linux"
-heroImage: "/blog-media/2020/02/ubuntu_logo.png"
+heroImage: "/blog-media/2020/02/ubuntu_logo.webp"
+heroThumb: "/blog-media/2020/02/ubuntu_logo-thumb.webp"
 description: "The installation on eoan fails with a missing dependency for containerd.io not having an install candidate. Fix Edit your /etc/apt/sources.list file and ch"
 ---
 The installation on eoan fails with a missing dependency for `containerd.io` not having an install candidate.

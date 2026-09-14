@@ -5,7 +5,8 @@ title: "SMB mount error(112): Host is down"
 tags:
   - "debian"
   - "Linux"
-heroImage: "/blog-media/2016/09/debian-logo-1.png"
+heroImage: "/blog-media/2016/09/debian-logo-1.webp"
+heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
 description: "Whilst trying to mount a Windows (cifs) volume onto my Linux workstation I encountered the following error: $ sudo mount -t cifs -o user=mylogon //myserver"
 ---
 Whilst trying to mount a Windows (cifs) volume onto my Linux workstation I encountered the following error:

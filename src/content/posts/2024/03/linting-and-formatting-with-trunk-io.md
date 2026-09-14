@@ -5,7 +5,8 @@ title: "Linting and Formatting with trunk.io"
 tags:
   - "ansible"
   - "Linux"
-heroImage: "/blog-media/2024/03/ansible_logo_2000.png"
+heroImage: "/blog-media/2024/03/ansible_logo_2000.webp"
+heroThumb: "/blog-media/2024/03/ansible_logo_2000-thumb.webp"
 description: "With a new job, new place of work, comes new challenges. The first task I set myself was to automate the deployment process for the video analytics softwar"
 ---
 With a new job, new place of work, comes new challenges.

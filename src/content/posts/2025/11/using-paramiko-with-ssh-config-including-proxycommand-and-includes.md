@@ -6,7 +6,8 @@ tags:
   - "Networking"
   - "Python"
   - "Ssh"
-heroImage: "/blog-media/2021/01/python.png"
+heroImage: "/blog-media/2021/01/python.webp"
+heroThumb: "/blog-media/2021/01/python-thumb.webp"
 description: "This guide documents how to properly use Paramiko with SSH configurations that include: SSH config include directives ProxyCommand for AWS SSM Session Manager Multiple configuration parameters (hostname, user, identity files, etc.) The Problem Paramiko's SSHConfig.parse() has two key limitations: Does not support include directives - If your ~/.ssh/config has lines like include ./config.d/*.conf, paramiko will…"
 ---
 This guide documents how to properly use Paramiko with SSH configurations that include:

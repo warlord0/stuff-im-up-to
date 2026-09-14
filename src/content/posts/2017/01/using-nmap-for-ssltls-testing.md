@@ -7,7 +7,8 @@ tags:
   - "Linux"
   - "Security"
   - "Windows"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "NMAP is a great too for port monitoring but it also has some scripting features that are really handy to find weaknesses in your SSL/TLS deployments. You c"
 ---
 NMAP is a great too for port monitoring but it also has some scripting features that are really handy to find weaknesses in your SSL/TLS deployments. You can find out details about certificate and ciphers by using the default supplied scripts. You can use `ls -l /usr/share/nmap/scripts` to list what scripts are available. Use ssl-cert to view the certificate details. Example using port 636 for the secure ldap service.

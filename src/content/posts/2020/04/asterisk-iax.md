@@ -4,7 +4,8 @@ title: "Asterisk - IAX"
 tags:
   - "asterisk"
   - "Linux"
-heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.png"
+heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.webp"
+heroThumb: "/blog-media/2020/03/1280px-asterisk_logo.svg_-thumb.webp"
 description: "I just spent the best part of the morning trying to setup Inter Asterisk eXchange between two hosts on the same network. This was described to me as \"an ea"
 ---
 I just spent the best part of the morning trying to setup [Inter Asterisk eXchange](https://wiki.asterisk.org/wiki/pages/viewpage.action?pageId=4817132) between two hosts on the same network. This was described to me as "an easy way to attach a pair of Asterisk servers over a secure link" - which was fine until the "easy" part.

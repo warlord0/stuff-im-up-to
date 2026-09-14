@@ -5,7 +5,8 @@ title: "Cephfs"
 tags:
   - "Linux"
   - "Link"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.png"
+heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
+heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "https://ceph.io/ Ceph uniquely delivers object, block, and file storage in one unified system ."
 ---
 [https://ceph.io/](https://ceph.io/)

@@ -5,7 +5,8 @@ tags:
   - "horizon"
   - "vmware"
   - "Windows"
-heroImage: "/blog-media/2019/03/spectre_logo.png"
+heroImage: "/blog-media/2019/03/spectre_logo.webp"
+heroThumb: "/blog-media/2019/03/spectre_logo-thumb.webp"
 description: "For some time we've suffered a problem with our Windows 7 VDI systems that has prevented us from applying Windows Updates. If we applied any of the rollups"
 ---
 For some time we've suffered a problem with our Windows 7 VDI systems that has prevented us from applying Windows Updates.

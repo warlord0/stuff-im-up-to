@@ -4,7 +4,8 @@ modDatetime: 2023-10-12T08:29:17Z
 title: "New Favourite Colour Scheme"
 tags:
   - "Linux"
-heroImage: "/blog-media/2023/10/purple.png"
+heroImage: "/blog-media/2023/10/purple.webp"
+heroThumb: "/blog-media/2023/10/purple-thumb.webp"
 description: "Tokyo Night After installing neovim I installed an IDE config from here . This made using vi/vim a whole lot better. Neovim gets themed with a colour schem"
 ---
 ## Tokyo Night

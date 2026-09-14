@@ -5,7 +5,8 @@ title: "PacketFence Upgrade"
 tags:
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2016/09/packetfence-e1474622253514.png"
+heroImage: "/blog-media/2016/09/packetfence-e1474622253514.webp"
+heroThumb: "/blog-media/2016/09/packetfence-e1474622253514-thumb.webp"
 description: "Running the upgrade for packetfence from version 6.21 to 6.40 caused an issue during the process as freeradius failed to update."
 ---
 Running the upgrade for packetfence from version 6.21 to 6.40 caused an issue during the process as freeradius failed to update.

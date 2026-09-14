@@ -4,7 +4,8 @@ title: "Nextcloud, LDAP and Password Changes"
 tags:
   - "ldap"
   - "Linux"
-heroImage: "/blog-media/2020/05/nextcloud.png"
+heroImage: "/blog-media/2020/05/nextcloud.webp"
+heroThumb: "/blog-media/2020/05/nextcloud-thumb.webp"
 description: "Using Nextcloud with LDAP is straight forward enough, you just add in the \"LDAP user and group backend\". We wanted to use Nextcloud to enable our LDAP user"
 ---
 Using Nextcloud with LDAP is straight forward enough, you just add in the "LDAP user and group backend". We wanted to use Nextcloud to enable our LDAP users to change their own password, and this is where things go sticky.

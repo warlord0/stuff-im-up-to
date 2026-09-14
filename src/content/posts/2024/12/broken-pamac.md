@@ -6,7 +6,8 @@ tags:
   - "Linux"
   - "manjaro"
   - "pamac"
-heroImage: "/blog-media/2021/01/manjaro_logo.png"
+heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
 description: "conflicting dependencies: - x!�9t and a ��Ch�f��Gz are in conflict"
 ---
 I went to install a new program today and `pamac` decided it need a lot of updates. The problem was that the updates failed with a confusing error message that contained garbage characters.
