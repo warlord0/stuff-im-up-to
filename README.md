@@ -2,18 +2,18 @@
 
 My personal technical blog — ramblings on Debian/Linux, self-hosting, and whatever I've had to figure out and don't want to forget. Static, ad-free, and deployed on Cloudflare Pages.
 
-Built with [Astro](https://astro.build/) on top of the [AstroPaper](https://github.com/satnaing/astro-paper) theme, with content migrated over from an old WordPress.com blog.
+Built with [Astro](https://astro.build/) on top of the [AstroPaper](https://github.com/satnaing/astro-paper) theme. Content was migrated over from an old WordPress.com blog; that migration is done and complete, so new posts are just written directly as markdown here.
 
 ## 🚀 Project Structure
 
 ```bash
 /
 ├── public/
-│   ├── blog-media/        # images localized from the old WordPress export
+│   ├── blog-media/        # images referenced from posts/pages
 │   ├── favicon.svg
 │   └── default-og.jpg
 ├── scripts/
-│   └── import-wordpress-export.mjs  # WXR -> Markdown importer (see below)
+│   └── optimize-images.mjs  # resizes/converts blog-media to WebP (see below)
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -33,15 +33,15 @@ Built with [Astro](https://astro.build/) on top of the [AstroPaper](https://gith
 └── astro.config.ts        # fonts, markdown/shiki config, integrations
 ```
 
-## 📥 Importing from WordPress
+## 🖼️ Image Optimization
 
-`scripts/import-wordpress-export.mjs` converts a WordPress WXR export into `src/content/posts/*.md`, localizing any referenced images from a WordPress.com media export directory into `public/blog-media/`. Requires [`pandoc`](https://pandoc.org/) on `PATH` for HTML → Markdown conversion.
+New images dropped into `public/blog-media/` (or referenced in a post's `heroImage` frontmatter) should be run through `scripts/optimize-images.mjs`: it resizes them to WebP at sane sizes (max 1200px wide for inline/header use, a 200x200 cropped thumbnail for anything used as a `heroImage`), rewrites the references in `src/content/posts/` and `src/content/pages/`, and deletes the original raw files.
 
 ```bash
-node scripts/import-wordpress-export.mjs --xml <path-to-export.xml> --media <path-to-media-export-dir> [--clean]
+node scripts/optimize-images.mjs [--dry-run]
 ```
 
-`--clean` wipes existing `*.md` files in `src/content/posts/` first (media in `public/blog-media/` is left alone and re-copied idempotently). Use this to bring in a newer export later on.
+Safe to re-run any time — already-optimized images are left alone.
 
 ## 👨🏻‍💻 Running Locally
 
@@ -70,7 +70,7 @@ npm run dev      # dev server at localhost:4321
 - **Styling** — [Tailwind CSS](https://tailwindcss.com/)
 - **Static Search** — [Pagefind](https://pagefind.app/)
 - **Hosting** — [Cloudflare Pages](https://pages.cloudflare.com/)
-- **WordPress import** — [Pandoc](https://pandoc.org/) + [fast-xml-parser](https://github.com/NaturalIntelligence/fast-xml-parser)
+- **Image optimization** — [sharp](https://sharp.pixelplumbing.com/)
 
 ## 📜 License
 
