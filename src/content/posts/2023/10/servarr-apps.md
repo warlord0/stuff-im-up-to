@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2023-10-14T13:02:09Z
-modDatetime: 2023-10-14T14:44:10Z
+modDatetime: 2026-09-15T18:51:54Z
 title: "Servarr Apps"
 tags:
   - "Docker"
@@ -116,7 +116,9 @@ Altogether it's a very tidy setup. To add more features to this setup, I found [
 
 ![](/blog-media/2023/10/homarr.webp)
 
-I have it connected up to my [AdGuard](https://adguard.com/en/welcome.html), and [Nginx Proxy Manager](https://nginxproxymanager.com) too.
+I have it connected up to my [AdGuard](https://adguard.com/en/welcome.html), and everything is now reverse-proxied through [Caddy](/posts/caddy-in-production/) on blackpearl, the Docker host all of this runs on. I've since moved away from Nginx Proxy Manager entirely — one less web UI to maintain, and the Caddyfile sits in version control right alongside the compose files for these apps.
+
+For remote access, none of this is exposed to the internet directly. Instead, it all sits behind [WireGuard](/posts/wireguard/). Connecting to the tunnel puts my phone or laptop on the same network as blackpearl, so Sonarr, Radarr, Prowlarr and the rest are reachable exactly as they would be on the LAN, without opening a single port on the router.
 
 On my Android mobile phone, and tablet, I found an app that manages all my servarr and sabnzbd processes - [nzb360](https://www.nzb360.com). It's brilliant interface. I found the radarr and sonarr web pages a bit glitchy on the small screen of my phone, so switching to using nzb360 is just brilliant.
 
