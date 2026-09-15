@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2023-10-14T13:02:09Z
-modDatetime: 2026-09-15T18:51:54Z
+modDatetime: 2026-09-15T18:56:03Z
 title: "Servarr Apps"
 tags:
   - "Docker"
@@ -16,7 +16,7 @@ I've been using [Sonarr](https://sonarr.tv) and [Radarr](https://radarr.video) f
 
 **Prowlarr** manages the other servarr apps Indexers. If I add an indexer to prowlar, it will automatically add that indexer to the other Servarr apps, Sonarr, Radarr and Readarr. I only have to add them into a single place, and they get added to all. At first, it seemed of little real benefit, as adding indexers isn't really that tedious on each of the apps, but then you'll notice that you can also then use Prowlarr as your central search tool. You can search all indexers for anything, not just TV, Movies and Books.
 
-The other thing Prowlarr does is acts as a search proxy for all your calls to your indexer. When I set up [LunaSea](https://www.lunasea.app) I was able to use the Prowlarr URL with the ID of the indexer, and the API code from Prowlarr's general settings, eg.
+The other thing Prowlarr does is acts as a search proxy for all your calls to your indexer. When setting up a client that talks to your indexers, you can use the Prowlarr URL with the ID of the indexer, and the API code from Prowlarr's general settings, eg.
 
 [http://prowlar:9696/1/](#)
 
@@ -123,5 +123,3 @@ For remote access, none of this is exposed to the internet directly. Instead, it
 On my Android mobile phone, and tablet, I found an app that manages all my servarr and sabnzbd processes - [nzb360](https://www.nzb360.com). It's brilliant interface. I found the radarr and sonarr web pages a bit glitchy on the small screen of my phone, so switching to using nzb360 is just brilliant.
 
 ![](/blog-media/2023/10/nzb360.webp)
-
-If you don't want to pay for an app, you could look at [LunaSea](https://www.lunasea.app), it's available for Linux, Windows, Fruits and Android. I haven't looked at the mobile version, but the Linux version is very good.
