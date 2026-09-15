@@ -5,8 +5,8 @@ tags:
   - "Docker"
   - "Linux"
   - "Troubleshooting"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
-heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
+heroImage: "/blog-media/2020/01/moby-logo.webp"
+heroThumb: "/blog-media/2020/01/moby-logo-thumb.webp"
 description: "A Docker container can end up stuck in Up state while actually being dead inside — docker stop and docker kill both fail with 'did not receive an exit event', and the app inside is unresponsive. Here's the root cause and a script that recovers it…"
 ---
 
