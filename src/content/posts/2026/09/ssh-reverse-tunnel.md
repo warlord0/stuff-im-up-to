@@ -5,8 +5,8 @@ tags:
   - "SSH"
   - "Git"
   - "Networking"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
-heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
+heroImage: "/blog-media/2026/09/ssh.webp"
+heroThumb: "/blog-media/2026/09/ssh-thumb.webp"
 description: "Some customer sites block outbound SSH, and sometimes HTTP/HTTPS too, which breaks git, apt and pip on the remote machine even when everything is otherwise configured correctly. A reverse SSH tunnel piggybacks on the inbound connection you already have to route that traffic back out through your own machine instead…"
 ---
 
