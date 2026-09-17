@@ -2,7 +2,7 @@
 pubDatetime: 2026-09-17T20:09:12+00:00
 title: "Nine Years of Cloudflare"
 tags:
-  - "Cloudflare"
+  - "cloudflare"
   - "DNS"
 heroImage: "/blog-media/2026/09/cloudflare.webp"
 heroThumb: "/blog-media/2026/09/cloudflare-thumb.webp"
