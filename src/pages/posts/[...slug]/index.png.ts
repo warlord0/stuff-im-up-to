@@ -5,7 +5,10 @@ import satori from "satori";
 import sharp from "sharp";
 import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
 import { getPostSlug } from "@/utils/getPostPaths";
+import { getBrandIconDataUri } from "@/utils/getBrandIconDataUri";
 import config from "@/config";
+
+const ACCENT = "#0d9488";
 
 export async function getStaticPaths() {
   if (!config.features.dynamicOgImage) {
@@ -35,13 +38,14 @@ export const GET: APIRoute = async ({ props, url }) => {
     throw new Error("Cannot find the font path.");
   }
 
-  const [regularData, boldData] = await Promise.all([
+  const [regularData, boldData, iconDataUri] = await Promise.all([
     fetch(experimental_getFontFileURL(regularFontPath, url)).then(res =>
       res.arrayBuffer()
     ),
     fetch(experimental_getFontFileURL(boldFontPath, url)).then(res =>
       res.arrayBuffer()
     ),
+    getBrandIconDataUri(url),
   ]);
 
   const svg = await satori(
@@ -49,30 +53,53 @@ export const GET: APIRoute = async ({ props, url }) => {
       type: "div",
       props: {
         style: {
-          background: "#fefbfb",
+          background: ACCENT,
           width: "100%",
           height: "100%",
           display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          flexDirection: "column",
+          justifyContent: "space-between",
+          fontFamily: "Google Sans Code",
+          color: "#ffffff",
+          padding: "64px",
         },
         children: [
           {
             type: "div",
             props: {
-              style: {
-                position: "absolute",
-                top: "-1px",
-                right: "-1px",
-                border: "4px solid #000",
-                background: "#ecebeb",
-                opacity: "0.9",
-                borderRadius: "4px",
-                display: "flex",
-                justifyContent: "center",
-                margin: "2.5rem",
-                width: "88%",
-                height: "80%",
+              style: { display: "flex", alignItems: "center", gap: "24px" },
+              children: [
+                {
+                  type: "img",
+                  props: { src: iconDataUri, width: 72, height: 72 },
+                },
+                {
+                  type: "span",
+                  props: {
+                    style: { fontSize: 32, fontWeight: 700 },
+                    children: config.site.title,
+                  },
+                },
+              ],
+            },
+          },
+          {
+            type: "div",
+            props: {
+              style: { display: "flex", alignItems: "center", flex: 1 },
+              children: {
+                type: "p",
+                props: {
+                  style: {
+                    fontSize: 68,
+                    fontWeight: 700,
+                    lineHeight: 1.2,
+                    margin: 0,
+                    maxHeight: "100%",
+                    overflow: "hidden",
+                  },
+                  children: props.data.title,
+                },
               },
             },
           },
@@ -80,88 +107,27 @@ export const GET: APIRoute = async ({ props, url }) => {
             type: "div",
             props: {
               style: {
-                border: "4px solid #000",
-                background: "#fefbfb",
-                borderRadius: "4px",
                 display: "flex",
-                justifyContent: "center",
-                margin: "2rem",
-                width: "88%",
-                height: "80%",
+                justifyContent: "space-between",
+                fontSize: 28,
+                color: "rgba(255,255,255,0.8)",
               },
-              children: {
-                type: "div",
-                props: {
-                  style: {
-                    display: "flex",
-                    flexDirection: "column",
-                    justifyContent: "space-between",
-                    margin: "20px",
-                    width: "90%",
-                    height: "90%",
+              children: [
+                {
+                  type: "span",
+                  props: {
+                    style: { fontWeight: 700 },
+                    children: `by ${props.data.author}`,
                   },
-                  children: [
-                    {
-                      type: "p",
-                      props: {
-                        style: {
-                          fontSize: 72,
-                          fontWeight: "bold",
-                          maxHeight: "84%",
-                          overflow: "hidden",
-                        },
-                        children: props.data.title,
-                      },
-                    },
-                    {
-                      type: "div",
-                      props: {
-                        style: {
-                          display: "flex",
-                          justifyContent: "space-between",
-                          width: "100%",
-                          marginBottom: "8px",
-                          fontSize: 28,
-                        },
-                        children: [
-                          {
-                            type: "span",
-                            props: {
-                              children: [
-                                "by ",
-                                {
-                                  type: "span",
-                                  props: {
-                                    style: { color: "transparent" },
-                                    children: '"',
-                                  },
-                                },
-                                {
-                                  type: "span",
-                                  props: {
-                                    style: {
-                                      overflow: "hidden",
-                                      fontWeight: "bold",
-                                    },
-                                    children: props.data.author,
-                                  },
-                                },
-                              ],
-                            },
-                          },
-                          {
-                            type: "span",
-                            props: {
-                              style: { overflow: "hidden", fontWeight: "bold" },
-                              children: config.site.title,
-                            },
-                          },
-                        ],
-                      },
-                    },
-                  ],
                 },
-              },
+                {
+                  type: "span",
+                  props: {
+                    style: { fontWeight: 700 },
+                    children: new URL(config.site.url).hostname,
+                  },
+                },
+              ],
             },
           },
         ],

@@ -3,7 +3,10 @@ import satori from "satori";
 import sharp from "sharp";
 import { fontData, experimental_getFontFileURL } from "astro:assets";
 import { getFontPathByWeight } from "@/utils/getFontPathByWeight";
+import { getBrandIconDataUri } from "@/utils/getBrandIconDataUri";
 import config from "@/config";
+
+const ACCENT = "#0d9488";
 
 export const GET: APIRoute = async context => {
   const fonts = fontData["--font-google-sans-code"];
@@ -14,13 +17,14 @@ export const GET: APIRoute = async context => {
     throw new Error("Cannot find the font path.");
   }
 
-  const [regularData, boldData] = await Promise.all([
+  const [regularData, boldData, iconDataUri] = await Promise.all([
     fetch(experimental_getFontFileURL(regularFontPath, context.url)).then(res =>
       res.arrayBuffer()
     ),
     fetch(experimental_getFontFileURL(boldFontPath, context.url)).then(res =>
       res.arrayBuffer()
     ),
+    getBrandIconDataUri(context.url),
   ]);
 
   const svg = await satori(
@@ -28,115 +32,76 @@ export const GET: APIRoute = async context => {
       type: "div",
       props: {
         style: {
-          background: "#fefbfb",
+          background: ACCENT,
           width: "100%",
           height: "100%",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
           fontFamily: "Google Sans Code",
+          color: "#ffffff",
+          padding: "80px",
         },
-        children: [
-          {
-            type: "div",
-            props: {
-              style: {
-                position: "absolute",
-                top: "-1px",
-                right: "-1px",
-                border: "4px solid #000",
-                background: "#ecebeb",
-                opacity: "0.9",
-                borderRadius: "4px",
-                display: "flex",
-                justifyContent: "center",
-                margin: "2.5rem",
-                width: "88%",
-                height: "80%",
-              },
+        children: {
+          type: "div",
+          props: {
+            style: {
+              display: "flex",
+              alignItems: "center",
+              gap: "56px",
             },
-          },
-          {
-            type: "div",
-            props: {
-              style: {
-                border: "4px solid #000",
-                background: "#fefbfb",
-                borderRadius: "4px",
-                display: "flex",
-                justifyContent: "center",
-                margin: "2rem",
-                width: "88%",
-                height: "80%",
+            children: [
+              {
+                type: "img",
+                props: { src: iconDataUri, width: 180, height: 180 },
               },
-              children: {
+              {
                 type: "div",
                 props: {
                   style: {
                     display: "flex",
                     flexDirection: "column",
-                    justifyContent: "space-between",
-                    margin: "20px",
-                    width: "90%",
-                    height: "90%",
+                    width: "800px",
                   },
                   children: [
                     {
-                      type: "div",
+                      type: "p",
                       props: {
-                        style: {
-                          display: "flex",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          height: "90%",
-                          maxHeight: "90%",
-                          overflow: "hidden",
-                          textAlign: "center",
-                        },
-                        children: [
-                          {
-                            type: "p",
-                            props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
-                              children: config.site.title,
-                            },
-                          },
-                          {
-                            type: "p",
-                            props: {
-                              style: { fontSize: 28 },
-                              children: config.site.description,
-                            },
-                          },
-                        ],
+                        style: { fontSize: 72, fontWeight: 700, margin: 0 },
+                        children: config.site.title,
                       },
                     },
                     {
-                      type: "div",
+                      type: "p",
                       props: {
                         style: {
-                          display: "flex",
-                          justifyContent: "flex-end",
-                          width: "100%",
-                          marginBottom: "8px",
-                          fontSize: 28,
+                          fontSize: 30,
+                          margin: 0,
+                          marginTop: "16px",
+                          color: "rgba(255,255,255,0.85)",
                         },
-                        children: {
-                          type: "span",
-                          props: {
-                            style: { overflow: "hidden", fontWeight: "bold" },
-                            children: new URL(config.site.url).hostname,
-                          },
+                        children: config.site.description,
+                      },
+                    },
+                    {
+                      type: "p",
+                      props: {
+                        style: {
+                          fontSize: 24,
+                          margin: 0,
+                          marginTop: "32px",
+                          fontWeight: 700,
+                          color: "rgba(255,255,255,0.7)",
                         },
+                        children: new URL(config.site.url).hostname,
                       },
                     },
                   ],
                 },
               },
-            },
+            ],
           },
-        ],
+        },
       },
     },
     {
