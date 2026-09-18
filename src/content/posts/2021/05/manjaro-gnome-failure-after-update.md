@@ -8,7 +8,7 @@ tags:
   - "manjaro"
   - "nvidia"
 heroImage: "/blog-media/2021/01/manjaro_logo.webp"
-heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
+heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Today I took the rolling updates and as it was updating I got an error message that I didn't understand. Warning: installing nvidia-utils (460.80-1) breaks"
 ---
 Today I took the rolling updates and as it was updating I got an error message that I didn't understand.

@@ -7,7 +7,7 @@ tags:
   - "manjaro"
   - "Security"
 heroImage: "/blog-media/2021/01/manjaro_logo.webp"
-heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
+heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Finally, got a power supply for my laptop. Been turned off for quite a while. When I powered it on and tried to update it: error: GPGME error: No data erro"
 ---
 Finally, got a power supply for my laptop. Been turned off for quite a while. When I powered it on and tried to update it:

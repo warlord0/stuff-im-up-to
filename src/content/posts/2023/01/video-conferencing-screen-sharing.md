@@ -7,7 +7,7 @@ tags:
   - "pipewire"
   - "Windows"
 heroImage: "/blog-media/2021/01/manjaro_logo.webp"
-heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
+heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Try installing manjaro-pipwire if you don't have it. The behaviour of my browser seemed to have changed, and no longer lets me share a screen. I end up wit"
 ---
 > Try installing `manjaro-pipwire` if you don't have it.

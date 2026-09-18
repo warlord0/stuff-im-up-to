@@ -7,7 +7,7 @@ tags:
   - "vagrant"
   - "Virtualisation"
 heroImage: "/blog-media/2021/01/manjaro_logo.webp"
-heroThumb: "/blog-media/2021/01/manjaro_logo-thumb.webp"
+heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "After applying updates, I got an error trying to bring up a vagrant host. Error message given during initialization: Unable to resolve dependency: user req"
 ---
 After applying updates, I got an error trying to bring up a vagrant host.
