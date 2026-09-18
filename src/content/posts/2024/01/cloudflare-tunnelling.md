@@ -8,7 +8,7 @@ tags:
   - "Networking"
   - "Web"
 heroImage: "/blog-media/2026/09/cloudflare.webp"
-heroThumb: "/blog-media/2026/09/cloudflare-thumb.webp"
+heroThumb: "/blog-media/2026/09/cloudflare-cloud-thumb.webp"
 description: "Using Cloudflare, it is possible to connect to a private internal service via a tunnel. This enables the interaction of a DNS name to get proxied through C"
 ---
 Using Cloudflare, it is possible to connect to a private internal service via a tunnel. This enables the interaction of a DNS name to get proxied through Cloudflare, and over a tunnel into your secure application - without exposing the application ports to the internet.

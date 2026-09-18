@@ -5,7 +5,7 @@ tags:
   - "cloudflare"
   - "DNS"
 heroImage: "/blog-media/2026/09/cloudflare.webp"
-heroThumb: "/blog-media/2026/09/cloudflare-thumb.webp"
+heroThumb: "/blog-media/2026/09/cloudflare-cloud-thumb.webp"
 description: "I've been using Cloudflare for nine years now, and even brought it into work — the tunnelling alone is superb. Today I renewed my personal domain for another nine, and got a mild heart attack from a domain-suspension warning along the way…"
 ---
 

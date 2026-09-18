@@ -7,7 +7,7 @@ tags:
   - "Networking"
   - "Web"
 heroImage: "/blog-media/2026/09/cloudflare.webp"
-heroThumb: "/blog-media/2026/09/cloudflare-thumb.webp"
+heroThumb: "/blog-media/2026/09/cloudflare-cloud-thumb.webp"
 description: "This wasn't as obvious as I expected. Under Zero Trust, I created an application matching my hostname, but it always wanted to send me a one time password"
 ---
 This wasn't as obvious as I expected. Under Zero Trust, I created an application matching my hostname, but it always wanted to send me a one time password when I accessed the URL.
