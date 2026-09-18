@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Privateer"
 heroImage: "/blog-media/2023/10/servarr.webp"
-heroThumb: "/blog-media/2023/10/servarr-thumb.webp"
+heroThumb: "/blog-media/2023/10/servarr-icon-thumb.webp"
 description: "When it comes to grabbing media from Usenet, the Servarr apps are second to none. I've been using Sonarr and Radarr for quite some time to grab TV programs"
 ---
 When it comes to grabbing media from Usenet, the [Servarr](https://wiki.servarr.com) apps are second to none.
