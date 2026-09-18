@@ -6,7 +6,7 @@ tags:
   - "Fish"
   - "Python"
 heroImage: "/blog-media/2024/04/fish.webp"
-heroThumb: "/blog-media/2024/04/fish-thumb.webp"
+heroThumb: "/blog-media/2024/04/fish-shell-thumb.webp"
 description: "I used a plugin for a while to automatically activate and deactivate my Python environments when I change directory. It looks like that's been discontinued. (Fish and autovenv) I took it upon myself to roll my own: ~/.config/fish/conf.d/autovenv.fish function python_venv --on-variable PWD set -l tree (pwd) while test \"$tree\" != / for myvenv in \"$tree/.venv\"…"
 ---
 I used a plugin for a while to automatically activate and deactivate my Python environments when I change directory. It looks like that’s been discontinued. ([Fish and autovenv](/posts/fish-and-autovenv/))

@@ -2,6 +2,7 @@
 pubDatetime: 2024-10-04T08:46:21Z
 title: "Fish and Node.js"
 tags:
+  - "Fish"
   - "JavaScript"
   - "Linux"
   - "node.js"
@@ -9,7 +10,7 @@ tags:
   - "tools"
   - "web-development"
 heroImage: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433.webp"
-heroThumb: "/blog-media/2016/11/images-duckduckgo-com-e1479333489433-thumb.webp"
+heroThumb: "/blog-media/2024/04/fish-shell-thumb.webp"
 description: "Today, I was installing a boilerplate project that uses Node.js on an Ubuntu 24.04 LTS box. I didn't want to use the Ubuntu version of Node.js, it's usuall"
 ---
 Today, I was installing a boilerplate project that uses Node.js on an Ubuntu 24.04 LTS box. I didn't want to use the Ubuntu version of Node.js, it's usually better to install these things direct from the source.
