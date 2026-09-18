@@ -4,7 +4,7 @@ title: "Zed (Editor)"
 tags:
   - "Linux"
 heroImage: "/blog-media/2026/06/zed-logo-wordmark-brand-blue-1348dc-black.webp"
-heroThumb: "/blog-media/2026/06/zed-logo-wordmark-brand-blue-1348dc-black-thumb.webp"
+heroThumb: "/blog-media/2026/06/zed-thumb.webp"
 description: "Today I decided to change things up a little. I've been a huge fan of VSCodium for quite a while now and it's served me incredibly well. I've never really had any major issues with it, and it's been my editor of choice for years. That said, it still carries the Microsoft lineage. I know,…"
 ---
 Today I decided to change things up a little.
