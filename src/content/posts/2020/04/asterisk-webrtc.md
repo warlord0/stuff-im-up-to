@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "nginx"
 heroImage: "/blog-media/2020/03/1280px-asterisk_logo.svg_.webp"
-heroThumb: "/blog-media/2020/03/1280px-asterisk_logo.svg_-thumb.webp"
+heroThumb: "/blog-media/2020/03/asterisk-thumb.webp"
 description: "Enable WebRTC so you can use a plain old HTML5 browser to make calls. I had already configured Asterisk's http server to use my Let's Encrypt certificates."
 ---
 Enable WebRTC so you can use a plain old HTML5 browser to make calls.
