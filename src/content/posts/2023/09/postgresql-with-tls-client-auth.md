@@ -6,7 +6,7 @@ tags:
   - "postgresql"
   - "Security"
 heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
-heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
+heroThumb: "/blog-media/2018/02/postgresql-thumb.webp"
 description: "Configure postgresql.conf to enable ssl and configure a server key and certificate. Server Certificate Create a self-signed certificate pair. Put them in ."
 ---
 Configure `postgresql.conf` to enable `ssl` and configure a server key and certificate.

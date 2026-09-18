@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "postgresql"
 heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
-heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
+heroThumb: "/blog-media/2018/02/postgresql-thumb.webp"
 description: "We do a lot of postgres replication in our environment. Just about every docker postgres instance replicates its data over to a remote site for failover, s"
 ---
 We do a lot of postgres replication in our environment. Just about every docker postgres instance replicates its data over to a remote site for failover, should the worst happen. But we don't tend to automate the process, maybe we should look at moving away from a manual failover.

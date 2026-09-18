@@ -7,7 +7,7 @@ tags:
   - "postgresql"
   - "Web"
 heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
-heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
+heroThumb: "/blog-media/2018/02/postgresql-thumb.webp"
 description: "On with this current theme of spacial systems and mapping, one of the interesting challenges I faced was querying spacial data. My particular problem was t"
 ---
 On with this current theme of spacial systems and mapping, one of the interesting challenges I faced was querying spacial data.

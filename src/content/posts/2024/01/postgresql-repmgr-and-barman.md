@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "postgresql"
 heroImage: "/blog-media/2018/02/best-postgresql-hosting.webp"
-heroThumb: "/blog-media/2018/02/best-postgresql-hosting-thumb.webp"
+heroThumb: "/blog-media/2018/02/postgresql-thumb.webp"
 description: "Initially, I started work on a Docker container build, but using the docker build provided some challenges with editing configurations to satisfy barman st"
 ---
 Initially, I started work on a Docker container build, but using the docker build provided some challenges with editing configurations to satisfy barman streaming requirement. For this reason, I moved to carrying out a native installation using packages straight from the Debian repo - postgresql-15-repmgr and rsync.
