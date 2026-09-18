@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2021-03-03T15:20:31Z
-modDatetime: 2026-09-18T12:43:46Z
+modDatetime: 2026-09-18T16:24:36Z
 title: "zsh antigen"
 tags:
   - "bash"
@@ -45,6 +45,8 @@ setopt correct
 # Tell Antigen that you're done.
 antigen apply
 EOF
+zsh -c 'source ~/antigen.zsh; antigen use oh-my-zsh; antigen bundle zsh-users/zsh-syntax-highlighting; antigen bundle zsh-users/zsh-autosuggestions; antigen apply' &&
+mkdir -p ~/.antigen/bundles/robbyrussell/oh-my-zsh/cache/completions
 grep -qF 'exec zsh' ~/.bashrc || awk '
 /^esac$/ && seen_case {
     print
@@ -59,6 +61,14 @@ grep -qF 'exec zsh' ~/.bashrc || awk '
 ' ~/.bashrc > ~/.bashrc.tmp &&
 mv ~/.bashrc.tmp ~/.bashrc
 ```
+
+The `zsh -c` and `mkdir` lines after the `.zshrc` are there to avoid two errors on the very first start. The first one is this, which comes from the docker plugins trying to write their completions into a cache directory that doesn't exist yet:
+
+```text
+(anon):12: process substitution failed: no such file or directory
+```
+
+The fix is to create `~/.antigen/bundles/robbyrussell/oh-my-zsh/cache/completions`, but the order matters. Antigen only clones oh-my-zsh if its directory is missing, so creating that folder *before* antigen has run makes it think oh-my-zsh is already installed, and it never gets cloned. The `zsh -c` line lets antigen do its cloning first (it also fetches the syntax-highlighting and autosuggestions bundles), and only then is the `mkdir` run. That also removes the other first-run complaint, where the `source` line for `zsh-autosuggestions.zsh` fails because the bundle hasn't been downloaded yet. Both lines are safe to run again.
 
 The `awk` at the end is doing the fiddly part: it finds the `case $- in ... esac` block that most distros' default `.bashrc` uses to check whether the shell is interactive, and inserts the `exec zsh` right after it closes — so it only fires for interactive sessions, not when bash is invoked non-interactively (scp, rsync, some CI runners, etc., which would break if a shell startup file suddenly printed anything or exec'd into zsh unconditionally). The `grep -qF` guard makes it safe to paste more than once without duplicating the block.
 
