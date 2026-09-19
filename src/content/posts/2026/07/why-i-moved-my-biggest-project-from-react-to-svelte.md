@@ -5,7 +5,7 @@ tags:
   - "Javascript"
   - "Web"
   - "Daisyui"
-  - "Svlete"
+  - "Svelte"
   - "Tailwindcss"
 heroImage: "/blog-media/2026/07/sveltekit-seeklogo.webp"
 heroThumb: "/blog-media/2026/07/svelte-thumb.webp"
