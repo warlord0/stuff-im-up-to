@@ -6,7 +6,7 @@ tags:
   - "gnome"
   - "Linux"
 heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
-heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
+heroThumb: "/blog-media/2019/07/gnome-thumb.webp"
 description: "It's been a long time since Wayland became a default in many distros Gnome environment. The trouble with this has been the lack of remote desktop functiona"
 ---
 It's been a long time since Wayland became a default in many distros Gnome environment. The trouble with this has been the lack of remote desktop functionality, until now.

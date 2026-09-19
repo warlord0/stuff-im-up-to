@@ -5,7 +5,7 @@ title: "Adding a Gnome Favourite"
 tags:
   - "Linux"
 heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
-heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
+heroThumb: "/blog-media/2019/07/gnome-thumb.webp"
 description: "I was trying to add the Postman app to my Gnome favourite bar, but right clicking it doesn't give me the option to add it as a favourite. Apparently if you"
 ---
 I was trying to add the Postman app to my Gnome favourite bar, but right clicking it doesn't give me the option to add it as a favourite.

@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "ubuntu"
 heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
-heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
+heroThumb: "/blog-media/2019/07/gnome-thumb.webp"
 description: "I'm installing a couple of Ubuntu 22.04 systems for a friend. They want a simple, friendly Linux build, or they'll go M$! My two preferred distros don't fi"
 ---
 I'm installing a couple of Ubuntu 22.04 systems for a friend. They want a simple, friendly Linux build, or they'll go M\$! My two preferred distros don't fit the bill, Debian is tool stale for a desktop build, Manjaro is too dynamic and bleeding edge for a simple user. This leaves me wanting to give them the prettiness of Gnome, and take them away from XFCE - fitting my comfort zone, this leaves me with Ubuntu.

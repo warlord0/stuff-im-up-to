@@ -5,7 +5,7 @@ tags:
   - "gnome"
   - "Linux"
 heroImage: "/blog-media/2019/07/gnomelogohorizontal.svg_.webp"
-heroThumb: "/blog-media/2019/07/gnomelogohorizontal.svg_-thumb.webp"
+heroThumb: "/blog-media/2019/07/gnome-thumb.webp"
 description: "It's nice getting your desktop setup just the way you want it. The right mix of icons, cursors, themes, and wallpapers. Now there's a handy tool called gdm"
 ---
 It's nice getting your desktop setup just the way you want it. The right mix of icons, cursors, themes, and wallpapers.
