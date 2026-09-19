@@ -5,7 +5,7 @@ tags:
   - "Linux"
   - "synology"
 heroImage: "/blog-media/2017/04/synology-partner.webp"
-heroThumb: "/blog-media/2017/04/synology-partner-thumb.webp"
+heroThumb: "/blog-media/2017/04/synology-icon-thumb.webp"
 description: "It’s really simple and after googling I couldn’t find a straight answer. Login via SSH sudo /var/packages/DNSServer/target/script/flushcache.sh References"
 ---
 It’s really simple and after googling I couldn’t find a straight answer.
