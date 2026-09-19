@@ -5,7 +5,7 @@ tags:
   - "dfs"
   - "Windows"
 heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.webp"
-heroThumb: "/blog-media/2016/09/windows-server-2012-1024x196-thumb.webp"
+heroThumb: "/blog-media/2017/12/windows-icon-thumb.webp"
 description: "Access Denied - obviously some kind of permission issue, but try as we might comparing ACL's between systems we couldn't see where the issue was."
 ---
 Whilst trying to add a new cluster for file shares to take over from the previous one we found that whilst replication worked to migrate the files, we could not remove or disable the old paths from the Folder Targets. **Access Denied** - obviously some kind of permission issue, but try as we might comparing ACL's between systems we couldn't see where the issue was.

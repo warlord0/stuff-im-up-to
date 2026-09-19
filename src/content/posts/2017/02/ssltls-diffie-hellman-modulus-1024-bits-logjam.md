@@ -7,7 +7,7 @@ tags:
   - "ssl"
   - "Windows"
 heroImage: "/blog-media/2016/09/windows-server-2012-1024x196.webp"
-heroThumb: "/blog-media/2016/09/windows-server-2012-1024x196-thumb.webp"
+heroThumb: "/blog-media/2017/12/windows-icon-thumb.webp"
 description: "Create and set the following registry key value: HKEY_LOCAL_MACHINE\\SYSTEM\\CurrentControlSet\\Control\\SecurityProviders\\SCHANNEL\\KeyExchangeAlgorithms\\Diffi"
 ---
 Create and set the following registry key value:
