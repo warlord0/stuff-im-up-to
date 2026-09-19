@@ -10,7 +10,7 @@ tags:
   - "radarr"
   - "synology"
 heroImage: "/blog-media/2022/01/radarr_logo-1.webp"
-heroThumb: "/blog-media/2022/01/radarr_logo-1-thumb.webp"
+heroThumb: "/blog-media/2023/10/servarr-icon-thumb.webp"
 description: "Well, Couchpotato is no longer being updated, and the project had been archived as read only. That's not good, I've used Couchpotato for years. I did some"
 ---
 Well, Couchpotato is no longer being updated, and the project had been archived as read only. That's not good, I've used Couchpotato for years.
