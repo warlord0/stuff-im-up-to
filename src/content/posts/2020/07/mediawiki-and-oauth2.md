@@ -11,7 +11,7 @@ tags:
   - "single-sign-on"
   - "Web"
 heroImage: "/blog-media/2020/07/mediawiki_logo.webp"
-heroThumb: "/blog-media/2020/07/mediawiki_logo-thumb.webp"
+heroThumb: "/blog-media/2020/07/mediawiki-icon-thumb.webp"
 description: "With a move to a more joined up authentication using Single Sign On (SSO) I deployed a Keycloak service in a docker container - that should probably form p"
 ---
 With a move to a more joined up authentication using Single Sign On (SSO) I deployed a Keycloak service in a docker container - that should probably form part of a later article.
