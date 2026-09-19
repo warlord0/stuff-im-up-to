@@ -11,7 +11,7 @@ tags:
   - "Security"
   - "single-sign-on"
 heroImage: "/blog-media/2020/07/keycloak.webp"
-heroThumb: "/blog-media/2020/07/keycloak-thumb.webp"
+heroThumb: "/blog-media/2020/07/keycloak-icon-thumb.webp"
 description: "After getting Keycloak up and running, it's a breeze to connect it to LDAP and use the users from there, but there were a few things I missed about group m"
 ---
 After getting Keycloak up and running, it's a breeze to connect it to LDAP and use the users from there, but there were a few things I missed about group membership and there's a fun quirk to fix about the user name.
