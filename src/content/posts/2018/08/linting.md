@@ -7,7 +7,7 @@ tags:
   - "JavaScript"
   - "node.js"
 heroImage: "/blog-media/2018/08/eslint.webp"
-heroThumb: "/blog-media/2018/08/eslint-thumb.webp"
+heroThumb: "/blog-media/2018/08/eslint-icon-thumb.webp"
 description: "No, this isn't about taking the fluff from your belly button - but you're close. https://eslint.org/ Linting your written code is a method of ensuring that"
 ---
 No, this isn't about taking the fluff from your belly button - but you're close. [https://eslint.org/](https://eslint.org/) Linting your written code is a method of ensuring that it meets consistent syntax and style guidelines. Eg. ensuring you indent function blocks by 4 spaces and not tabs, placing curly braces {} on new lines, having spaces following function names and parameters etc.
