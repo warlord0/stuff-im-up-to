@@ -6,8 +6,8 @@ tags:
   - "Linux"
   - "nginx"
   - "php"
-heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.webp"
-heroThumb: "/blog-media/2016/09/2000px-nginx_logo-svg-thumb.webp"
+heroImage: "/blog-media/2021/02/nginx_logo.webp"
+heroThumb: "/blog-media/2021/02/nginx-thumb.webp"
 description: "Keen to press on a try new suff I figured that seeing as I'd now tried Nginx 1.10 that I'd put that together with PHP 7.0. I started of by thinking I'd rem"
 ---
 Keen to press on a try new suff I figured that seeing as I'd now tried Nginx 1.10 that I'd put that together with PHP 7.0. I started of by thinking I'd remove nginx 1.6 from my workstation, clean the config out and install the latest from the nginx repository. It was all going so well until:

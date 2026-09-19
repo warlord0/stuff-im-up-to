@@ -7,8 +7,8 @@ tags:
   - "Linux"
   - "nginx"
   - "Web"
-heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.webp"
-heroThumb: "/blog-media/2016/09/2000px-nginx_logo-svg-thumb.webp"
+heroImage: "/blog-media/2021/02/nginx_logo.webp"
+heroThumb: "/blog-media/2021/02/nginx-thumb.webp"
 description: "We're using client side certificates on an Nginx host to ensure the credentials of the connecting users and haven't used the site for a while. I tried to l"
 ---
 We're using client side certificates on an Nginx host to ensure the credentials of the connecting users and haven't used the site for a while.

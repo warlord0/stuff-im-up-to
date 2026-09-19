@@ -7,7 +7,7 @@ tags:
   - "nginx"
   - "Web"
 heroImage: "/blog-media/2021/02/nginx_logo.webp"
-heroThumb: "/blog-media/2021/02/nginx_logo-thumb.webp"
+heroThumb: "/blog-media/2021/02/nginx-thumb.webp"
 description: "We use a simple method of putting an Nginx site into maintenance mode. Just set a geo default variable on on and have it generate a HTTP 503 status respons"
 ---
 We use a simple method of putting an Nginx site into maintenance mode. Just set a `geo` default variable on `on` and have it generate a HTTP 503 status response. Then Nginx delivers our maintenance page until we set it back to `off`

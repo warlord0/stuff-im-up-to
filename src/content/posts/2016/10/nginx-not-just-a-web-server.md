@@ -7,8 +7,8 @@ tags:
   - "Networking"
   - "nginx"
   - "proxy"
-heroImage: "/blog-media/2016/09/2000px-nginx_logo-svg.webp"
-heroThumb: "/blog-media/2016/09/2000px-nginx_logo-svg-thumb.webp"
+heroImage: "/blog-media/2021/02/nginx_logo.webp"
+heroThumb: "/blog-media/2021/02/nginx-thumb.webp"
 description: "Nginx is capable of more than serving web pages. It can load balance, cache and act as a reverse proxy. We recently had need to access two web services on"
 ---
 Nginx is capable of more than serving web pages. It can load balance, cache and act as a reverse proxy. We recently had need to access two web services on the same server through a single interface. This is where the reverse proxy came in.
