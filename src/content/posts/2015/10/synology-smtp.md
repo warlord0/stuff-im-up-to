@@ -7,7 +7,7 @@ tags:
   - "smtp"
   - "synology"
 heroImage: "/blog-media/2016/09/logo-synology.webp"
-heroThumb: "/blog-media/2016/09/logo-synology-thumb.webp"
+heroThumb: "/blog-media/2017/04/synology-icon-thumb.webp"
 description: "This box runs Linux and many of my favourite services so can handle Postfix, Dovecot, SpamAssassin and many others that are documented here. There are a fe"
 ---
 This box runs Linux and many of my favourite services so can handle Postfix, Dovecot, SpamAssassin and many others that are documented here. There are a few quirks though. After all it is highly stylised and GUI based so the configs are driven by the web interface. That just needs some careful consideration as they will be overwritten every time the server starts. So you just need to ensure you edit the "template" files that the GUI will apply.
