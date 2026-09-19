@@ -5,7 +5,7 @@ tags:
   - "Linux"
   - "Windows"
 heroImage: "/blog-media/2019/07/restful-api-logo-for-light-bg.webp"
-heroThumb: "/blog-media/2019/07/restful-api-logo-for-light-bg-thumb.webp"
+heroThumb: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg-thumb.webp"
 description: "Now Postman is awesome, but I came across this really good rest-client plugin for VSCode. What makes it so good is that I can save the .rest or .http files"
 ---
 Now [Postman](/posts/postman-is-awesome/) is awesome, but I came across this really good [rest-client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) plugin for VSCode.
