@@ -8,7 +8,7 @@ tags:
   - "Linux"
   - "php"
   - "Windows"
-heroImage: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg.webp"
+heroImage: "/blog-media/2018/03/vscode-header.webp"
 heroThumb: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg-thumb.webp"
 description: "I'm an Atom fan and have used it on Linux for ages. I probably still will, but our other developers tend to use VS Code because of their use of MS Windows."
 ---

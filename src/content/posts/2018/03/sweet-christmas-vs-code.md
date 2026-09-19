@@ -4,7 +4,7 @@ title: "Sweet Christmas - VS Code"
 tags:
   - "Linux"
   - "Windows"
-heroImage: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg.webp"
+heroImage: "/blog-media/2018/03/vscode-header.webp"
 heroThumb: "/blog-media/2018/03/512px-visual_studio_code_1-18_icon-svg-thumb.webp"
 description: "Ok, so I know Microsoft have been making some big steps in the world of Open Source - I confess to giving them little ear time, mainly because EVERYTHING w"
 ---
