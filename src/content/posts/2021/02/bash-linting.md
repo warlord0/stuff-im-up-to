@@ -6,7 +6,7 @@ tags:
   - "bash"
   - "Linux"
 heroImage: "/blog-media/2021/02/bash_logo.webp"
-heroThumb: "/blog-media/2021/02/bash_logo-thumb.webp"
+heroThumb: "/blog-media/2021/02/bash-icon-thumb.webp"
 description: "I had some of my bash code commented on publicly and the one comment was \"You should run your scripts through shellcheck .\" This was probably the most usef"
 ---
 I had some of my bash code commented on publicly and the one comment was "You should run your scripts through [shellcheck](https://www.shellcheck.net)." This was probably the most useful bit of advice I've had to do with bash scripting.
