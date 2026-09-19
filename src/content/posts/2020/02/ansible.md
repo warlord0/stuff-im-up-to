@@ -4,8 +4,8 @@ modDatetime: 2020-12-01T12:42:06Z
 title: "Ansible"
 tags:
   - "Linux"
-heroImage: "/blog-media/2020/02/ansible800.webp"
-heroThumb: "/blog-media/2020/02/ansible800-thumb.webp"
+heroImage: "/blog-media/2024/03/ansible-red.webp"
+heroThumb: "/blog-media/2024/03/ansible-thumb.webp"
 description: "After working with Saltstack I thought I'd do some investigation with Ansible. I'm in the market for automation and want a simple means of delivering confi"
 ---
 After working with Saltstack I thought I'd do some investigation with Ansible. I'm in the market for automation and want a simple means of delivering configuration onto our physical and virtual estate.
