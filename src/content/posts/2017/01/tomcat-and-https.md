@@ -8,8 +8,8 @@ tags:
   - "Security"
   - "ssl"
   - "Web"
-heroImage: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861.webp"
-heroThumb: "/blog-media/2017/01/2000px-tomcat-logo-svg-e1485850229861-thumb.webp"
+heroImage: "/blog-media/2017/01/tomcat-header.webp"
+heroThumb: "/blog-media/2017/01/tomcat-fit-thumb.webp"
 description: "By default Tomcat gets installed with HTTP only and a number of default applications. Previously I linked documents on how to secure Tomcat . But put simpl"
 ---
 By default Tomcat gets installed with HTTP only and a number of default applications. Previously I linked documents on how to [secure Tomcat](/posts/securing-tomcat/). But put simply just delete the folders under `webapps` that you don't need for your application. So you pretty much get left with `host-manager` and `manager` in there. My next step was to try to figure out how to get the connection changed from HTTP to HTTPS and apply a valid certificate to the connection.
