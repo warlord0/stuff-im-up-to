@@ -8,7 +8,7 @@ tags:
   - "nginx"
   - "Web"
 heroImage: "/blog-media/2023/10/npm.webp"
-heroThumb: "/blog-media/2023/10/npm-thumb.webp"
+heroThumb: "/blog-media/2023/10/npm-icon-thumb.webp"
 description: "Nginx proxy Manager (NPM) is a simple-to-use management interface for the Nginx reverse proxy. It handles the Let's Encrypt certificates with ease. GoAcces"
 ---
 [Nginx proxy Manager](https://nginxproxymanager.com) (NPM) is a simple-to-use management interface for the Nginx reverse proxy. It handles the Let's Encrypt certificates with ease.
