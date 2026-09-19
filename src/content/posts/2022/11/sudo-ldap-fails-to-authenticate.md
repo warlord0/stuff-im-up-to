@@ -8,7 +8,7 @@ tags:
   - "linuxmint"
   - "sudo"
 heroImage: "/blog-media/2022/11/linuxmint.webp"
-heroThumb: "/blog-media/2022/11/linuxmint-thumb.webp"
+heroThumb: "/blog-media/2022/11/mint-icon-thumb.webp"
 description: "I mainly use two Linux distros - Manjaro and Debian (or Debian based distro Mint). For most remote workers, I rolled out Manjaro with caching authenticatio"
 ---
 I mainly use two Linux distros - Manjaro and Debian (or Debian based distro Mint). For most remote workers, I rolled out Manjaro with caching authentication using SSSD. But this week has been frustrating as I'm delivering remote users on Linux Mint.
