@@ -5,7 +5,7 @@ tags:
   - "Linux"
   - "ubuntu"
 heroImage: "/blog-media/2020/02/ubuntu_logo.webp"
-heroThumb: "/blog-media/2020/02/ubuntu_logo-thumb.webp"
+heroThumb: "/blog-media/2020/02/ubuntu-icon-thumb.webp"
 description: "Canonical insist on advertising in their motd news as you log on. You get told you're not part of ESM and click here to sign up - get rid of it all using t"
 ---
 Canonical insist on advertising in their `motd` news as you log on. You get told you're not part of ESM and click here to sign up - get rid of it all using the guidance from here:
