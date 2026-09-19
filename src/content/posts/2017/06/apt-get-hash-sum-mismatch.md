@@ -5,7 +5,7 @@ tags:
   - "debian"
   - "Linux"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "I tried to run some updates on my workstation today and it failed with a Hash Sum mismatch. $ sudo apt-get update W: Failed to fetch http://www.deb-multime"
 ---
 I tried to run some updates on my workstation today and it failed with a Hash Sum mismatch.

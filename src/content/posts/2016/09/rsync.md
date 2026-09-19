@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "rsync"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Good old rsync. Very handy for backing up and entire system to another. It only transfers files that have changed too. rsync -av -e ssh --delete --exclude"
 ---
 Good old rsync. Very handy for backing up and entire system to another. It only transfers files that have changed too.

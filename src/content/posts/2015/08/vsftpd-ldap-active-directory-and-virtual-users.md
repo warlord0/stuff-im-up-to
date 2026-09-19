@@ -9,7 +9,7 @@ tags:
   - "Linux"
   - "pam"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "PAM and LDAP Getting this going is a challenge. It needs some tweaks with PAM to get the authentication going. In order to get it to work we needed libpam-"
 ---
 ## PAM and LDAP

@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Windows"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "When using Remmina to connect to some of our older Windows systems we're seeing a certificate problem that prevents it from connecting. Remmina pretty much"
 ---
 When using Remmina to connect to some of our older Windows systems we're seeing a certificate problem that prevents it from connecting. Remmina pretty much says you can't connect, but you can see the error message if you run remmina from a terminal and try to connect.

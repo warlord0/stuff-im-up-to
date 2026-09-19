@@ -5,7 +5,7 @@ title: "SSH - no matching key exchange method"
 tags:
   - "Linux"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Trying to logon to some older network switch management interfaces I came across a failure due to them using older SHA1 key exchanges and key types. Thankf"
 ---
 Trying to logon to some older network switch management interfaces I came across a failure due to them using older SHA1 key exchanges and key types. Thankfully OpenSSH supports some legacy options to get around this, at least until we get the switches replaced or upgraded.

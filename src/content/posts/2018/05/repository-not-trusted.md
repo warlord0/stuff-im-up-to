@@ -5,7 +5,7 @@ tags:
   - "debian"
   - "Linux"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "On a Wheezy box I saw this but was able to continue by answering yes to ignore the authentication warning. WARNING: The following packages cannot be authen"
 ---
 On a Wheezy box I saw this but was able to continue by answering yes to ignore the authentication warning.

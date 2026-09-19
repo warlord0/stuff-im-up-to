@@ -6,7 +6,7 @@ tags:
   - "debian"
   - "Linux"
 heroImage: "/blog-media/2016/09/debian-logo-1.webp"
-heroThumb: "/blog-media/2016/09/debian-logo-1-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "I know it's not all that new, but not something I've spent much time working with. Previously using init.d to enable/disable systems services. Today I remo"
 ---
 I know it's not all that new, but not something I've spent much time working with. Previously using init.d to enable/disable systems services. Today I remove a program from my system and purged the config files. But it left behind a service in a failed condition. Of course it failed. I just removed all the files and config. Using `systemctl` I could see my magicbox service still there and failed.
