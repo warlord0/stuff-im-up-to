@@ -6,7 +6,7 @@ tags:
   - "juniper"
   - "Networking"
 heroImage: "/blog-media/2016/09/juniper.webp"
-heroThumb: "/blog-media/2016/09/juniper-thumb.webp"
+heroThumb: "/blog-media/2016/09/juniper-teal-thumb.webp"
 description: "We stream the Juniper SRX logs out to our syslog server and that seems to work quite well. It is reliant upon us having the relevant log setting in the rul"
 ---
 We stream the Juniper SRX logs out to our syslog server and that seems to work quite well. It is reliant upon us having the relevant log setting in the rules. So for rules where we allow we can log the data at session-close
