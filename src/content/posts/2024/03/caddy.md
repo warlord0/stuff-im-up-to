@@ -8,7 +8,7 @@ tags:
   - "proxy"
   - "Web"
 heroImage: "/blog-media/2024/03/caddy_logo.webp"
-heroThumb: "/blog-media/2024/03/caddy_logo-thumb.webp"
+heroThumb: "/blog-media/2024/03/caddy-thumb.webp"
 description: "Caddy is a \"server of servers\", but probably more recognised as a reverse proxy or web server. It's memory safe, so likely to gain traction because of the"
 ---
 Caddy is a "server of servers", but probably more recognised as a reverse proxy or web server.

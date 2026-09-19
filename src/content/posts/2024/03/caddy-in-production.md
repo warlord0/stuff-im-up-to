@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Web"
 heroImage: "/blog-media/2024/03/caddy_logo.webp"
-heroThumb: "/blog-media/2024/03/caddy_logo-thumb.webp"
+heroThumb: "/blog-media/2024/03/caddy-thumb.webp"
 description: "To use caddy in production, I needed to make sure it catered for the features I use with Nginx. I need to serve subdomain and handle putting sites into mai"
 ---
 To use caddy in production, I needed to make sure it catered for the features I use with Nginx. I need to serve subdomain and handle putting sites into maintenance to show a visitor a custom 503 (service unavailable) page.

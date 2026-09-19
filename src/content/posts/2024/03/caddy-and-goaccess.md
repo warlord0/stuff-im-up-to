@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Web"
 heroImage: "/blog-media/2024/03/caddy_logo.webp"
-heroThumb: "/blog-media/2024/03/caddy_logo-thumb.webp"
+heroThumb: "/blog-media/2024/03/caddy-thumb.webp"
 description: "GoAccess is a great Nginx log file analyser that I was using with Nginx Proxy Manager. Wouldn't it be great to carry on using it with Caddy?"
 ---
 GoAccess is a great Nginx log file analyser that I was using with Nginx Proxy Manager. Wouldn't it be great to carry on using it with Caddy?
