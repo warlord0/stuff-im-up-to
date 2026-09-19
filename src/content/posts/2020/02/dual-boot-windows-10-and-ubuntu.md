@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Windows"
 heroImage: "/blog-media/2017/12/2000px-windows_10_logo-svg.webp"
-heroThumb: "/blog-media/2017/12/2000px-windows_10_logo-svg-thumb.webp"
+heroThumb: "/blog-media/2017/12/windows-icon-thumb.webp"
 description: "EFI, Windows 10 and Ubuntu make for a bumpy road. After installing Ubuntu onto the partition I made available in Windows 10, Ubuntu configured grub and whe"
 ---
 EFI, Windows 10 and Ubuntu make for a bumpy road. After installing Ubuntu onto the partition I made available in Windows 10, Ubuntu configured grub and when I rebooted there was a nice menu to let me select which OS I wanted to boot. "Ubuntu" or "Windows 10 Boot Manager".

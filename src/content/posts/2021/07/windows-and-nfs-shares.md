@@ -6,7 +6,7 @@ tags:
   - "nfs"
   - "Windows"
 heroImage: "/blog-media/2017/12/2000px-windows_10_logo-svg.webp"
-heroThumb: "/blog-media/2017/12/2000px-windows_10_logo-svg-thumb.webp"
+heroThumb: "/blog-media/2017/12/windows-icon-thumb.webp"
 description: "Considering I've been a long term user of Windows - far longer than Linux, I really find myself detesting the platform with a vengeance. All I wanted to do"
 ---
 Considering I've been a long term user of Windows - far longer than Linux, I really find myself detesting the platform with a vengeance. All I wanted to do was mount an NFS share from a Linux system or NAS. All the guides I find pretty much say Install the NFS Client for Windows and then use mount. Not very helpful guys.
