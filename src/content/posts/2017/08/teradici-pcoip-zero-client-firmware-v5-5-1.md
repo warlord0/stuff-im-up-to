@@ -5,7 +5,7 @@ tags:
   - "horizon"
   - "Networking"
 heroImage: "/blog-media/2017/02/teradici-pcoip-logo.webp"
-heroThumb: "/blog-media/2017/02/teradici-pcoip-logo-thumb.webp"
+heroThumb: "/blog-media/2017/02/teradici-plate-thumb.webp"
 description: "After downloading the PCoIP firmware update to deploy to our terminals I uploaded it to a test station using the \"Admin Web Interface\" (AWI) - the built in"
 ---
 After downloading the PCoIP firmware update to deploy to our terminals I uploaded it to a test station using the "Admin Web Interface" (AWI) - the built in web GUI on the terminal, not from the central management console. It seemed to go OK, but when it reset the PCoIP processor, effectively a reboot, it came up with a dialog showing the message:
