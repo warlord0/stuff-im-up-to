@@ -5,7 +5,7 @@ tags:
   - "ldap"
   - "Linux"
 heroImage: "/blog-media/2020/06/openldap.webp"
-heroThumb: "/blog-media/2020/06/openldap-thumb.webp"
+heroThumb: "/blog-media/2021/10/esp-thumb.webp"
 description: "This section focusses on the optional configuration of a custom schema for LDAP. It's completely optional, as you can use ready-made LDAP attributes to sto"
 ---
 This section focusses on the optional configuration of a custom schema for LDAP. It's completely optional, as you can use ready-made LDAP attributes to store data.
