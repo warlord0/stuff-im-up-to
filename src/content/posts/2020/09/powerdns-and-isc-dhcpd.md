@@ -8,7 +8,7 @@ tags:
   - "Linux"
   - "Networking"
 heroImage: "/blog-media/2020/09/powerdns.webp"
-heroThumb: "/blog-media/2020/09/powerdns-thumb.webp"
+heroThumb: "/blog-media/2020/09/powerdns-fit-thumb.webp"
 description: "As we host lots of sites we have lot's of DNS. Currently it's a database driven old version of ISC BIND. There are certain tasks we need to do manually to"
 ---
 As we host lots of sites we have lot's of DNS. Currently it's a database driven old version of ISC BIND. There are certain tasks we need to do manually to add records like SPF and TXT and there is no dynamic update. Our main aims are to have a easier means of our support staff updating domains with all the modern records for DMARC and DKIM, but also lets us use dynamic entries to help with the Let's Encrypt certificate creation process.
