@@ -1,0 +1,48 @@
+---
+import { getRelativeLocaleUrl } from "astro:i18n";
+import config from "@/config";
+import type { TagCount } from "@/utils/getTagCounts";
+
+type Props = {
+  tags: TagCount[];
+};
+
+const { tags } = Astro.props;
+
+const locale = Astro.currentLocale ?? config.site.lang;
+
+// Font size runs from MIN_REM (used once) to MAX_REM (most used). The scale is
+// logarithmic so a handful of very common tags don't shrink everything else.
+const MIN_REM = 0.9;
+const MAX_REM = 2.75;
+
+const counts = tags.map(({ count }) => count);
+const minCount = Math.min(...counts);
+const maxCount = Math.max(...counts);
+
+const sizeFor = (count: number) => {
+  if (maxCount === minCount) return (MIN_REM + MAX_REM) / 2;
+  const ratio =
+    (Math.log(count) - Math.log(minCount)) /
+    (Math.log(maxCount) - Math.log(minCount));
+  return MIN_REM + ratio * (MAX_REM - MIN_REM);
+};
+---
+
+<ul class="flex flex-wrap items-baseline gap-x-5 gap-y-2 leading-tight">
+  {
+    tags.map(({ tag, tagName, count }) => (
+      <li>
+        <a
+          href={getRelativeLocaleUrl(locale, `tags/${tag}/`)}
+          transition:name={tag}
+          title={`${count} ${count === 1 ? "post" : "posts"}`}
+          style={`font-size: ${sizeFor(count).toFixed(2)}rem`}
+          class="text-foreground hover:text-accent focus-visible:text-accent"
+        >
+          {tagName}
+        </a>
+      </li>
+    ))
+  }
+</ul>
