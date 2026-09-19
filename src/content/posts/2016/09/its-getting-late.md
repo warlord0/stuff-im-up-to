@@ -9,7 +9,7 @@ tags:
   - "moment.js"
   - "php"
 heroImage: "/blog-media/2016/09/jquery_logo.webp"
-heroThumb: "/blog-media/2016/09/jquery_logo-thumb.webp"
+heroThumb: "/blog-media/2016/09/jquery-icon-thumb.webp"
 description: "But how late is it? When it comes to messing with dates, times and duration there's a lot of pitfalls. Again, don't reinvent the wheel use some one elses g"
 ---
 But how late is it? When it comes to messing with dates, times and duration there's a lot of pitfalls. Again, don't reinvent the wheel use some one elses great works.
