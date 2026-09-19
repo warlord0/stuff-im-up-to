@@ -4,7 +4,7 @@ title: "Backblaze Egress for $0"
 tags:
   - "backup"
   - "Linux"
-heroImage: "/blog-media/2022/08/backblaze.webp"
+heroImage: "/blog-media/2022/08/backblaze-header.webp"
 heroThumb: "/blog-media/2022/08/backblaze-logo-thumb.webp"
 description: "Backblaze has a bandwidth alliance with Cloudflare. Leveraging this means you can restore private backup content via Cloudflare, and not pay anything to Ba"
 ---
