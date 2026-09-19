@@ -11,7 +11,7 @@ tags:
   - "Virtualisation"
   - "zfs"
 heroImage: "/blog-media/2023/06/proxmox.webp"
-heroThumb: "/blog-media/2023/06/proxmox-thumb.webp"
+heroThumb: "/blog-media/2023/06/proxmox-plate-thumb.webp"
 description: "We've put together a number of mid-spec servers to carry out some testing on clustering using Proxmox . Many years ago I built a single Proxmox server and"
 ---
 We've put together a number of mid-spec servers to carry out some testing on clustering using [Proxmox](https://www.proxmox.com/en/).

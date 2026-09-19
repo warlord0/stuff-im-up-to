@@ -5,7 +5,7 @@ title: "Great Free and Open Source Software"
 tags:
   - "Linux"
 heroImage: "/blog-media/2023/03/opensource-1.webp"
-heroThumb: "/blog-media/2023/03/opensource-1-thumb.webp"
+heroThumb: "/blog-media/2023/03/opensource-plate-thumb.webp"
 description: "Over time I've encountered some great pieces of Free and Open Source Software. I just wanted to list a few noteworthy products in a single place I can refe"
 ---
 Over time I've encountered some great pieces of Free and Open Source Software. I just wanted to list a few noteworthy products in a single place I can refer to - in no particular order.
