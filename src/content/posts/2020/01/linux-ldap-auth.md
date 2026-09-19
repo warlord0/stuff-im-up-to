@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Security"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Up until now all of my Linux authentication has been local file based auth. I've added LDAP to services and applications, but logging into a Linux box has"
 ---
 Up until now all of my Linux authentication has been local file based auth. I've added LDAP to services and applications, but logging into a Linux box has always had local users.

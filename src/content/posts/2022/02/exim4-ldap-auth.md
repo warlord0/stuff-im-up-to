@@ -9,7 +9,7 @@ tags:
   - "Linux"
   - "smtp"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Having setup postfix and LDAP auth , setting up an Exim server should be within our capabilities. The trouble is I find the exim config a bit scruffy and c"
 ---
 Having setup [postfix and LDAP auth](/posts/dovecot-postfix-virtual-mailboxes-and-active-directory/), setting up an Exim server should be within our capabilities.

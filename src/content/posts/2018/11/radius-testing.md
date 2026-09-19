@@ -8,7 +8,7 @@ tags:
   - "radius"
   - "Security"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "We have a need to authenticate a couple of devices via our Wifi access points with a RADIUS server. Right now I wanted to test things out using a MAC addre"
 ---
 We have a need to authenticate a couple of devices via our Wifi access points with a RADIUS server. Right now I wanted to test things out using a MAC address authentication process. But for some reason we can't get it working on the AP's.

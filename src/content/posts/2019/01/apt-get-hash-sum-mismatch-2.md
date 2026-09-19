@@ -5,7 +5,7 @@ tags:
   - "Linux"
   - "updates"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "I'm still not sure why I'm getting this problem occur again. But when running apt-get upgrade the upgrades fail with a message like this: Get:8 http://secu"
 ---
 I'm still not sure why I'm getting this problem occur again. But when running `apt-get upgrade` the upgrades fail with a message like this:

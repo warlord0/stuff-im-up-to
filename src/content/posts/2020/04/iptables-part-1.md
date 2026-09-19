@@ -7,7 +7,7 @@ tags:
   - "iptables"
   - "Linux"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "My understanding of iptables is rudimentary, and I thought it's time to improve on it. I have an understanding of firewalls, NAT and packet filtering, but"
 ---
 My understanding of iptables is rudimentary, and I thought it's time to improve on it. I have an understanding of firewalls, NAT and packet filtering, but putting this into iptables always seems hard work.

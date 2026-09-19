@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "ssh"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Maintaining a secure connection to a remote host using SSH to securely tunnel traffic for underlying services like MSQL, PostgreSQL or just for remote supp"
 ---
 Maintaining a secure connection to a remote host using SSH to securely tunnel traffic for underlying services like MSQL, PostgreSQL or just for remote support is made far easier by using a tool designed to bring up the connection and monitor and maintain it.

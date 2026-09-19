@@ -6,7 +6,7 @@ tags:
   - "exim4"
   - "Linux"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Talk about driving me crazy. We had error messages in our logs claiming that the vacation transport - or out of office auto replies didn't work because of"
 ---
 Talk about driving me crazy. We had error messages in our logs claiming that the vacation transport - or out of office auto replies didn't work because of permission errors.

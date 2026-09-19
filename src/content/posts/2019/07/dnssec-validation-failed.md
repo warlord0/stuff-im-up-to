@@ -5,7 +5,7 @@ title: "DNSSEC Validation Failed"
 tags:
   - "Linux"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Looking at my virtual dev system I noticed the time is off. I checked the timesyncd.conf and restarted timesyncd and saw lots of similar errors to this in"
 ---
 Looking at my virtual dev system I noticed the time is off. I checked the `timesyncd.conf` and restarted `timesyncd` and saw lots of similar errors to this in my syslog:

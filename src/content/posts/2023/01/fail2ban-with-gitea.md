@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Security"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "I noticed a bot had decided to target our Gitea service, so thought of putting it into fail2ban to lock it down. Turned out this wasn't as straight forward"
 ---
 I noticed a bot had decided to target our Gitea service, so thought of putting it into fail2ban to lock it down. Turned out this wasn't as straight forward as I'd hoped.

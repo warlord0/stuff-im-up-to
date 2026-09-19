@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "updates"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "Kind of an unusual situation, but I have a Debian jessie box that has a terrible <2MB Internet connection, no CD/DVD and the USB stick I have I don't want"
 ---
 Kind of an unusual situation, but I have a Debian jessie box that has a terrible \<2MB Internet connection, no CD/DVD and the USB stick I have I don't want to overwrite and make bootable - it already has things on it I need. But it does have the capacity to hold the Debian DVD ISO \#1.

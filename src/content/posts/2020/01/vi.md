@@ -5,7 +5,7 @@ title: "vi"
 tags:
   - "Linux"
 heroImage: "/blog-media/2018/11/debian_logo.webp"
-heroThumb: "/blog-media/2018/11/debian_logo-thumb.webp"
+heroThumb: "/blog-media/2018/11/debian-thumb.webp"
 description: "I've been using vi for ages and about my limit is search and replace. Here's a place for some magic I've been picking up more recently. When you've forgott"
 ---
 I've been using vi for ages and about my limit is search and replace.
