@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "mysql"
 heroImage: "/blog-media/2016/09/mysql-logo.webp"
-heroThumb: "/blog-media/2016/09/mysql-logo-thumb.webp"
+heroThumb: "/blog-media/2016/09/mysql-dolphin-thumb.webp"
 description: "Apt-get update fails because the PGP keys for the repository have expired. $ sudo apt-get update W: An error occurred during the signature verification. Th"
 ---
 Apt-get update fails because the PGP keys for the repository have expired.
