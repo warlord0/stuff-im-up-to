@@ -5,7 +5,7 @@ title: "Removing Your Android Phone from Google Home"
 tags:
   - "google"
 heroImage: "/blog-media/2025/04/google-home-logo-941019518.webp"
-heroThumb: "/blog-media/2025/04/google-home-logo-941019518-thumb.webp"
+heroThumb: "/blog-media/2025/04/google-home-icon-thumb.webp"
 description: "I recently bought a new Android phone. Trouble is, Google Home keeps finding my old phone when I ask it \"Hey Google, where's my phone?\" I went into Find My"
 ---
 I recently bought a new Android phone. Trouble is, Google Home keeps finding my old phone when I ask it "Hey Google, where's my phone?"
