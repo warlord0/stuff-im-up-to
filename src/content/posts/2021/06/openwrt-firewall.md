@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Security"
 heroImage: "/blog-media/2021/06/openwrt.webp"
-heroThumb: "/blog-media/2021/06/openwrt-thumb.webp"
+heroThumb: "/blog-media/2021/06/openwrt-plate-thumb.webp"
 description: "I've inherited a couple of OpenWrt firewalls that need some upgrades. They're not hugely outdated, only a major version behind. I need to figure out the up"
 ---
 I've inherited a couple of OpenWrt firewalls that need some upgrades. They're not hugely outdated, only a major version behind. I need to figure out the upgrade path.
