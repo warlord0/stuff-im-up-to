@@ -10,8 +10,8 @@ tags:
   - "Publishing"
   - "Self Publish"
   - "Writing"
-heroImage: "/blog-media/2018/10/hongkongphoeey.webp"
-heroThumb: "/blog-media/2018/10/hongkongphoeey-thumb.webp"
+heroImage: "/blog-media/2018/10/hongkongphoeey-header.webp"
+heroThumb: "/blog-media/2018/10/hongkongphoeey-fit-thumb.webp"
 description: "I got asked to publish some of my books as paperbacks on Amazon, they are all currently there for Kindle and ebook readers as ePub files. That means I needed to create covers that work with the actual book sizes. They need to take into account the paper thickness and number of pages in order…"
 ---
 I got asked to publish some of my books as paperbacks on Amazon, they are all currently there for Kindle and ebook readers as ePub files. That means I needed to create covers that work with the actual book sizes. They need to take into account the paper thickness and number of pages in order to work out the spine size.
