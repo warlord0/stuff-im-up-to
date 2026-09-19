@@ -8,7 +8,7 @@ tags:
   - "nginx"
   - "pxe"
 heroImage: "/blog-media/2020/02/mint_logo.webp"
-heroThumb: "/blog-media/2020/02/mint_logo-thumb.webp"
+heroThumb: "/blog-media/2022/11/mint-icon-thumb.webp"
 description: "Continuing the automated delivery saga Linux Mint is the thing that's giving me difficulties. There are a few quirks installing Linux Mint 19.3 Tricia that"
 ---
 Continuing the automated delivery saga Linux Mint is the thing that's giving me difficulties. There are a few quirks installing Linux Mint 19.3 Tricia that really make it a not very good candidate for our needs.

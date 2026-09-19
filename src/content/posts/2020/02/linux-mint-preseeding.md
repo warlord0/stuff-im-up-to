@@ -5,7 +5,7 @@ title: "Linux Mint Preseeding"
 tags:
   - "Linux"
 heroImage: "/blog-media/2020/02/mint_logo.webp"
-heroThumb: "/blog-media/2020/02/mint_logo-thumb.webp"
+heroThumb: "/blog-media/2022/11/mint-icon-thumb.webp"
 description: "Well that was a really tough day. Turns out we have a kinda favouritism for Linux Mint on Desktops. Preseeding for Linux Mint kinda works the same was as D"
 ---
 Well that was a really tough day. Turns out we have a kinda favouritism for Linux Mint on Desktops. Preseeding for Linux Mint kinda works the same was as Debian, but doesn't.
