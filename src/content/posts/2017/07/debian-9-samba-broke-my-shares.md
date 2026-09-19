@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "samba"
 heroImage: "/blog-media/2017/07/logo_samba_software-svg-e1500299653185.webp"
-heroThumb: "/blog-media/2017/07/logo_samba_software-svg-e1500299653185-thumb.webp"
+heroThumb: "/blog-media/2017/07/samba-fit-thumb.webp"
 description: "I updated my workstation to Debian 9 (stretch) today and immediately after could no longer connect to any of my Windows fileshares. Guessing this was proba"
 ---
 I updated my workstation to Debian 9 (stretch) today and immediately after could no longer connect to any of my Windows fileshares. Guessing this was probably down to changes we made on the Windows servers that disabled SMB v1 it took a little bit of googling to get things working again. Edit `/etc/samba/smb.conf` with admin rights and add the following lines into the `[global]` section.

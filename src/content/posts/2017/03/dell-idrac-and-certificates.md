@@ -7,7 +7,7 @@ tags:
   - "Networking"
   - "ssl"
 heroImage: "/blog-media/2017/03/dell_logo.webp"
-heroThumb: "/blog-media/2017/03/dell_logo-thumb.webp"
+heroThumb: "/blog-media/2017/03/dell-fit-thumb.webp"
 description: "A wider vulnerability scan picked up that we had self signed certificates on our Dell iDRAC's (Dell Remote Access Controller). But also highlighted that th"
 ---
 A wider vulnerability scan picked up that we had self signed certificates on our Dell iDRAC's (Dell Remote Access Controller). But also highlighted that the certificates keys were too small. So that meant in order to resolved the issue we must issue our own certificates and ensure they are the right key size. This would normally be fairly straight forward. Use the Web UI to generate a CSR and then submit that to the CA. Then just upload the issued certificate to the Web UI and all is done. However, when we submitted the CSR the CA responded with an "Denied by Policy Module" error. In the CA servers `Application` event log we see Event ID: 53
