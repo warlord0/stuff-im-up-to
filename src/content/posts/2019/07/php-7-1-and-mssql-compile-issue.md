@@ -6,7 +6,7 @@ tags:
   - "mssql"
   - "php"
 heroImage: "/blog-media/2016/10/mssql_logo.webp"
-heroThumb: "/blog-media/2016/10/mssql_logo-thumb.webp"
+heroThumb: "/blog-media/2016/10/mssql-mark-thumb.webp"
 description: "When trying to get PHP v7.1 running on a Debian Buster development box I ran into an issue where pecl would compile the sqlsrv.so and pdo_sqlsrv.so files f"
 ---
 When trying to get PHP v7.1 running on a Debian Buster development box I ran into an issue where `pecl` would compile the `sqlsrv.so` and `pdo_sqlsrv.so` files for the wrong version of PHP.

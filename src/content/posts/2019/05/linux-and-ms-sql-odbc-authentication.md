@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "mssql"
 heroImage: "/blog-media/2016/10/mssql_logo.webp"
-heroThumb: "/blog-media/2016/10/mssql_logo-thumb.webp"
+heroThumb: "/blog-media/2016/10/mssql-mark-thumb.webp"
 description: "My recent troubles spawned from connecting my Laravel application to a Microsoft SQL Server database. My username and password are correct but the connecti"
 ---
 My recent troubles spawned from connecting my Laravel application to a Microsoft SQL Server database. My username and password are correct but the connection fails.
