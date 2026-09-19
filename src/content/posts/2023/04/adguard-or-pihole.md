@@ -7,7 +7,7 @@ tags:
   - "Privateer"
   - "Security"
 heroImage: "/blog-media/2023/04/adguard_pihole.webp"
-heroThumb: "/blog-media/2023/04/adguard_pihole-thumb.webp"
+heroThumb: "/blog-media/2023/04/adguard-pihole-fit-thumb.webp"
 description: "I guess this could fall under the banner of a privateer project. I'm trying to banish adverts from streaming devices and wanted to see if Adguard or Pihole"
 ---
 I guess this could fall under the banner of a privateer project. I'm trying to banish adverts from streaming devices and wanted to see if [Adguard](https://adguard.com/en/adguard-home/overview.html) or [Pihole](https://pi-hole.net) could help. Both of them operate the same way. They act as a DNS server and when a client makes a request for an address, they check a blocklist and reply with an invalid address `0.0.0.0` if they find the domain listed.
