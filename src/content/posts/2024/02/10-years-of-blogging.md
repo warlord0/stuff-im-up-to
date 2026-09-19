@@ -3,7 +3,7 @@ pubDatetime: 2024-02-18T03:33:00Z
 modDatetime: 2024-01-15T21:51:37Z
 title: "10 Years of Blogging"
 tags:
-  - "Uncategorized"
+  - "Writing"
 heroImage: "/blog-media/2024/01/sandsoftime1.webp"
 heroThumb: "/blog-media/2024/01/sandsoftime1-thumb.webp"
 description: "I've managed to ramble on for 10 years!"

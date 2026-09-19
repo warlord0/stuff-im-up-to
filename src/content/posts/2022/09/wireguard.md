@@ -3,7 +3,6 @@ pubDatetime: 2022-09-05T08:11:37Z
 modDatetime: 2024-03-20T15:17:28Z
 title: "WireGuard"
 tags:
-  - "Uncategorized"
   - "wireguard"
 heroImage: "/blog-media/2020/04/wireguard.webp"
 heroThumb: "/blog-media/2020/04/wireguard-icon-thumb.webp"

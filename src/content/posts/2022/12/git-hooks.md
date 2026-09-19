@@ -5,7 +5,6 @@ title: "Git Hooks"
 tags:
   - "ansible"
   - "git"
-  - "Uncategorized"
 heroImage: "/blog-media/2016/12/octocat.webp"
 heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "I wanted to ensure I wasn't pushing unencrypted data onto our Git repo. It's set as private anyhow, but the repo I'm using is for our Ansible library. It c"

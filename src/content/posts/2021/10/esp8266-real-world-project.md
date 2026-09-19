@@ -5,7 +5,6 @@ title: "ESP8266 Real-World Project"
 tags:
   - "electronics"
   - "esp8266"
-  - "Uncategorized"
 heroImage: "/blog-media/2021/10/gate.webp"
 heroThumb: "/blog-media/2021/10/gate-thumb.webp"
 description: "Gatekeeper, Part 1 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is"

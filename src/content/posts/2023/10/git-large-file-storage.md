@@ -3,7 +3,6 @@ pubDatetime: 2023-10-06T08:43:06Z
 title: "Git Large File Storage"
 tags:
   - "git"
-  - "Uncategorized"
 heroImage: "/blog-media/2016/12/octocat.webp"
 heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "We have a client that needs their legacy system and data giving to them in a useable format. We can't really give them the code to build the system, as the"

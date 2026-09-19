@@ -3,7 +3,6 @@ pubDatetime: 2022-01-27T21:55:26Z
 title: "Python Build and Deploy"
 tags:
   - "python"
-  - "Uncategorized"
 heroImage: "/blog-media/2021/01/python.webp"
 heroThumb: "/blog-media/2021/01/python-thumb.webp"
 description: "We wanted a way of delivering passive status updates from our dockers to the Icinga2 API. I've used bash scripts for this in the past with curl, but figure"

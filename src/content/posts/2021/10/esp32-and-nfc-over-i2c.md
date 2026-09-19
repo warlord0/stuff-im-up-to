@@ -5,7 +5,6 @@ title: "ESP32 and NFC over I2C"
 tags:
   - "arduino"
   - "electronics"
-  - "Uncategorized"
 heroImage: "/blog-media/2021/10/arduino.webp"
 heroThumb: "/blog-media/2021/10/arduino-fit-thumb.webp"
 description: "I've been tasked with an electronics project to scan NFC/RFID devices. Electronics is very new to me. I can handle the bit where I know what I want to buil"

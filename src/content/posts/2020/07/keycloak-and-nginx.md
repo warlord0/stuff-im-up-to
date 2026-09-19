@@ -3,7 +3,10 @@ pubDatetime: 2020-07-15T17:15:49Z
 title: "Keycloak and Nginx"
 draft: true
 tags:
-  - "Uncategorized"
+  - "Linux"
+  - "ubuntu"
+  - "keycloak"
+  - "nginx"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
 heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "When trying to setup a test system for keycloak on my Ubuntu box I had a few issues getting Nginx installed. Mainly because I already had the Ubuntu versio"

@@ -3,7 +3,6 @@ pubDatetime: 2021-04-13T12:55:48Z
 title: "Github and Deploy Keys"
 tags:
   - "git"
-  - "Uncategorized"
 heroImage: "/blog-media/2016/12/octocat.webp"
 heroThumb: "/blog-media/2016/12/octocat-thumb.webp"
 description: "When it comes to pulling code from some of our private repositories we've configured a couple of systems with deploy keys. This allows them to pull the cod"

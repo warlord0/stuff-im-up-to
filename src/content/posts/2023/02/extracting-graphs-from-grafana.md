@@ -3,7 +3,8 @@ pubDatetime: 2023-02-14T12:35:56Z
 modDatetime: 2023-02-15T10:11:57Z
 title: "Extracting Graphs from Grafana"
 tags:
-  - "Uncategorized"
+  - "grafana"
+  - "monitoring"
 heroImage: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71.webp"
 heroThumb: "/blog-media/2023/02/2023-02-14-12.05.57-hroot3-27e5838d1e71-thumb.webp"
 description: "The Grafana dashboards are a really nice interactive display of metrics. What we want to do is take those graphs from a dashboard and share them on a stati"

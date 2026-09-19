@@ -4,7 +4,6 @@ modDatetime: 2022-04-01T09:31:03Z
 title: "Telegraf"
 tags:
   - "influxdb"
-  - "Uncategorized"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
 heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "This is stupid. I'm trying to use telegraf to collect stats from postgresql. I want to use the input plugin postgresql_extensible and output the data to In"

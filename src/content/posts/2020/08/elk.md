@@ -3,7 +3,8 @@ pubDatetime: 2020-08-19T16:40:11Z
 title: "ELK"
 draft: true
 tags:
-  - "Uncategorized"
+  - "Docker"
+  - "elk"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
 heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "Elastic Search, Logstash and Kibana - and filebeats. We have a relatively old build and it's not something I've ever looked at until today. I put together"

@@ -3,7 +3,9 @@ pubDatetime: 2021-03-18T17:29:29Z
 title: "Real World Traefik Containers"
 draft: true
 tags:
-  - "Uncategorized"
+  - "Docker"
+  - "traefik"
+  - "swarm"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
 heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
 description: "After starting out with Traefik Swarm and portainer I started looking to migrate a typical business container set into it. The application service has a fe"

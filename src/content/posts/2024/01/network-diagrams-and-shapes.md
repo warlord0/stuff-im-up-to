@@ -3,7 +3,8 @@ pubDatetime: 2024-01-19T09:33:44Z
 modDatetime: 2024-01-22T22:28:38Z
 title: "Network Diagrams and Shapes"
 tags:
-  - "Uncategorized"
+  - "office 365"
+  - "diagrams"
 heroImage: "/blog-media/2024/01/drawing4.webp"
 heroThumb: "/blog-media/2024/01/drawing4-thumb.webp"
 description: "In the world of Office 365 I find myself using a crippled version of Visio. Any shapes I want are part of an upgrade package, so that's not going to happen"
