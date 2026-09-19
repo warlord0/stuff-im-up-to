@@ -4,8 +4,8 @@ modDatetime: 2021-08-25T12:47:59Z
 title: "Random Time in a Cron Job"
 tags:
   - "Linux"
-heroImage: "/blog-media/2020/02/tux-1.webp"
-heroThumb: "/blog-media/2020/02/tux-1-thumb.webp"
+heroImage: "/blog-media/2020/02/tux.webp"
+heroThumb: "/blog-media/2020/02/tux-thumb.webp"
 description: "I wanted to trigger a cron that ran a task between a certain window, but wanted it to run at a random time to minimize clashes with other systems. This is"
 ---
 I wanted to trigger a cron that ran a task between a certain window, but wanted it to run at a random time to minimize clashes with other systems.
