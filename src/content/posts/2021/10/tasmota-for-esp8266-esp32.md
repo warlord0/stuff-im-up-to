@@ -10,7 +10,7 @@ tags:
   - "Linux"
   - "Privateer"
 heroImage: "/blog-media/2021/10/espressif.webp"
-heroThumb: "/blog-media/2021/10/espressif-thumb.webp"
+heroThumb: "/blog-media/2021/10/esp-thumb.webp"
 description: "Wow, what an incredible find this was! I'd been writing Arduino code for the esp8226/32 to match an electronics exercise I have been set. I was grabbing li"
 ---
 Wow, what an incredible find this was!
