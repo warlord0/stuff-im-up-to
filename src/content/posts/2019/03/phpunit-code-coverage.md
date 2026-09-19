@@ -6,8 +6,8 @@ tags:
   - "Linux"
   - "php"
   - "Windows"
-heroImage: "/blog-media/2016/09/elephpant_-_mascot_php.webp"
-heroThumb: "/blog-media/2016/09/elephpant_-_mascot_php-thumb.webp"
+heroImage: "/blog-media/2016/09/php-elephant.webp"
+heroThumb: "/blog-media/2016/09/php-elephant-thumb.webp"
 description: "The more development time we spend on the corporate Laravel app the more mature the code becomes and the more our development practices evolve. One of the"
 ---
 The more development time we spend on the corporate Laravel app the more mature the code becomes and the more our development practices evolve.
