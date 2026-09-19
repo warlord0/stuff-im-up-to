@@ -7,7 +7,7 @@ tags:
   - "influxdb"
   - "Linux"
 heroImage: "/blog-media/2020/09/grafana-2.webp"
-heroThumb: "/blog-media/2020/09/grafana-2-thumb.webp"
+heroThumb: "/blog-media/2020/09/grafana-influx-fit-thumb.webp"
 description: "Previously, we used InfluxDB v1 - now we're rolling out InfluxDB v2.1. Building the Container Set We're going to use glances, influxdb and grafana. version"
 ---
 Previously, we used [InfluxDB v1](/posts/performance-monitoring/) - now we're rolling out InfluxDB v2.1.
