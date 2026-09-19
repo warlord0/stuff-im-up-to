@@ -7,7 +7,7 @@ tags:
   - "postgis"
   - "postgresql"
 heroImage: "/blog-media/2019/03/logo-postgis-1.webp"
-heroThumb: "/blog-media/2019/03/logo-postgis-1-thumb.webp"
+heroThumb: "/blog-media/2018/02/postgresql-thumb.webp"
 description: "I started to do some work on how efficient the spacial SQL queries I was using are. That meant looking at the indexing that is used on the geometry column"
 ---
 I started to do some work on how efficient the spacial SQL queries I was using are. That meant looking at the indexing that is used on the geometry column and understanding the functions I used a bit more.
