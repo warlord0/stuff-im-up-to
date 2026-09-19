@@ -7,7 +7,7 @@ tags:
   - "Networking"
   - "Link"
 heroImage: "/blog-media/2017/03/extreme.webp"
-heroThumb: "/blog-media/2017/03/extreme-thumb.webp"
+heroThumb: "/blog-media/2017/03/extreme-mark-thumb.webp"
 description: "Configuring EXOS for MLAG and VRRP (active/active) http://www.extremenetworks.guru/exos-mlag-vrrp/"
 ---
 Configuring EXOS for MLAG and VRRP (active/active) http://www.extremenetworks.guru/exos-mlag-vrrp/
