@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "Virtualisation"
 heroImage: "/blog-media/2023/07/kubernetes.webp"
-heroThumb: "/blog-media/2023/07/kubernetes-thumb.webp"
+heroThumb: "/blog-media/2023/07/kubernetes-icon-thumb.webp"
 description: "This week I have been dabbling in the dark arts that are Kubernetes. I read the Kubernetes getting started guide for learning it with minikube, and thought"
 ---
 This week I have been dabbling in the dark arts that are Kubernetes.
