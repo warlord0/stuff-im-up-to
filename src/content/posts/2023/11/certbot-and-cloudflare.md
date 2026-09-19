@@ -7,7 +7,7 @@ tags:
   - "Networking"
   - "Web"
 heroImage: "/blog-media/2021/01/ssl.webp"
-heroThumb: "/blog-media/2021/01/ssl-thumb.webp"
+heroThumb: "/blog-media/2021/01/ssl-lock-thumb.webp"
 description: "I decided to move my DNS servers onto Cloudflare so that I could use certbot and DNS updates, rather than a web root. This is something I prefer to do to a"
 ---
 I decided to move my DNS servers onto Cloudflare so that I could use certbot and DNS updates, rather than a web root. This is something I prefer to do to allow me to use externally generated certificates on an internal network, without publishing the DNS records to the outside world.

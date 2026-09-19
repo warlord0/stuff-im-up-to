@@ -6,7 +6,7 @@ tags:
   - "Security"
   - "Web"
 heroImage: "/blog-media/2021/01/ssl.webp"
-heroThumb: "/blog-media/2021/01/ssl-thumb.webp"
+heroThumb: "/blog-media/2021/01/ssl-lock-thumb.webp"
 description: "I don't tend to open port 80 to the outside world on my home system. I have no need of an unsecured, unencrypted web service. For this reason, getting a ce"
 ---
 I don't tend to open port 80 to the outside world on my home system. I have no need of an unsecured, unencrypted web service. For this reason, getting a certificate from certbot, when I don't have access to update DNS, means using the ACME web server to validate certificate requests.
