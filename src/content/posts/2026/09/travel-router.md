@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Openwrt"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
-heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
+heroThumb: "/blog-media/2021/06/openwrt-plate-thumb.webp"
 description: "Building a Travel Router That Doesn't Ruin Movie Night The problem This whole project exists because of one specific holiday. The accommodation's Wi-Fi died completely, for two full days. No terrestrial TV either. Two days of genuinely nothing, in the evenings, on holiday. I count it as a personal engineering achievement that I survived those…"
 ---
 ## Building a Travel Router That Doesn’t Ruin Movie Night
