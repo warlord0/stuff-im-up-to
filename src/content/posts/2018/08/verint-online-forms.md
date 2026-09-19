@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "Web"
 heroImage: "/blog-media/2018/08/lagan_logo.webp"
-heroThumb: "/blog-media/2018/08/lagan_logo-thumb.webp"
+heroThumb: "/blog-media/2018/08/lagan-plate-thumb.webp"
 description: "We're new to this and trying to integrate a form solution with our Lagan CRM system. We have a corporately installed test and production system for forms,"
 ---
 We're new to this and trying to integrate a form solution with our Lagan CRM system. We have a corporately installed test and production system for forms, but it get frequent usage by many non-IT related staff, so I thought about deploying our own dev system. The forms products are pretty much Jetty programs with a database requirement. Looking at the config files for the initial deployment package they are looking for either H2, Oracle or MSSQL. That means our only real dev option is H2.
