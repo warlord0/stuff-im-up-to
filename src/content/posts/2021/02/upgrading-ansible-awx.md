@@ -8,7 +8,7 @@ tags:
   - "Linux"
   - "Virtualisation"
 heroImage: "/blog-media/2021/02/awx_logo.webp"
-heroThumb: "/blog-media/2021/02/awx_logo-thumb.webp"
+heroThumb: "/blog-media/2021/02/awx-plate-thumb.webp"
 description: "What a frustrating exercise to get to do something so simple! I'm running Ansible AWX 14.1.0 as a local docker install. The installation did all the hard w"
 ---
 **What a frustrating exercise to get to do something so simple!**
