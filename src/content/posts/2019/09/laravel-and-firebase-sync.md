@@ -7,7 +7,7 @@ tags:
   - "Laravel"
   - "Web"
 heroImage: "/blog-media/2019/09/firebase.webp"
-heroThumb: "/blog-media/2019/09/firebase-thumb.webp"
+heroThumb: "/blog-media/2019/09/firebase-icon-thumb.webp"
 description: "Today I've been working on an idea I've had for a while now. Sometimes you want your internal data exposed to the outside world, but don't really want to o"
 ---
 Today I've been working on an idea I've had for a while now. Sometimes you want your internal data exposed to the outside world, but don't really want to open any firewall rules or create a reverse proxy etc.
