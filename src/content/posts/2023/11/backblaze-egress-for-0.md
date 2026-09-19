@@ -5,7 +5,7 @@ tags:
   - "backup"
   - "Linux"
 heroImage: "/blog-media/2022/08/backblaze.webp"
-heroThumb: "/blog-media/2022/08/backblaze-thumb.webp"
+heroThumb: "/blog-media/2022/08/backblaze-logo-thumb.webp"
 description: "Backblaze has a bandwidth alliance with Cloudflare. Leveraging this means you can restore private backup content via Cloudflare, and not pay anything to Ba"
 ---
 Backblaze has a bandwidth alliance with Cloudflare. Leveraging this means you can restore private backup content via Cloudflare, and not pay anything to Backblaze in egress charges!

@@ -6,7 +6,7 @@ tags:
   - "backup"
   - "Linux"
 heroImage: "/blog-media/2022/08/backblaze.webp"
-heroThumb: "/blog-media/2022/08/backblaze-thumb.webp"
+heroThumb: "/blog-media/2022/08/backblaze-logo-thumb.webp"
 description: "Setting up restic as per the instructions on Backblaze didn't work exactly as planned. The environment variables needed to be changed from B2_ACCOUNT_ID an"
 ---
 Setting up restic as per the [instructions on Backblaze](https://help.backblaze.com/hc/en-us/articles/4403944998811) didn't work exactly as planned.
