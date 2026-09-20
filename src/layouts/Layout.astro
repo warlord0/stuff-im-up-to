@@ -3,6 +3,7 @@ import { ClientRouter } from "astro:transitions";
 import { getRelativeLocaleUrl } from "astro:i18n";
 import { resolveDefaultOgImagePath } from "@/utils/resolveDefaultOgImagePath";
 import { getAssetPath } from "@/utils/withBase";
+import { cleanMetaDescription } from "@/utils/cleanMetaDescription";
 import config from "@/config";
 import "@/styles/global.css";
 
@@ -11,6 +12,7 @@ type Props = {
   description?: string;
   ogImage?: string;
   canonicalURL?: string;
+  ogType?: "website" | "article";
 };
 
 const { site } = config;
@@ -20,9 +22,23 @@ const {
   description = site.description,
   ogImage = resolveDefaultOgImagePath(config),
   canonicalURL = new URL(Astro.url.pathname, Astro.site).href,
+  ogType = "website",
 } = Astro.props;
 
+const metaDescription = cleanMetaDescription(description);
+
 const socialImageURL = new URL(ogImage, Astro.site ?? Astro.url);
+// Every social image on this site (generated or the default) is 1200x630.
+// Declaring that lets link previews (WhatsApp especially) choose the large
+// image layout without having to download and measure the file first.
+const socialImagePath = socialImageURL.pathname.toLowerCase();
+const socialImageType = socialImagePath.endsWith(".png")
+  ? "image/png"
+  : socialImagePath.endsWith(".webp")
+    ? "image/webp"
+    : /\.jpe?g$/.test(socialImagePath)
+      ? "image/jpeg"
+      : undefined;
 // getRelativeLocaleUrl() appends a trailing slash, which is right for pages but
 // wrong for the feed: rss.xml is a file, and /rss.xml/ is a 404.
 const rssHref = getRelativeLocaleUrl(
@@ -40,9 +56,43 @@ const rssHref = getRelativeLocaleUrl(
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--
+      Link-preview tags come first, ahead of icons, fonts and the noscript
+      fallback. Crawlers such as WhatsApp's read only the start of the document
+      and are much less forgiving than a browser, so keep everything they need
+      near the top.
+    -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={metaDescription} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={site.title} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={socialImageURL} />
+    {
+      socialImageType && (
+        <meta property="og:image:type" content={socialImageType} />
+      )
+    }
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
+
+    <!-- Twitter / X -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={metaDescription} />
+    <meta property="twitter:image" content={socialImageURL} />
+
     <link rel="icon" type="image/svg+xml" href={getAssetPath("favicon.svg")} />
     <link rel="icon" href={getAssetPath("favicon.ico")} />
-    <link rel="canonical" href={canonicalURL} />
     <meta name="generator" content={Astro.generator} />
 
     <!-- Fonts: loaded non-render-blocking (preload, then swap to stylesheet on load) -->
@@ -66,27 +116,8 @@ const rssHref = getRelativeLocaleUrl(
       />
     </noscript>
 
-    <!-- Primary meta -->
-    <title>{title}</title>
-    <meta name="title" content={title} />
-    <meta name="description" content={description} />
     <meta name="author" content={site.author} />
     <link rel="sitemap" href={getAssetPath("sitemap-index.xml")} />
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={site.title} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonicalURL} />
-    <meta property="og:image" content={socialImageURL} />
-
-    <!-- Twitter / X -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
 
     <!-- RSS autodiscovery -->
     <link
