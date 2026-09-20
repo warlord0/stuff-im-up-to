@@ -23,10 +23,12 @@ const {
 } = Astro.props;
 
 const socialImageURL = new URL(ogImage, Astro.site ?? Astro.url);
+// getRelativeLocaleUrl() appends a trailing slash, which is right for pages but
+// wrong for the feed: rss.xml is a file, and /rss.xml/ is a 404.
 const rssHref = getRelativeLocaleUrl(
   Astro.currentLocale ?? config.site.lang,
   "rss.xml"
-);
+).replace(/\/$/, "");
 ---
 
 <!doctype html>

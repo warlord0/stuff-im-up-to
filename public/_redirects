@@ -1,0 +1,4 @@
+# Cloudflare Pages redirects.
+# Earlier builds advertised the feed as /rss.xml/ (with a trailing slash), so
+# feed readers that saved that address still need to reach the real feed.
+/rss.xml/  /rss.xml  301

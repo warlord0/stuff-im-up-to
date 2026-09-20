@@ -1,7 +1,13 @@
 import type { ResolvedAstroPaperConfig } from "@/types/config";
 import { getAssetPath } from "./withBase";
 
-const publicFiles = import.meta.glob("/public/*", { eager: false });
+// Only images can be an OG image, so glob just those. A bare "/public/*" also
+// pulls in non-image files such as Cloudflare's `_redirects`, which the bundler
+// then tries (and fails) to parse as a JavaScript module.
+const publicFiles = import.meta.glob(
+  "/public/*.{jpg,jpeg,png,webp,avif,gif,svg}",
+  { eager: false }
+);
 
 function existsInPublic(filename: string): boolean {
   return `/public/${filename}` in publicFiles;
