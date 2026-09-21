@@ -4,6 +4,7 @@ modDatetime: 2021-10-13T15:47:01Z
 title: "Scorpion Lite - ESP8266"
 tags:
   - "electronics"
+  - "esp8266"
   - "iot"
   - "Privateer"
   - "Web"

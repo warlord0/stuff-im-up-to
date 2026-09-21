@@ -2,6 +2,7 @@
 pubDatetime: 2021-11-03T13:42:36Z
 title: "Project Gatekeeper, Part 4"
 tags:
+  - "gatekeeper"
   - "ldap"
   - "Linux"
 heroImage: "/blog-media/2020/06/openldap.webp"

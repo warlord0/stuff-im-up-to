@@ -4,6 +4,7 @@ modDatetime: 2019-03-28T20:14:42Z
 title: "ESPAsyncWebServer"
 tags:
   - "arduino"
+  - "esp8266"
   - "Privateer"
   - "Web"
 heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"

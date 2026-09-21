@@ -4,6 +4,8 @@ modDatetime: 2021-10-30T13:57:23Z
 title: "Project Gatekeeper, Part 3"
 tags:
   - "electronics"
+  - "esp8266"
+  - "gatekeeper"
   - "python"
 heroImage: "/blog-media/2021/01/python.webp"
 heroThumb: "/blog-media/2021/01/python-thumb.webp"

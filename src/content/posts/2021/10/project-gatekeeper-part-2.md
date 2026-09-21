@@ -5,6 +5,7 @@ title: "Project Gatekeeper, Part 2"
 tags:
   - "electronics"
   - "esp8266"
+  - "gatekeeper"
   - "Linux"
 heroImage: "/blog-media/2021/10/mosquitto.webp"
 heroThumb: "/blog-media/2021/10/esp-thumb.webp"

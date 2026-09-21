@@ -5,6 +5,7 @@ title: "LilyGO TTGO ESP32 Dev Board (T-Internet-POE)"
 tags:
   - "electronics"
   - "esp32"
+  - "gatekeeper"
   - "tasmota"
 heroImage: "/blog-media/2022/01/lilygo_t-internet-poe_v1.2.webp"
 heroThumb: "/blog-media/2022/01/lilygo_t-internet-poe_v1.2-thumb.webp"
