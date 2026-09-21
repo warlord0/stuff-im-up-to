@@ -8,8 +8,8 @@ tags:
   - "Linux"
   - "Virtualisation"
   - "Nfs"
-heroImage: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico.webp"
-heroThumb: "/blog-media/2016/09/logo_debian_orange_by_monkeymagico-thumb.webp"
+heroImage: "/blog-media/2026/09/nfs-hang-header.webp"
+heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "I've been struggling with a docker container that accesses my NAS using NFS mounts, it hangs and refusing to restart on demand. Turns out it's related to NFS mounts. I've been struggling to kill the process as it just sits there as a zombie. Symptoms ps aux command hangs and never completes Process stuck in…"
 ---
 I’ve been struggling with a docker container that accesses my NAS using NFS mounts, it hangs and refusing to restart on demand. Turns out it’s related to NFS mounts. I’ve been struggling to kill the process as it just sits there as a zombie.
