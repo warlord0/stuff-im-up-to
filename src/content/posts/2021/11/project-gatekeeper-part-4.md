@@ -9,6 +9,10 @@ heroImage: "/blog-media/2020/06/openldap.webp"
 heroThumb: "/blog-media/2021/10/esp-thumb.webp"
 description: "This section focusses on the optional configuration of a custom schema for LDAP. It's completely optional, as you can use ready-made LDAP attributes to sto"
 ---
+
+**Project Gatekeeper · Part 4 of 4**\
+[← Part 3: the Python controller](/posts/project-gatekeeper-part-3/) · [Back to the start: Part 1 →](/posts/esp8266-real-world-project/)
+
 This section focusses on the optional configuration of a custom schema for LDAP. It's completely optional, as you can use ready-made LDAP attributes to store data.
 
 > **Why would we do this?**
@@ -97,3 +101,8 @@ ldapadd -H ldapi:// -Y EXTERNAL -D cn=config -f accessperson.schema
 To add the attributes you first need to add the `objectClass` `extensibleObject` to the person. Then you can add the access attributes without error.
 
 *The accessPin attribute is numeric only*
+
+---
+
+**Project Gatekeeper · Part 4 of 4**\
+[← Part 3: the Python controller](/posts/project-gatekeeper-part-3/) · [Back to the start: Part 1 →](/posts/esp8266-real-world-project/)

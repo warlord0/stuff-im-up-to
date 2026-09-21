@@ -10,6 +10,10 @@ heroImage: "/blog-media/2021/10/gate.webp"
 heroThumb: "/blog-media/2021/10/gate-thumb.webp"
 description: "Gatekeeper, Part 1 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is"
 ---
+
+**Project Gatekeeper · Part 1 of 4**\
+[Part 2: Raspberry Pi and MQTT →](/posts/project-gatekeeper-part-2/)
+
 ## Gatekeeper, Part 1
 
 This week, I've been working on an Open-Source electronics project. I've never really been successful with electronics, my soldering is sub-par, and it seems easy to release the genie in the form of blue smoke.
@@ -153,3 +157,8 @@ I'll write the rest of this up in a later article.
 [ESP8266 Pinout Reference: Which GPIO pins should you use?](https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/)
 
 [https://tasmota.github.io/docs/](https://tasmota.github.io/docs/)
+
+---
+
+**Project Gatekeeper · Part 1 of 4**\
+[Part 2: Raspberry Pi and MQTT →](/posts/project-gatekeeper-part-2/)

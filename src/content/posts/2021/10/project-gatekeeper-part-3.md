@@ -11,6 +11,10 @@ heroImage: "/blog-media/2021/01/python.webp"
 heroThumb: "/blog-media/2021/01/python-thumb.webp"
 description: "This article covers the python programming used to control the gates. At this stage I'll post some snippets and ideas on why and how I do things this way,"
 ---
+
+**Project Gatekeeper · Part 3 of 4**\
+[← Part 2: Raspberry Pi and MQTT](/posts/project-gatekeeper-part-2/) · [Part 4: the LDAP schema →](/posts/project-gatekeeper-part-4/)
+
 This article covers the python programming used to control the gates. At this stage I'll post some snippets and ideas on why and how I do things this way, eventually I'll probably post the whole code to a public github repository, so you can access it all.
 
 ## Why Python?
@@ -215,3 +219,8 @@ Using LWT like this means I just have to flash a gate with Tasmota and as soon a
 [ESP8266 Real-World Project](/posts/esp8266-real-world-project/) - Project Gatekeeper, Part 1
 
 [Project Gatekeeper, Part 2](/posts/project-gatekeeper-part-2/)
+
+---
+
+**Project Gatekeeper · Part 3 of 4**\
+[← Part 2: Raspberry Pi and MQTT](/posts/project-gatekeeper-part-2/) · [Part 4: the LDAP schema →](/posts/project-gatekeeper-part-4/)

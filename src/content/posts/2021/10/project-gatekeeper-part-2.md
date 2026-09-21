@@ -11,6 +11,10 @@ heroImage: "/blog-media/2021/10/mosquitto.webp"
 heroThumb: "/blog-media/2021/10/esp-thumb.webp"
 description: "Following on from ESP8266 Real-World Project where I explained the electronics side of the project, this article continues to cover the other aspects of th"
 ---
+
+**Project Gatekeeper · Part 2 of 4**\
+[← Part 1: the electronics](/posts/esp8266-real-world-project/) · [Part 3: the Python controller →](/posts/project-gatekeeper-part-3/)
+
 Following on from [ESP8266 Real-World Project](/posts/esp8266-real-world-project/) where I explained the electronics side of the project, this article continues to cover the other aspects of the setup, this focusses on MQTT on the Raspberry Pi.
 
 I happened to have a few Raspberry Pi's lying around and repurposed one to handle the authentication side of the Gatekeeper. It's not going to be overly stressed by operating a few doors and should be well up to the task.
@@ -187,3 +191,8 @@ If you can't resolve the name from your other systems, it's probably because you
 [ESP8266 Real-World Project](/posts/esp8266-real-world-project/)
 
 [Project Gatekeeper, Part 3](/posts/project-gatekeeper-part-3/)
+
+---
+
+**Project Gatekeeper · Part 2 of 4**\
+[← Part 1: the electronics](/posts/esp8266-real-world-project/) · [Part 3: the Python controller →](/posts/project-gatekeeper-part-3/)
