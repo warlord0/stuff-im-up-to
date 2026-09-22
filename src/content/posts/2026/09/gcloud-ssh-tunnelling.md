@@ -91,3 +91,5 @@ gcloud projects add-iam-policy-binding my-project-123456 \
 [Using IAP for TCP forwarding](https://cloud.google.com/iap/docs/using-tcp-forwarding)
 
 [Managing access to IAP-secured resources](https://cloud.google.com/iap/docs/managing-access)
+
+See also: [AWS SSH using SSM](/posts/aws-ssh-using-ssm/)
