@@ -94,4 +94,4 @@ gcloud projects add-iam-policy-binding my-project-123456 \
 
 [Managing access to IAP-secured resources](https://cloud.google.com/iap/docs/managing-access)
 
-See also: [AWS SSH using SSM](/posts/aws-ssh-using-ssm/)
+See also: [AWS SSH using SSM](/posts/aws-ssh-using-ssm/), [How to Connect to GCP MySQL Using Cloud SQL Proxy](/posts/gcp-mysql-cloud-sql-proxy/)
