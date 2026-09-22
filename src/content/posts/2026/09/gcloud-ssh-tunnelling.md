@@ -39,6 +39,8 @@ Host my-instance
     ProxyCommand gcloud compute ssh %h --tunnel-through-iap --zone=us-east4-b --project=my-project-123456 -- -W %h:%p
 ```
 
+Once this is in `~/.ssh/config`, `my-instance` behaves like any other SSH host as far as the rest of your tooling is concerned - the `ProxyCommand` just handles getting the connection there. That means `ssh my-instance` works on its own, and so does everything built on top of SSH: `scp` and `rsync -e ssh` to copy files, `-L`/`-R` port forwards, `-D` for a SOCKS proxy, and Git or Ansible pointed at the host by name.
+
 Using these methods, we are able to close the public internet port 22, whilst still being able to access SSH securely.
 
 ## Troubleshooting
