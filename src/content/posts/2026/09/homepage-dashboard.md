@@ -16,6 +16,10 @@ I used [Homarr](https://homarr.dev) for a while as the dashboard in front of my 
 
 The trade-off going in is that Homepage takes a lot more setting up than Homarr. Homarr is configured through its own web UI - add a tile, point it at a service, done. Homepage has no UI for any of that. Everything - the services it shows, the bookmarks, the widgets, even the layout - lives in a handful of YAML files that you edit directly and the container picks up.
 
+Here's what it actually looks like once it's all wired up:
+
+![](/blog-media/2026/09/homepage-dashboard-screenshot.webp)
+
 ## Running It
 
 Here's the compose file I run it with:
