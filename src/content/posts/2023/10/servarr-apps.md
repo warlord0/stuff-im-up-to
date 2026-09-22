@@ -112,9 +112,7 @@ networks:
 
 Bundled in there is [SabNZBD](https://sabnzbd.org) to do the downloading for me. It downloads to an NFS share that is on my Synology NAS box, and then they can be played using [OSMC](https://osmc.tv) and [Kodi](https://kodi.tv) from my [Vero](https://osmc.tv/vero/) 4k (soon to be Vero V).
 
-Altogether it's a very tidy setup. To add more features to this setup, I found [Homarr](https://homarr.dev), it's a dashboard that integrates with the Servarr apps and presents me with a single simple view to launch, and monitor the apps from a convenient home page.
-
-![](/blog-media/2023/10/homarr.webp)
+Altogether it's a very tidy setup. To add more features to this setup, I first tried [Homarr](https://homarr.dev), a dashboard that integrates with the Servarr apps and presents a single view to launch and monitor them from a convenient home page. It kept failing on me though, so I moved to [Homepage](/posts/homepage-dashboard/) instead, which does the same job and has been solid ever since.
 
 I have it connected up to my [AdGuard](https://adguard.com/en/welcome.html), and everything is now reverse-proxied through [Caddy](/posts/caddy-in-production/) on blackpearl, the Docker host all of this runs on. I've since moved away from Nginx Proxy Manager entirely — one less web UI to maintain, and the Caddyfile sits in version control right alongside the compose files for these apps.
 
