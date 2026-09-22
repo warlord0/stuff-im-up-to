@@ -35,7 +35,7 @@ services:
     - --providers.docker.exposedbydefault=false
     - --entryPoints.web.address=:80
     - --entrypoints.websecure.address=:443
-    - --certificatesresolvers.acmeresolver.acme.email=paul.bargewell@whalesanctuary.co.uk
+    - --certificatesresolvers.acmeresolver.acme.email=myuser@mydomain.com
     - --certificatesresolvers.acmeresolver.acme.httpchallenge.entrypoint=web
     - --certificatesresolvers.acmeresolver.acme.storage=/etc/traefik/acme/acme.json
     - --certificatesresolvers.acmeresolver.acme.caserver=https://acme-staging-v02.api.letsencrypt.org/directory

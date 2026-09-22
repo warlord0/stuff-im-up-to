@@ -27,7 +27,7 @@ The two stage build compiles Asterisk from source and then copies the compiled a
 ```
 FROM debian:buster-slim as builder
 
-LABEL maintainer="paul.bargewell@opusvl.com"
+LABEL maintainer="myuser@mydomain.com"
 
 COPY ${PWD}/make.sh /
 
