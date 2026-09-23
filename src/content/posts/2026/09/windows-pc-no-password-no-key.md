@@ -115,7 +115,7 @@ cat CurrentBuild
 q
 ```
 
-That turned up **Windows 10 Home, 20H2** on the older drive, and, after doing the same for the other one, **Windows 11 Pro, 23H2** on the drive with `Windows.old` - confirming it as the live, current install. The edition matters for a reinstall: Windows won't reactivate a Home licence against a Pro installation or vice versa, so whichever edition is already there is the one to put back.
+That turned up **Windows 10 Home, 20H2, build 19042** on the older drive - three fields that all agree with each other, genuinely Windows 10. The other drive, the one with `Windows.old`, was less trustworthy: `ProductName` also said "Windows 10 Pro", but `DisplayVersion` said `23H2` and `CurrentBuild` said `22631` - a real Windows 11 23H2 build, since Windows 10 never went past 22H2. `ProductName` doesn't always get rewritten correctly when a Windows 10 install is upgraded in place to 11, so treat it as unreliable once you've already caught it being wrong about the major version - the "Pro" half of the same string is no more trustworthy than the "10" half. The edition matters for a reinstall, since Windows won't reactivate a Home licence against a Pro installation or vice versa, so it's worth being sceptical of a reading like this rather than taking it at face value.
 
 ## Clearing a Forgotten Local Account Password
 
@@ -200,7 +200,9 @@ Once you can actually boot into Windows, the real answer is in Settings → Syst
 slmgr /dlv
 ```
 
-That reports the activation channel. If it comes back as a digital licence, there's no product key to go looking for - and that's fine. The practical test came when the family later sourced a replacement 1TB SSD for the machine: installing Windows 11 Pro on it (matching the edition already on the existing drive) and choosing "I don't have a product key" was enough. Once it was online, it reactivated automatically against the same motherboard, with no need for the original Microsoft account at all - the account only matters if the licence was tied to it instead of the hardware, or if you're moving it to different hardware entirely.
+That reports the activation channel. If it comes back as a digital licence, there's no product key to go looking for - and that's fine. The practical test came when the family later sourced a replacement 1TB SSD for the machine: installing Windows 11 **Home**, not Pro, and choosing "I don't have a product key" was enough. Once it was online, it activated automatically against the same motherboard, with no need for the original Microsoft account at all - the account only matters if the licence was tied to it instead of the hardware, or if you're moving it to different hardware entirely.
+
+That also confirmed which of the two offline registry readings to trust: the self-consistent Windows 10 Home reading from the older drive, not the contradictory "Windows 10 Pro" / build 22631 one from the drive with `Windows.old`. When two readings disagree and one of them is already internally inconsistent, believe the consistent one.
 
 ## References
 
