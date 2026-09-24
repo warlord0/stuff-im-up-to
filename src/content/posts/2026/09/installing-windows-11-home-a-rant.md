@@ -41,7 +41,7 @@ The workaround, as of writing, is:
 2. Type `oobe\bypassnro` and press Enter.
 3. The machine reboots back into setup, and this time a "I don't have internet" option (and, after that, "Continue with limited setup") actually appears.
 
-The catch, which is exactly the mistake I made: this has to be done **before** you connect to a network, not after. Once you've already joined a Wi-Fi network or plugged in Ethernet and clicked through, `bypassnro` doesn't hand the offline option back to you retroactively - you need to disconnect, or start the whole install over, to get another shot at it. Microsoft has also reshuffled or restricted this trick across different Windows 11 builds before, so treat it as "works today," not a permanent guarantee.
+The catch, which is exactly the mistake I made: this has to be done **before** you connect to a network at all. Setup remembers the SSID and password you gave it and reconnects automatically on the next pass through, so as far as it's concerned it's still online - the "I don't have internet" option simply never appears, `bypassnro` or not. Disconnecting Wi-Fi at that point doesn't help either, since the credentials are already cached; the only way out is to restart the whole install from scratch and run the bypass before connecting to anything. Microsoft has also reshuffled or restricted this trick across different Windows 11 builds before, so treat it as "works today," not a permanent guarantee.
 
 ## A Choice That Isn't Really One
 
