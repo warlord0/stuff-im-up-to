@@ -211,3 +211,5 @@ That also confirmed which of the two offline registry readings to trust: the sel
 [chntpw](https://pogostick.net/~pnh/ntpasswd/)
 
 [NTFS-3G](https://github.com/tuxera/ntfs-3g)
+
+See also: [Installing Windows 11 Home: A Rant](/posts/installing-windows-11-home-a-rant/)
