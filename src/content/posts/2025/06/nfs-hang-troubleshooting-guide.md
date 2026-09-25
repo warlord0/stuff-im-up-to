@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2025-06-22T12:24:31+00:00
-modDatetime: 2026-09-21T21:30:00Z
+modDatetime: 2026-09-25T18:10:00Z
 title: "NFS Hang Troubleshooting Guide"
 tags:
   - "Docker"
@@ -261,7 +261,9 @@ Nightly image updates then tripped over it: recreating a container that cannot b
 
 ### Is it the kernel?
 
-Possibly. The journal shows this stall in every boot since I moved to the 7.1 kernel series and in none of the one earlier boot it still holds. That is a short window, so it is correlation, not proof. I found several 2026 NFS write-back fixes on the [linux-nfs list](https://ratatoskr.run/linux-nfs/2026/04/16643382), but none matching this exact symptom (a thread waiting on a page with nothing in flight). I am trialling 7.2, with LTS kernels installed as the fallback, and will update this post with the result.
+**Update: no.** I moved to 7.2 to test the theory, and the stall came back three days in, after enough real traffic (a few GB written, several files imported) to say the kernel was genuinely exercised, not just idle. Same symptom, same fix. So it is not a 7.1-only regression; either it predates the version I first noticed it in, or it is not kernel-version specific at all. I found several 2026 NFS write-back fixes on the [linux-nfs list](https://ratatoskr.run/linux-nfs/2026/04/16643382), but none matching this exact symptom (a thread waiting on a page with nothing in flight). I've since switched to the 6.18 LTS series, already installed as a fallback, mainly to rule out anything specific to the current mainline branch rather than because I expect a different result. Too early to say anything about it yet; I'll update this again once it's had a proper run.
+
+The one genuine win from the kernel trial: the watchdog described above worked completely unattended through the recurrence, evidence saved, mount fixed, containers back within a minute. Whatever the underlying cause turns out to be, that part of this is now a non-event rather than a support call to myself.
 
 Two practical notes from doing that on Manjaro:
 
