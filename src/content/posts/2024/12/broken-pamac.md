@@ -6,7 +6,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "pamac"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "conflicting dependencies: - x!�9t and a ��Ch�f��Gz are in conflict"
 ---

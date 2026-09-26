@@ -4,7 +4,7 @@ title: "Manjaro Update – Sticky Bit"
 tags:
   - "Linux"
   - "Manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Fixing the Sticky Bit Error with Polkit in Manjaro If you’re using Manjaro Linux and have encountered an authentication dialog that gets stuck, displaying an error about the file /usr/lib/polkit-1/polkit-agent-helper-1, you’re not alone. This issue can impede your ability to perform updates, install software, or even manage system settings. Here’s how to troubleshoot and resolve…"
 ---

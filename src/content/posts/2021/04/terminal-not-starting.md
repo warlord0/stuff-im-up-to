@@ -4,7 +4,7 @@ title: "Terminal Not Starting"
 tags:
   - "Linux"
   - "manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "I just installed Manjaro on my laptop and found a quirk problem where the terminal won't fire up. I resorted to installing xfce-terminal to see what was do"
 ---

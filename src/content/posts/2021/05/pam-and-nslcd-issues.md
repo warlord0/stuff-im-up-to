@@ -4,7 +4,7 @@ title: "PAM and NSLCD Issues"
 tags:
   - "Linux"
   - "manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "My office PC is setup to authenticate against our LDAP server and is configured using the Arch guidance here: https://wiki.archlinux.org/title/LDAP_authent"
 ---

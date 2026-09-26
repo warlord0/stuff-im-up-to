@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "Security"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "I caused myself a few hours of frustration today. I installed a new instance of Manjaro today, and it applied some Lynis security suggestions that I didn't"
 ---

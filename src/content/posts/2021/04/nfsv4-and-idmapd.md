@@ -6,7 +6,7 @@ tags:
   - "ldap"
   - "Linux"
   - "Security"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "A simple task of installing Manjaro on my office PC turned into a running battle that burned away the day. When connecting to the NFS share for my home dri"
 ---

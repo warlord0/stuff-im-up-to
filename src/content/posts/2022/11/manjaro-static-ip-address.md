@@ -7,7 +7,7 @@ tags:
   - "Linux"
   - "manjaro"
   - "Networking"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "It surprised me today that all of my Manjaro builds are using DHCP. I needed to make one of the devices a static IP, as it delivers DHCP, and would be a cy"
 ---

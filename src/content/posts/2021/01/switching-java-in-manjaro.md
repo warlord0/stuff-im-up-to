@@ -5,7 +5,7 @@ title: "Switching Java in Manjaro"
 tags:
   - "java"
   - "Linux"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "I've a few programs that require Java and some need older version that others. I currently have openjdk 8 and 11 installed and needed to switch the default"
 ---

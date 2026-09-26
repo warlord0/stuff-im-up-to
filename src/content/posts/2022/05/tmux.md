@@ -4,7 +4,7 @@ modDatetime: 2022-05-20T07:54:53Z
 title: "tmux"
 tags:
   - "Linux"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Terminal Multiplexer, it's like screen ++ I generally use screen when running detached processes, been doing so for a long time and switching to tmux is go"
 ---

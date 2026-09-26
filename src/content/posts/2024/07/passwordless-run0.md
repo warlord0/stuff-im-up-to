@@ -4,7 +4,7 @@ title: "Passwordless run0"
 tags:
   - "Linux"
   - "sudo"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "Using sudo without a password is essential for Ansible, and also helpful for frequent sysadmin tasks. To achieve the same in run0 you need to create a polk"
 ---

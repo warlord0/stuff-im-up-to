@@ -4,7 +4,7 @@ title: "Setting rfkill state requires authentication"
 tags:
   - "Linux"
   - "manjaro"
-heroImage: "/blog-media/2021/01/manjaro_logo.webp"
+heroImage: "/blog-media/2026/09/manjaro-header.webp"
 heroThumb: "/blog-media/2021/01/manjaro-thumb.webp"
 description: "After a reboot I found I was being presented with an authentication dialog after login stating: setting rfkill state requires authentication It turns out t"
 ---
