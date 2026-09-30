@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2026-09-16T13:55:01+00:00
+modDatetime: 2026-09-30T16:56:06Z
 title: "Git and apt via SSH Reverse Tunnel"
 tags:
   - "SSH"
@@ -32,7 +33,7 @@ This works because:
 
 - An active SSH connection (or control socket) to the customer machine
 - Your local machine can reach `github.com` on port 22
-- Docker installed on your local machine (for the HTTP proxy)
+- [`uv`](https://docs.astral.sh/uv/) installed on your local machine (for the HTTP proxy) — `uvx` ships with it, nothing else to install
 - A deploy key configured on the customer machine at `/root/.ssh/github_deploy_key`
 - The customer machine's `/root/.ssh/config` contains:
 
@@ -53,20 +54,19 @@ Host github.com
 
 As well as SSH access, you'll likely need to install packages via `apt` or `pip` on the customer machine. These tools expect an **HTTP proxy** rather than a SOCKS proxy — and Python's pip in particular requires an extra dependency (`pysocks`) to use SOCKS, which creates a chicken-and-egg problem on modern systems (PEP 668 prevents pip installing system-wide packages directly).
 
-The cleanest solution is to run a lightweight HTTP proxy (**tinyproxy**) on your local machine using Docker:
+The cleanest solution is to run a lightweight HTTP proxy with [pproxy](https://github.com/qwj/python-proxy) via `uvx`, so there's no Docker daemon and nothing to install on your machine:
 
 ```bash
-docker run -d \
-  --name tinyproxy \
-  -p 8888:8888 \
-  vimagick/tinyproxy
+uvx pproxy -l http://127.0.0.1:8888 &
 ```
 
-This starts tinyproxy listening on port 8888 of your local machine, with no configuration needed. Stop and remove it when you're done:
+This starts pproxy listening on port 8888 of your local machine as a plain HTTP proxy, with no configuration file needed. `uvx` fetches it into an ephemeral environment on first run, so there's nothing left behind afterwards. Stop it when you're done:
 
 ```bash
-docker stop tinyproxy && docker rm tinyproxy
+kill %1
 ```
+
+(or bring it to the foreground with `fg` and hit Ctrl+C, if you didn't background it with `&`).
 
 ---
 
@@ -81,7 +81,7 @@ ssh -R 2222:github.com:22 -R 8888:localhost:8888 <customer-system>
 What this does:
 
 - `-R 2222:github.com:22` — forwards port `2222` on the customer machine through your local machine to `github.com:22` for git/SSH access
-- `-R 8888:localhost:8888` — forwards port `8888` on the customer machine back to tinyproxy running on your local machine, giving the customer machine outbound HTTP/HTTPS access
+- `-R 8888:localhost:8888` — forwards port `8888` on the customer machine back to the pproxy HTTP proxy running on your local machine, giving the customer machine outbound HTTP/HTTPS access
 
 Leave this terminal open for the duration of your work. The tunnels close when you exit or disconnect.
 
@@ -135,13 +135,13 @@ Or pass it per-command:
 pip install --proxy http://localhost:8888 <package>
 ```
 
-> **Why not SOCKS?** SSH tunnels create a SOCKS proxy by default (`-D` flag), but pip requires the `pysocks` package to use SOCKS. On modern systems (PEP 668), pip cannot install packages system-wide, creating a catch-22. Using an HTTP proxy via tinyproxy avoids this entirely.
+> **Why not SOCKS?** SSH tunnels create a SOCKS proxy by default (`-D` flag), but pip requires the `pysocks` package to use SOCKS. On modern systems (PEP 668), pip cannot install packages system-wide, creating a catch-22. Using an HTTP proxy via pproxy avoids this entirely.
 
 ---
 
-## Alternative: Reverse SOCKS Proxy for apt (no Docker/tinyproxy needed)
+## Alternative: Reverse SOCKS Proxy for apt (no extra process at all)
 
-Instead of running tinyproxy in Docker, `apt` can be pointed straight at a **reverse dynamic (SOCKS) forward** created by SSH itself, with no extra proxy process required on either end.
+Instead of running pproxy, `apt` can be pointed straight at a **reverse dynamic (SOCKS) forward** created by SSH itself, with no extra proxy process required on either end.
 
 ### Opening the reverse SOCKS tunnel
 
@@ -171,16 +171,16 @@ apt-get update
 apt-get install <package>
 ```
 
-### Comparison with the tinyproxy approach
+### Comparison with the pproxy approach
 
-|                              | tinyproxy (HTTP proxy)                  | reverse SOCKS (`ssh -R 1080`)                                   |
-| ---------------------------- | --------------------------------------- | --------------------------------------------------------------- |
-| Extra process required       | Yes — Docker container on local machine | No — built into the SSH tunnel                                  |
-| Works for pip out of the box | Yes                                     | No — still needs `pysocks`, same PEP 668 issue as `-D`          |
-| Works for apt out of the box | Yes                                     | Yes, if apt's http/https transport was built with SOCKS support |
-| Setup complexity             | Docker + one extra `-R` forward         | Single `-R 1080` flag, one `apt.conf.d` file                    |
+|                               | pproxy (HTTP proxy)                            | reverse SOCKS (`ssh -R 1080`)                                    |
+| ----------------------------- | ----------------------------------------------- | ----------------------------------------------------------------- |
+| Extra process required        | Yes — one `uvx pproxy` process on your machine  | No — built into the SSH tunnel                                    |
+| Works for pip out of the box  | Yes                                              | No — still needs `pysocks`, same PEP 668 issue as `-D`             |
+| Works for apt out of the box  | Yes                                              | Yes, if apt's http/https transport was built with SOCKS support   |
+| Setup complexity              | One `uvx pproxy` command + one extra `-R` forward | Single `-R 1080` flag, one `apt.conf.d` file                     |
 
-In practice: use the reverse SOCKS proxy when you only need `apt` and want to avoid running Docker/tinyproxy locally; fall back to tinyproxy when you also need `pip`, or if the customer machine's apt isn't built with SOCKS support (older Debian/Ubuntu images sometimes aren't).
+In practice: use the reverse SOCKS proxy when you only need `apt` and want zero extra processes running anywhere; fall back to pproxy when you also need `pip`, or if the customer machine's apt isn't built with SOCKS support (older Debian/Ubuntu images sometimes aren't).
 
 ---
 
@@ -198,7 +198,7 @@ Expected response:
 Hi YourOrg! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-**HTTP proxy (tinyproxy):**
+**HTTP proxy (pproxy):**
 
 ```bash
 curl -x http://localhost:8888 https://pypi.org
@@ -218,10 +218,10 @@ Should return an HTTP 200 response.
 
 ## Closing the Tunnels
 
-Exit or Ctrl+C the terminal running the `ssh -R` command on your local machine. Then stop the proxy (if using tinyproxy):
+Exit or Ctrl+C the terminal running the `ssh -R` command on your local machine. Then stop pproxy (if you backgrounded it with `&`):
 
 ```bash
-docker stop tinyproxy && docker rm tinyproxy
+kill %1
 ```
 
 ---
@@ -236,7 +236,7 @@ docker stop tinyproxy && docker rm tinyproxy
 
 **pip SOCKS error (**`Missing dependencies for SOCKS support`**)** — pip is trying to use a SOCKS proxy. Make sure you're using the HTTP proxy (`http://localhost:8888`) rather than a SOCKS address, and that `pip.conf` is configured correctly inside the venv.
 
-**apt SOCKS error / falls back to direct connection** — apt's transport wasn't built with SOCKS support. Fall back to the tinyproxy HTTP proxy approach above instead.
+**apt SOCKS error / falls back to direct connection** — apt's transport wasn't built with SOCKS support. Fall back to the pproxy HTTP proxy approach above instead.
 
 **Tunnel drops during long operations** — Add keepalive options to your local SSH command:
 
