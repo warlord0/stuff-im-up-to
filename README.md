@@ -13,7 +13,8 @@ Built with [Astro](https://astro.build/) on top of the [AstroPaper](https://gith
 │   ├── favicon.svg
 │   └── default-og.jpg
 ├── scripts/
-│   └── optimize-images.mjs  # resizes/converts blog-media to WebP (see below)
+│   ├── optimize-images.mjs  # resizes/converts blog-media to WebP (see below)
+│   └── submit-indexnow.mjs  # pings IndexNow after publishing (see below)
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -42,6 +43,16 @@ node scripts/optimize-images.mjs [--dry-run]
 ```
 
 Safe to re-run any time — already-optimized images are left alone.
+
+## 🔍 IndexNow
+
+After publishing new or updated posts, ping [IndexNow](https://www.indexnow.org/) so Bing (and any other participating search engine) picks them up without waiting for a routine recrawl:
+
+```bash
+npm run indexnow
+```
+
+This fetches every URL from the live sitemap and submits it in one request. It needs the ownership key file already live at `public/<key>.txt` — see `scripts/submit-indexnow.mjs` for the key and site URL it's configured with.
 
 ## 👨🏻‍💻 Running Locally
 
