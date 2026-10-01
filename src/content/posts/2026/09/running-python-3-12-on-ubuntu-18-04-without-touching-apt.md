@@ -169,3 +169,5 @@ We tested in three steps, each closer to a real device:
 - **Reusable.** Any Python tool can use the same runtime with its own venv.
 
 It's a bit mad that the easiest way to get Python 3.12 onto an Ubuntu 18.04 box was to not ask Ubuntu at all. But it works.
+
+For the story of how this plan came together — including testing it first in Docker, then in a proper Vagrant/libvirt VM before it ever touched a real device — see [The Day Claude Code Got Creative With Legacy Python](/posts/the-day-claude-code-got-creative-with-legacy-python/).
