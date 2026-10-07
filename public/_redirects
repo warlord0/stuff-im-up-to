@@ -2,3 +2,7 @@
 # Earlier builds advertised the feed as /rss.xml/ (with a trailing slash), so
 # feed readers that saved that address still need to reach the real feed.
 /rss.xml/  /rss.xml  301
+
+# /tags/pyhon/ was indexed by Bing at some point (typo, never existed as a
+# real tag on this site) - send it to the real tag instead of leaving it 404.
+/tags/pyhon/  /tags/python/  301
