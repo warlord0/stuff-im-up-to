@@ -71,7 +71,7 @@ $ sudo -ll
 Matching Defaults entries for myuser on myhost:
     env_reset, mail_badpass,
     secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin,
-    use_pty, pwfeedback, insults, syslog=user, mailto=sysadmin@opusvl.com,
+    use_pty, pwfeedback, insults, syslog=user, mailto=sysadmin@mydomain.com,
     ignore_local_sudoers, mailsub="sudo access report from %h", pwfeedback,
     passprompt="[sudo-ldap] Password for %u on %H:", env_reset
 

@@ -167,7 +167,7 @@ From: redacted <my.user@domain.tld>
 To: "is.spam" <is.spam@domain.tld>
 Subject: [SPAM] Fwd: #1 eBook Creation Technology (OUT NOW)
 Date: Fri, 25 Feb 2022 17:21:51 +0000
-Message-Id: <f9202c7b-ad1e-6481-03e1-e586057d3c7e@opusvl.com>
+Message-Id: <f9202c7b-ad1e-6481-03e1-e586057d3c7e@domain.tld>
 X-Spam-Checker-Version: SpamAssassin 3.4.6 (2021-04-09) on debian
 X-Spam-Flag: YES
 X-Spam-Level: ******
