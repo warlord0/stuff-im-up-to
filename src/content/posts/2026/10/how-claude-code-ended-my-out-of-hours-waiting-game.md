@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2026-10-07T13:23:15Z
+modDatetime: 2026-10-08T17:48:40Z
 title: "How Claude Code Ended My Out-of-Hours Waiting Game"
 tags:
   - "ai"
@@ -44,7 +45,7 @@ Here's the daily planning step, sanitised but otherwise as it runs. It reads the
 PLAN_HORIZON = timedelta(hours=36)  # schedule anything due this soon; next day's plan catches the rest
 TIMEOUT_AFTER = timedelta(hours=3)  # give up polling a site this long past its slot
 
-def plan(events, inventory_hosts, state, now):
+def plan(events, state, now):
     for ev in events:
         uid = ev["uid"]
         entry = state.get(uid)
@@ -53,7 +54,7 @@ def plan(events, inventory_hosts, state, now):
         if ev["dtstart"] > now + PLAN_HORIZON:
             continue  # tomorrow's plan run will pick this up
 
-        host, matched = resolve_host(ev, inventory_hosts)
+        host, matched = resolve_host(ev)
         if not matched:
             state[uid] = {"status": "unmatched", "location": ev.get("location"), "ts": str(now)}
             continue
@@ -72,14 +73,14 @@ def plan(events, inventory_hosts, state, now):
 And the part that each of those transient timers actually fires into - poll until reachable or until the three-hour window closes, then run and record the outcome:
 
 ```python
-def run_one(uid, events, inventory_hosts, state):
+def run_one(uid, events, state):
     ev = next(e for e in events if e["uid"] == uid)
-    host, matched = resolve_host(ev, inventory_hosts)
+    host, matched = resolve_host(ev)
 
     deadline = ev["dtstart"] + TIMEOUT_AFTER
     while datetime.now(timezone.utc) < deadline:
         if ssh_reachable(host):
-            ok, log_path = run_playbook(host)
+            ok, log_path = run_playbook(host, ev["project"])
             state = load_state()  # reload - avoid clobbering anything plan() wrote meanwhile
             state[uid] = {
                 "status": "done" if ok else "failed",
@@ -97,6 +98,42 @@ def run_one(uid, events, inventory_hosts, state):
 ```
 
 The reload-before-write in `run_one` matters more than it looks: each transient timer is its own process, so if two ever land close together, reloading the state file right before updating it means the later one doesn't silently overwrite whatever the earlier one just recorded.
+
+## One Script, Several Projects
+
+The version above only ever handled a single project: one calendar, one inventory, one playbook, all hardcoded at the top of the file. The obvious next need was reusing it for other deployments with their own calendars, so all of that moved out into a small `deploy-watch.yml`, one entry per project:
+
+```yaml
+myproject:
+  calendar_env: DEPLOY_ICS_MYPROJECT
+  inventory: inventory-myproject.yml
+  host_prefix: mycompany-myproject-
+  playbook: playbook-device-v1.yml
+  tags: icinga2,pod
+```
+
+Each entry names an environment variable holding that project's calendar source, rather than a calendar itself. That source can still be a local `.ics` file, but it's normally a Google Calendar's own private feed - under that calendar's settings, "Integrate calendar" has a "Secret address in iCal format" entry. Google keeps that feed's contents current on its own, so the schedule `deploy-watch.yml` reads is the same one the service team already maintains, with nothing to re-export by hand.
+
+Fetching a calendar over HTTP instead of reading a static file adds a failure mode the original version didn't have: a transient network blip right as a timer fires. So each project's calendar gets cached after every successful fetch, and a failed fetch falls back to that cache rather than treating a dropped connection as "no events due":
+
+```python
+def read_ics(name, src):
+    """src is a Google "secret address in iCal format" URL, or a local path."""
+    if not src.startswith(("http://", "https://")):
+        return Path(src).expanduser().read_text()
+    cache = STATE_DIR / "calendars" / f"{name}.ics"
+    try:
+        with urllib.request.urlopen(src, timeout=30) as r:
+            text = r.read().decode()
+    except OSError as e:
+        print(f"WARN: {name} calendar fetch failed ({e}); using cache", file=sys.stderr)
+        return cache.read_text() if cache.exists() else ""
+    cache.parent.mkdir(parents=True, exist_ok=True)
+    cache.write_text(text)
+    return text
+```
+
+That secret address is exactly that: a secret. It's bearer access to the calendar's contents, so it lives in `scripts/.env` next to the Cloudflare service token, not in `deploy-watch.yml` itself - and neither file is committed anywhere.
 
 ## What Actually Changed
 
