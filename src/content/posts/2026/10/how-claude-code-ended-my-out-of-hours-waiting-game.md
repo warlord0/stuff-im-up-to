@@ -1,6 +1,6 @@
 ---
 pubDatetime: 2026-10-07T13:23:15Z
-modDatetime: 2026-10-08T17:48:40Z
+modDatetime: 2026-10-09T15:38:42Z
 title: "How Claude Code Ended My Out-of-Hours Waiting Game"
 tags:
   - "ai"
@@ -134,6 +134,64 @@ def read_ics(name, src):
 ```
 
 That secret address is exactly that: a secret. It's bearer access to the calendar's contents, so it lives in `scripts/.env` next to the Cloudflare service token, not in `deploy-watch.yml` itself - and neither file is committed anywhere.
+
+## Prestage and Tidy: More Than One Stage Per Deployment
+
+The cutover - running the playbook at the scheduled slot - isn't the whole job for every project. Some need prep work done a few days ahead of the slot, and a verification pass a week after it's landed cleanly. So the cutover gained two optional neighbours, configured per project:
+
+```yaml
+myproject:
+  calendar_env: DEPLOY_ICS_MYPROJECT
+  inventory: inventory-myproject.yml
+  host_prefix: mycompany-myproject-
+  playbook: playbook-device-v1.yml
+  tags: icinga2,pod
+  prestage:
+    tags: prep
+    before: 3d
+  tidy:
+    tags: verify
+    after: 7d
+```
+
+`prestage` runs `before` the slot, `tidy` runs `after` a *successful* cutover, each with its own Ansible tags. Each stage gets its own transient systemd timer and its own entry in the state file - the cutover keeps the bare event UID, the other two are `<uid>#prestage` and `<uid>#tidy` - so a prestage failure doesn't block the cutover, and the cutover's own state is untouched by whatever tidy does later.
+
+Prestage snaps to the slot's time of day rather than a fixed clock offset, since these are out-of-hours jobs too and a 3am prestage run is pointless if the slot itself is at 9am local time:
+
+```python
+def prestage_due(dtstart, before, now):
+    """`before` ahead of the slot, at the slot's time of day so it stays out of
+    hours. Booked (or planned) late -> the next such time still ahead; None
+    once there's no such time left before the slot."""
+    due = dtstart - before
+    while due <= now:
+        due += timedelta(days=1)
+    return due if due < dtstart else None
+```
+
+If a slot gets booked only two days out instead of the usual week or more of notice, that loop still finds the closest "3 days before, same time of day" slot that's still ahead of now, rather than scheduling prestage in the past or silently skipping it. It only returns `None` once there genuinely isn't one left before the cutover.
+
+Tidy has a different problem: by the time it's due, the calendar event that triggered the cutover may well be gone - these are one-off appointments, not recurring ones, and whoever books them has no reason to keep a finished one around. So tidy is driven from the state file's own record of when the cutover succeeded, not from the calendar at all:
+
+```python
+# Tidy-up hangs off the cutover's state record, not the calendar, so it
+# still happens after the event has been deleted.
+for key, rec in list(state.items()):
+    uid, stage = split_key(key)
+    cfg = projects.get(rec.get("project"))
+    tkey = stage_key(uid, "tidy")
+    if stage != "cutover" or rec["status"] != "done" or not cfg:
+        continue
+    if "tidy" not in cfg or settled(tkey):
+        continue
+    d = datetime.fromisoformat(rec["ts"]) + parse_duration(cfg["tidy"]["after"])
+    if d <= now + PLAN_HORIZON:
+        schedule(tkey, rec["host"], cfg, max(d, now + timedelta(minutes=1)))
+```
+
+A failed cutover never schedules a tidy at all, which is deliberate - there's nothing to verify yet, and a human needs to look at the failure first regardless.
+
+One side effect of adding a second project worth watching this way: calendar text can't say where a multi-word site name's hyphen goes - "Riverside Retail Park" slugifies to `riversideretailpark`, but the real inventory host is `...-riverside-retailpark`. Host lookup now matches on the hyphen-free form and maps back to the real name, rather than silently treating every multi-word location as unmatched.
 
 ## What Actually Changed
 
