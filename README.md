@@ -46,13 +46,19 @@ Safe to re-run any time — already-optimized images are left alone.
 
 ## 🔍 IndexNow
 
-After publishing new or updated posts, ping [IndexNow](https://www.indexnow.org/) so Bing (and any other participating search engine) picks them up without waiting for a routine recrawl:
+After publishing new or updated posts, ping [IndexNow](https://www.indexnow.org/) so Bing (and any other participating search engine) picks them up without waiting for a routine recrawl. Submit just the post(s) that changed:
+
+```bash
+npm run indexnow -- /posts/some-slug/
+```
+
+Or, with no args, submit every URL from the live sitemap in one request:
 
 ```bash
 npm run indexnow
 ```
 
-This fetches every URL from the live sitemap and submits it in one request. It needs the ownership key file already live at `public/<key>.txt` — see `scripts/submit-indexnow.mjs` for the key and site URL it's configured with.
+It needs the ownership key file already live at `public/<key>.txt` — see `scripts/submit-indexnow.mjs` for the key and site URL it's configured with.
 
 ## 👨🏻‍💻 Running Locally
 

@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 /**
- * Submits every URL in the live sitemap to IndexNow (Bing, and any other
- * participating search engine) so new or changed posts get crawled without
- * waiting for a routine recrawl.
+ * Submits URLs to IndexNow (Bing, and any other participating search engine)
+ * so new or changed posts get crawled without waiting for a routine recrawl.
  *
- * Run after publishing new posts: npm run indexnow
+ * Submit just the post(s) that actually changed:
+ *   npm run indexnow -- /posts/some-slug/ [/posts/another-slug/ ...]
+ *
+ * Or, with no args, fall back to the full live sitemap:
+ *   npm run indexnow
  *
  * Key file must already be live at /<key>.txt before this will verify -
  * see public/<key>.txt.
@@ -49,8 +52,13 @@ async function submitToIndexNow(urlList) {
   return res.status;
 }
 
-const urls = await getSitemapUrls();
-console.log(`Found ${urls.length} URLs in ${SITEMAP_URL}`);
+const argUrls = process.argv.slice(2);
+const urls = argUrls.length
+  ? argUrls.map((path) => new URL(path, SITE_URL).toString())
+  : await getSitemapUrls();
+console.log(
+  argUrls.length ? `Submitting ${urls.length} URL(s) from args` : `Found ${urls.length} URLs in ${SITEMAP_URL}`
+);
 
 const status = await submitToIndexNow(urls);
 console.log(`Submitted to IndexNow - response ${status}`);
