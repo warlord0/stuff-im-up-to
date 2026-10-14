@@ -81,6 +81,14 @@ That worked, but you can't see which input you're on without looking at the scre
 
 The LG can show a small pop-up in the corner, the kind you see when you plug in a device. Home Assistant can send one with the `notify` service for webOS. I only found it by asking whether Home Assistant could put anything on the TV screen. So each step of the chase now sends a short message with the name of the input. Messages queue, so a fast chase shows each name in turn, which I can live with.
 
+I wanted the logo of the source as well as its name, and that took far longer than the rest of the remote put together. Home Assistant's connection to the LG accepts an icon with the message and then ignores it, so every toast gets the same speech bubble. I tried embedded images at three sizes, web addresses, app IDs, system icon paths and a call to close the previous toast. The TV said yes to all of them and drew nothing different.
+
+What worked was going round the front door. LG has a Developer Mode, switched on with an app from its store, which opens an SSH shell on the TV. From there you can call the same notification service directly, and it takes a plain path to an 80 x 80 PNG stored on the TV. The first icon that appeared was the USB one, from a file in a system folder whose name has a space in it. Then I drew five of my own: Sky, Kodi, the PS5, the Chromecast and the TV's own apps. My first set had rounded corners on a transparent background, and the TV painted the corners black. Square, solid-colour icons fixed that.
+
+It comes with strings attached. Developer Mode runs out after 1,000 hours, about six weeks, and has to be extended with the TV switched on, so Home Assistant now does that itself a minute after the TV next turns on when it's due. If the shell stops working, the chase falls back to the plain text toast and nothing else breaks. Everything else about the TV goes through the normal routes. The icons are the only thing that depends on it.
+
+One more wrinkle cost me an evening. Running the command from Home Assistant reported success every time and drew nothing. The TV's command only works when SSH gives it a terminal, and without one it quietly does nothing and exits cleanly. Adding `-tt` to the SSH call fixed it. A success message that doesn't check the output is worth nothing.
+
 ## Gating it
 
 Before I touched the household's TV I added a switch. A helper called `Remote keys live` defaults to off. While it's off, every key press is only written to a text field saying what it would have sent, and nothing leaves Home Assistant. I tested the whole table against that, then switched it on for real.
