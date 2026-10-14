@@ -12,7 +12,7 @@ heroImage: "/blog-media/2026/10/ha-remote-header.webp"
 heroThumb: "/blog-media/2026/10/ha-remote-thumb.webp"
 ---
 
-In [the last post](/posts/2026/10/replacing-my-harmony-remote-with-cec-and-home-assistant/) I replaced a Logitech Harmony with Home Assistant pages on my phone. After a few days of using the app it was a genuine replacement. One thing was still keeping the Harmony on the coffee table: it's a thing you pick up without looking.
+In [the last post](/posts/replacing-my-harmony-remote-with-cec-and-home-assistant/) I replaced a Logitech Harmony with Home Assistant pages on my phone. After a few days of using the app it was a genuine replacement. One thing was still keeping the Harmony on the coffee table: it's a thing you pick up without looking.
 
 A phone isn't that. You unlock it, find the app, find the page. Anyone else in the house needs the app on their own phone first, and for some people the technology itself is a barrier. I wanted something with buttons.
 
