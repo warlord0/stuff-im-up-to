@@ -1,7 +1,6 @@
 ---
-pubDatetime: 2026-10-14T12:00:00Z
+pubDatetime: 2026-10-14T09:55:00Z
 title: "The TV Remote I Needed Was an Air Mouse"
-draft: true
 tags:
   - "home-assistant"
   - "hdmi-cec"
