@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2026-10-14T09:55:00Z
+modDatetime: 2026-10-14T11:20:00Z
 title: "The TV Remote I Needed Was an Air Mouse"
 tags:
   - "home-assistant"
@@ -37,6 +38,12 @@ Nothing fitted. Each option was either too few buttons, too much battery, or too
 Eventually the listings stopped saying "TV remote" and started saying "air mouse", "fly mouse" and "2.4GHz wireless keyboard". These are remotes made for Android TV boxes and home-theatre PCs, with a USB dongle and a small keyboard on the back.
 
 The Rii i25 has a d-pad, OK, back, volume, page up and down, media keys, mute, power, home, search and a menu key. The dongle goes in a spare USB port on the NUC. No pairing, no app. I'd been searching for a TV remote when what I needed was a keyboard that pretends to be one.
+
+![The Rii i25 air mouse, remote side up, showing the d-pad and buttons](/blog-media/2026/10/air-mouse-remote.webp)
+
+Flip it over and it's a thumb keyboard:
+
+![The Rii i25 flipped over, showing the full QWERTY keyboard on the back](/blog-media/2026/10/air-mouse-keyboard.webp)
 
 It isn't perfect. It has no red, green, yellow and blue buttons, which I'd wanted. Some keys, such as the top power key, the source key and the row beneath it, are coloured red because they're infrared only: they learn codes from another remote and send them over IR. That's no good here, since the dongle is the only thing the NUC can hear. There's also a mouse mode that turns OK and Back into mouse clicks. It's a compromise, and I knew it before I bought it.
 
