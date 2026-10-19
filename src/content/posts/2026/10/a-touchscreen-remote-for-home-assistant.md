@@ -1,5 +1,6 @@
 ---
 pubDatetime: 2026-10-16T19:00:00Z
+modDatetime: 2026-10-19T19:30:00Z
 title: "A Touchscreen Remote for Home Assistant, and I Didn't Write a Line of It"
 tags:
   - "home-assistant"
@@ -38,7 +39,7 @@ When I say "I" about the firmware, I mean Claude. This is the first project wher
 
 The board arrived around 2pm. By 7pm it was a fully working remote. Some of the groundwork was already there: I'd had a Zigbee prototype running on a spare ESP32-C6 board earlier in the week, and Claude and I had already agreed how the remote would talk to Home Assistant. Even so, the time from "it's on the desk" to "I'm changing the Sky box with it" was five hours.
 
-The numbers: ten commits, roughly 1,700 lines of C++ in a handful of files, and 170 lines of Home Assistant YAML. What I did was plug the board in, paste in what the computer reported, say what I saw, and say what I wanted different.
+The numbers for that first day: ten commits, roughly 1,700 lines of C++ in a handful of files, and 170 lines of Home Assistant YAML. (Three days on it is 44 commits and about 2,600 lines, and the page descriptions below are the current ones.) What I did was plug the board in, paste in what the computer reported, say what I saw, and say what I wanted different.
 
 ## How it fits together
 
@@ -56,13 +57,13 @@ Security was a decision I wanted to make explicitly. The connection uses TLS and
 
 ![Four of the pages: the click-wheel, the Activities tiles, the Playback keys and the number pad](/blog-media/2026/10/esp-remote-pages.webp)
 
-There are five pages, and you swipe or tap the dots to move between them.
+There are eight pages now. It started with five. You drag a thumb across any empty part of the screen and it turns a page for every 70 pixels, in either direction, without lifting. You can also tap a dot, or press the BOOT button on the side, which steps through the pages in a loop. I'd noticed we weren't using the physical buttons at all.
 
 **The click-wheel** is my favourite. There's an OK button in the middle, four wedges around it for the D-pad, and a thin outer ring. Run your thumb around the ring and it sends volume steps, one every 15 degrees, with a highlighted arc under your thumb. I asked for the ring to be thinner so my thumb fits on the D-pad.
 
 **Activities** has six tiles: Sky, Kodi, PS5, Chromecast, the TV and power off. The icons come from my Home Assistant dashboards, rendered in one colour. The activity that's really on is outlined in blue. Tap a different one and it turns amber at once, with "Starting Kodi" along the top, and stays that way until Home Assistant confirms it. That fixed something that annoyed me early on, when the screen stepped through Smart TV and Chromecast on the way to Sky because that's what the system did while it switched. Now the remote holds on to what I asked for and only shows the result.
 
-**Playback** and **Keypad** are what they sound like. A fifth page shows the device's own details: Wi-Fi, address, memory, battery.
+**Playback** and **Keypad** are what they sound like. The last page shows the device's own details: Wi-Fi, address, memory, battery. It's always there, even when everything is off.
 
 A few things came from my asking "could it…":
 
@@ -75,6 +76,29 @@ I was ready to push back on the captions on the Playback page until I saw them. 
 
 The speaker is there for battery warnings: two chirps at 20%, three lower tones at 10%, with a popup on screen as well. I also asked for an easter egg. Triple tap the device page, or hold it, and it plays a 30-second countdown clock. It lives in 970 KB of flash, so it's the first thing to go if I run short of space.
 
+### The pages that came later
+
+![Smart TV apps, the favourite Sky channels and the living-room lamps](/blog-media/2026/10/esp-remote-more-pages.webp)
+
+**Smart TV apps** is six tiles for Netflix, Prime, Disney+, iPlayer, ITVX and U. It only appears when the LG's own apps are what I'm after, because they can't be opened from another input. Tap Smart TV and the remote jumps to it.
+
+**Sky channels** is nine favourites with their logos: BBC One and Two, ITV1, Channel 4 and 5, TLC, Sky News, U&Dave and True Crime. The logos are single-colour, tinted to match the rest of the icons. Home Assistant types the channel number into the Sky box, and lights the tile for whatever the box is really showing, which it reads from the box every five seconds. That took some finding out. The Sky integration in Home Assistant can only send keys, so Claude went looking and found the box answers on two local ports: a list of channels, and a UPnP call that reports what's playing as a hex channel id. The first channel number Claude guessed for TLC turned out to be Sky Nature. I'd have missed that. It checked the box's own guide and fixed it.
+
+**Lamps** is the one I like to show people. It's the click-wheel again, with three wedges that toggle my three living-room lamps, a lightbulb in the centre that switches them all (off if any is on, otherwise on), and a warm white ring that dims or brightens whatever is lit. It's always available, since I'm as likely to want the lamps when the TV is off. Two of the lamps are Yeelight and one is Govee, and I'd named them inconsistently over the years, so I renamed them to `lamp_1` to `lamp_3` first. That was one of those jobs where Claude asked for permission twice, rightly, because it was changing my live Home Assistant registry.
+
+## Making it honest about what it's doing
+
+The first version showed a result as soon as I tapped. That's nice until the thing you asked for doesn't happen. Turning on the TV from cold with CEC takes up to two minutes, because the first wake-up command only half works and the TV needs two or three. Claude found that by turning on CEC logging on the media box and reading the frames. It's the TV, not the remote or Home Assistant, and I may try the TV's quick-start setting.
+
+So the remote now tells the truth about the wait:
+
+- A tile I tap turns amber for five seconds, then goes blue. The top bar stays amber ("Starting Kodi") until the real state arrives, so the tile says what I asked for and the bar says it isn't there yet. That stopped me stabbing at it.
+- A small tick appears once Home Assistant has taken the tap. If nothing has answered after three seconds, the bar goes red and says "No answer from HA". I tested that by switching off the automation that listens for key presses.
+- The apps and channels pages follow what I asked for, not what the TV is doing, so they appear straight away.
+- Once everything's off, the Off tile goes dim grey instead of blue, since there's nothing left for it to do.
+
+I also noticed switching between sources was slower from the remote than from Home Assistant's own page, and asked why. Claude compared the two and found my scripts were waiting a fixed time for the TV and receiver even when they were already on. It added a "warm" path that skips the waits, with the old timing kept for the cases that needed it. Kodi got about seven seconds faster.
+
 ## Where it went wrong
 
 **The pins didn't agree.** Waveshare's example code disagreed with itself. The Arduino examples and the ESP-IDF examples had the display's chip-select and the touch interrupt the other way round. Claude downloaded the schematic PDF, rendered the page and read the pin table off it. The site served an HTML page to a plain download, so it needed browser-style headers first. The schematic matched the Arduino numbers, and the board confirmed it.
@@ -82,6 +106,8 @@ The speaker is there for battery warnings: two chirps at 20%, three lower tones 
 **It didn't fit in memory.** Waveshare's example configuration left 52 KB free before Wi-Fi started, and Wi-Fi then failed to initialise. Claude trimmed it: no demo screens, a smaller graphics pool, smaller Wi-Fi and TLS buffers. It runs now with about 77 KB free and a low of 62 KB, which I know because the device page shows it. That's less headroom than I'd like.
 
 **Key presses vanished.** The remote reported sending them and Home Assistant saw nothing. A messaging-library call that looks like it queues a message quietly throws it away when you ask for the lightest delivery setting. Claude found it by rereading the library's documentation.
+
+**Switching a power rail off silenced the speaker.** While hunting for where the power goes, Claude switched off one of the power chip's rails, and the beeps I was using as markers stopped, because that rail feeds the audio chip. I'd taken the silence for a crash, and Claude had told me it was one. It wasn't, and I got the correction.
 
 **The motion sensor lied.** It returned the same reading every time. Claude dumped the chip's registers and found its own sample counter never moved. It only samples when the gyroscope is switched on as well, even if you only want acceleration.
 
@@ -93,16 +119,22 @@ You can't read a screen back from the panel itself. So Claude built a debug opti
 
 The battery warning on the right is real firmware running with the battery level faked, since there's no battery to drain. The device page on the left has the Wi-Fi name and address covered.
 
+## Power, and what the meter said
+
+I wanted to know where the 44 mA goes, so Claude built a test harness that steps through states while I read an inline USB meter: screen off, motion sensor off, Wi-Fi off, display chip asleep, light sleep. The screen costs about 8 mA and Wi-Fi about 8 mA. The motion sensor costs nothing I could see. But a floor of 28 to 31 mA stayed that nothing in the firmware explained, even with every spare power rail off. That's probably board overhead on the USB side that won't exist on a battery. We stopped, because measuring a battery's draw through the USB port is the wrong place to look.
+
+For five days on a 1,000 mAh cell the average has to be about 8 mA, so something more drastic than dimming is needed. Claude wrote that up with the options: Wi-Fi light sleep, deep sleep with the screen's touch interrupt as the only wake-up, or going back to Zigbee. It recommended trying deep sleep before Zigbee, because the saving comes from sleeping, not from the radio. I said no changes until I have a battery to test with.
+
 ## What's left
 
-The battery is the obvious one. The listing implied one was included. The schematic shows a small two-pin connector, but it labels it as a different type from the one on the store page, so I need to check that and its polarity before I buy a cell. The charging current is Waveshare's example setting, and I haven't checked it against any real battery.
+The battery is the obvious one. The listing implied one was included. I've ordered a 1,000 mAh lithium polymer cell with a protection circuit, and it arrives on Thursday. The connector is still a question: the schematic shows a small two-pin socket that the store page calls a different type, and I've already bought crimp connectors for a third. I'll check the plug fits and test the polarity with a multimeter before I connect anything. The charging current is Waveshare's example setting, and I need to match it to the cell first.
 
-I also don't know the battery life, because I haven't built proper sleep. It dims and switches the screen off, which should save most of the power, but the processor and Wi-Fi stay on. Measuring that properly needs an inline USB power meter, which I'll have to find. And I haven't tried it in the case with a battery inside.
+I also don't know the battery life. The USB figures say it's well short of the Harmony Elite's five days, until I build proper sleep. Real figures need a meter on the battery side. And I haven't tried it in the case with a battery inside.
 
-"Fully functional" means everything I use every day works: the five pages, the activities, the volume ring, the Sky box, Kodi. It doesn't mean finished.
+"Fully functional" means everything I use every day works: the eight pages, the activities, the volume ring, the Sky box, Kodi, the lamps. It doesn't mean finished, but it's close to being the thing I pick up every evening.
 
 ## On not writing any of it
 
 I've judged this code mostly by what it does, not by reading it the way I'd read my own. So I rely on what I can see: it works at the TV, a few small tests check the logic, and every commit was checked against my real passwords before it went in. Claude also wrote a design document and a security note as it went, which is more than I'd have done.
 
-The next job is finding a battery with the right plug.
+The next job is Thursday's battery, and then finding out how long it lasts.
