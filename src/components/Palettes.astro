@@ -1,0 +1,121 @@
+---
+// Static palette previews: markup is built at render time, the script only flips Dark/Light.
+const P: any[] =[
+{n:'AUREL · Gold Edition',d:'A modern, restrained gold. Gold is the accent, ~5–10% of the interface.',
+ sw:[['Obsidian','#121311'],['Surface','#1D1F1A'],['Raised','#272920'],['Champagne','#D9B66F'],['Gold light','#F0D99C'],['Text','#F3F0E5'],['Porcelain','#F5F2E9'],['Raised (light)','#EAE5D8'],['Antique gold','#987126'],['Gold accent','#B18A3E']],
+ dark:['#121311','#1D1F1A','#272920','#272920','#F3F0E5',0,'#D9B66F','#121311','#D9B66F','#F0D99C','#D9B66F'],
+ light:['#F5F2E9','#FFFFFF','#EAE5D8','#EAE5D8','#1D1F1A',0,'#987126','#FFFFFF','#987126','#B18A3E','#987126']},
+{n:'NORTHSTAR',d:'Slate blue, burnt orange, cool white. Industrial and technical.',
+ sw:[['Deep navy','#2C3E50'],['Slate blue','#34495E'],['Orange','#E67E22'],['Cool white','#ECF0F1'],['Grey','#95A5A6'],['Dark bg','#17212B'],['Dark surface','#243342']],
+ dark:['#17212B','#243342','#34495E','#34495E','#ECF0F1','#95A5A6','#E67E22','#17212B','#E67E22','#E67E22','#E67E22'],
+ light:['#ECF0F1','#FFFFFF','#ECF0F1','#95A5A6','#2C3E50','#95A5A6','#E67E22','#FFFFFF','#E67E22','#E67E22','#E67E22']},
+{n:'NEON GRID',d:'Pure neon on near-black. Cyberpunk, high contrast.',
+ sw:[['Lime','#00FF7F'],['Signal red','#FF0033'],['Cyan','#00BFFF'],['Gold','#FFCC00'],['Violet','#8A2BE2'],['Hot pink','#FF1493'],['White','#FFFFFF'],['Black','#000000']],
+ dark:['#000000','#0d0d12','#17171f','#00BFFF','#FFFFFF',0,'#00FF7F','#000000','#00FF7F','#FFCC00','#FF0033'],
+ light:['#ECF0F1','#FFFFFF','#ECF0F1','#00BFFF','#000000',0,'#8A2BE2','#FFFFFF','#00FF7F','#FFCC00','#FF0033']},
+{n:'MONOLITH',d:'Sleek and contemporary. Colour communicates meaning: teal everyday, red and amber reserved.',
+ sw:[['Deep navy','#2C3E50'],['Slate','#34495E'],['Coral red','#E74C3C'],['Cool white','#ECF0F1'],['Grey','#95A5A6'],['Teal','#1ABC9C'],['Amber','#F39C12'],['Dark bg','#17212B'],['Dark card','#243342'],['Border','#3A4C5B']],
+ dark:['#17212B','#243342','#34495E','#3A4C5B','#ECF0F1','#95A5A6','#1ABC9C','#17332F','#1ABC9C','#F39C12','#E74C3C'],
+ light:['#ECF0F1','#FFFFFF','#ECF0F1','#95A5A6','#2C3E50','#95A5A6','#1ABC9C','#17332F','#1ABC9C','#F39C12','#E74C3C']},
+{n:'FUSION',d:'Ocean blue with sun yellow, orange, cyan and a little purple.',
+ sw:[['Ocean blue','#0D3B66'],['Sun yellow','#F4D35E'],['Warm orange','#EE964B'],['Soft white','#F9F6F7'],['Amber','#F0A500'],['Royal purple','#6A0572'],['Electric cyan','#00BFFF']],
+ dark:['#071d33','#0D3B66','#124a80','#124a80','#F9F6F7',0,'#00BFFF','#071d33','#00BFFF','#F4D35E','#EE964B'],
+ light:['#F9F6F7','#FFFFFF','#eaf0f6','#eaf0f6','#0D3B66',0,'#0D3B66','#F9F6F7','#00BFFF','#F0A500','#EE964B']},
+{n:'NOCTURNE · Violet & Teal',d:'Violet-led, dark only. Near-black stays in charge.',
+ sw:[['Void','#09090F'],['Obsidian Violet','#12101D'],['Dark Amethyst','#20172F'],['Deep Teal','#102A2B'],['Patinated Teal','#48C6B4'],['Electric Lavender','#B7A0F8'],['Moonlit Silver','#E8E5F0'],['Smoky Lilac','#9B96AD']],
+ dark:['#09090F','#12101D','#20172F','#20172F','#E8E5F0','#9B96AD','#48C6B4','#09090F','#48C6B4','#B7A0F8','#B7A0F8']},
+{n:'PELAGIC · Teal & Amethyst',d:'Teal-led reworking of Nocturne. Deep-ocean character.',
+ sw:[['Abyss','#071012'],['Deep Teal','#0B1C1E'],['Ocean Slate','#102729'],['Petrol','#163638'],['Teal Glow','#55D6C2'],['Dark Amethyst','#241A35'],['Soft Orchid','#BCA4F5'],['Sea Mist','#E3F0EE'],['Silver Sage','#93AAA8']],
+ dark:['#071012','#0B1C1E','#102729','#163638','#E3F0EE','#93AAA8','#55D6C2','#071012','#55D6C2','#BCA4F5','#BCA4F5']},
+{n:'BORDEAUX · Burgundy & Mint',d:'Burgundy recedes, mint catches the eye. Dark only.',
+ sw:[['Black Cherry','#100B10'],['Bordeaux','#321522'],['Wine Velvet','#542238'],['Muted Burgundy','#98506B'],['Soft Mint','#9DE2C5'],['Pale Mint','#C4F3DC'],['Warm Ivory','#F0E9E9']],
+ dark:['#100B10','#321522','#542238','#542238','#F0E9E9',0,'#9DE2C5','#100B10','#9DE2C5','#C4F3DC','#98506B']},
+{n:'AFTERGLOW · Pink & Charcoal',d:'Pink for identity, red for urgency, cream for text.',
+ sw:[['Electric Pink','#F00078'],['Signal Red','#E62936'],['Warm Cream','#FFF1DF'],['Concrete Grey','#A3A1A6'],['Charcoal','#37323A'],['Dark bg','#151219'],['Dark surface','#211C25'],['Dark border','#39313D'],['Muted pink','#FF579F']],
+ dark:['#151219','#211C25','#39313D','#39313D','#FFF1DF','#A3A1A6','#F00078','#FFF1DF','#F00078','#FF579F','#E62936'],
+ light:['#FFF1DF','#FFFFFF','#f6e3cc','#A3A1A6','#37323A','#A3A1A6','#F00078','#FFFFFF','#F00078','#FF579F','#E62936']}
+];
+const K = ["bg", "s", "r", "bd", "t", "m", "a", "on", "ok", "warn", "bad"];
+const vars = (t: string[]) => {
+  const v: Record<string, string> = Object.fromEntries(K.map((k, i) => [k, t[i]]));
+  v.m = v.m || `color-mix(in srgb,${v.t} 60%,${v.bg})`;
+  return K.map(k => `--${k}:${v[k]}`).join(";");
+};
+const rows = [
+  ["◉", "Network", "All connections stable", "ok"],
+  ["◆", "Security", "Front door sensor open", "bad"],
+  ["◐", "Climate", "Heating on schedule", "warn"],
+];
+---
+<div class="pal not-prose">
+  {P.map((p, i) => (
+    <section data-mode="dark">
+      <div class="bar">
+        <h2 class="app-heading">{i + 1}. {p.n}</h2>
+        {p.light ? (
+          <div class="seg">
+            <button class="on" data-m="dark">Dark</button><button data-m="light">Light</button>
+          </div>
+        ) : <span class="tag">Dark only</span>}
+      </div>
+      <div class="tag">{p.d}</div>
+      {(["dark", "light"] as const).filter(m => p[m]).map(m => (
+        <div class={`ui ${m}`} style={vars(p[m])}>
+          <div>
+            <div class="eyebrow">CONTROL SYSTEM / ONLINE</div>
+            <div class="ttl">Good afternoon.</div>
+            <div class="m">Your home, at a glance.</div>
+          </div>
+          <div class="g">
+            <div class="c"><span class="m">System health</span><b>98.6%</b><div class="trk"><i></i></div></div>
+            <div class="c"><span class="m">Living room</span><b>21.5°</b><span style="color:var(--warn)">Comfortable</span></div>
+          </div>
+          <div class="c">
+            {rows.map(([ic, a, b, c]) => (
+              <div class="row">
+                <div class="ic">{ic}</div>
+                <div><div>{a}</div><div class="m">{b}</div></div>
+                <span class="dot" style={`background:var(--${c})`}></span>
+              </div>
+            ))}
+          </div>
+          <div class="btns"><span class="p">Overview</span><span class="q">Settings</span></div>
+        </div>
+      ))}
+      <div class="sw">
+        {p.sw.map(([n, h]: string[]) => <div><i style={`background:${h}`}></i>{n}<br /><code>{h}</code></div>)}
+      </div>
+    </section>
+  ))}
+</div>
+<style>
+.pal{display:grid;gap:3rem;margin:2rem 0;color:var(--foreground)}
+.tag{color:var(--muted-foreground);font-size:.85rem;margin:.1rem 0 .75rem}
+.bar{display:flex;gap:.5rem;margin-bottom:.25rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.bar h2{margin:0}
+.seg button{background:none;border:1px solid var(--border);color:var(--muted-foreground);padding:.2rem .9rem;cursor:pointer;font:inherit}
+.seg button:first-child{border-radius:99px 0 0 99px}.seg button:last-child{border-radius:0 99px 99px 0}
+.seg button.on{background:var(--accent);border-color:var(--accent);color:var(--accent-foreground)}
+section[data-mode="dark"] .light,section[data-mode="light"] .dark{display:none}
+.ui{border-radius:16px;padding:16px;display:grid;gap:12px;border:1px solid var(--bd);background:var(--bg);color:var(--t)}
+.eyebrow{font-size:11px;letter-spacing:.08em;color:var(--a)}
+.ttl{font-size:24px;font-weight:600;line-height:1.2}.m{color:var(--m)}
+.g{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.c{background:var(--s);border:1px solid var(--bd);border-radius:12px;padding:12px;display:grid;gap:6px}
+.c b{font-size:24px}.trk{height:5px;border-radius:9px;background:var(--r)}.trk i{display:block;height:100%;width:76%;border-radius:9px;background:var(--a)}
+.row{display:flex;align-items:center;gap:10px}.dot{width:8px;height:8px;border-radius:9px;margin-left:auto}
+.ic{width:36px;height:36px;border-radius:10px;background:var(--r);display:grid;place-items:center;color:var(--a)}
+.btns{display:flex;gap:8px}.btns span{flex:1;text-align:center;padding:10px;border-radius:10px;font-weight:500}
+.p{background:var(--a);color:var(--on)}.q{background:var(--s);border:1px solid var(--bd)}
+.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:8px;margin-top:12px}
+.sw div{font-size:12px}.sw i{display:block;height:40px;border-radius:8px;border:1px solid var(--border);margin-bottom:4px}.sw code{color:var(--muted-foreground)}
+</style>
+<script>
+  document.addEventListener("click", e => {
+    const b = (e.target as Element).closest<HTMLElement>("[data-m]");
+    if (!b) return;
+    const s = b.closest("section")!;
+    s.dataset.mode = b.dataset.m;
+    s.querySelectorAll("[data-m]").forEach(x => x.classList.toggle("on", x === b));
+  });
+</script>
