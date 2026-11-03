@@ -33,6 +33,16 @@ I didn't migrate my number straight away - I gave myself a week or two to actual
 
 O2's 4G in that same car park: 2Mbps. 5G: nothing, again. At home - in a city, not a field - O2 still had no 5G. spusu managed 40Mbps there, a bit short of the car park number but still working. Train stations, my known weak spot, were worse than the car park: O2 regularly failed to even complete a DNS lookup, which meant doing the signal-hunting dance at the station taxi rank trying to book an Uber home. spusu held up fine in the same spots, and I even tested it moving, on the train itself, swallowing my usual travel sickness to do it - 30Mbps while in motion, somewhere O2 had been giving me nothing for years.
 
+## The Usage Gives It Away
+
+I'd always described my own data use as light, and mostly believed it. Then I looked back at last month's O2 usage - data switched on the entire time - and found 419MB used out of a 19GB allowance, with four days still left in the billing period.
+
+![O2's data usage screen showing 419MB used of a 19.00GB allowance, with 4 days left in the 7 October to 6 November billing period](/blog-media/2026/11/o2-data.webp)
+
+A few days into testing spusu, I'd already used 1.2GB. That's not a change in how I use my phone, it's a change in whether I could.
+
+I also checked the coverage maps for both networks at my home address, and they're near enough identical - both claim good coverage all around me. On paper, O2 should be giving me exactly what spusu does. In practice, some of my spusu speed tests at home have hit 70Mbps download. Upload is weaker, around 3Mbps, but that's not what I need from a phone, and the usage I'm actually getting backs the speed tests up.
+
 ## Why spusu, of All Things
 
 spusu runs on the EE network, which gave me pause. My experience with EE's predecessors, Orange and T-Mobile, was not good, and EE is now owned by BT, which didn't exactly raise my expectations either. But at £6.90 a month for 15GB, it was a cheap enough bet. The 20GB I'd been rolling over on O2 was worthless if I couldn't get a signal to use it, and if 15GB turns out to be tight, spusu lets me add another 5GB for £2. No contract, rolling monthly.
