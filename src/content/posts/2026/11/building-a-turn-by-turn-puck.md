@@ -1,5 +1,5 @@
 ---
-pubDatetime: 2026-11-10T18:00:00Z
+pubDatetime: 2026-11-10T08:00:00Z
 title: "A Turn-by-Turn Puck: OsmAnd, Bluetooth and a Round AMOLED"
 heroImage: "/blog-media/2026/11/nav-puck-header.webp"
 heroThumb: "/blog-media/2026/11/nav-puck-thumb.webp"
