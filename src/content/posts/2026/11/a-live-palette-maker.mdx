@@ -1,0 +1,19 @@
+---
+pubDatetime: 2026-11-11T12:00:00Z
+title: "A Live Palette Maker, to Go With the Curated Ones"
+tags:
+  - "design"
+  - "colour"
+  - "tools"
+heroThumb: "/blog-media/2026/11/palette-maker-thumb.webp"
+description: "Nine named palettes are fine until none of them has the colour you actually need. This is the other half: pick one base colour and get eleven UI themes out of it, each previewed on a mock dashboard with a live WCAG contrast check."
+---
+import PaletteMaker from "@/components/PaletteMaker.astro";
+
+The [curated palettes post](/posts/colour-palettes/) is a list: nine named palettes, pick the one that fits. This is the other way round - pick one colour, and get a palette built from it.
+
+Give it a base colour and a mood (Calm, Bold, Dark, Neon, and so on) and it derives a primary, an accent, a background, a surface and a text colour from it, all in OKLCH so the lightness and chroma stay predictable across hues. The preview updates live, each swatch shows its contrast ratio against the ones it'll actually sit next to, and clicking a swatch sets it as the new base colour to riff from. Copy the result as CSS variables, or save it to come back to later. Saved palettes are stored in your browser's local storage - nothing is sent anywhere, and this site doesn't keep a copy of anything you make.
+
+<PaletteMaker />
+
+Click through the modes to see how differently the same base colour reads as Pastel versus Bold versus Dark. The maths is Björn Ottosson's OKLab/OKLCH, chosen because moving lightness or chroma doesn't drag hue along with it the way HSL does, so the recipes can say "the same hue, but darker" and mean it.
