@@ -123,7 +123,7 @@ const recipes: Record<string, (b: Oklch) => Record<string, Oklch>> = {
     primary: { L: Math.max(L, .72), C: Math.min(C, .15), h }, accent: { L: .78, C: .12, h: wrap(h + 180) },
     bg: { L: .2, C: .03, h }, surface: { L: .26, C: .035, h }, text: { L: .93, C: .015, h } }),
   Pastel: ({ L, C, h }) => ({
-    primary: { L: .7, C: Math.min(C, .1), h }, accent: { L: .85, C: .08, h: wrap(h + 40) },
+    primary: { L: Math.min(L, .5), C: Math.min(C, .1), h }, accent: { L: .85, C: .08, h: wrap(h + 40) },
     bg: { L: .98, C: .015, h }, surface: { L: .95, C: .03, h }, text: { L: .35, C: .04, h } }),
   Earthy: ({ L, C, h }) => ({
     primary: { L: Math.min(L, .5), C: Math.min(C, .1), h }, accent: { L: .62, C: .11, h: wrap(h > 90 && h < 160 ? 45 : 130) },
